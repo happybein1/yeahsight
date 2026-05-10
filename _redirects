@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects
+/contact/ /about/contac-tus/ 301
+/old-version-2-separator/* / 301

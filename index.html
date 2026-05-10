@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YeahSight — Balancing Resources</title>
+    <meta name="description" content="YeahSight - We influence society to take the best course of action in structuring our processes and managing our resources.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+:root {
+    --green: #2d6a4f;
+    --green-light: #52b788;
+    --green-pale: #d8f3dc;
+    --gold: #e9c46a;
+    --dark: #1b2b23;
+    --text: #2d3a2e;
+    --bg: #f8fdf9;
+    --white: #ffffff;
+    --shadow: 0 4px 24px rgba(45,106,79,0.10);
+    --radius: 12px;
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-body: 'Nunito', 'Segoe UI', sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--bg); color: var(--text); line-height: 1.7; }
+
+nav { background: var(--dark); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 16px rgba(0,0,0,0.18); }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; padding: 0 24px; justify-content: space-between; }
+.nav-logo { font-family: var(--font-heading); color: var(--green-light); font-size: 1.5rem; font-weight: 700; text-decoration: none; padding: 16px 0; }
+.nav-logo span { color: var(--gold); }
+.nav-links { list-style: none; display: flex; gap: 4px; }
+.nav-links > li { position: relative; }
+.nav-links > li > a { color: #c8e6d4; text-decoration: none; padding: 20px 14px; display: block; font-size: 0.88rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; transition: color 0.2s; }
+.nav-links > li > a:hover { color: var(--gold); }
+.nav-links li.has-dropdown:hover .dropdown { display: block; }
+.dropdown { display: none; position: absolute; top: 100%; left: 0; background: var(--dark); min-width: 220px; border-radius: 0 0 var(--radius) var(--radius); list-style: none; padding: 8px 0; border-top: 2px solid var(--green-light); }
+.dropdown li a { color: #c8e6d4; text-decoration: none; display: block; padding: 10px 20px; font-size: 0.85rem; transition: background 0.2s, color 0.2s; }
+.dropdown li a:hover { background: rgba(82,183,136,0.15); color: var(--gold); }
+.nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+.nav-toggle span { display: block; width: 24px; height: 2px; background: var(--green-light); margin: 5px 0; }
+
+.hero {
+    background: linear-gradient(135deg, var(--dark) 0%, #193828 50%, #2d6a4f 100%);
+    color: white; padding: 100px 24px; text-align: center; position: relative; overflow: hidden; min-height: 70vh;
+    display: flex; align-items: center; justify-content: center;
+}
+.hero::after {
+    content: ''; position: absolute; bottom: -1px; left: 0; right: 0; height: 60px;
+    background: var(--bg); clip-path: ellipse(55% 100% at 50% 100%);
+}
+.hero-inner { position: relative; max-width: 760px; animation: fadeUp 0.8s ease both; }
+@keyframes fadeUp { from { opacity:0; transform: translateY(30px); } to { opacity:1; transform: none; } }
+.hero-eyebrow { font-size: 0.85rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; font-weight: 700; }
+.hero h1 { font-family: var(--font-heading); font-size: clamp(2.5rem, 6vw, 4.5rem); color: white; margin-bottom: 8px; line-height: 1.1; }
+.hero h1 em { color: var(--green-light); font-style: italic; }
+.hero .tagline { font-size: 1.3rem; color: rgba(255,255,255,0.7); margin-bottom: 12px; font-style: italic; font-family: var(--font-heading); }
+.hero p { font-size: 1.05rem; color: rgba(255,255,255,0.65); max-width: 580px; margin: 0 auto 36px; line-height: 1.8; }
+.hero-cta { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.btn { display: inline-block; padding: 14px 32px; border-radius: 50px; font-weight: 700; font-size: 0.95rem; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; }
+.btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.25); }
+.btn-primary { background: var(--green-light); color: var(--dark); }
+.btn-outline { background: transparent; color: white; border: 2px solid rgba(255,255,255,0.4); }
+.btn-outline:hover { border-color: var(--green-light); color: var(--green-light); }
+
+.content-section { padding: 64px 24px; }
+.content-section:nth-child(even) { background: var(--white); }
+.section-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 280px 1fr; gap: 48px; align-items: start; }
+.section-label h2 { font-family: var(--font-heading); font-size: 2rem; color: var(--green); margin-bottom: 8px; }
+.section-label h2 a { text-decoration: none; color: inherit; }
+.section-label h2 a:hover { color: var(--green-light); }
+.section-label p { color: #778; font-size: 0.95rem; }
+.section-links { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.section-links li a {
+    display: block; padding: 14px 18px;
+    background: var(--bg); border-radius: var(--radius);
+    color: var(--text); text-decoration: none; font-weight: 600;
+    font-size: 0.92rem; border: 1px solid var(--green-pale);
+    transition: all 0.2s;
+}
+.section-links li a:hover { background: var(--green); color: white; border-color: var(--green); transform: translateY(-2px); box-shadow: var(--shadow); }
+
+.mission-band { background: linear-gradient(135deg, var(--green) 0%, #1a6b5e 100%); color: white; padding: 80px 24px; text-align: center; }
+.mission-band h2 { font-family: var(--font-heading); font-size: 2rem; margin-bottom: 16px; }
+.mission-band p { max-width: 640px; margin: 0 auto 32px; opacity: 0.85; font-size: 1.05rem; }
+
+.icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 16px; max-width: 900px; margin: 0 auto; }
+.icon-card { background: rgba(255,255,255,0.12); border-radius: var(--radius); padding: 20px; text-align: center; transition: background 0.2s; }
+.icon-card:hover { background: rgba(255,255,255,0.2); }
+.icon-card-icon { font-size: 1.5rem; color: var(--gold); margin-bottom: 8px; }
+.icon-card p { font-size: 0.85rem; opacity: 0.9; line-height: 1.4; }
+
+footer { background: var(--dark); color: #aac; text-align: center; padding: 40px 24px; font-size: 0.9rem; }
+.footer-links { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-bottom: 16px; }
+footer a { color: var(--green-light); text-decoration: none; }
+footer p { opacity: 0.6; }
+
+@media (max-width: 768px) {
+    .section-inner { grid-template-columns: 1fr; gap: 24px; }
+    .nav-links { display: none; flex-direction: column; width: 100%; }
+    .nav-links.open { display: flex; }
+    .nav-inner { flex-wrap: wrap; }
+    .nav-toggle { display: block; }
+    .dropdown { position: static; box-shadow: none; }
+    .has-dropdown.open .dropdown { display: block; }
+}
+    </style>
+</head>
+<body>
+<nav>
+    <div class="nav-inner">
+        <a class="nav-logo" href="/"><span>Yeah</span>Sight</a>
+        <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links"><li class="has-dropdown "><a href="/upbase/">UpBase</a><ul class="dropdown"><li><a href="/upbase/physiological-needs/">Physiological Needs</a></li><li><a href="/upbase/social-organizations/">Social Structure</a></li><li><a href="/upbase/earth-land/">Earth Land Split</a></li><li><a href="/upbase/economical-system/">Economical System</a></li></ul></li><li class="has-dropdown "><a href="/upnext/">UpNext</a><ul class="dropdown"><li><a href="/upnext/fair-globe-share/">Fair Space Sharing</a></li><li><a href="/upnext/clean-and-safe-energy/">Clean & Safe Energy</a></li><li><a href="/upnext/plant-based-resources/">Plant-Based Consumption</a></li><li><a href="/upnext/enhanced-automation/">Enhanced Automation</a></li><li><a href="/upnext/budget-resources/">Budget Resources</a></li><li><a href="/upnext/inheritance/">Inheritance</a></li></ul></li><li class="has-dropdown "><a href="/uptools/">UpTools</a><ul class="dropdown"><li><a href="/uptools/proposed-roadmap/">Vision & Roadmap</a></li><li><a href="/uptools/project-follow-up/">Links to Projects</a></li></ul></li><li class="has-dropdown "><a href="/about/">About</a><ul class="dropdown"><li><a href="/about/project-and-solutions/">Project & Solutions</a></li><li><a href="/about/history-team/">History & Team</a></li><li><a href="/about/collaborate-with-us/">Collaborate with us</a></li><li><a href="/about/contac-tus/">Contact us</a></li></ul></li></ul>
+    </div>
+</nav>
+
+<div class="hero">
+    <div class="hero-inner">
+        <p class="hero-eyebrow">Balancing Resources</p>
+        <h1>Level Up<br><em>Your Life, Our World</em></h1>
+        <p class="tagline">Welcome to YeahSight</p>
+        <p>We influence society to take the best course of action in structuring our processes and managing our resources.</p>
+        <div class="hero-cta">
+            <a href="/uptools/proposed-roadmap/" class="btn btn-primary">Check our Vision &amp; Roadmap</a>
+            <a href="/about/" class="btn btn-outline">Learn About Us</a>
+        </div>
+    </div>
+</div>
+
+
+    <section class="content-section" id="upbase">
+        <div class="section-inner">
+            <div class="section-label">
+                <h2><a href="/upbase/">UpBase</a></h2>
+                <p>Foundations of Society</p>
+            </div>
+            <ul class="section-links"><li><a href="/upbase/physiological-needs/">Physiological Needs</a></li><li><a href="/upbase/social-organizations/">Social Structure</a></li><li><a href="/upbase/earth-land/">Earth Land Split</a></li><li><a href="/upbase/economical-system/">Economical System</a></li></ul>
+        </div>
+    </section>
+    <section class="content-section" id="upnext">
+        <div class="section-inner">
+            <div class="section-label">
+                <h2><a href="/upnext/">UpNext</a></h2>
+                <p>A Better World Ahead</p>
+            </div>
+            <ul class="section-links"><li><a href="/upnext/fair-globe-share/">Fair Space Sharing</a></li><li><a href="/upnext/clean-and-safe-energy/">Clean & Safe Energy</a></li><li><a href="/upnext/plant-based-resources/">Plant-Based Consumption</a></li><li><a href="/upnext/enhanced-automation/">Enhanced Automation</a></li><li><a href="/upnext/budget-resources/">Budget Resources</a></li><li><a href="/upnext/inheritance/">Inheritance</a></li></ul>
+        </div>
+    </section>
+    <section class="content-section" id="uptools">
+        <div class="section-inner">
+            <div class="section-label">
+                <h2><a href="/uptools/">UpTools</a></h2>
+                <p>Tools & Roadmaps</p>
+            </div>
+            <ul class="section-links"><li><a href="/uptools/proposed-roadmap/">Vision & Roadmap</a></li><li><a href="/uptools/project-follow-up/">Links to External Projects</a></li></ul>
+        </div>
+    </section>
+    <section class="content-section" id="about">
+        <div class="section-inner">
+            <div class="section-label">
+                <h2><a href="/about/">About</a></h2>
+                <p>Who We Are</p>
+            </div>
+            <ul class="section-links"><li><a href="/about/project-and-solutions/">Project & Solutions</a></li><li><a href="/about/history-team/">History & Team</a></li><li><a href="/about/collaborate-with-us/">Collaborate with us</a></li><li><a href="/about/contac-tus/">Contact us</a></li></ul>
+        </div>
+    </section>
+
+<div class="mission-band">
+    <h2>Good Collaboration Changes Everything</h2>
+    <p>We influence individuals, organisations and societies to enhance collaboration and optimise resource management for a better, more balanced world.</p>
+    <a href="/about/collaborate-with-us/" class="btn btn-primary">Get Involved</a>
+    <div class="icon-grid" style="margin-top: 48px;"><div class="icon-card"><div class="icon-card-icon">◆</div><p>How to<br/>Be Motivated?</p></div><div class="icon-card"><div class="icon-card-icon">◆</div><p>Get a Positive<br/>Mindsets</p></div><div class="icon-card"><div class="icon-card-icon">◆</div><p>What is Life’s<br/>Higher Purpose?</p></div><div class="icon-card"><div class="icon-card-icon">◆</div><p>What Feels<br/>Good?</p></div><div class="icon-card"><div class="icon-card-icon">◆</div><p>How to Motivate<br/>Your Goals</p></div><div class="icon-card"><div class="icon-card-icon">◆</div><p>How To Make<br/>Decisions</p></div><div class="icon-card"><div class="icon-card-icon">◆</div><p>Which Type Of Goals<br/>Are There?</p></div><div class="icon-card"><div class="icon-card-icon">◆</div><p>How To Control<br/>Oneself?</p></div></div>
+</div>
+
+<footer>
+    <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/upbase/">UpBase</a>
+        <a href="/upnext/">UpNext</a>
+        <a href="/uptools/">UpTools</a>
+        <a href="/about/">About</a>
+        <a href="/about/contac-tus/">Contact</a>
+        <a href="/disclaimer/">Disclaimer</a>
+    </div>
+    <p>&copy; 2024 YeahSight — HappyBein Stichting. All rights reserved.</p>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.nav-links');
+    if (toggle && links) toggle.addEventListener('click', () => links.classList.toggle('open'));
+    document.querySelectorAll('.has-dropdown > a').forEach(a => {
+        a.addEventListener('click', function(e) {
+            if (window.innerWidth <= 768) { e.preventDefault(); this.parentElement.classList.toggle('open'); }
+        });
+    });
+});
+</script>
+</body>
+</html>
