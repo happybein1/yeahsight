@@ -1,3 +1,4 @@
-# Cloudflare Pages redirects
-/contact/ /about/contac-tus/ 301
-/old-version-2-separator/* / 301
+/contact/                    /about/contac-tus/           301
+/upnext/                     /uptools/proposed-roadmap/   301
+/uptools/                    /uptools/proposed-roadmap/   301
+/about/happybeins-goals-and-plan/ /about/                301
