@@ -1,81 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>History & Team — YeahSight</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body { font-family: 'Open Sans', sans-serif; background: #fff; color: #333; line-height: 1.7; }
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>History & Team — YeahSight</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Open Sans',sans-serif;background:#fff;color:#333;line-height:1.7;}
+header{background:#fff;padding:0 40px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eee;position:sticky;top:0;z-index:100;min-height:80px;}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;}
+.logo-globe{width:56px;height:56px;}
+.logo-text{display:flex;flex-direction:column;}
+.logo-name{font-family:'Oswald',sans-serif;font-size:1.6rem;color:#2ecc71;letter-spacing:.05em;line-height:1;}
+.logo-tagline{font-size:.6rem;letter-spacing:.18em;color:#888;text-transform:uppercase;}
+nav{display:flex;align-items:center;gap:24px;}
+.nav-links{display:flex;align-items:center;gap:8px;list-style:none;}
+.nav-links>li{position:relative;}
+.nav-links>li>a{color:#2ecc71;text-decoration:none;font-size:.92rem;font-weight:600;padding:8px 4px;display:flex;align-items:center;gap:4px;transition:color .2s;}
+.nav-links>li>a:hover{color:#27ae60;}
+.arrow{font-size:.7rem;}
+.dropdown{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;border-radius:4px;min-width:220px;list-style:none;box-shadow:0 4px 20px rgba(0,0,0,.1);z-index:200;}
+.nav-links>li:hover .dropdown{display:block;}
+.dropdown li a{display:block;padding:10px 18px;color:#333;text-decoration:none;font-size:.88rem;transition:background .15s,color .15s;}
+.dropdown li a:hover{background:#f5fdf8;color:#2ecc71;}
+.lang-switcher{font-size:.82rem;color:#555;border:1px solid #ddd;border-radius:4px;padding:4px 10px;}
+.nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:8px;}
+.nav-toggle span{display:block;width:24px;height:2px;background:#333;margin:5px 0;}
+.mobile-nav{display:none;flex-direction:column;background:#fff;border-top:1px solid #eee;padding:16px 24px;gap:8px;}
+.mobile-nav.open{display:flex;}
+.mobile-nav a{color:#333;text-decoration:none;padding:10px 0;border-bottom:1px solid #f0f0f0;font-size:.95rem;}
 
-header { background: #fff; padding: 0 40px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 100; min-height: 80px; }
-.logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-.logo-globe { width: 56px; height: 56px; }
-.logo-text { display: flex; flex-direction: column; }
-.logo-name { font-family: 'Oswald', sans-serif; font-size: 1.6rem; color: #2ecc71; letter-spacing: 0.05em; line-height: 1; }
-.logo-tagline { font-size: 0.6rem; letter-spacing: 0.18em; color: #888; text-transform: uppercase; }
-nav { display: flex; align-items: center; gap: 32px; }
-.nav-links { display: flex; align-items: center; gap: 8px; list-style: none; }
-.nav-links > li { position: relative; }
-.nav-links > li > a { color: #2ecc71; text-decoration: none; font-size: 0.92rem; font-weight: 600; padding: 8px 4px; display: flex; align-items: center; gap: 4px; transition: color 0.2s; }
-.nav-links > li > a:hover { color: #27ae60; }
-.arrow { font-size: 0.7rem; }
-.dropdown { display: none; position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #eee; border-radius: 4px; min-width: 220px; list-style: none; box-shadow: 0 4px 20px rgba(0,0,0,0.1); z-index: 200; }
-.nav-links > li:hover .dropdown { display: block; }
-.dropdown li a { display: block; padding: 10px 18px; color: #333; text-decoration: none; font-size: 0.88rem; transition: background 0.15s, color 0.15s; }
-.dropdown li a:hover { background: #f5fdf8; color: #2ecc71; }
-.lang-switcher { font-size: 0.82rem; color: #555; border: 1px solid #ddd; border-radius: 4px; padding: 4px 10px; display: flex; align-items: center; gap: 4px; }
-.nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
-.nav-toggle span { display: block; width: 24px; height: 2px; background: #333; margin: 5px 0; }
-.mobile-nav { display: none; flex-direction: column; background: #fff; border-top: 1px solid #eee; padding: 16px 24px; gap: 8px; }
-.mobile-nav.open { display: flex; }
-.mobile-nav a { color: #333; text-decoration: none; padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.95rem; }
+.page-hero{background:linear-gradient(135deg,#1a3a2a 0%,#2d6a4f 100%);padding:60px 80px;color:#fff;}
+.page-hero h1{font-family:'Oswald',sans-serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:600;margin-bottom:10px;}
+.page-hero .sub{color:rgba(255,255,255,.75);font-size:1rem;}
+.breadcrumb{max-width:900px;margin:0 auto;padding:0 0 14px;font-size:.82rem;color:rgba(255,255,255,.6);}
+.breadcrumb a{color:rgba(255,255,255,.75);text-decoration:none;}
 
-.page-hero { background: linear-gradient(135deg, #1a3a2a 0%, #2d6a4f 100%); padding: 60px 80px; color: #fff; }
-.page-hero h1 { font-family: 'Oswald', sans-serif; font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 600; margin-bottom: 10px; }
-.page-hero .sub { color: rgba(255,255,255,0.75); font-size: 1rem; }
-.breadcrumb { max-width: 900px; margin: 0 auto; padding: 14px 0 0; font-size: 0.82rem; color: rgba(255,255,255,0.6); }
-.breadcrumb a { color: rgba(255,255,255,0.75); text-decoration: none; }
+main{max-width:900px;margin:0 auto;padding:60px 40px;}
+.content-body{font-size:.97rem;line-height:1.9;color:#444;}
+.content-body p{margin-bottom:1.1em;}
+.content-body ul,.content-body ol{padding-left:26px;margin:14px 0 18px;}
+.content-body li{margin-bottom:8px;}
+.content-body a{color:#2ecc71;font-weight:600;text-decoration:none;}
+.content-body a:hover{color:#27ae60;text-decoration:underline;}
+.content-body b,.content-body strong{color:#222;}
+.content-body h2{font-family:'Oswald',sans-serif;font-size:1.5rem;color:#222;margin:32px 0 12px;}
+.content-body h3{font-family:'Oswald',sans-serif;font-size:1.2rem;color:#2d6a4f;margin:24px 0 10px;}
+.section-subheading{font-family:'Oswald',sans-serif;font-size:1.4rem;color:#2ecc71;margin:0 0 28px;font-weight:600;padding-bottom:12px;border-bottom:2px solid #e8f8ef;}
 
-main { max-width: 900px; margin: 0 auto; padding: 60px 40px; }
-.content-body { font-size: 0.97rem; line-height: 1.85; color: #444; }
-.content-body ul, .content-body ol { padding-left: 24px; margin: 14px 0; }
-.content-body li { margin-bottom: 6px; }
-.content-body a { color: #2ecc71; font-weight: 600; }
-.content-body a:hover { color: #27ae60; }
-.content-body b, .content-body strong { color: #222; }
-.section-subheading { font-family: 'Oswald', sans-serif; font-size: 1.3rem; color: #2ecc71; margin: 32px 0 16px; font-weight: 600; }
+.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:40px;}
+.video-wrap{border-radius:6px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.1);}
+.video-embed{position:relative;padding-bottom:56.25%;height:0;background:#000;}
+.video-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;}
+.video-title{padding:10px 0 0;font-size:.88rem;color:#555;font-style:italic;}
 
-.video-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-top: 32px; }
-.video-wrap { border-radius: 6px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
-.video-embed { position: relative; padding-bottom: 56.25%; height: 0; background: #000; }
-.video-embed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-.video-title { padding: 10px 0 0; font-size: 0.88rem; color: #555; font-style: italic; }
+footer{background:#fff;padding:36px 60px 24px;border-top:1px solid #eee;margin-top:80px;}
+.footer-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;}
+.footer-links{display:flex;gap:40px;}
+.footer-links a{color:#2ecc71;text-decoration:none;font-size:.92rem;}
+.footer-links a:hover{color:#27ae60;}
+.footer-bottom{border-top:1px solid #eee;padding-top:20px;display:flex;align-items:center;justify-content:space-between;}
+.footer-copy{font-size:.82rem;color:#888;}
+.social-links{display:flex;gap:20px;}
+.social-icon{width:20px;height:20px;fill:#2ecc71;}
 
-footer { background: #fff; padding: 36px 60px 24px; border-top: 1px solid #eee; margin-top: 80px; }
-.footer-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
-.footer-links { display: flex; gap: 40px; }
-.footer-links a { color: #2ecc71; text-decoration: none; font-size: 0.92rem; }
-.footer-links a:hover { color: #27ae60; }
-.footer-bottom { border-top: 1px solid #eee; padding-top: 20px; display: flex; align-items: center; justify-content: space-between; }
-.footer-copy { font-size: 0.82rem; color: #888; }
-.social-links { display: flex; gap: 20px; }
-.social-links a { color: #2ecc71; text-decoration: none; }
-.social-icon { width: 20px; height: 20px; fill: #2ecc71; }
-
-@media (max-width: 900px) {
-    .page-hero, main { padding-left: 24px; padding-right: 24px; }
-    header { padding: 0 20px; }
-    .nav-links, .lang-switcher { display: none; }
-    .nav-toggle { display: block; }
-    .footer-top { flex-direction: column; gap: 20px; align-items: flex-start; }
-    .footer-bottom { flex-direction: column; gap: 14px; align-items: flex-start; }
-    footer { padding: 32px 24px 20px; }
-}
-</style>
+@media(max-width:900px){
+  .page-hero,main{padding-left:24px;padding-right:24px;}
+  .page-hero{padding-top:40px;padding-bottom:40px;}
+  header{padding:0 20px;}
+  .nav-links,.lang-switcher{display:none;}
+  .nav-toggle{display:block;}
+  .footer-top{flex-direction:column;gap:20px;align-items:flex-start;}
+  .footer-bottom{flex-direction:column;gap:14px;align-items:flex-start;}
+  footer{padding:32px 24px 20px;}
+}</style>
 </head>
 <body>
 <header>
@@ -86,17 +86,11 @@ footer { background: #fff; padding: 36px 60px 24px; border-top: 1px solid #eee; 
     <line x1="17" y1="26" x2="63" y2="26" stroke="#2ecc71" stroke-width="1.5"/>
     <line x1="17" y1="50" x2="63" y2="50" stroke="#2ecc71" stroke-width="1.5"/>
     <line x1="40" y1="64" x2="40" y2="72" stroke="#2ecc71" stroke-width="2.5"/>
-    <rect x="28" y="72" width="24" height="4" rx="2" fill="#2ecc71"/>
-</svg>
-        <div class="logo-text">
-            <span class="logo-name">YEAHSIGHT</span>
-            <span class="logo-tagline">Balancing Resources</span>
-        </div>
+    <rect x="28" y="72" width="24" height="4" rx="2" fill="#2ecc71"/></svg>
+        <div class="logo-text"><span class="logo-name">YEAHSIGHT</span><span class="logo-tagline">Balancing Resources</span></div>
     </a>
-    <nav>
-<ul class="nav-links">
-    <li>
-        <a href="/upnext/">Foresight Trends <span class="arrow">&#9662;</span></a>
+    <nav><ul class="nav-links">
+    <li><a href="/upnext/">Foresight Trends <span class="arrow">&#9662;</span></a>
         <ul class="dropdown">
             <li><a href="/uptools/proposed-roadmap/">Vision &amp; Roadmap</a></li>
             <li><a href="/upnext/fair-globe-share/">Fair Space Sharing</a></li>
@@ -106,7 +100,7 @@ footer { background: #fff; padding: 36px 60px 24px; border-top: 1px solid #eee; 
         </ul>
     </li>
     <li><a href="/about/">About Us &ndash; HappyBein</a></li>
-</ul><div class="lang-switcher">&#127468;&#127463; English &#9662;</div>
+</ul><div class="lang-switcher">&#127468;&#127463; English</div>
         <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </nav>
 </header>
@@ -122,12 +116,14 @@ footer { background: #fff; padding: 36px 60px 24px; border-top: 1px solid #eee; 
 <div class="page-hero">
     <div class="breadcrumb"><a href="/">Home</a> › About › History &amp; Team</div>
     <h1>History & Team</h1>
-    
 </div>
-<main>
-    <div class="video-grid"><div class="video-wrap"><div class="video-embed"><iframe src="https://player.vimeo.com/video/839332537?badge=0&autopause=0&player_id=0&app_id=58479&texttrack=en" frameborder="0" allowfullscreen allow="autoplay; fullscreen; picture-in-picture"></iframe></div></div></div>
-</main>
-
+<main><div class="content-body"><p>The HappyBein Project was born out of a recognized need for better use of our spare time, lack of motivation, and realization of the low hope and slow progress of our society towards an optimal world.</p>
+<p>Although there is a lot of inspirational content and supporting tools available, a clear explanation of a sustainable life-enhancing world is missing. Such insight could potentially lead to increased hope, motivation, efficiency, and eventually enhanced individual and global wellbeing.</p>
+<p>HappyBein is thus aiming to find a clear explanation of a sustainable life-enhancing world and describe it in a way that helps the most people. It would be great to turn this activity into one that enables the making of a living, but the right approach is still being sought.</p>
+<p>Therefore, in 2022 the founder initially created the HappyBein Stichting foundation (mainly for anonimity) before realizing that a sole proprietorship was better suited, from a tax point of view) for market discovery.</p>
+<p>The core content&amp;tools were initially been developed and expanded by the addition of the webshop in 2023.</p>
+<p>The team is currently composed of its founder and individuals providing support (big thanks!). Additionally, content formatting (especially videos) is being outsourced on platforms like Fiverr or Upwork.</p>
+<p>As we would really welcome partnerships or just exchange of ideas, feel free to reach out via the <a href="/contact/">contact form</a>!</p></div><div class="video-grid"><div class="video-wrap"><div class="video-embed"><iframe src="https://player.vimeo.com/video/839332537?badge=0&autopause=0&player_id=0&app_id=58479&texttrack=en" frameborder="0" allowfullscreen allow="autoplay; fullscreen; picture-in-picture"></iframe></div></div></div></main>
 <footer>
     <div class="footer-top">
         <a href="/" class="logo"><svg class="logo-globe" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
@@ -137,17 +133,10 @@ footer { background: #fff; padding: 36px 60px 24px; border-top: 1px solid #eee; 
     <line x1="17" y1="26" x2="63" y2="26" stroke="#2ecc71" stroke-width="1.5"/>
     <line x1="17" y1="50" x2="63" y2="50" stroke="#2ecc71" stroke-width="1.5"/>
     <line x1="40" y1="64" x2="40" y2="72" stroke="#2ecc71" stroke-width="2.5"/>
-    <rect x="28" y="72" width="24" height="4" rx="2" fill="#2ecc71"/>
-</svg>
-            <div class="logo-text">
-                <span class="logo-name">YEAHSIGHT</span>
-                <span class="logo-tagline">Balancing Resources</span>
-            </div>
+    <rect x="28" y="72" width="24" height="4" rx="2" fill="#2ecc71"/></svg>
+            <div class="logo-text"><span class="logo-name">YEAHSIGHT</span><span class="logo-tagline">Balancing Resources</span></div>
         </a>
-        <div class="footer-links">
-            <a href="/about/contac-tus/">Contact us</a>
-            <a href="/disclaimer/">Disclaimer</a>
-        </div>
+        <div class="footer-links"><a href="/about/contac-tus/">Contact us</a><a href="/disclaimer/">Disclaimer</a></div>
     </div>
     <div class="footer-bottom">
         <span class="footer-copy">&copy;2021. HAPPY BEIN</span>
