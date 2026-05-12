@@ -1,0 +1,9 @@
+YeahSight Static Site
+Version: 1.3.0
+Built: 2026-05-12 05:57 UTC
+
+Changelog:
+v1.3.0 - Reorganized articles into /articles/ subfolder, removed unused pages, added versioning
+v1.2.0 - Fixed duplicate mobile nav showing on desktop
+v1.1.0 - Full article content restored from WordPress ACF fields
+v1.0.0 - Initial static conversion from WordPress XML export

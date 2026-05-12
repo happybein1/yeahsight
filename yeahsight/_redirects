@@ -1,4 +1,12 @@
-/contact/                    /about/contac-tus/           301
-/upnext/                     /uptools/proposed-roadmap/   301
-/uptools/                    /uptools/proposed-roadmap/   301
-/about/happybeins-goals-and-plan/ /about/                301
+# Cloudflare Pages redirects — YeahSight
+# Old article paths → new /articles/ paths
+/uptools/proposed-roadmap/          /articles/vision-roadmap/           301
+/upnext/fair-globe-share/           /articles/fair-space-sharing/       301
+/upnext/clean-and-safe-energy/      /articles/clean-safe-energy/        301
+/upnext/plant-based-resources/      /articles/plant-based-consumption/  301
+/upnext/enhanced-automation/        /articles/enhanced-automation/      301
+/about/project-and-solutions/       /articles/project-solutions/        301
+/about/history-team/                /articles/history-team/             301
+/about/collaborate-with-us/         /articles/collaborate/              301
+/about/contac-tus/                  /articles/contact/                  301
+/contact/                           /articles/contact/                  301
