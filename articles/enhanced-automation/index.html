@@ -9,74 +9,117 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;}
 body{font-family:'Open Sans',sans-serif;background:#fff;color:#333;line-height:1.7;}
-/* v1.3.0 */
+/* v1.4.0 */
 header{background:#fff;padding:0 40px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eee;position:sticky;top:0;z-index:100;min-height:80px;}
 .logo{display:flex;align-items:center;gap:12px;text-decoration:none;}
-.logo-globe{width:56px;height:56px;}
+.logo-globe{width:56px;height:56px;flex-shrink:0;}
 .logo-text{display:flex;flex-direction:column;}
 .logo-name{font-family:'Oswald',sans-serif;font-size:1.6rem;color:#2ecc71;letter-spacing:.05em;line-height:1;}
 .logo-tagline{font-size:.6rem;letter-spacing:.18em;color:#888;text-transform:uppercase;}
 nav{display:flex;align-items:center;gap:24px;}
-.nav-links{display:flex;align-items:center;gap:8px;list-style:none;}
+.nav-links{display:flex;align-items:center;gap:4px;list-style:none;}
 .nav-links>li{position:relative;}
-.nav-links>li>a{color:#2ecc71;text-decoration:none;font-size:.92rem;font-weight:600;padding:8px 4px;display:flex;align-items:center;gap:4px;transition:color .2s;}
-.nav-links>li>a:hover{color:#27ae60;}
+.nav-links>li>a{color:#2ecc71;text-decoration:none;font-size:.92rem;font-weight:600;padding:8px 12px;display:flex;align-items:center;gap:4px;transition:color .2s;border-radius:4px;}
+.nav-links>li>a:hover,.nav-links>li.active>a{color:#27ae60;background:#f5fdf8;}
 .arrow{font-size:.7rem;}
-.dropdown{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;border-radius:4px;min-width:220px;list-style:none;box-shadow:0 4px 20px rgba(0,0,0,.1);z-index:200;}
+.dropdown{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;border-radius:6px;min-width:260px;max-height:70vh;overflow-y:auto;list-style:none;box-shadow:0 8px 32px rgba(0,0,0,.12);z-index:200;padding:8px 0;}
 .nav-links>li:hover .dropdown{display:block;}
-.dropdown li a{display:block;padding:10px 18px;color:#333;text-decoration:none;font-size:.88rem;transition:background .15s,color .15s;}
-.dropdown li a:hover{background:#f5fdf8;color:#2ecc71;}
-.lang-switcher{font-size:.82rem;color:#555;border:1px solid #ddd;border-radius:4px;padding:4px 10px;}
+.dropdown li a{display:block;padding:9px 18px;color:#444;text-decoration:none;font-size:.85rem;transition:background .15s,color .15s;border-left:3px solid transparent;}
+.dropdown li a:hover{background:#f5fdf8;color:#2ecc71;border-left-color:#2ecc71;}
+.lang-switcher{font-size:.82rem;color:#555;border:1px solid #ddd;border-radius:4px;padding:4px 10px;white-space:nowrap;}
 .nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:8px;}
-.nav-toggle span{display:block;width:24px;height:2px;background:#333;margin:5px 0;}
-.mobile-nav{display:none !important;flex-direction:column;background:#fff;border-top:1px solid #eee;padding:16px 24px;gap:8px;}
-.mobile-nav.open{display:flex !important;}
-.mobile-nav a{color:#333;text-decoration:none;padding:10px 0;border-bottom:1px solid #f0f0f0;font-size:.95rem;}
-.page-hero{background:linear-gradient(135deg,#1a3a2a 0%,#2d6a4f 100%);padding:60px 80px;color:#fff;}
-.page-hero h1{font-family:'Oswald',sans-serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:600;margin-bottom:10px;}
-.page-hero .sub{color:rgba(255,255,255,.75);font-size:1rem;}
-.breadcrumb{max-width:900px;margin:0 auto;padding:0 0 14px;font-size:.82rem;color:rgba(255,255,255,.6);}
-.breadcrumb a{color:rgba(255,255,255,.75);text-decoration:none;}
-main{max-width:900px;margin:0 auto;padding:60px 40px;}
-.content-body{font-size:.97rem;line-height:1.9;color:#444;}
-.content-body p{margin-bottom:1.1em;}
-.content-body ul,.content-body ol{padding-left:26px;margin:14px 0 18px;}
-.content-body li{margin-bottom:8px;}
-.content-body a{color:#2ecc71;font-weight:600;text-decoration:none;}
-.content-body a:hover{color:#27ae60;text-decoration:underline;}
-.content-body b,.content-body strong{color:#222;}
-.content-body h2{font-family:'Oswald',sans-serif;font-size:1.5rem;color:#222;margin:32px 0 12px;}
-.content-body h3{font-family:'Oswald',sans-serif;font-size:1.2rem;color:#2d6a4f;margin:24px 0 10px;}
-.section-subheading{font-family:'Oswald',sans-serif;font-size:1.4rem;color:#2ecc71;margin:0 0 28px;font-weight:600;padding-bottom:12px;border-bottom:2px solid #e8f8ef;}
-.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:40px;}
-.video-wrap{border-radius:6px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.1);}
-.video-embed{position:relative;padding-bottom:56.25%;height:0;background:#000;}
-.video-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;}
-.video-title{padding:10px 0 0;font-size:.88rem;color:#555;font-style:italic;}
+.nav-toggle span{display:block;width:24px;height:2px;background:#333;margin:5px 0;transition:.3s;}
+.mobile-nav{flex-direction:column;background:#fff;border-top:1px solid #eee;padding:16px 24px;gap:2px;}
+.mobile-nav a{color:#333;text-decoration:none;padding:10px 0;border-bottom:1px solid #f5f5f5;font-size:.93rem;display:block;}
+.mobile-nav a:hover{color:#2ecc71;}
+
+/* PAGE HERO */
+.page-hero{background:linear-gradient(135deg,#1a3a2a 0%,#2d6a4f 100%);padding:56px 80px 48px;color:#fff;}
+.page-hero h1{font-family:'Oswald',sans-serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:600;margin-bottom:10px;line-height:1.2;}
+.page-hero .category-tag{display:inline-block;background:rgba(255,255,255,.15);color:rgba(255,255,255,.9);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:16px;font-weight:600;}
+.page-hero .description{color:rgba(255,255,255,.75);font-size:1rem;max-width:640px;margin-top:8px;}
+.breadcrumb{font-size:.8rem;color:rgba(255,255,255,.55);margin-bottom:16px;}
+.breadcrumb a{color:rgba(255,255,255,.7);text-decoration:none;}
+.breadcrumb a:hover{color:#fff;}
+
+/* ARTICLE LAYOUT */
+.article-wrap{max-width:1100px;margin:0 auto;padding:48px 40px;display:grid;grid-template-columns:240px 1fr;gap:48px;align-items:start;}
+.article-sidebar{position:sticky;top:100px;}
+.sidebar-title{font-family:'Oswald',sans-serif;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:#999;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #eee;}
+.sidebar-nav{list-style:none;}
+.sidebar-nav li{margin-bottom:2px;}
+.sidebar-nav a{display:block;padding:7px 12px;color:#555;text-decoration:none;font-size:.85rem;border-radius:4px;border-left:3px solid transparent;transition:all .15s;}
+.sidebar-nav a:hover,.sidebar-nav a.active{color:#2ecc71;background:#f5fdf8;border-left-color:#2ecc71;}
+.sidebar-section{margin-bottom:24px;}
+.sidebar-cat{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:#bbb;padding:0 12px;margin:16px 0 4px;font-weight:700;}
+
+/* ARTICLE BODY */
+article h2{font-family:'Oswald',sans-serif;font-size:1.5rem;color:#1a3a2a;margin:40px 0 14px;padding-bottom:8px;border-bottom:2px solid #e8f8ef;}
+article h3{font-family:'Oswald',sans-serif;font-size:1.15rem;color:#2d6a4f;margin:28px 0 10px;}
+article h4{font-size:1rem;font-weight:700;color:#333;margin:20px 0 8px;}
+article p{margin-bottom:1em;font-size:.97rem;line-height:1.85;color:#444;}
+article ul,article ol{padding-left:24px;margin:12px 0 18px;}
+article li{margin-bottom:6px;font-size:.95rem;color:#444;line-height:1.7;}
+article a{color:#2ecc71;font-weight:600;text-decoration:none;}
+article a:hover{color:#27ae60;text-decoration:underline;}
+article strong,article b{color:#222;}
+article .lead{font-size:1.08rem;color:#555;line-height:1.9;margin-bottom:1.4em;font-style:italic;border-left:3px solid #2ecc71;padding-left:16px;}
+article table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.88rem;}
+article th{background:#1a3a2a;color:#fff;padding:10px 14px;text-align:left;font-family:'Oswald',sans-serif;font-weight:600;}
+article td{padding:9px 14px;border-bottom:1px solid #eee;}
+article tr:nth-child(even) td{background:#f9fdf9;}
+article blockquote{border-left:4px solid #2ecc71;padding:16px 20px;margin:24px 0;background:#f5fdf8;border-radius:0 8px 8px 0;color:#444;font-style:italic;}
+
+/* PREV/NEXT NAV */
+.article-nav{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:56px;padding-top:32px;border-top:2px solid #eee;}
+.article-nav a{display:block;padding:18px 20px;background:#f9f9f9;border-radius:8px;text-decoration:none;transition:all .2s;border:1px solid #eee;}
+.article-nav a:hover{background:#f5fdf8;border-color:#2ecc71;}
+.article-nav .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:#999;margin-bottom:4px;}
+.article-nav .title{font-family:'Oswald',sans-serif;color:#2d6a4f;font-size:1rem;}
+.article-nav .next-link{text-align:right;}
+
+/* ARTICLES INDEX */
+.articles-index{max-width:1000px;margin:0 auto;padding:48px 40px;}
+.cat-section{margin-bottom:56px;}
+.cat-header{display:flex;align-items:center;gap:12px;margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid #e8f8ef;}
+.cat-emoji{font-size:1.5rem;}
+.cat-title{font-family:'Oswald',sans-serif;font-size:1.4rem;color:#1a3a2a;}
+.article-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;}
+.article-card{display:block;padding:20px;background:#fff;border:1px solid #eee;border-radius:8px;text-decoration:none;color:#333;transition:all .2s;border-top:3px solid #2ecc71;}
+.article-card:hover{box-shadow:0 4px 20px rgba(45,106,79,.1);transform:translateY(-2px);border-top-color:#1abc9c;}
+.article-card h3{font-family:'Oswald',sans-serif;color:#2d6a4f;font-size:1rem;margin-bottom:6px;}
+.article-card p{font-size:.82rem;color:#777;line-height:1.5;}
+.articles-intro{font-size:1rem;color:#555;line-height:1.8;max-width:640px;margin-bottom:40px;}
+
+/* FOOTER */
 footer{background:#fff;padding:36px 60px 24px;border-top:1px solid #eee;margin-top:80px;}
 .footer-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;}
-.footer-links{display:flex;gap:40px;}
-.footer-links a{color:#2ecc71;text-decoration:none;font-size:.92rem;}
+.footer-links{display:flex;gap:32px;flex-wrap:wrap;}
+.footer-links a{color:#2ecc71;text-decoration:none;font-size:.9rem;}
 .footer-links a:hover{color:#27ae60;}
-.footer-bottom{border-top:1px solid #eee;padding-top:20px;display:flex;align-items:center;justify-content:space-between;}
-.footer-copy{font-size:.82rem;color:#888;}
-.social-links{display:flex;gap:20px;}
-.social-icon{width:20px;height:20px;fill:#2ecc71;}
-.version-badge{font-size:.65rem;color:#bbb;margin-left:8px;vertical-align:middle;}
-@media(max-width:900px){
-  .page-hero,main{padding-left:24px;padding-right:24px;}
-  .page-hero{padding-top:40px;padding-bottom:40px;}
-  header{padding:0 20px;}
+.footer-bottom{border-top:1px solid #eee;padding-top:18px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+.footer-copy{font-size:.8rem;color:#999;}
+.social-links{display:flex;gap:18px;}
+.social-icon{width:19px;height:19px;fill:#2ecc71;}
+
+@media(max-width:960px){
+  .article-wrap{grid-template-columns:1fr;padding:32px 24px;}
+  .article-sidebar{display:none;}
+}
+@media(max-width:768px){
+  .page-hero{padding:40px 24px 32px;}
+  header{padding:0 16px;}
   .nav-links,.lang-switcher{display:none;}
   .nav-toggle{display:block;}
+  .articles-index{padding:32px 20px;}
+  footer{padding:28px 20px 18px;}
   .footer-top{flex-direction:column;gap:20px;align-items:flex-start;}
-  .footer-bottom{flex-direction:column;gap:14px;align-items:flex-start;}
-  footer{padding:32px 24px 20px;}
+  .article-nav{grid-template-columns:1fr;}
 }</style>
 </head>
 <body>
 <header>
-    <a href="/" class="logo"><svg class="logo-globe" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <a href="/" class="logo"><svg class="logo-globe" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
     <circle cx="40" cy="38" r="26" fill="none" stroke="#2ecc71" stroke-width="2.5"/>
     <ellipse cx="40" cy="38" rx="13" ry="26" fill="none" stroke="#2ecc71" stroke-width="2"/>
     <line x1="14" y1="38" x2="66" y2="38" stroke="#2ecc71" stroke-width="2"/>
@@ -84,41 +127,79 @@ footer{background:#fff;padding:36px 60px 24px;border-top:1px solid #eee;margin-t
     <line x1="17" y1="50" x2="63" y2="50" stroke="#2ecc71" stroke-width="1.5"/>
     <line x1="40" y1="64" x2="40" y2="72" stroke="#2ecc71" stroke-width="2.5"/>
     <rect x="28" y="72" width="24" height="4" rx="2" fill="#2ecc71"/></svg>
-        <div class="logo-text"><span class="logo-name">YEAHSIGHT</span><span class="logo-tagline">Balancing Resources</span></div>
-    </a>
-    <nav><ul class="nav-links">
-    <li><a href="/articles/vision-roadmap/">Foresight Trends <span class="arrow">&#9662;</span></a>
-        <ul class="dropdown">
-            <li><a href="/articles/vision-roadmap/">Vision &amp; Roadmap</a></li>
-            <li><a href="/articles/fair-space-sharing/">Fair Space Sharing</a></li>
-            <li><a href="/articles/clean-safe-energy/">Clean &amp; Safe Energy</a></li>
-            <li><a href="/articles/plant-based-consumption/">Plant-Based Consumption</a></li>
-            <li><a href="/articles/enhanced-automation/">Enhanced Automation</a></li>
-        </ul>
+    <div class="logo-text"><span class="logo-name">YEAHSIGHT</span><span class="logo-tagline">Balancing Resources</span></div>
+  </a>
+  <nav><ul class="nav-links">
+    <li class="active"><a href="/articles/">Foresight Trends <span class="arrow">&#9662;</span></a>
+        <ul class="dropdown"><li><a href="/articles/earth-land/">Earth Land — View per Individual</a></li><li><a href="/articles/clean-safe-energy/">Clean &amp; Safe Energy</a></li><li><a href="/articles/plant-based-consumption/">Plant-Based Consumption</a></li><li><a href="/articles/fair-globe-sharing/">Fair Globe Sharing</a></li><li><a href="/articles/the-economical-system/">The Economical System</a></li><li><a href="/articles/universal-allowance/">Universal Allowance</a></li><li><a href="/articles/mastering-finance-basics/">Mastering Finance Basics</a></li><li><a href="/articles/enhanced-automation/">Enhanced Automation</a></li><li><a href="/articles/impact-of-ai/">Impact of Artificial Intelligence</a></li><li><a href="/articles/purpose-of-society/">Purpose of Society</a></li><li><a href="/articles/societal-systems/">Societal Systems</a></li><li><a href="/articles/societal-functions/">Societal Functions</a></li><li><a href="/articles/social-redistribution/">Social Redistribution</a></li><li><a href="/articles/time-spent/">Time Spent Identification</a></li><li><a href="/articles/managing-migration/">Managing Regional Migration</a></li></ul>
     </li>
-    <li><a href="/about/">About Us &ndash; HappyBein</a></li>
+    <li class=""><a href="/about/">About Us &ndash; HappyBein</a></li>
 </ul><div class="lang-switcher">&#127468;&#127463; English</div>
-        <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
-    </nav>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
 </header>
 <div class="mobile-nav" id="mobileNav" style="display:none">
     <strong style="color:#2ecc71;padding:4px 0 8px;">Foresight Trends</strong>
-    <a href="/articles/vision-roadmap/">Vision &amp; Roadmap</a>
-    <a href="/articles/fair-space-sharing/">Fair Space Sharing</a>
-    <a href="/articles/clean-safe-energy/">Clean &amp; Safe Energy</a>
-    <a href="/articles/plant-based-consumption/">Plant-Based Consumption</a>
-    <a href="/articles/enhanced-automation/">Enhanced Automation</a>
+    <a href="/articles/earth-land/">Earth Land — View per Individual</a><a href="/articles/clean-safe-energy/">Clean &amp; Safe Energy</a><a href="/articles/plant-based-consumption/">Plant-Based Consumption</a><a href="/articles/fair-globe-sharing/">Fair Globe Sharing</a><a href="/articles/the-economical-system/">The Economical System</a><a href="/articles/universal-allowance/">Universal Allowance</a><a href="/articles/mastering-finance-basics/">Mastering Finance Basics</a><a href="/articles/enhanced-automation/">Enhanced Automation</a><a href="/articles/impact-of-ai/">Impact of Artificial Intelligence</a><a href="/articles/purpose-of-society/">Purpose of Society</a><a href="/articles/societal-systems/">Societal Systems</a><a href="/articles/societal-functions/">Societal Functions</a><a href="/articles/social-redistribution/">Social Redistribution</a><a href="/articles/time-spent/">Time Spent Identification</a><a href="/articles/managing-migration/">Managing Regional Migration</a>
     <a href="/about/" style="margin-top:8px;color:#2ecc71;font-weight:600;">About Us – HappyBein</a>
 </div>
 <div class="page-hero">
-    <div class="breadcrumb"><a href="/">Home</a> › Enhanced Automation</div>
+  <div style="max-width:1100px;margin:0 auto;">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/articles/">Foresight Trends</a> › Technology &amp; Automation</div>
+    <span class="category-tag">Technology &amp; Automation</span>
     <h1>Enhanced Automation</h1>
+    
+  </div>
 </div>
-<main><div class="content-body"><p>Automation can really decrease the resources required to reach a comfortable and safe life for individuals, while limiting the footprint of humans on Earth. However, full automation is not possible as feelings are driven by human actions.</p>
-<p>But what would people do in a very advanced world? Imagine a world where almost all low-value tasks are automated, renewable energy and consumption are standard and well-managed, and societal processes are as fair as possible among humans and between species.</p>
-<p>In such a world, remaining activities would require a search for constant renewal of activities and sources of entertainment. Research in enabling technologies would likely be present, especially given the complexity of the world. Eating, drinking, entertaining, sports, learning, and socializing would also remain an important part of time spent. The need for diversity would motivate migration and life changes.</p>
-<p>Additionally, caring for wildlife may also represent a valuable mission for humanity. The same goes for exploring the universe seeking other forms of life.</p>
-<p>This proves that there is plenty to do now as well as in an ideal future.</p></div></main>
+<div class="article-wrap">
+  <nav class="article-sidebar"><p class="sidebar-title">Foresight Trends</p><div class="sidebar-section"><p class="sidebar-cat">🌱 Environment &amp; Energy</p><ul class="sidebar-nav"><li><a href="/articles/earth-land/" class="">Earth Land — View per Individual</a></li><li><a href="/articles/clean-safe-energy/" class="">Clean &amp; Safe Energy</a></li><li><a href="/articles/plant-based-consumption/" class="">Plant-Based Consumption</a></li></ul></div><div class="sidebar-section"><p class="sidebar-cat">⚖️ Economy &amp; Equity</p><ul class="sidebar-nav"><li><a href="/articles/fair-globe-sharing/" class="">Fair Globe Sharing</a></li><li><a href="/articles/the-economical-system/" class="">The Economical System</a></li><li><a href="/articles/universal-allowance/" class="">Universal Allowance</a></li><li><a href="/articles/mastering-finance-basics/" class="">Mastering Finance Basics</a></li></ul></div><div class="sidebar-section"><p class="sidebar-cat">🤖 Technology &amp; Automation</p><ul class="sidebar-nav"><li><a href="/articles/enhanced-automation/" class="active">Enhanced Automation</a></li><li><a href="/articles/impact-of-ai/" class="">Impact of Artificial Intelligence</a></li></ul></div><div class="sidebar-section"><p class="sidebar-cat">🌐 Social Organization</p><ul class="sidebar-nav"><li><a href="/articles/purpose-of-society/" class="">Purpose of Society</a></li><li><a href="/articles/societal-systems/" class="">Societal Systems</a></li><li><a href="/articles/societal-functions/" class="">Societal Functions</a></li><li><a href="/articles/social-redistribution/" class="">Social Redistribution</a></li><li><a href="/articles/time-spent/" class="">Time Spent Identification</a></li><li><a href="/articles/managing-migration/" class="">Managing Regional Migration</a></li></ul></div></nav>
+  <div>
+    <article><p>Foresight Trend</p>
+<h2>The Age of Enhanced Automation</h2>
+<p>Automation is not new — humans have been building tools to extend their capabilities for millennia. What is new is the pace, scope, and intelligence of modern automation. Machines can now perform not just physical tasks, but cognitive ones: reading documents, writing code, diagnosing images, and navigating complex environments.</p>
+<h2>What Is Being Automated?</h2>
+<p>Automation tends to follow a pattern: it first replaces tasks that are <strong>routine, predictable, and well-defined</strong> — whether physical (assembly line work) or cognitive (data entry, standard analysis).</p>
+<p>What is harder to automate:</p>
+<ul>
+<li>Tasks requiring genuine creativity and novel problem-solving</li>
+<li>Work demanding high emotional intelligence (care, counseling, complex negotiation)</li>
+<li>Judgment in ambiguous, high-stakes situations</li>
+<li>Physical tasks in unstructured, unpredictable environments</li>
+</ul>
+<p>However, the boundary of what is automatable is shifting rapidly — especially with advances in AI.</p>
+<h2>The Impact on Work</h2>
+<h3>Jobs at risk</h3>
+<p>Research suggests a significant proportion of current jobs contain tasks that are highly automatable. This does not necessarily mean those jobs will disappear, but they will change — often substantially.</p>
+<h3>New jobs created</h3>
+<p>Historically, automation has created as many jobs as it has displaced — but with a lag, and with mismatches between the skills needed for old jobs and new ones. The transition costs are real and often fall disproportionately on workers with fewer alternatives.</p>
+<h3>The nature of work changes</h3>
+<p>Even jobs that persist will change. Automation handles the routine; humans focus on the judgment, relationships, creativity, and oversight that machines cannot yet provide.</p>
+<h2>Adapting as an Individual</h2>
+<p>The most resilient workers tend to:</p>
+<ul>
+<li><strong>Invest in uniquely human skills</strong>: communication, empathy, creativity, complex reasoning</li>
+<li><strong>Work with automation rather than against it</strong>: learn to use AI tools as force multipliers</li>
+<li><strong>Stay curious and keep learning</strong>: the half-life of specific skills is shortening; learning how to learn matters more than any specific knowledge</li>
+<li><strong>Build financial resilience</strong>: the transition period between old and new work can be difficult; an emergency fund and diverse income streams provide a buffer</li>
+</ul>
+<h2>Adapting as an Organization</h2>
+<ul>
+<li>Invest in retraining and reskilling alongside automation investment</li>
+<li>Redesign roles around what humans do well, not just what machines replaced</li>
+<li>Be transparent with employees about automation plans</li>
+<li>Consider the broader social implications of large-scale displacement</li>
+</ul>
+<h2>Policy Responses</h2>
+<p>Society will need to adapt its institutions as automation changes the nature of work:</p>
+<ul>
+<li><strong>Education systems</strong> need to shift toward adaptability, not fixed curricula</li>
+<li><strong>Social protection</strong> needs to be robust enough to support workers in transition</li>
+<li><strong>Tax systems</strong> may need to evolve if automation captures more economic value while reducing the tax base from labor</li>
+</ul>
+<p>See also: <a href="/articles/impact-of-ai/">Impact of Artificial Intelligence</a> and <a href="/articles/universal-allowance/">Universal Allowance</a>.</p></article>
+    <div class="article-nav"><a href="/articles/mastering-finance-basics/"><div class="label">← Previous</div><div class="title">Mastering Finance Basics</div></a><a href="/articles/impact-of-ai/" class="next-link"><div class="label">Next →</div><div class="title">Impact of Artificial Intelligence</div></a></div>
+  </div>
+</div>
 <footer>
     <div class="footer-top">
         <a href="/" class="logo"><svg class="logo-globe" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
@@ -129,18 +210,16 @@ footer{background:#fff;padding:36px 60px 24px;border-top:1px solid #eee;margin-t
     <line x1="17" y1="50" x2="63" y2="50" stroke="#2ecc71" stroke-width="1.5"/>
     <line x1="40" y1="64" x2="40" y2="72" stroke="#2ecc71" stroke-width="2.5"/>
     <rect x="28" y="72" width="24" height="4" rx="2" fill="#2ecc71"/></svg>
-            <div class="logo-text">
-                <span class="logo-name">YEAHSIGHT</span>
-                <span class="logo-tagline">Balancing Resources</span>
-            </div>
+            <div class="logo-text"><span class="logo-name">YEAHSIGHT</span><span class="logo-tagline">Balancing Resources</span></div>
         </a>
         <div class="footer-links">
             <a href="/articles/contact/">Contact us</a>
             <a href="/disclaimer/">Disclaimer</a>
+            <a href="/articles/">All Articles</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <span class="footer-copy">&copy;2021. HAPPY BEIN <span class="version-badge">v1.3.0</span></span>
+        <span class="footer-copy">&copy;2021. HAPPY BEIN &nbsp;<span style="font-size:.65rem;color:#ccc;">v1.4.0</span></span>
         <div class="social-links">
             <a href="#" aria-label="Facebook"><svg class="social-icon" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
             <a href="#" aria-label="Instagram"><svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="#2ecc71" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-linecap="round"/></svg></a>
@@ -150,7 +229,9 @@ footer{background:#fff;padding:36px 60px 24px;border-top:1px solid #eee;margin-t
     </div>
 </footer>
 <script>
-var t=document.querySelector(".nav-toggle"),n=document.getElementById("mobileNav"); if(t&&n)t.addEventListener("click",function(){n.style.display=n.style.display==="flex"?"none":"flex";});
-
+(function(){
+  var t=document.querySelector('.nav-toggle'),n=document.getElementById('mobileNav');
+  if(t&&n)t.addEventListener('click',function(){n.style.display=n.style.display==='flex'?'none':'flex';n.style.flexDirection='column';});
+})();
 </script>
 </body></html>
