@@ -375,7 +375,7 @@ footer {
 </header>
 
 <!-- Mobile nav -->
-<div class="mobile-nav" id="mobileNav">
+<div class="mobile-nav" id="mobileNav" style="display:none">
     <strong style="color:#2ecc71;padding:4px 0 8px;">Foresight Trends</strong>
     <a href="/articles/vision-roadmap/">Vision &amp; Roadmap</a>
     <a href="/articles/fair-space-sharing/">Fair Space Sharing</a>
@@ -451,7 +451,7 @@ footer {
         </div>
     </div>
     <div class="footer-bottom">
-        <span class="footer-copy">©2021. HAPPY BEIN</span>
+        <span class="footer-copy">©2021. HAPPY BEIN <span style="font-size:.65rem;color:#bbb;margin-left:6px;">v1.3.0</span></span>
         <div class="social-links">
             <!-- Facebook -->
             <a href="#" aria-label="Facebook">
@@ -475,7 +475,8 @@ footer {
 
 <script>
 document.querySelector('.nav-toggle').addEventListener('click', function() {
-    document.getElementById('mobileNav').classList.toggle('open');
+    var n=document.getElementById('mobileNav');
+    n.style.display = n.style.display==='flex' ? 'none' : 'flex';
 });
 </script>
 </body>

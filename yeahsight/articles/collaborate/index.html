@@ -101,7 +101,7 @@ footer{background:#fff;padding:36px 60px 24px;border-top:1px solid #eee;margin-t
         <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
     </nav>
 </header>
-<div class="mobile-nav" id="mobileNav">
+<div class="mobile-nav" id="mobileNav" style="display:none">
     <strong style="color:#2ecc71;padding:4px 0 8px;">Foresight Trends</strong>
     <a href="/articles/vision-roadmap/">Vision &amp; Roadmap</a>
     <a href="/articles/fair-space-sharing/">Fair Space Sharing</a>
@@ -162,7 +162,7 @@ footer{background:#fff;padding:36px 60px 24px;border-top:1px solid #eee;margin-t
     </div>
 </footer>
 <script>
-var t=document.querySelector('.nav-toggle'),n=document.getElementById('mobileNav');
-if(t&&n)t.addEventListener('click',function(){n.classList.toggle('open');});
+var t=document.querySelector(".nav-toggle"),n=document.getElementById("mobileNav"); if(t&&n)t.addEventListener("click",function(){n.style.display=n.style.display==="flex"?"none":"flex";});
+
 </script>
 </body></html>
