@@ -1,0 +1,17 @@
+---
+// Auto-detect browser language and redirect on root page
+---
+<script>
+  (function() {
+    const path = window.location.pathname;
+    if (path !== '/' && path !== '') return;
+    const stored = localStorage.getItem('yv-lang');
+    if (stored === 'fr') { window.location.replace('/fr/'); return; }
+    if (stored === 'en') return;
+    const lang = (navigator.language || 'en').toLowerCase();
+    if (lang.startsWith('fr')) {
+      localStorage.setItem('yv-lang', 'fr');
+      window.location.replace('/fr/');
+    }
+  })();
+</script>

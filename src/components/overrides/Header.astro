@@ -1,0 +1,64 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Search from '@astrojs/starlight/components/Search.astro';
+import SiteTitle from '@astrojs/starlight/components/SiteTitle.astro';
+import SocialIcons from '@astrojs/starlight/components/SocialIcons.astro';
+import ThemeSelect from '@astrojs/starlight/components/ThemeSelect.astro';
+import LanguageSelect from '@astrojs/starlight/components/LanguageSelect.astro';
+---
+<div class="header sl-flex">
+  <div class="title-wrapper sl-flex">
+    <SiteTitle {...Astro.props} />
+  </div>
+  <div class="sl-flex search-wrapper">
+    <Search {...Astro.props} />
+  </div>
+  <div class="sl-flex right-group">
+    <SocialIcons {...Astro.props} />
+    <ThemeSelect {...Astro.props} />
+    <div class="lang-select-wrapper">
+      <LanguageSelect {...Astro.props} />
+    </div>
+  </div>
+</div>
+
+<style>
+  .header {
+    gap: var(--sl-nav-gap);
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .title-wrapper {
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .search-wrapper {
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .right-group {
+    gap: 0.75rem;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  /* Always show language select in header on ALL screen sizes */
+  .lang-select-wrapper {
+    display: flex !important;
+    align-items: center;
+  }
+
+  /* On mobile, keep the header compact */
+  @media (max-width: 50rem) {
+    .search-wrapper {
+      flex: 0;
+    }
+    .right-group {
+      gap: 0.5rem;
+    }
+  }
+</style>

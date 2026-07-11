@@ -1,0 +1,16 @@
+---
+---
+<script>
+  // When user navigates to /fr/ store that preference
+  (function() {
+    const path = window.location.pathname;
+    if (path.startsWith('/fr')) {
+      localStorage.setItem('yv-lang', 'fr');
+    } else if (!path.startsWith('/fr')) {
+      // Only update if explicitly on English pages (not just redirected)
+      if (document.referrer && document.referrer.includes('/fr')) {
+        localStorage.setItem('yv-lang', 'en');
+      }
+    }
+  })();
+</script>

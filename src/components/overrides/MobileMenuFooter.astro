@@ -1,0 +1,14 @@
+---
+// Remove LanguageSelect from bottom of mobile menu — it's in the header now
+import ThemeSelect from '@astrojs/starlight/components/ThemeSelect.astro';
+---
+<div class="mobile-footer-only-theme">
+  <ThemeSelect {...Astro.props} />
+</div>
+<style>
+.mobile-footer-only-theme {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+}
+</style>

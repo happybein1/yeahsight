@@ -1,0 +1,270 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import { SITE_VERSION, SITE_VERSION_DATE, SITE_VERSION_NOTES } from '../../version';
+
+const isFr = Astro.props.lang === 'fr';
+const label = isFr ? 'Version' : 'Version';
+const builtWith = isFr ? 'Construit avec' : 'Built with';
+const contactLabel = isFr ? 'Nous contacter' : 'Contact us';
+const checkLabel = isFr ? 'Je ne suis pas un robot' : 'I am not a robot';
+const revealLabel = isFr ? 'Écrivez-nous à :' : 'Write to us at:';
+const instrLabel = isFr ? 'Cochez la case pour afficher notre adresse e-mail.' : 'Tick the box to reveal our email address.';
+---
+
+<footer class="yv-footer">
+  <div class="yv-footer-inner">
+    <span class="yv-version" title={`${SITE_VERSION_NOTES} · ${SITE_VERSION_DATE}`}>
+      <span class="yv-version-dot"></span>
+      {label} {SITE_VERSION}
+      <span class="yv-version-date">· {SITE_VERSION_DATE}</span>
+    </span>
+    <button id="yv-contact-btn" class="yv-contact-trigger">✉ {contactLabel}</button>
+    <span class="yv-footer-built">
+      {builtWith} <a href="https://astro.build" target="_blank" rel="noopener">Astro</a> &amp; <a href="https://starlight.astro.build" target="_blank" rel="noopener">Starlight</a>
+    </span>
+  </div>
+
+  <!-- Modal -->
+  <div id="yv-modal-backdrop" class="yv-modal-backdrop" aria-hidden="true"></div>
+  <div id="yv-contact-modal" class="yv-modal-box" role="dialog" aria-modal="true" aria-hidden="true">
+    <button class="yv-modal-close" id="yv-modal-close" aria-label="Close">✕</button>
+    <h3>✉ {contactLabel}</h3>
+    <p class="yv-modal-instr">{instrLabel}</p>
+
+    <label class="yv-robot-check" id="yv-check-label">
+      <span class="yv-checkbox-wrap">
+        <input type="checkbox" id="yv-not-robot" />
+        <span class="yv-checkbox-box"></span>
+      </span>
+      <span>{checkLabel}</span>
+    </label>
+
+    <div id="yv-email-reveal" class="yv-email-box" aria-hidden="true">
+      <a id="yv-email-link" href="#" class="yv-email-addr"></a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  /* Footer layout */
+  .yv-footer {
+    border-top: 1px solid var(--sl-color-hairline);
+    padding: 1rem var(--sl-content-pad-x);
+    margin-top: 2rem;
+  }
+  .yv-footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    max-width: var(--sl-content-width);
+    margin-inline: auto;
+    font-size: 0.78rem;
+    color: var(--sl-color-gray-3);
+  }
+
+  /* Version badge */
+  .yv-version {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--sl-font-mono, monospace);
+    font-size: 0.75rem;
+  }
+  .yv-version-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #22c55e;
+    flex-shrink: 0;
+  }
+  .yv-version-date { color: var(--sl-color-gray-4); }
+
+  /* Contact button */
+  .yv-contact-trigger {
+    background: none;
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 2rem;
+    color: var(--sl-color-gray-3);
+    cursor: pointer;
+    font-size: 0.78rem;
+    padding: 0.3rem 0.85rem;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .yv-contact-trigger:hover {
+    border-color: var(--sl-color-accent);
+    color: var(--sl-color-accent);
+  }
+
+  /* Built with */
+  .yv-footer-built a { color: var(--sl-color-gray-3); text-decoration: none; }
+  .yv-footer-built a:hover { color: var(--sl-color-accent); }
+  @media (max-width: 50rem) { .yv-footer-built { display: none; } }
+
+  /* Backdrop */
+  .yv-modal-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    z-index: 9998;
+  }
+  .yv-modal-backdrop.open { display: block; }
+
+  /* Modal box */
+  .yv-modal-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background: var(--sl-color-bg);
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 14px;
+    padding: 2rem 2rem 1.75rem;
+    width: min(360px, 90vw);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+  }
+  .yv-modal-box.open { display: block; }
+
+  .yv-modal-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.9rem;
+    background: none;
+    border: none;
+    color: var(--sl-color-gray-3);
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+  }
+  .yv-modal-close:hover { background: var(--sl-color-bg-inline-code); }
+
+  .yv-modal-box h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+    color: var(--sl-color-text);
+  }
+  .yv-modal-instr {
+    font-size: 0.85rem;
+    color: var(--sl-color-gray-3);
+    margin: 0 0 1.25rem;
+    line-height: 1.5;
+  }
+
+  /* Checkbox */
+  .yv-robot-check {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--sl-color-text);
+    user-select: none;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 8px;
+    background: var(--sl-color-bg-sidebar);
+    transition: border-color 0.2s;
+  }
+  .yv-robot-check:hover { border-color: var(--sl-color-accent); }
+
+  .yv-checkbox-wrap { position: relative; flex-shrink: 0; }
+  .yv-checkbox-wrap input { position: absolute; opacity: 0; width: 0; height: 0; }
+  .yv-checkbox-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border: 2px solid var(--sl-color-gray-3);
+    border-radius: 4px;
+    background: var(--sl-color-bg);
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .yv-checkbox-wrap input:checked + .yv-checkbox-box {
+    border-color: var(--sl-color-accent);
+    background: var(--sl-color-accent);
+  }
+  .yv-checkbox-wrap input:checked + .yv-checkbox-box::after {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 9px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg) translateY(-1px);
+  }
+
+  /* Email reveal */
+  .yv-email-box {
+    display: none;
+    margin-top: 1.1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    background: var(--sl-color-bg-sidebar);
+    border: 1px solid var(--sl-color-accent);
+    text-align: center;
+  }
+  .yv-email-box.visible { display: block; }
+  .yv-email-addr {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--sl-color-accent);
+    text-decoration: none;
+    letter-spacing: 0.01em;
+  }
+  .yv-email-addr:hover { text-decoration: underline; }
+</style>
+
+<script>
+  const btn       = document.getElementById('yv-contact-btn');
+  const modal     = document.getElementById('yv-contact-modal');
+  const backdrop  = document.getElementById('yv-modal-backdrop');
+  const closeBtn  = document.getElementById('yv-modal-close');
+  const checkbox  = document.getElementById('yv-not-robot');
+  const emailBox  = document.getElementById('yv-email-reveal');
+  const emailLink = document.getElementById('yv-email-link');
+
+  // Email split to prevent scraping
+  const u = 'happybein1';
+  const d = 'gmail.com';
+
+  function openModal() {
+    modal?.classList.add('open');
+    backdrop?.classList.add('open');
+    modal?.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal() {
+    modal?.classList.remove('open');
+    backdrop?.classList.remove('open');
+    modal?.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    // Reset state
+    if (checkbox) (checkbox as HTMLInputElement).checked = false;
+    emailBox?.classList.remove('visible');
+  }
+
+  btn?.addEventListener('click', openModal);
+  closeBtn?.addEventListener('click', closeModal);
+  backdrop?.addEventListener('click', closeModal);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  checkbox?.addEventListener('change', function() {
+    if ((this as HTMLInputElement).checked) {
+      const email = `${u}@${d}`;
+      if (emailLink) {
+        emailLink.href = `mailto:${email}`;
+        emailLink.textContent = email;
+      }
+      emailBox?.classList.add('visible');
+    } else {
+      emailBox?.classList.remove('visible');
+    }
+  });
+</script>

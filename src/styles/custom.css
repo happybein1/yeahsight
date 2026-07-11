@@ -1,0 +1,158 @@
+/* =====================================================
+   YeahVibe Custom Styles
+   ===================================================== */
+
+/* --- Language switcher always visible in header --- */
+.lang-select-wrapper {
+  display: flex !important;
+  align-items: center;
+}
+
+/* --- Hero video styling --- */
+.hero-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+}
+.hero-video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+/* --- Topic cards --- */
+.topic-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin: 1.5rem 0;
+}
+.topic-card {
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 10px;
+  background: var(--sl-color-bg-sidebar);
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+.topic-card:hover { border-color: var(--sl-color-accent); }
+.topic-card[open] { border-color: var(--sl-color-accent); }
+
+.topic-card summary {
+  display: grid;
+  grid-template-columns: 2.2rem 1fr 1.5rem;
+  align-items: center;
+  gap: 0 0.75rem;
+  padding: 0.9rem 1.25rem;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+.topic-card summary::-webkit-details-marker { display: none; }
+
+.topic-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+  text-align: center;
+}
+.topic-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+  text-align: left;
+}
+.topic-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--sl-color-text-accent);
+}
+.topic-desc {
+  font-size: 0.82rem;
+  color: var(--sl-color-gray-3);
+  line-height: 1.4;
+}
+.topic-chevron {
+  font-size: 1.1rem;
+  color: var(--sl-color-gray-3);
+  transition: transform 0.25s ease;
+  text-align: center;
+}
+.topic-card[open] .topic-chevron { transform: rotate(90deg); }
+
+.topic-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem 0 0.5rem;
+  border-top: 1px solid var(--sl-color-hairline);
+}
+.topic-card ul li a {
+  display: block;
+  padding: 0.42rem 1.25rem 0.42rem 4rem;
+  font-size: 0.875rem;
+  color: var(--sl-color-text);
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+.topic-card ul li a:hover {
+  background: var(--sl-color-bg-inline-code);
+  color: var(--sl-color-accent);
+}
+
+/* --- TTS button (injected at body level via Head.astro script) --- */
+#yv-tts-bar {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 99999;
+  display: none; /* shown via JS only on article pages */
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--sl-color-accent);
+  color: #fff;
+  border-radius: 2rem;
+  padding: 0.55rem 1.1rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+  font-size: 0.85rem;
+  font-family: var(--sl-font);
+}
+#yv-tts-bar button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  padding: 0.1rem 0.2rem;
+}
+#yv-tts-bar button:hover { opacity: 0.8; }
+#yv-tts-controls {
+  display: none;
+  align-items: center;
+  gap: 0.4rem;
+}
+#yv-tts-progress-wrap {
+  width: 60px;
+  height: 4px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 2px;
+  overflow: hidden;
+}
+#yv-tts-progress {
+  height: 100%;
+  width: 0%;
+  background: #fff;
+  border-radius: 2px;
+  transition: width 0.3s;
+}
+
+/* --- Collapse sidebar groups by default --- */
+.sidebar-content details[open] > summary ~ * {
+  /* keep open ones open */
+}
+
+/* Close all sidebar groups initially via JS (see Head.astro) */

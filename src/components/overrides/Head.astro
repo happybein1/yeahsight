@@ -1,0 +1,272 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Head.astro';
+
+const { entry, lang } = Astro.props;
+
+const siteUrl = 'https://www.yeahvibe.com';
+const currentPath = Astro.url.pathname;
+const currentUrl = new URL(currentPath, siteUrl).toString();
+const ogImage = `${siteUrl}/og-image.jpg`;
+const isFr = lang === 'fr';
+
+// Safely read entry data — entry can be undefined on splash/404 pages
+const title = entry?.data?.title ?? 'YeahVibe';
+const description = entry?.data?.description ?? (isFr
+  ? 'Prenez de meilleures décisions avec YeahVibe — pratiques, outils et cadres pour individus et organisations.'
+  : 'Make better decisions with YeahVibe — practical frameworks, best practices and tools for individuals and organizations.');
+
+// Build hreflang URLs
+const enUrl = currentUrl.replace('/fr/', '/').replace(/\/fr$/, '/');
+const frUrl = currentPath.startsWith('/fr')
+  ? currentUrl
+  : `${siteUrl}/fr${currentPath === '/' ? '/' : currentPath}`;
+---
+<Default {...Astro.props} />
+
+<!-- Canonical -->
+<link rel="canonical" href={currentUrl} />
+
+<!-- Hreflang -->
+<link rel="alternate" hreflang="en" href={enUrl} />
+<link rel="alternate" hreflang="fr" href={frUrl} />
+<link rel="alternate" hreflang="x-default" href={enUrl} />
+
+<!-- Open Graph -->
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={currentUrl} />
+<meta property="og:type" content="website" />
+<meta property="og:image" content={ogImage} />
+<meta property="og:locale" content={isFr ? 'fr_FR' : 'en_US'} />
+<meta property="og:locale:alternate" content={isFr ? 'en_US' : 'fr_FR'} />
+<meta property="og:site_name" content="YeahVibe" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<!-- Robots -->
+<meta name="robots" content="index, follow" />
+<meta name="author" content="YeahVibe" />
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TJFL5YQ705"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-TJFL5YQ705');
+</script>
+
+<!-- Language preference storage + auto-detection on first visit -->
+<script>
+  (function() {
+    const path = window.location.pathname;
+    const onFr = path.startsWith('/fr');
+
+    // Always update stored preference to match current page language
+    localStorage.setItem('yv-lang', onFr ? 'fr' : 'en');
+
+    // Auto-redirect only on first visit to root (no stored preference yet)
+    if (path !== '/') return;
+    const stored = localStorage.getItem('yv-lang');
+    // If user explicitly chose English, never redirect
+    if (stored === 'en') return;
+    // First-ever visit: check browser language
+    if (!stored) {
+      const lang = (navigator.language || 'en').toLowerCase();
+      if (lang.startsWith('fr')) {
+        localStorage.setItem('yv-lang', 'fr');
+        window.location.replace('/fr/');
+      }
+    }
+  })();
+</script>
+
+<!-- Collapse sidebar groups by default, keep active one open -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Find all sidebar group <details> elements
+    const sidebarDetails = document.querySelectorAll('.sidebar-content details');
+    sidebarDetails.forEach(function(detail) {
+      // Check if any link inside is the current page
+      const currentLink = detail.querySelector('a[aria-current="page"]');
+      if (!currentLink) {
+        detail.removeAttribute('open');
+      }
+    });
+  });
+</script>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "YeahVibe",
+  "url": siteUrl,
+  "description": "Decision-making frameworks, personal effectiveness tools and societal insights — in English and French.",
+  "inLanguage": ["en", "fr"],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": `${siteUrl}/search?q={search_term_string}`,
+    "query-input": "required name=search_term_string"
+  }
+})} />
+
+<!-- TTS button injected at body level to avoid clipping -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector('.hero')) return;
+
+  const lang = document.documentElement.lang || 'en';
+  const isFr = lang.startsWith('fr');
+  const ttsLang = isFr ? 'fr-FR' : 'en-GB';
+  const L = {
+    listen:  isFr ? 'Écouter'  : 'Listen',
+    pause:   isFr ? 'Pause'    : 'Pause',
+    resume:  isFr ? 'Reprendre': 'Resume',
+    stop:    isFr ? 'Arrêter'  : 'Stop',
+  };
+
+  const bar = document.createElement('div');
+  bar.id = 'yv-tts-bar';
+  bar.style.display = 'flex';
+  bar.innerHTML = `
+    <button id="yv-play">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
+      <span>${L.listen}</span>
+    </button>
+    <div id="yv-tts-controls">
+      <button id="yv-pause">
+        <svg id="yv-pause-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+        <span id="yv-pause-label">${L.pause}</span>
+      </button>
+      <button id="yv-stop">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h12v12H6z"/></svg>
+        <span>${L.stop}</span>
+      </button>
+      <div id="yv-tts-progress-wrap"><div id="yv-tts-progress"></div></div>
+    </div>`;
+  document.body.appendChild(bar);
+
+  const playBtn    = document.getElementById('yv-play');
+  const pauseBtn   = document.getElementById('yv-pause');
+  const stopBtn    = document.getElementById('yv-stop');
+  const controls   = document.getElementById('yv-tts-controls');
+  const progress   = document.getElementById('yv-tts-progress');
+  const pauseIcon  = document.getElementById('yv-pause-icon');
+  const pauseLabel = document.getElementById('yv-pause-label');
+
+  let sentences = [], idx = 0, bestVoice = null;
+
+  // Preferred voice names in order — most natural first
+  const preferredEN = [
+    'Google UK English Female',
+    'Google UK English Male',
+    'Microsoft Libby Online (Natural)',
+    'Microsoft Ryan Online (Natural)',
+    'Microsoft Sonia Online (Natural)',
+    'Microsoft Aria Online (Natural)',
+    'Google US English',
+    'Samantha', // macOS/iOS
+  ];
+  const preferredFR = [
+    'Google français',
+    'Microsoft Henri Online (Natural)',
+    'Microsoft Denise Online (Natural)',
+    'Microsoft Julie Online (Natural)',
+    'Thomas', // macOS
+    'Amélie', // macOS
+  ];
+
+  function pickVoice(voices) {
+    const preferred = isFr ? preferredFR : preferredEN;
+    // Try exact name match first
+    for (const name of preferred) {
+      const v = voices.find(v => v.name === name);
+      if (v) return v;
+    }
+    // Try partial name match (catches regional variants)
+    for (const name of preferred) {
+      const v = voices.find(v => v.name.includes(name.split(' ')[1] || name));
+      if (v) return v;
+    }
+    // Fall back to any voice matching the language
+    return voices.find(v => v.lang.startsWith(isFr ? 'fr' : 'en')) || voices[0];
+  }
+
+  function loadVoices() {
+    const voices = speechSynthesis.getVoices();
+    if (voices.length) bestVoice = pickVoice(voices);
+  }
+
+  loadVoices();
+  speechSynthesis.addEventListener('voiceschanged', loadVoices);
+
+  function getTexts() {
+    const el = document.querySelector('.sl-markdown-content');
+    if (!el) return [];
+    return Array.from(el.querySelectorAll('p, h2, h3, h4, li'))
+      .map(e => e.textContent?.trim()).filter(t => t && t.length > 3);
+  }
+
+  function updateProgress() {
+    if (progress && sentences.length)
+      progress.style.width = (idx / sentences.length * 100) + '%';
+  }
+
+  function speakNext() {
+    if (idx >= sentences.length) { stop(); return; }
+    const u = new SpeechSynthesisUtterance(sentences[idx]);
+    u.lang = ttsLang;
+    u.rate = 0.92;
+    u.pitch = 1.0;
+    if (bestVoice) u.voice = bestVoice;
+    u.onend = () => { idx++; updateProgress(); speakNext(); };
+    u.onerror = () => { idx++; speakNext(); };
+    speechSynthesis.speak(u);
+  }
+
+  function start() {
+    if (!('speechSynthesis' in window)) { alert('Text-to-speech is not supported in this browser.'); return; }
+    speechSynthesis.cancel();
+    // Reload voices in case they loaded late
+    if (!bestVoice) loadVoices();
+    sentences = getTexts();
+    idx = 0;
+    playBtn.style.display = 'none';
+    controls.style.display = 'flex';
+    speakNext();
+  }
+
+  function togglePause() {
+    if (speechSynthesis.paused) {
+      speechSynthesis.resume();
+      pauseIcon.innerHTML = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
+      pauseLabel.textContent = L.pause;
+    } else {
+      speechSynthesis.pause();
+      pauseIcon.innerHTML = '<path d="M8 5v14l11-7z"/>';
+      pauseLabel.textContent = L.resume;
+    }
+  }
+
+  function stop() {
+    speechSynthesis.cancel();
+    idx = 0;
+    if (progress) progress.style.width = '0%';
+    playBtn.style.display = 'flex';
+    controls.style.display = 'none';
+    pauseIcon.innerHTML = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
+    pauseLabel.textContent = L.pause;
+  }
+
+  playBtn.addEventListener('click', start);
+  pauseBtn.addEventListener('click', togglePause);
+  stopBtn.addEventListener('click', stop);
+  window.addEventListener('beforeunload', () => speechSynthesis.cancel());
+});
+</script>
