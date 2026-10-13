@@ -16,7 +16,7 @@ This is a summary of the general societal roadmap proposed by HappyBein, based o
 ### 1. Support people's generic goals
 Facilitate the education and support of people's generic goals. This speeds up positive change through better individual productivity and well-being.
 
-→ Background: [Generic Primary Goal Breakdown](https://core.yeahvibe.com/decision-foundation/find-your-directional-purpose/generic-primary-goal-breakdown/) on YeahCore
+→ Background: [Generic Primary Goal Breakdown](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/generic-primary-goal-breakdown/) on YeahCore
 
 ### 2. Shift to plant-based food and give space back to nature
 Transition to plant-based consumption and release space to nature. This improves wildlife well-being and increases CO₂ storage in forests.
@@ -55,5 +55,5 @@ They will take time to take shape. But the more we support them, the faster they
 ## Where to Go Next
 
 - Start from the trends: [Foresight Trends](/foresight-trends/)
-- Understand the human needs behind every step: [YeahCore](https://core.yeahvibe.com/decision-foundation/find-your-directional-purpose/)
+- Understand the human needs behind every step: [YeahCore](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/)
 - Act on it in your own life: [YeahVibe tools](https://yeahvibe.com/)

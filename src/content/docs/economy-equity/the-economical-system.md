@@ -55,4 +55,4 @@ Understanding economic systems helps you:
 - Make better personal financial decisions within the system you inhabit
 - Participate more meaningfully in democratic decisions about the kind of economy you want
 
-See also: [Mastering Finance Basics](https://core.yeahvibe.com/applications/economy-equity/mastering-finance-basics/) and [Universal Allowance](/economy-equity/universal-allowance).
+See also: [Mastering Finance Basics](https://yeahcore.happybein.com/personal-effectiveness/mastering-finance-basics/) and [Universal Allowance](/economy-equity/universal-allowance).

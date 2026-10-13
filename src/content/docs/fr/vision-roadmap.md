@@ -16,7 +16,7 @@ Voici un résumé de la feuille de route sociétale générale proposée par Hap
 ### 1. Soutenir les objectifs fondamentaux de chacun
 Faciliter l'éducation et le soutien des objectifs fondamentaux des personnes. Cela accélère les changements positifs grâce à une meilleure productivité individuelle et un meilleur bien-être.
 
-→ Contexte : [Décomposition des objectifs primaires](https://core.yeahvibe.com/fr/decision-foundation/find-your-directional-purpose/generic-primary-goal-breakdown/) sur YeahCore
+→ Contexte : [Décomposition des objectifs primaires](https://yeahcore.happybein.com/fr/decision-foundation/find-your-directional-purpose/generic-primary-goal-breakdown/) sur YeahCore
 
 ### 2. Passer à une alimentation végétale et rendre de l'espace à la nature
 Passer à une consommation végétale et rendre de l'espace à la nature. Cela améliore le bien-être de la faune et augmente le stockage de CO₂ dans les forêts.
@@ -55,5 +55,5 @@ Elles prendront du temps à se concrétiser. Mais plus nous les soutenons, plus 
 ## Pour continuer
 
 - Partir des tendances : [Tendances prospectives](/fr/foresight-trends/)
-- Comprendre les besoins humains derrière chaque étape : [YeahCore](https://core.yeahvibe.com/fr/decision-foundation/find-your-directional-purpose/)
+- Comprendre les besoins humains derrière chaque étape : [YeahCore](https://yeahcore.happybein.com/fr/decision-foundation/find-your-directional-purpose/)
 - Agir dans votre propre vie : [les outils YeahVibe](https://yeahvibe.com/)

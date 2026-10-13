@@ -48,4 +48,4 @@ La production et la distribution sont dirigées centralement par l'État. A hist
 
 **Inégalité** : La distribution des revenus et de la richesse dans une population. Une inégalité élevée a été liée à une mobilité sociale réduite et à une instabilité politique.
 
-Voir aussi : [Maîtriser les bases de la finance](https://core.yeahvibe.com/fr/applications/economy-equity/mastering-finance-basics/) et [Allocation universelle](/fr/economy-equity/universal-allowance).
+Voir aussi : [Maîtriser les bases de la finance](https://yeahcore.happybein.com/fr/personal-effectiveness/mastering-finance-basics/) et [Allocation universelle](/fr/economy-equity/universal-allowance).

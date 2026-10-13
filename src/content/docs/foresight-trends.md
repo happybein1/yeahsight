@@ -66,4 +66,4 @@ The [Vision & Roadmap](/vision-roadmap/) brings these trends together into one p
 
 ## How to use these articles
 
-Read them as background context, not as prescriptions. They are designed to inform your thinking, not to tell you what to believe. Pair them with the [Decision Foundation](https://core.yeahvibe.com/decision-foundation/ideation-assessment) frameworks on YeahCore to think clearly about the implications for your own decisions.
+Read them as background context, not as prescriptions. They are designed to inform your thinking, not to tell you what to believe. Pair them with the [Decision Foundation](https://yeahcore.happybein.com/decision-foundation/ideation-assessment) frameworks on YeahCore to think clearly about the implications for your own decisions.

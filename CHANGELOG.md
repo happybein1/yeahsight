@@ -4,6 +4,19 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.02
+
+**Links to YeahCore now point to `yeahcore.happybein.com`.** Core was renamed YeahCore and moved off `core.yeahvibe.com` the same session (yeahvibe-astro 2.0.0). Updated:
+
+- Every `https://core.yeahvibe.com…` link in the articles: Foresight Trends, Vision & Roadmap, Inheritance, The Economical System and the home page, EN and FR.
+- The sidebar's "YeahCore ↗" link, `public/llms.txt` and `public/_redirects`.
+
+The links to *Mastering Finance Basics* and *Time Spent Identification* used their old `/applications/…` core paths. They now go straight to the new `/personal-effectiveness/…` paths (core 1.8.0), skipping a redirect hop.
+
+**Verification:** every `yeahcore.happybein.com` URL in the source (12 distinct) was checked against YeahCore's built page list: all exist. Rebuilt in the scratch copy with no warnings.
+
+---
+
 ## v2.01
 
 **Every page now has its own title and description, and French pages show French labels.** Found on the live site right after v2.00 went up: the article page `/vision-roadmap/` had the `<title>` "YeahSight | YeahSight by HappyBein" and the site-wide default description instead of its own.

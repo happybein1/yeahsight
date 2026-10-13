@@ -89,7 +89,7 @@ export default defineConfig({
                     translations: { fr: 'Voir aussi' },
                     collapsed: false,
                     items: [
-                        { label: 'YeahCore ↗', link: 'https://core.yeahvibe.com/', attrs: { target: '_blank' } },
+                        { label: 'YeahCore ↗', link: 'https://yeahcore.happybein.com/', attrs: { target: '_blank' } },
                         { label: 'YeahVibe tools ↗', translations: { fr: 'Outils YeahVibe ↗' }, link: 'https://yeahvibe.com/', attrs: { target: '_blank' } },
                         { label: 'HappyBein ↗', link: 'https://happybein.com/', attrs: { target: '_blank' } },
                     ],

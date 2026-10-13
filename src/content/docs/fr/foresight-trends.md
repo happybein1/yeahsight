@@ -49,4 +49,4 @@ La [Vision et feuille de route](/fr/vision-roadmap/) rassemble ces tendances en 
 
 ## Comment utiliser ces articles
 
-Lisez ces articles comme contexte de fond — pas comme des prescriptions. Ils sont conçus pour informer votre réflexion, pas pour vous dire quoi croire. Associez-les aux cadres de [Fondation de la décision](https://core.yeahvibe.com/fr/decision-foundation/ideation-assessment) sur YeahCore pour réfléchir clairement aux implications pour vos propres décisions.
+Lisez ces articles comme contexte de fond — pas comme des prescriptions. Ils sont conçus pour informer votre réflexion, pas pour vous dire quoi croire. Associez-les aux cadres de [Fondation de la décision](https://yeahcore.happybein.com/fr/decision-foundation/ideation-assessment) sur YeahCore pour réfléchir clairement aux implications pour vos propres décisions.

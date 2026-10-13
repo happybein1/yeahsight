@@ -58,6 +58,6 @@ Intermediate steps, such as higher taxes on very large inheritances or a lifetim
 
 ## The Human Side
 
-Inheritance touches some of our deepest drivers: security, belonging, and the wish to care for those who come after us. Any change should respect these needs while meeting them more fairly for everyone. See [Humans' Physiological Needs](https://core.yeahvibe.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) for the needs behind this.
+Inheritance touches some of our deepest drivers: security, belonging, and the wish to care for those who come after us. Any change should respect these needs while meeting them more fairly for everyone. See [Humans' Physiological Needs](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) for the needs behind this.
 
 See also: [Social Redistribution](/social-organization/social-redistribution), [Universal Allowance](/economy-equity/universal-allowance) and [Fair Globe Sharing](/economy-equity/fair-globe-sharing).

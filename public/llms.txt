@@ -37,6 +37,6 @@
 
 ## Related
 
-- [YeahCore](https://core.yeahvibe.com/): the human needs and decision foundation behind YeahSight
+- [YeahCore](https://yeahcore.happybein.com/): the human needs and decision foundation behind YeahSight
 - [YeahVibe](https://yeahvibe.com/): free tools for acting on it in daily life
 - [HappyBein](https://happybein.com/): the foundation
