@@ -1,0 +1,42 @@
+# YeahSight
+
+> YeahSight gives a clear, structured view of how society works and where it is heading. It covers four domains: environment & energy, economy & equity, technology & automation, and social organization, and ends with a proposed roadmap for society. YeahSight is an initiative of HappyBein, a Dutch foundation (Stichting) based in Eindhoven whose idea is that structured understanding unlocks solutions. All articles are available in English and French.
+
+## Start here
+
+- [Foresight Trends](https://yeahsight.happybein.com/foresight-trends/): what foresight is and an overview of all trend areas
+- [Vision & Roadmap](https://yeahsight.happybein.com/vision-roadmap/): the six proposed steps towards a fairer, safer world
+
+## Environment & Energy
+
+- [Earth Land — View per Individual](https://yeahsight.happybein.com/environment-energy/earth-land-view-per-individual/): global land use broken down per person
+- [Fair Space Sharing](https://yeahsight.happybein.com/environment-energy/fair-space-sharing/): a proposal for sharing land between humans and wildlife
+- [Clean & Safe Energy](https://yeahsight.happybein.com/environment-energy/clean-safe-energy/): energy sources compared, and the path to renewables
+- [Plant-Based Consumption](https://yeahsight.happybein.com/environment-energy/plant-based-consumption/): how diet connects to land, climate and animal welfare
+
+## Economy & Equity
+
+- [Universal Allowance](https://yeahsight.happybein.com/economy-equity/universal-allowance/): a guaranteed, purpose-bound budget for basic needs
+- [The Economical System](https://yeahsight.happybein.com/economy-equity/the-economical-system/): how economic systems work and shape outcomes
+- [Fair Globe Sharing](https://yeahsight.happybein.com/economy-equity/fair-globe-sharing/): what a fair distribution of the world's resources could look like
+- [Inheritance](https://yeahsight.happybein.com/economy-equity/inheritance/): how inheritance carries inequity forward, and a proposal for redistribution
+
+## Technology & Automation
+
+- [Enhanced Automation](https://yeahsight.happybein.com/technology-automation/enhanced-automation/)
+- [Impact of Artificial Intelligence](https://yeahsight.happybein.com/technology-automation/impact-of-artificial-intelligence/)
+- [Life After Automation](https://yeahsight.happybein.com/technology-automation/life-after-automation/)
+
+## Social Organization
+
+- [Purpose of Society](https://yeahsight.happybein.com/social-organization/purpose-of-society/)
+- [Societal Systems](https://yeahsight.happybein.com/social-organization/societal-systems/)
+- [Societal Functions](https://yeahsight.happybein.com/social-organization/societal-functions/)
+- [Social Redistribution](https://yeahsight.happybein.com/social-organization/social-redistribution/)
+- [Managing Regional Migration](https://yeahsight.happybein.com/social-organization/managing-regional-migration/)
+
+## Related
+
+- [YeahCore](https://core.yeahvibe.com/): the human needs and decision foundation behind YeahSight
+- [YeahVibe](https://yeahvibe.com/): free tools for acting on it in daily life
+- [HappyBein](https://happybein.com/): the foundation

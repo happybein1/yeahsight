@@ -4,17 +4,30 @@ import Default from '@astrojs/starlight/components/Head.astro';
 
 const { entry, lang } = Astro.props;
 
-const siteUrl = 'https://www.yeahvibe.com';
+const siteUrl = 'https://yeahsight.happybein.com';
 const currentPath = Astro.url.pathname;
 const currentUrl = new URL(currentPath, siteUrl).toString();
-const ogImage = `${siteUrl}/og-image.jpg`;
+const ogImage = `${siteUrl}/og-image.png`;
 const isFr = lang === 'fr';
 
-// Safely read entry data — entry can be undefined on splash/404 pages
-const title = entry?.data?.title ?? 'YeahVibe';
-const description = entry?.data?.description ?? (isFr
-  ? 'Prenez de meilleures décisions avec YeahVibe — pratiques, outils et cadres pour individus et organisations.'
-  : 'Make better decisions with YeahVibe — practical frameworks, best practices and tools for individuals and organizations.');
+const siteNameEN = 'YeahSight by HappyBein';
+const siteNameFR = 'YeahSight par HappyBein';
+
+// Page title — append site name for SEO unless it's already the homepage
+const rawTitle = entry?.data?.title ?? 'YeahSight';
+const isHome = currentPath === '/' || currentPath === '/fr/' || currentPath === '/fr';
+const seoTitle = isHome
+  ? (isFr ? 'YeahSight — Comprendre la société et où elle va' : 'YeahSight — Understand society and where it is heading')
+  : `${rawTitle} | ${isFr ? siteNameFR : siteNameEN}`;
+
+// Meta description — richer default with keywords
+const defaultDescEN = 'YeahSight gives a clear, structured view of how society works and where it is heading: environment, energy, economy, technology and social organization. By HappyBein.';
+const defaultDescFR = 'YeahSight offre une vue claire et structurée du fonctionnement de la société et de son évolution : environnement, énergie, économie, technologie et organisation sociale. Par HappyBein.';
+const description = entry?.data?.description ?? (isFr ? defaultDescFR : defaultDescEN);
+
+// Keywords
+const keywordsEN = 'foresight, society, trends, environment, energy, economy, equity, automation, artificial intelligence, social organization, YeahSight, HappyBein';
+const keywordsFR = 'prospective, société, tendances, environnement, énergie, économie, équité, automatisation, intelligence artificielle, organisation sociale, YeahSight, HappyBein';
 
 // Build hreflang URLs
 const enUrl = currentUrl.replace('/fr/', '/').replace(/\/fr$/, '/');
@@ -23,6 +36,20 @@ const frUrl = currentPath.startsWith('/fr')
   : `${siteUrl}/fr${currentPath === '/' ? '/' : currentPath}`;
 ---
 <Default {...Astro.props} />
+
+<!-- Favicons — override Starlight default -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+<!-- SEO Core -->
+<title>{seoTitle}</title>
+<meta name="description" content={description} />
+<meta name="keywords" content={isFr ? keywordsFR : keywordsEN} />
+<meta name="author" content="YeahSight — HappyBein" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="theme-color" content="#0e7fbe" />
 
 <!-- Canonical -->
 <link rel="canonical" href={currentUrl} />
@@ -33,27 +60,141 @@ const frUrl = currentPath.startsWith('/fr')
 <link rel="alternate" hreflang="x-default" href={enUrl} />
 
 <!-- Open Graph -->
-<meta property="og:title" content={title} />
+<meta property="og:title" content={seoTitle} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={currentUrl} />
 <meta property="og:type" content="website" />
 <meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="YeahSight — Understand society and where it is heading" />
 <meta property="og:locale" content={isFr ? 'fr_FR' : 'en_US'} />
 <meta property="og:locale:alternate" content={isFr ? 'en_US' : 'fr_FR'} />
-<meta property="og:site_name" content="YeahVibe" />
+<meta property="og:site_name" content={isFr ? siteNameFR : siteNameEN} />
 
-<!-- Twitter Card -->
+<!-- Twitter / X Card -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content={title} />
+<meta name="twitter:title" content={seoTitle} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={ogImage} />
-
-<!-- Robots -->
-<meta name="robots" content="index, follow" />
-<meta name="author" content="YeahVibe" />
+<meta name="twitter:image:alt" content="YeahSight — Understand society and where it is heading" />
+<meta name="twitter:site" content="@yeahvibe" />
+<meta name="twitter:creator" content="@happybein" />
 
 <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TJFL5YQ705"></script>
+<!-- GA4 loads only after the visitor accepts (yv-consent v1; source: _shared/consent.js) -->
+<script is:inline>
+(function (w, d) {
+  var GA = 'G-TJFL5YQ705', PRIVACY = 'https://happybein.com/privacy', KEY = 'yv_consent', DAYS = 180;
+  var TEXT = {
+    en: { t: 'We would like to use Google Analytics (cookies) to see which parts of this site get used. No ads, and your data is never sold. You can change your mind at any time.', a: 'Accept', r: 'Decline', p: 'Privacy policy', h: 'Cookies' },
+    nl: { t: 'We willen Google Analytics (cookies) gebruiken om te zien welke onderdelen van deze site worden gebruikt. Geen advertenties en je gegevens worden nooit verkocht. Je kunt je keuze altijd wijzigen.', a: 'Accepteren', r: 'Weigeren', p: 'Privacybeleid', h: 'Cookies' },
+    fr: { t: 'Nous aimerions utiliser Google Analytics (cookies) pour savoir quelles parties du site sont utilisées. Pas de publicité, et vos données ne sont jamais vendues. Vous pouvez changer d’avis à tout moment.', a: 'Accepter', r: 'Refuser', p: 'Politique de confidentialité', h: 'Cookies' },
+    es: { t: 'Nos gustaría usar Google Analytics (cookies) para saber qué partes del sitio se utilizan. Sin anuncios y tus datos nunca se venden. Puedes cambiar de opinión en cualquier momento.', a: 'Aceptar', r: 'Rechazar', p: 'Política de privacidad', h: 'Cookies' }
+  };
+
+  /* ---- stored choice ---- */
+  function cookieDomain() {
+    var h = w.location.hostname, p = h.split('.');
+    if (p.length < 2 || /^[\d.]+$/.test(h) || h === 'localhost') return '';
+    return '; domain=.' + p.slice(-2).join('.');
+  }
+  function read() {
+    var raw = null, m = d.cookie.match(/(?:^|; )yv_consent=([^;]*)/);
+    if (m) raw = decodeURIComponent(m[1]);
+    if (!raw) { try { raw = w.localStorage.getItem(KEY); } catch (e) {} }
+    if (!raw) return null;
+    var parts = raw.split(':'), v = parts[0], ts = +parts[1] || 0;
+    if ((v !== 'granted' && v !== 'denied') || !ts || Date.now() - ts > DAYS * 864e5) return null;
+    return v;
+  }
+  function write(v) {
+    var val = v + ':' + Date.now();
+    try { d.cookie = KEY + '=' + encodeURIComponent(val) + '; max-age=' + DAYS * 86400 + '; path=/' + cookieDomain() + '; SameSite=Lax' + (w.location.protocol === 'https:' ? '; Secure' : ''); } catch (e) {}
+    try { w.localStorage.setItem(KEY, val); } catch (e) {}
+  }
+  function clearGaCookies() {
+    var names = d.cookie.split('; ').map(function (c) { return c.split('=')[0]; }).filter(function (n) { return n === '_ga' || n.indexOf('_ga_') === 0 || n === '_gid'; });
+    var p = w.location.hostname.split('.'), doms = ['', '; domain=' + w.location.hostname];
+    if (p.length >= 2) doms.push('; domain=.' + p.slice(-2).join('.'));
+    names.forEach(function (n) { doms.forEach(function (dm) { d.cookie = n + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + dm; }); });
+  }
+
+  /* ---- Google Consent Mode (default state is decided before the page's own gtag('config')) ---- */
+  w.dataLayer = w.dataLayer || [];
+  function gtag() { w.dataLayer.push(arguments); }
+  if (!w.gtag) w.gtag = gtag;
+  var stored = read(), loaded = false;
+  var def = { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: stored === 'granted' ? 'granted' : 'denied' };
+  gtag('consent', 'default', def);
+
+  function loadGA() {
+    if (loaded) return;
+    loaded = true;
+    var s = d.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA;
+    (d.head || d.documentElement).appendChild(s);
+  }
+  function apply(v) {
+    if (v === 'granted') {
+      if (!loaded) {
+        // Drop events queued before consent was given; only 'js' / 'config' / 'set' / consent entries are replayed.
+        for (var i = w.dataLayer.length - 1; i >= 0; i--) { var q = w.dataLayer[i]; if (q && q[0] === 'event') w.dataLayer.splice(i, 1); }
+        def.analytics_storage = 'granted'; loadGA();   // queued 'default' entry is replayed as granted
+      }
+      else { w['ga-disable-' + GA] = false; gtag('consent', 'update', { analytics_storage: 'granted' }); }
+    } else {
+      w['ga-disable-' + GA] = true;
+      if (loaded) gtag('consent', 'update', { analytics_storage: 'denied' });
+      clearGaCookies();
+    }
+  }
+  if (stored === 'granted') loadGA();
+  if (stored === 'denied') w['ga-disable-' + GA] = true;
+
+  /* ---- banner ---- */
+  var box = null;
+  function lang() {
+    var l = (d.documentElement.lang || w.navigator.language || 'en').slice(0, 2).toLowerCase();
+    return TEXT[l] || TEXT.en;
+  }
+  function css() {
+    if (d.getElementById('yvc-css')) return;
+    var s = d.createElement('style');
+    s.id = 'yvc-css';
+    s.textContent =
+      '#yvc{position:fixed;left:12px;right:12px;bottom:calc(env(safe-area-inset-bottom,0px) + 12px);z-index:2147483000;max-width:520px;margin:0 auto;box-sizing:border-box;padding:14px 16px;border-radius:14px;' +
+      'font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#fff;color:#1f2933;border:1px solid #d5dde0;box-shadow:0 6px 28px rgba(0,0,0,.28)}' +
+      '#yvc p{margin:0 0 12px}#yvc a{color:#0f8f8f;text-decoration:underline}' +
+      '#yvc .yvc-b{display:flex;gap:10px}#yvc button{flex:1;min-height:44px;border-radius:10px;font:700 15px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;cursor:pointer;border:2px solid #2ABFBF}' +
+      '#yvc .yvc-a{background:#2ABFBF;color:#04302f}#yvc .yvc-r{background:transparent;color:inherit}' +
+      '@media (prefers-color-scheme:dark){#yvc{background:#1b2423;color:#e8f0ef;border-color:#33423f}#yvc a{color:#6fdcd8}#yvc .yvc-a{color:#04302f}}';
+    (d.head || d.documentElement).appendChild(s);
+  }
+  function close() { if (box && box.parentNode) box.parentNode.removeChild(box); box = null; }
+  function show() {
+    if (box || !d.body) return;
+    css();
+    var t = lang();
+    box = d.createElement('div');
+    box.id = 'yvc';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-label', t.h);
+    box.innerHTML = '<p>' + t.t + (PRIVACY ? ' <a href="' + PRIVACY + '" target="_blank" rel="noopener">' + t.p + '</a>' : '') + '</p>' +
+      '<div class="yvc-b"><button type="button" class="yvc-r">' + t.r + '</button><button type="button" class="yvc-a">' + t.a + '</button></div>';
+    box.querySelector('.yvc-a').onclick = function () { write('granted'); apply('granted'); close(); };
+    box.querySelector('.yvc-r').onclick = function () { write('denied'); apply('denied'); close(); };
+    d.body.appendChild(box);
+  }
+  function ready(fn) { if (d.body) fn(); else d.addEventListener('DOMContentLoaded', fn); }
+
+  w.yvConsentOpen = function () { ready(show); };
+  w.yvConsentState = function () { return read(); };
+  var wantsOpen = /(?:[?&#])cookie-settings\b/.test(w.location.search + w.location.hash);
+  if (!stored || wantsOpen) ready(show);
+})(window, document);
+</script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -105,9 +246,9 @@ const frUrl = currentPath.startsWith('/fr')
 <script type="application/ld+json" set:html={JSON.stringify({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "YeahVibe",
+  "name": "YeahSight",
   "url": siteUrl,
-  "description": "Decision-making frameworks, personal effectiveness tools and societal insights — in English and French.",
+  "description": "Structured insights on how society works and where it is heading — in English and French. By HappyBein.",
   "inLanguage": ["en", "fr"],
   "potentialAction": {
     "@type": "SearchAction",
@@ -268,5 +409,21 @@ document.addEventListener('DOMContentLoaded', function() {
   pauseBtn.addEventListener('click', togglePause);
   stopBtn.addEventListener('click', stop);
   window.addEventListener('beforeunload', () => speechSynthesis.cancel());
+});
+</script>
+
+<!-- All tools pill — injected directly onto body to avoid fixed-position containment issues -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const isFr = document.documentElement.lang?.startsWith('fr');
+  const label = '← HappyBein';
+  const pill = document.createElement('a');
+  pill.href = 'https://happybein.com';
+  pill.textContent = label;
+  pill.setAttribute('aria-label', label);
+  pill.style.cssText = 'position:fixed;bottom:14px;left:14px;height:30px;padding:0 12px;border-radius:15px;background:#2ABFBF;color:#fff;display:flex;align-items:center;gap:5px;font-family:Nunito,Arial,sans-serif;font-weight:700;font-size:12px;text-decoration:none;box-shadow:0 2px 8px rgba(42,191,191,0.4);z-index:99998;opacity:0.85;';
+  pill.addEventListener('mouseover', () => pill.style.opacity = '1');
+  pill.addEventListener('mouseout',  () => pill.style.opacity = '0.85');
+  document.body.appendChild(pill);
 });
 </script>

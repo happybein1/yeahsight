@@ -1,3 +1,47 @@
-# yeahsight.com redirects to foresight-trends article
-https://yeahsight.com/* /applications/foresight-trends/ 301
-https://www.yeahsight.com/* /applications/foresight-trends/ 301
+# Cloudflare Pages redirects — YeahSight v2.00
+# Old URLs from the WordPress site and the v1.x static site → new pages.
+
+# Old /articles/ pages (YeahSight v1.x static site)
+/articles/                        /                                                   301
+/articles/vision-roadmap/         /vision-roadmap/                                    301
+/articles/fair-space-sharing/     /environment-energy/fair-space-sharing/             301
+/articles/earth-land/             /environment-energy/earth-land-view-per-individual/ 301
+/articles/clean-safe-energy/      /environment-energy/clean-safe-energy/              301
+/articles/plant-based-consumption/ /environment-energy/plant-based-consumption/       301
+/articles/fair-globe-sharing/     /economy-equity/fair-globe-sharing/                 301
+/articles/the-economical-system/  /economy-equity/the-economical-system/              301
+/articles/universal-allowance/    /economy-equity/universal-allowance/                301
+/articles/mastering-finance-basics/ https://core.yeahvibe.com/applications/economy-equity/mastering-finance-basics/ 301
+/articles/enhanced-automation/    /technology-automation/enhanced-automation/         301
+/articles/impact-of-ai/           /technology-automation/impact-of-artificial-intelligence/ 301
+/articles/purpose-of-society/     /social-organization/purpose-of-society/            301
+/articles/societal-systems/       /social-organization/societal-systems/              301
+/articles/societal-functions/     /social-organization/societal-functions/            301
+/articles/social-redistribution/  /social-organization/social-redistribution/         301
+/articles/managing-migration/     /social-organization/managing-regional-migration/   301
+/articles/time-spent/             https://core.yeahvibe.com/applications/social-organization/time-spent-identification/ 301
+/articles/project-solutions/      https://happybein.com/initiatives                   301
+/articles/history-team/           https://happybein.com/manifesto                     301
+/articles/collaborate/            https://happybein.com/contact                       301
+/articles/contact/                https://happybein.com/contact                       301
+
+# Old WordPress URLs
+/uptools/proposed-roadmap/        /vision-roadmap/                                    301
+/upnext/fair-globe-share/         /economy-equity/fair-globe-sharing/                 301
+/upnext/clean-and-safe-energy/    /environment-energy/clean-safe-energy/              301
+/upnext/plant-based-resources/    /environment-energy/plant-based-consumption/        301
+/upnext/enhanced-automation/      /technology-automation/enhanced-automation/         301
+/about/                           https://happybein.com/                              301
+/about/project-and-solutions/     https://happybein.com/initiatives                   301
+/about/history-team/              https://happybein.com/manifesto                     301
+/about/collaborate-with-us/       https://happybein.com/contact                       301
+/about/contac-tus/                https://happybein.com/contact                       301
+/contact/                         https://happybein.com/contact                       301
+/disclaimer/                      https://happybein.com/privacy                       301
+
+# Same articles under core's old /applications/ prefix (in case links point here directly)
+/applications/foresight-trends/   /foresight-trends/                                  301
+/applications/economy-equity/mastering-finance-basics/  https://core.yeahvibe.com/applications/economy-equity/mastering-finance-basics/ 301
+/applications/social-organization/time-spent-identification/  https://core.yeahvibe.com/applications/social-organization/time-spent-identification/ 301
+/applications/*                   /:splat                                             301
+/fr/applications/*                /fr/:splat                                          301
