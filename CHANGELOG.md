@@ -4,6 +4,25 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.04
+
+**Landing hero now shows the mountain-view photo the user supplied** (a person on a rock looking over a sea of clouds towards a peak). It fits "where society is heading". User request.
+
+- **Image:** the original is 3300×2271. The user saved it into the wrong repo's folder (`yeahvibe-astro/public/images/`); it was moved to `yeahsight/public/images/` and deleted from core.
+- **Two versions:** `hero-view.jpg` (1800px wide, about 169 KB) and `hero-view-sm.jpg` (900px, about 36 KB, used on small screens), both JPEG at quality 78, progressive.
+- **Position:** `--yv-hero-pos: 55% 60%`.
+- **Layout (CSS block appended to `src/styles/custom.css`, identical in both sites):**
+  - The hero becomes a dark panel (`#0d1620`, `min-height: clamp(340px, 42vw, 460px)`).
+  - On screens of 64rem and wider, the photo fills the right 58% of the panel through a `::after` layer. A left-to-right mask fades it from transparent to opaque, so the text column on the left (max 30rem) stays readable.
+  - Below 64rem the photo fills the whole panel, under a top-to-bottom dark gradient.
+  - Hero text colours are fixed to light tones, so they work in both themes.
+- **Per-site variables** at the end of `custom.css`: `--yv-hero-img`, an optional `--yv-hero-img-sm` and `--yv-hero-pos`.
+- **Removed:** the drawn SVG mark (`hero.image.html`) from the hero front matter of `index.mdx` (EN+FR), since the photo replaces it.
+- **Checked:** at a 1280px viewport in the built-in browser, with a stand-in gradient in place of the photo, the text column ends at 529px. The photo layer starts at 454px but is still nearly transparent there; it is fully opaque only from about 736px. The real photo was not viewed in the browser.
+- **Licence:** the source of the photo was not confirmed. If it is from Unsplash or Pexels, no credit is required, though a credit is courteous.
+
+---
+
 ## v2.03
 
 **New landing page design, and brand colours instead of Starlight's default purple.** User request: "could the landing page … be a bit more appealing". YeahCore got the same treatment the same session (2.1.0).
