@@ -1,4 +1,5 @@
 ---
+kind: proposal
 title: Partage équitable de l'espace
 description: Trouver l'équilibre entre les humains et la nature, avec une proposition de partage des terres entre les personnes et la faune sauvage.
 reading_time: "3 min de lecture"

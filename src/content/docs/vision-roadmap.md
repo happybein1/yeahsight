@@ -1,4 +1,5 @@
 ---
+kind: proposal
 title: Vision & Roadmap
 description: The proposed societal roadmap that comes out of YeahSight's analysis, step by step, with links to the background of each step.
 reading_time: "3 min"

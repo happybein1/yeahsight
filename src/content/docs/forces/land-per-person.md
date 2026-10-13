@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Land per Person
 description: Understanding global land use from a per-person perspective to inform better individual and collective decisions.
 reading_time: "4 min"

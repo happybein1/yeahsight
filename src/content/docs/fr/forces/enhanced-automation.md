@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Automatisation améliorée
 description: L'automatisation s'accélère en rythme, en portée et en intelligence. Voici ce qui est en train d'être automatisé, comment le travail va probablement évoluer au cours de la prochaine décennie, et comment s'adapter.
 ---

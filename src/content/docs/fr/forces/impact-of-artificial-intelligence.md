@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Impact de l'intelligence artificielle
 description: L'IA est une technologie à usage général qui transforme l'économie et la société. Voici ce qu'elle peut faire aujourd'hui, ce que cela signifie sur le plan économique et social, et comment y réfléchir clairement.
 ---

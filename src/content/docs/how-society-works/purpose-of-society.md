@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Purpose of Society
 description: What society is fundamentally for, and how understanding its purpose helps us make better collective decisions.
 reading_time: "4 min"

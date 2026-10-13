@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Impact of Artificial Intelligence
 description: AI is a general-purpose technology reshaping the economy and society. Here's what it can do now, what that means economically and socially, and how to think about it clearly.
 ---

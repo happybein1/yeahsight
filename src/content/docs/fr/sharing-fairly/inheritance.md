@@ -1,4 +1,5 @@
 ---
+kind: proposal
 title: Héritage
 description: Pourquoi l'héritage influence l'équité du développement d'une société, et une proposition pour redistribuer la richesse accumulée plutôt que de la transmettre en privé.
 reading_time: "4 min de lecture"

@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: La vie après l'automatisation
 description: À mesure que l'IA et la robotique prennent en charge une part croissante de l'économie productive, le défi central passe de l'emploi à la question du sens — et du contrôle que les humains conservent.
 ---

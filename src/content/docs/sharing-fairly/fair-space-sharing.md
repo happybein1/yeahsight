@@ -1,4 +1,5 @@
 ---
+kind: proposal
 title: Fair Space Sharing
 description: Finding the balance between humans and nature, with a proposal for how land could be shared between people and wildlife.
 reading_time: "3 min"

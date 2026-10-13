@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Systèmes sociétaux
 description: Un aperçu des principaux systèmes qui organisent les sociétés modernes et comment ils interagissent.
 reading_time: "4 min de lecture"

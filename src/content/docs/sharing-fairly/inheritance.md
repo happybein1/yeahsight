@@ -1,4 +1,5 @@
 ---
+kind: proposal
 title: Inheritance
 description: Why inheritance shapes how fairly a society develops, and a proposal for redistributing accumulated wealth instead of passing it on privately.
 reading_time: "4 min"

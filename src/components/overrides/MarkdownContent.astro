@@ -3,7 +3,24 @@ import type { Props } from '@astrojs/starlight/props';
 
 const isFr = Astro.locals.starlightRoute.lang === 'fr';
 const readLabel = isFr ? 'de lecture' : 'read';
+const kind = (Astro.locals.starlightRoute.entry.data as any).kind as ('explainer' | 'proposal' | undefined);
+const KIND = {
+  explainer: isFr
+    ? { label: 'Explication', hint: 'Faits, fonctionnement et options, sans prise de position.' }
+    : { label: 'Explainer', hint: 'Facts, how it works and the options, without taking a side.' },
+  proposal: isFr
+    ? { label: 'Proposition HappyBein', hint: 'Notre point de vue, ouvert à la discussion.' }
+    : { label: 'HappyBein proposal', hint: 'Our view, open for discussion.' },
+};
+const k = kind ? KIND[kind] : null;
 ---
+
+{k && (
+  <div class={`yv-kind yv-kind-${kind}`}>
+    <span class="yv-kind-badge">{`${kind === 'proposal' ? '💡' : '📘'} ${k.label}`}</span>
+    <span class="yv-kind-hint">{k.hint}</span>
+  </div>
+)}
 
 <div class="yv-reading-time" id="yv-reading-time" aria-label="Reading time">
   <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
@@ -13,6 +30,12 @@ const readLabel = isFr ? 'de lecture' : 'read';
 <div class="sl-markdown-content"><slot /></div>
 
 <style>
+  .yv-kind { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .6rem; margin: -.25rem 0 .6rem; font-size: .8rem; }
+  .yv-kind-badge { font-weight: 700; padding: .18rem .6rem; border-radius: 999px; border: 1px solid; }
+  .yv-kind-explainer .yv-kind-badge { color: var(--sl-color-accent-high); border-color: var(--sl-color-accent); background: var(--sl-color-accent-low); }
+  .yv-kind-proposal .yv-kind-badge { color: #7a4a00; border-color: #f2b84b; background: #fff3d6; }
+  :global([data-theme='dark']) .yv-kind-proposal .yv-kind-badge { color: #ffd98a; border-color: #b8862a; background: #3a2a0a; }
+  .yv-kind-hint { color: var(--sl-color-gray-3); }
   .yv-reading-time {
     display: flex;
     align-items: center;

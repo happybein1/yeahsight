@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Redistribution sociale
 description: Comment les sociétés redistribuent les ressources pour réduire les inégalités et soutenir le bien-être partagé.
 reading_time: "5 min de lecture"

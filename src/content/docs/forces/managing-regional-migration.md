@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Managing Regional Migration
 description: Understanding migration patterns, their causes, and how societies can manage them fairly and effectively.
 reading_time: "5 min"

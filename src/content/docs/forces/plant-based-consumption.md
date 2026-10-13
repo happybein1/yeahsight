@@ -1,4 +1,5 @@
 ---
+kind: proposal
 title: Plant-Based Consumption
 description: A clear look at the ethical, environmental, and nutritional case for plant-based diets.
 reading_time: "3 min"

@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Gestion de la migration régionale
 description: Comprendre les schémas de migration, leurs causes et comment les sociétés peuvent les gérer de manière équitable et efficace.
 reading_time: "5 min de lecture"

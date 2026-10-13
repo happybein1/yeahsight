@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Partage équitable du monde
 description: Comment les ressources mondiales sont distribuées et à quoi pourrait ressembler un partage plus équitable pour les personnes et la planète.
 reading_time: "4 min de lecture"

@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Fair Globe Sharing
 description: How global resources are distributed and what fairer sharing might look like for people and the planet.
 reading_time: "4 min"

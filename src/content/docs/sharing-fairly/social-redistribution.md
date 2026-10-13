@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Social Redistribution
 description: How societies redistribute resources to reduce inequality and support shared well-being.
 reading_time: "5 min"

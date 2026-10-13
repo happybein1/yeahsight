@@ -4,6 +4,34 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.06
+
+**Every article now shows whether it is an explainer or a HappyBein proposal.** This is step 2 of the content review, scoped by the user to "labels only for now". The roadmap lines, YeahCore links and the reordering of section 3 are not done.
+
+**Why:** neutral explainers and HappyBein's own proposals were mixed with nothing to tell them apart, which weakens trust in both. The user considered splitting YeahSight into two (sites or halves) and chose labels instead, to keep each proposal next to the facts it builds on.
+
+**How it works:**
+
+- `src/content.config.ts` extends Starlight's `docsSchema` with an optional front-matter field, `kind: 'explainer' | 'proposal'`.
+- `src/components/overrides/MarkdownContent.astro` renders a pill badge plus a one-line hint above the article, next to the reading time:
+  - **📘 Explainer / Explication**: "Facts, how it works and the options, without taking a side." Accent-blue pill.
+  - **💡 HappyBein proposal / Proposition HappyBein**: "Our view, open for discussion." Amber pill, with a darker variant in the dark theme.
+- Pages without `kind` (home, Foresight Trends) show no badge.
+
+**Tagged, 34 files (EN + FR):**
+
+- **Proposal:** Fair Space Sharing, Universal Allowance, Inheritance, Vision & Roadmap, and Plant-Based Consumption. Plant-Based argues for a choice and feeds roadmap step 2, though it presents pros and cons. It was the one borderline case; to switch it, change `kind` in its two files.
+- **Explainer:** Purpose of Society, Societal Systems, Societal Functions, The Economic System, Land per Person, Clean & Safe Energy, Enhanced Automation, Impact of AI, Life After Automation, Managing Regional Migration, Social Redistribution, Fair Globe Sharing.
+
+**Verification:**
+
+- Built in a scratch copy: no warnings.
+- Listed every built EN page with its badge text: matches the list above. Checked one FR page: *Terres par personne* shows "📘 Explication".
+- A first build dropped the space between emoji and label (JSX whitespace); it is fixed with a template string.
+- Not viewed in a browser.
+
+---
+
 ## v2.05
 
 **Articles regrouped into four sections that read as one story, from understanding to solutions.** This is step 1 of the content-organization review done with the user the same session. The review found three problems:

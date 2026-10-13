@@ -1,4 +1,5 @@
 ---
+kind: proposal
 title: Vision et feuille de route
 description: La feuille de route sociétale proposée à partir des analyses de YeahSight, étape par étape, avec les liens vers le contexte de chaque étape.
 reading_time: "3 min de lecture"

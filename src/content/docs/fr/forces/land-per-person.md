@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Terres par personne
 description: Comprendre l'utilisation mondiale des terres d'un point de vue par personne pour informer de meilleures décisions individuelles et collectives.
 reading_time: "4 min de lecture"

@@ -1,4 +1,5 @@
 ---
+kind: explainer
 title: Societal Functions
 description: The core functions every society must perform — and how well different systems perform them.
 reading_time: "4 min"
