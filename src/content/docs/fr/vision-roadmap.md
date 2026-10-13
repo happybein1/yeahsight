@@ -21,7 +21,7 @@ Faciliter l'éducation et le soutien des objectifs fondamentaux des personnes. C
 ### 2. Passer à une alimentation végétale et rendre de l'espace à la nature
 Passer à une consommation végétale et rendre de l'espace à la nature. Cela améliore le bien-être de la faune et augmente le stockage de CO₂ dans les forêts.
 
-→ Contexte : [Terres de la Terre — Vue par individu](/fr/environment-energy/earth-land-view-per-individual/), [Partage équitable de l'espace](/fr/environment-energy/fair-space-sharing/) et [Consommation végétale](/fr/environment-energy/plant-based-consumption/)
+→ Contexte : [Terres par personne](/fr/forces/land-per-person/), [Partage équitable de l'espace](/fr/sharing-fairly/fair-space-sharing/) et [Consommation végétale](/fr/forces/plant-based-consumption/)
 
 ### 3. Passer aux énergies renouvelables
 Passer aux énergies renouvelables, surtout le solaire, combiné à la géothermie et au bois/biomasse pour stocker l'énergie d'une saison à l'autre. Deux leviers peuvent accélérer cette transition :
@@ -29,22 +29,22 @@ Passer aux énergies renouvelables, surtout le solaire, combiné à la géotherm
 - une taxe sur les combustibles non renouvelables, réinvestie dans le développement des renouvelables
 - l'indexation du prix de l'énergie sur la production solaire, pour que la consommation se déplace naturellement vers les pics solaires et que le stockage saisonnier devienne rentable
 
-→ Contexte : [Énergie propre et sûre](/fr/environment-energy/clean-safe-energy/)
+→ Contexte : [Énergie propre et sûre](/fr/forces/clean-safe-energy/)
 
 ### 4. Garantir un budget pour les besoins de base
 Mettre en place un budget standard et limité dans le temps pour chaque personne et chaque entité, dédié aux besoins de base : alimentation, énergie, logement, éducation, santé et assurances. Il fonctionne comme un revenu universel, mais garantit son usage pour l'objectif prévu.
 
-→ Contexte : [Allocation universelle](/fr/economy-equity/universal-allowance/)
+→ Contexte : [Allocation universelle](/fr/sharing-fairly/universal-allowance/)
 
 ### 5. Supprimer progressivement l'héritage financier et les donations
 Supprimer l'héritage financier et les donations importantes, sources d'inégalités et d'insécurité, et redistribuer équitablement les biens accumulés par le système public.
 
-→ Contexte : [Héritage](/fr/economy-equity/inheritance/)
+→ Contexte : [Héritage](/fr/sharing-fairly/inheritance/)
 
 ### 6. N'utiliser que les ressources nécessaires
 Réduire les ressources utilisées par chacun à un niveau qui garantit encore assez de confort et de productivité. Des infrastructures plus efficaces et l'automatisation des tâches le rendent possible.
 
-→ Contexte : [Automatisation améliorée](/fr/technology-automation/enhanced-automation/) et [La vie après l'automatisation](/fr/technology-automation/life-after-automation/)
+→ Contexte : [Automatisation améliorée](/fr/forces/enhanced-automation/) et [La vie après l'automatisation](/fr/forces/life-after-automation/)
 
 ## Pourquoi c'est important
 

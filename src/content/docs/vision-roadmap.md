@@ -21,7 +21,7 @@ Facilitate the education and support of people's generic goals. This speeds up p
 ### 2. Shift to plant-based food and give space back to nature
 Transition to plant-based consumption and release space to nature. This improves wildlife well-being and increases CO₂ storage in forests.
 
-→ Background: [Earth Land — View per Individual](/environment-energy/earth-land-view-per-individual/), [Fair Space Sharing](/environment-energy/fair-space-sharing/) and [Plant-Based Consumption](/environment-energy/plant-based-consumption/)
+→ Background: [Land per Person](/forces/land-per-person/), [Fair Space Sharing](/sharing-fairly/fair-space-sharing/) and [Plant-Based Consumption](/forces/plant-based-consumption/)
 
 ### 3. Move to renewable energy
 Transition to renewable energy, mostly solar, combined with geothermal and wood/biomass for storing energy between seasons. Two levers can speed this up:
@@ -29,22 +29,22 @@ Transition to renewable energy, mostly solar, combined with geothermal and wood/
 - a tax on non-renewable fuels, redirected to the development of renewables
 - indexing the energy price to solar output, so that use naturally shifts to when solar energy is at its peak, and seasonal storage becomes worth developing
 
-→ Background: [Clean & Safe Energy](/environment-energy/clean-safe-energy/)
+→ Background: [Clean & Safe Energy](/forces/clean-safe-energy/)
 
 ### 4. Guarantee a basic-needs budget
 Set up a standard, time-limited budget for every individual and entity, dedicated to basic needs: food, energy, housing, education, health and insurance. It works like a universal income, but ensures it is used for its intended purpose.
 
-→ Background: [Universal Allowance](/economy-equity/universal-allowance/)
+→ Background: [Universal Allowance](/sharing-fairly/universal-allowance/)
 
 ### 5. Phase out financial inheritance and donations
 Remove financial inheritance and large donations, which are sources of inequity and insecurity, and redistribute accumulated assets fairly through the public system.
 
-→ Background: [Inheritance](/economy-equity/inheritance/)
+→ Background: [Inheritance](/sharing-fairly/inheritance/)
 
 ### 6. Use only the resources we need
 Reduce the resources each person uses to a level that still gives enough comfort and productivity. More efficient infrastructure and the automation of tasks make this possible.
 
-→ Background: [Enhanced Automation](/technology-automation/enhanced-automation/) and [Life After Automation](/technology-automation/life-after-automation/)
+→ Background: [Enhanced Automation](/forces/enhanced-automation/) and [Life After Automation](/forces/life-after-automation/)
 
 ## Why It Matters
 

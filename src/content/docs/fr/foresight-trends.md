@@ -17,31 +17,38 @@ Comprendre l'avenir commence par comprendre les tendances déjà en mouvement. L
 
 La prospective est la pratique consistant à scanner systématiquement les signaux de changement — dans la technologie, la société, l'environnement et l'économie — et à réfléchir à leurs implications avant qu'ils n'arrivent pleinement.
 
-## Domaines de tendances clés couverts sur YeahSight
+## Comment YeahSight est organisé
 
-### 🌱 Environnement et énergie
-- [Terres de la Terre — Vue par individu](/fr/environment-energy/earth-land-view-per-individual)
-- [Partage équitable de l'espace](/fr/environment-energy/fair-space-sharing)
-- [Énergie propre et sûre](/fr/environment-energy/clean-safe-energy)
-- [Consommation végétale](/fr/environment-energy/plant-based-consumption)
+YeahSight va de la compréhension aux solutions, en quatre étapes :
 
-### ⚖️ Économie et équité
-- [Allocation universelle](/fr/economy-equity/universal-allowance)
-- [Le système économique](/fr/economy-equity/the-economical-system)
-- [Partage équitable du monde](/fr/economy-equity/fair-globe-sharing)
-- [Héritage](/fr/economy-equity/inheritance)
+### 1. Comment fonctionne la société
+À quoi servent les sociétés, comment elles s'organisent, et la place de l'économie.
+- [Objectif de la société](/fr/how-society-works/purpose-of-society)
+- [Systèmes sociétaux](/fr/how-society-works/societal-systems)
+- [Fonctions sociétales](/fr/how-society-works/societal-functions)
+- [Le système économique](/fr/how-society-works/economic-system)
 
-### 🤖 Technologie et automatisation
-- [Automatisation améliorée](/fr/technology-automation/enhanced-automation)
-- [Impact de l'intelligence artificielle](/fr/technology-automation/impact-of-artificial-intelligence)
-- [La vie après l'automatisation](/fr/technology-automation/life-after-automation)
+### 2. Les forces qui façonnent l'avenir
+Terres, énergie, alimentation, technologie et migration : les grandes forces déjà en mouvement.
+- [Terres par personne](/fr/forces/land-per-person)
+- [Énergie propre et sûre](/fr/forces/clean-safe-energy)
+- [Consommation végétale](/fr/forces/plant-based-consumption)
+- [Automatisation améliorée](/fr/forces/enhanced-automation)
+- [Impact de l'intelligence artificielle](/fr/forces/impact-of-artificial-intelligence)
+- [La vie après l'automatisation](/fr/forces/life-after-automation)
+- [Gestion de la migration régionale](/fr/forces/managing-regional-migration)
 
-### 🌐 Organisation sociale
-- [Objectif de la société](/fr/social-organization/purpose-of-society)
-- [Systèmes sociétaux](/fr/social-organization/societal-systems)
-- [Fonctions sociétales](/fr/social-organization/societal-functions)
-- [Redistribution sociale](/fr/social-organization/social-redistribution)
-- [Gestion de la migration régionale](/fr/social-organization/managing-regional-migration)
+### 3. Partager équitablement
+Comment les ressources pourraient être partagées plus équitablement, entre les personnes et avec la nature.
+- [Partage équitable du monde](/fr/sharing-fairly/fair-globe-sharing)
+- [Partage équitable de l'espace](/fr/sharing-fairly/fair-space-sharing)
+- [Redistribution sociale](/fr/sharing-fairly/social-redistribution)
+- [Allocation universelle](/fr/sharing-fairly/universal-allowance)
+- [Héritage](/fr/sharing-fairly/inheritance)
+
+### 4. Où nous allons
+La direction proposée, en six étapes.
+- [Vision et feuille de route](/fr/vision-roadmap/)
 
 ## Où cela mène
 

@@ -1,24 +1,24 @@
-# Cloudflare Pages redirects — YeahSight v2.00
+# Cloudflare Pages redirects — YeahSight (v2.00, restructured in v2.05)
 # Old URLs from the WordPress site and the v1.x static site → new pages.
 
 # Old /articles/ pages (YeahSight v1.x static site)
 /articles/                        /                                                   301
 /articles/vision-roadmap/         /vision-roadmap/                                    301
-/articles/fair-space-sharing/     /environment-energy/fair-space-sharing/             301
-/articles/earth-land/             /environment-energy/earth-land-view-per-individual/ 301
-/articles/clean-safe-energy/      /environment-energy/clean-safe-energy/              301
-/articles/plant-based-consumption/ /environment-energy/plant-based-consumption/       301
-/articles/fair-globe-sharing/     /economy-equity/fair-globe-sharing/                 301
-/articles/the-economical-system/  /economy-equity/the-economical-system/              301
-/articles/universal-allowance/    /economy-equity/universal-allowance/                301
+/articles/fair-space-sharing/     /sharing-fairly/fair-space-sharing/             301
+/articles/earth-land/             /forces/land-per-person/ 301
+/articles/clean-safe-energy/      /forces/clean-safe-energy/              301
+/articles/plant-based-consumption/ /forces/plant-based-consumption/       301
+/articles/fair-globe-sharing/     /sharing-fairly/fair-globe-sharing/                 301
+/articles/the-economical-system/  /how-society-works/economic-system/              301
+/articles/universal-allowance/    /sharing-fairly/universal-allowance/                301
 /articles/mastering-finance-basics/ https://yeahcore.happybein.com/personal-effectiveness/mastering-finance-basics/ 301
-/articles/enhanced-automation/    /technology-automation/enhanced-automation/         301
-/articles/impact-of-ai/           /technology-automation/impact-of-artificial-intelligence/ 301
-/articles/purpose-of-society/     /social-organization/purpose-of-society/            301
-/articles/societal-systems/       /social-organization/societal-systems/              301
-/articles/societal-functions/     /social-organization/societal-functions/            301
-/articles/social-redistribution/  /social-organization/social-redistribution/         301
-/articles/managing-migration/     /social-organization/managing-regional-migration/   301
+/articles/enhanced-automation/    /forces/enhanced-automation/         301
+/articles/impact-of-ai/           /forces/impact-of-artificial-intelligence/ 301
+/articles/purpose-of-society/     /how-society-works/purpose-of-society/            301
+/articles/societal-systems/       /how-society-works/societal-systems/              301
+/articles/societal-functions/     /how-society-works/societal-functions/            301
+/articles/social-redistribution/  /sharing-fairly/social-redistribution/         301
+/articles/managing-migration/     /forces/managing-regional-migration/   301
 /articles/time-spent/             https://yeahcore.happybein.com/personal-effectiveness/time-spent-identification/ 301
 /articles/project-solutions/      https://happybein.com/initiatives                   301
 /articles/history-team/           https://happybein.com/manifesto                     301
@@ -27,10 +27,10 @@
 
 # Old WordPress URLs
 /uptools/proposed-roadmap/        /vision-roadmap/                                    301
-/upnext/fair-globe-share/         /economy-equity/fair-globe-sharing/                 301
-/upnext/clean-and-safe-energy/    /environment-energy/clean-safe-energy/              301
-/upnext/plant-based-resources/    /environment-energy/plant-based-consumption/        301
-/upnext/enhanced-automation/      /technology-automation/enhanced-automation/         301
+/upnext/fair-globe-share/         /sharing-fairly/fair-globe-sharing/                 301
+/upnext/clean-and-safe-energy/    /forces/clean-safe-energy/              301
+/upnext/plant-based-resources/    /forces/plant-based-consumption/        301
+/upnext/enhanced-automation/      /forces/enhanced-automation/         301
 /about/                           https://happybein.com/                              301
 /about/project-and-solutions/     https://happybein.com/initiatives                   301
 /about/history-team/              https://happybein.com/manifesto                     301
@@ -40,8 +40,75 @@
 /disclaimer/                      https://happybein.com/privacy                       301
 
 # Same articles under core's old /applications/ prefix (in case links point here directly)
-/applications/foresight-trends/   /foresight-trends/                                  301
+/applications/foresight-trends/   /foresight-trends/   301
+/fr/applications/foresight-trends/   /fr/foresight-trends/   301
 /applications/economy-equity/mastering-finance-basics/  https://yeahcore.happybein.com/personal-effectiveness/mastering-finance-basics/ 301
 /applications/social-organization/time-spent-identification/  https://yeahcore.happybein.com/personal-effectiveness/time-spent-identification/ 301
-/applications/*                   /:splat                                             301
-/fr/applications/*                /fr/:splat                                          301
+/applications/social-organization/purpose-of-society/   /how-society-works/purpose-of-society/   301
+/fr/applications/social-organization/purpose-of-society/   /fr/how-society-works/purpose-of-society/   301
+/applications/social-organization/societal-systems/   /how-society-works/societal-systems/   301
+/fr/applications/social-organization/societal-systems/   /fr/how-society-works/societal-systems/   301
+/applications/social-organization/societal-functions/   /how-society-works/societal-functions/   301
+/fr/applications/social-organization/societal-functions/   /fr/how-society-works/societal-functions/   301
+/applications/economy-equity/the-economical-system/   /how-society-works/economic-system/   301
+/fr/applications/economy-equity/the-economical-system/   /fr/how-society-works/economic-system/   301
+/applications/environment-energy/earth-land-view-per-individual/   /forces/land-per-person/   301
+/fr/applications/environment-energy/earth-land-view-per-individual/   /fr/forces/land-per-person/   301
+/applications/environment-energy/clean-safe-energy/   /forces/clean-safe-energy/   301
+/fr/applications/environment-energy/clean-safe-energy/   /fr/forces/clean-safe-energy/   301
+/applications/environment-energy/plant-based-consumption/   /forces/plant-based-consumption/   301
+/fr/applications/environment-energy/plant-based-consumption/   /fr/forces/plant-based-consumption/   301
+/applications/technology-automation/enhanced-automation/   /forces/enhanced-automation/   301
+/fr/applications/technology-automation/enhanced-automation/   /fr/forces/enhanced-automation/   301
+/applications/technology-automation/impact-of-artificial-intelligence/   /forces/impact-of-artificial-intelligence/   301
+/fr/applications/technology-automation/impact-of-artificial-intelligence/   /fr/forces/impact-of-artificial-intelligence/   301
+/applications/technology-automation/life-after-automation/   /forces/life-after-automation/   301
+/fr/applications/technology-automation/life-after-automation/   /fr/forces/life-after-automation/   301
+/applications/social-organization/managing-regional-migration/   /forces/managing-regional-migration/   301
+/fr/applications/social-organization/managing-regional-migration/   /fr/forces/managing-regional-migration/   301
+/applications/economy-equity/fair-globe-sharing/   /sharing-fairly/fair-globe-sharing/   301
+/fr/applications/economy-equity/fair-globe-sharing/   /fr/sharing-fairly/fair-globe-sharing/   301
+/applications/environment-energy/fair-space-sharing/   /sharing-fairly/fair-space-sharing/   301
+/fr/applications/environment-energy/fair-space-sharing/   /fr/sharing-fairly/fair-space-sharing/   301
+/applications/social-organization/social-redistribution/   /sharing-fairly/social-redistribution/   301
+/fr/applications/social-organization/social-redistribution/   /fr/sharing-fairly/social-redistribution/   301
+/applications/economy-equity/universal-allowance/   /sharing-fairly/universal-allowance/   301
+/fr/applications/economy-equity/universal-allowance/   /fr/sharing-fairly/universal-allowance/   301
+/applications/economy-equity/inheritance/   /sharing-fairly/inheritance/   301
+/fr/applications/economy-equity/inheritance/   /fr/sharing-fairly/inheritance/   301
+
+# v2.05: articles regrouped into four sections (old v2.00–v2.04 paths)
+/social-organization/purpose-of-society/   /how-society-works/purpose-of-society/   301
+/fr/social-organization/purpose-of-society/   /fr/how-society-works/purpose-of-society/   301
+/social-organization/societal-systems/   /how-society-works/societal-systems/   301
+/fr/social-organization/societal-systems/   /fr/how-society-works/societal-systems/   301
+/social-organization/societal-functions/   /how-society-works/societal-functions/   301
+/fr/social-organization/societal-functions/   /fr/how-society-works/societal-functions/   301
+/economy-equity/the-economical-system/   /how-society-works/economic-system/   301
+/fr/economy-equity/the-economical-system/   /fr/how-society-works/economic-system/   301
+/environment-energy/earth-land-view-per-individual/   /forces/land-per-person/   301
+/fr/environment-energy/earth-land-view-per-individual/   /fr/forces/land-per-person/   301
+/environment-energy/clean-safe-energy/   /forces/clean-safe-energy/   301
+/fr/environment-energy/clean-safe-energy/   /fr/forces/clean-safe-energy/   301
+/environment-energy/plant-based-consumption/   /forces/plant-based-consumption/   301
+/fr/environment-energy/plant-based-consumption/   /fr/forces/plant-based-consumption/   301
+/technology-automation/enhanced-automation/   /forces/enhanced-automation/   301
+/fr/technology-automation/enhanced-automation/   /fr/forces/enhanced-automation/   301
+/technology-automation/impact-of-artificial-intelligence/   /forces/impact-of-artificial-intelligence/   301
+/fr/technology-automation/impact-of-artificial-intelligence/   /fr/forces/impact-of-artificial-intelligence/   301
+/technology-automation/life-after-automation/   /forces/life-after-automation/   301
+/fr/technology-automation/life-after-automation/   /fr/forces/life-after-automation/   301
+/social-organization/managing-regional-migration/   /forces/managing-regional-migration/   301
+/fr/social-organization/managing-regional-migration/   /fr/forces/managing-regional-migration/   301
+/economy-equity/fair-globe-sharing/   /sharing-fairly/fair-globe-sharing/   301
+/fr/economy-equity/fair-globe-sharing/   /fr/sharing-fairly/fair-globe-sharing/   301
+/environment-energy/fair-space-sharing/   /sharing-fairly/fair-space-sharing/   301
+/fr/environment-energy/fair-space-sharing/   /fr/sharing-fairly/fair-space-sharing/   301
+/social-organization/social-redistribution/   /sharing-fairly/social-redistribution/   301
+/fr/social-organization/social-redistribution/   /fr/sharing-fairly/social-redistribution/   301
+/economy-equity/universal-allowance/   /sharing-fairly/universal-allowance/   301
+/fr/economy-equity/universal-allowance/   /fr/sharing-fairly/universal-allowance/   301
+/economy-equity/inheritance/   /sharing-fairly/inheritance/   301
+/fr/economy-equity/inheritance/   /fr/sharing-fairly/inheritance/   301
+/applications/*      /      301
+/fr/applications/*   /fr/   301

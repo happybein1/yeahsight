@@ -9,31 +9,31 @@
 
 ## Environment & Energy
 
-- [Earth Land — View per Individual](https://yeahsight.happybein.com/environment-energy/earth-land-view-per-individual/): global land use broken down per person
-- [Fair Space Sharing](https://yeahsight.happybein.com/environment-energy/fair-space-sharing/): a proposal for sharing land between humans and wildlife
-- [Clean & Safe Energy](https://yeahsight.happybein.com/environment-energy/clean-safe-energy/): energy sources compared, and the path to renewables
-- [Plant-Based Consumption](https://yeahsight.happybein.com/environment-energy/plant-based-consumption/): how diet connects to land, climate and animal welfare
+- [Land per Person](https://yeahsight.happybein.com/forces/land-per-person/): global land use broken down per person
+- [Fair Space Sharing](https://yeahsight.happybein.com/sharing-fairly/fair-space-sharing/): a proposal for sharing land between humans and wildlife
+- [Clean & Safe Energy](https://yeahsight.happybein.com/forces/clean-safe-energy/): energy sources compared, and the path to renewables
+- [Plant-Based Consumption](https://yeahsight.happybein.com/forces/plant-based-consumption/): how diet connects to land, climate and animal welfare
 
 ## Economy & Equity
 
-- [Universal Allowance](https://yeahsight.happybein.com/economy-equity/universal-allowance/): a guaranteed, purpose-bound budget for basic needs
-- [The Economical System](https://yeahsight.happybein.com/economy-equity/the-economical-system/): how economic systems work and shape outcomes
-- [Fair Globe Sharing](https://yeahsight.happybein.com/economy-equity/fair-globe-sharing/): what a fair distribution of the world's resources could look like
-- [Inheritance](https://yeahsight.happybein.com/economy-equity/inheritance/): how inheritance carries inequity forward, and a proposal for redistribution
+- [Universal Allowance](https://yeahsight.happybein.com/sharing-fairly/universal-allowance/): a guaranteed, purpose-bound budget for basic needs
+- [The Economic System](https://yeahsight.happybein.com/how-society-works/economic-system/): how economic systems work and shape outcomes
+- [Fair Globe Sharing](https://yeahsight.happybein.com/sharing-fairly/fair-globe-sharing/): what a fair distribution of the world's resources could look like
+- [Inheritance](https://yeahsight.happybein.com/sharing-fairly/inheritance/): how inheritance carries inequity forward, and a proposal for redistribution
 
 ## Technology & Automation
 
-- [Enhanced Automation](https://yeahsight.happybein.com/technology-automation/enhanced-automation/)
-- [Impact of Artificial Intelligence](https://yeahsight.happybein.com/technology-automation/impact-of-artificial-intelligence/)
-- [Life After Automation](https://yeahsight.happybein.com/technology-automation/life-after-automation/)
+- [Enhanced Automation](https://yeahsight.happybein.com/forces/enhanced-automation/)
+- [Impact of Artificial Intelligence](https://yeahsight.happybein.com/forces/impact-of-artificial-intelligence/)
+- [Life After Automation](https://yeahsight.happybein.com/forces/life-after-automation/)
 
 ## Social Organization
 
-- [Purpose of Society](https://yeahsight.happybein.com/social-organization/purpose-of-society/)
-- [Societal Systems](https://yeahsight.happybein.com/social-organization/societal-systems/)
-- [Societal Functions](https://yeahsight.happybein.com/social-organization/societal-functions/)
-- [Social Redistribution](https://yeahsight.happybein.com/social-organization/social-redistribution/)
-- [Managing Regional Migration](https://yeahsight.happybein.com/social-organization/managing-regional-migration/)
+- [Purpose of Society](https://yeahsight.happybein.com/how-society-works/purpose-of-society/)
+- [Societal Systems](https://yeahsight.happybein.com/how-society-works/societal-systems/)
+- [Societal Functions](https://yeahsight.happybein.com/how-society-works/societal-functions/)
+- [Social Redistribution](https://yeahsight.happybein.com/sharing-fairly/social-redistribution/)
+- [Managing Regional Migration](https://yeahsight.happybein.com/forces/managing-regional-migration/)
 
 ## Related
 

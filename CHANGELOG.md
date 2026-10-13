@@ -4,6 +4,74 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.05
+
+**Articles regrouped into four sections that read as one story, from understanding to solutions.** This is step 1 of the content-organization review done with the user the same session. The review found three problems:
+
+- **The foundation was buried.** The "how society works" pages (Purpose of Society, Societal Systems, Societal Functions) sat last, under Social Organization.
+- **Social Organization mixed frameworks with issue pages.**
+- **The fairness theme was split.** Fair Globe Sharing, Universal Allowance and Inheritance sat under Economy & Equity, while Fair Space Sharing sat under Environment & Energy.
+
+**New structure** (sidebar groups, numbered; EN/FR labels):
+
+1. **How society works / Comment fonctionne la société:** Purpose of Society, Societal Systems, Societal Functions, The Economic System.
+2. **Forces shaping the future / Les forces qui façonnent l'avenir:** Land per Person, Clean & Safe Energy, Plant-Based Consumption, Enhanced Automation, Impact of AI, Life After Automation, Managing Regional Migration.
+3. **Sharing fairly / Partager équitablement:** Fair Globe Sharing (between people), Fair Space Sharing (with nature), Social Redistribution, Universal Allowance, Inheritance.
+4. **Vision & Roadmap.**
+
+Foresight Trends stays at the top. It will become a "How to read YeahSight" or real "Key trends" page in a later step.
+
+**Files moved into three new folders (EN and FR) so that URLs match the sections:**
+
+| Old path | New path |
+|---|---|
+| `/social-organization/purpose-of-society/` | `/how-society-works/purpose-of-society/` |
+| `/social-organization/societal-systems/` | `/how-society-works/societal-systems/` |
+| `/social-organization/societal-functions/` | `/how-society-works/societal-functions/` |
+| `/economy-equity/the-economical-system/` | `/how-society-works/economic-system/` |
+| `/environment-energy/earth-land-view-per-individual/` | `/forces/land-per-person/` |
+| `/environment-energy/clean-safe-energy/` | `/forces/clean-safe-energy/` |
+| `/environment-energy/plant-based-consumption/` | `/forces/plant-based-consumption/` |
+| `/technology-automation/enhanced-automation/` | `/forces/enhanced-automation/` |
+| `/technology-automation/impact-of-artificial-intelligence/` | `/forces/impact-of-artificial-intelligence/` |
+| `/technology-automation/life-after-automation/` | `/forces/life-after-automation/` |
+| `/social-organization/managing-regional-migration/` | `/forces/managing-regional-migration/` |
+| `/economy-equity/fair-globe-sharing/` | `/sharing-fairly/fair-globe-sharing/` |
+| `/environment-energy/fair-space-sharing/` | `/sharing-fairly/fair-space-sharing/` |
+| `/social-organization/social-redistribution/` | `/sharing-fairly/social-redistribution/` |
+| `/economy-equity/universal-allowance/` | `/sharing-fairly/universal-allowance/` |
+| `/economy-equity/inheritance/` | `/sharing-fairly/inheritance/` |
+
+**Renamed:**
+
+- *The Economical System* → **The Economic System**. "Economical" means thrifty. The slug changed too, `the-economical-system` → `economic-system`.
+- *Earth Land — View per Individual* → **Land per Person** (French: *Terres par personne*).
+
+Titles, sidebar labels and every link text that used the old names were updated, in YeahSight and in YeahCore.
+
+**Links:**
+
+- Every internal link in the articles, the home page, Foresight Trends, Vision & Roadmap and `llms.txt` was rewritten to the new paths, EN and FR.
+- On the **home page**, "Four domains" is now **"From understanding to solutions, in four steps"**: three section cards with chips plus a fourth card for the roadmap. The bottom chain section is renamed "Part of a chain" to avoid a duplicate heading.
+- In **Foresight Trends**, "Key trend areas" is now **"How YeahSight is organized"**, with the four numbered sections and their articles.
+
+**`public/_redirects`:**
+
+- Each old path (EN and FR) now 301s to its new path.
+- The v1.x `/articles/…` and WordPress rules point straight at the new paths, with no extra hop.
+- `/applications/<old>/` rules are now explicit per article, with `/applications/*` → `/` as the last fallback.
+
+YeahCore's links into YeahSight were updated the same session (core 2.2.2). Core's own `/applications/* → yeahsight/:splat` rule still lands on old paths, which then redirect here: two hops, still correct.
+
+**Verification:**
+
+- Built in a scratch copy: 39 pages, no warnings.
+- Scanned every built page for internal links: none broken, apart from Starlight's own `/404/` language link on the 404 page.
+- Checked every local destination in `_redirects` against the built pages: all exist.
+- Checked every YeahSight URL used in YeahCore's source against YeahSight's built pages: all exist.
+
+---
+
 ## v2.04
 
 **Landing hero now shows the mountain-view photo the user supplied** (a person on a rock looking over a sea of clouds towards a peak). It fits "where society is heading". User request.
