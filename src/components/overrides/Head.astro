@@ -2,7 +2,19 @@
 import type { Props } from '@astrojs/starlight/props';
 import Default from '@astrojs/starlight/components/Head.astro';
 
-const { entry, lang } = Astro.props;
+// Starlight 0.32+ passes route data via Astro.locals, not props.
+const route = Astro.locals.starlightRoute;
+const { entry, lang } = route;
+
+// Drop Starlight's own title/description/canonical/OG/Twitter tags; this file sets them below.
+// Without this, every page carried two sets and the site-wide defaults won over the article's own.
+route.head = route.head.filter((t) => {
+  const a = t.attrs || {};
+  if (t.tag === 'title') return false;
+  if (t.tag === 'link' && a.rel === 'canonical') return false;
+  if (t.tag === 'meta' && (a.name === 'description' || String(a.property || '').startsWith('og:') || String(a.name || '').startsWith('twitter:'))) return false;
+  return true;
+});
 
 const siteUrl = 'https://yeahsight.happybein.com';
 const currentPath = Astro.url.pathname;

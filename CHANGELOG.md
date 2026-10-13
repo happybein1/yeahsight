@@ -4,6 +4,33 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.01
+
+**Every page now has its own title and description, and French pages show French labels.** Found on the live site right after v2.00 went up: the article page `/vision-roadmap/` had the `<title>` "YeahSight | YeahSight by HappyBein" and the site-wide default description instead of its own.
+
+**Root cause** (inherited from core's `Head.astro`, `Footer.astro` and `MarkdownContent.astro`): Starlight 0.32+ no longer passes route data as component props. It lives in `Astro.locals.starlightRoute`. The overrides still read `Astro.props.entry` / `Astro.props.lang`, which are now always `undefined`. As a result:
+
+- every page fell back to the default title and description
+- `og:locale` was always `en_US`
+- the footer ("Contact us", "Cookie settings") and the reading-time label were English on French pages
+
+On top of that, Starlight's own `<Default>` head still emitted its correct `<title>`, description, canonical and OG tags. So each page carried **two** titles and two descriptions, conflicting.
+
+**Fix:**
+
+- All three overrides now read from `Astro.locals.starlightRoute`.
+- `Head.astro` removes Starlight's own title, description, canonical, `og:*` and `twitter:*` entries from `route.head` before rendering `<Default>`, so only one set is emitted.
+
+**Verification:** rebuilt in the scratch copy (no warnings) and checked the built HTML:
+
+- `/vision-roadmap/` → one `<title>` "Vision & Roadmap | YeahSight by HappyBein", its own description and canonical, `og:locale` `en_US`.
+- `/fr/vision-roadmap/` → "Vision et feuille de route | YeahSight par HappyBein", its French description, `og:locale` `fr_FR`, footer "Nous contacter".
+- Home → "YeahSight — Understand society and where it is heading".
+
+The same bug exists in core (`yeahvibe-astro`) and is fixed there in the same session.
+
+---
+
 ## v2.00
 
 **YeahSight rebuilt as its own site, for `yeahsight.happybein.com`.** Major bump: new site structure, new URLs and a new home. Part of the content split agreed with the user. HappyBein holds the "understanding" side: YeahCore is the base (human needs, decision foundation) and YeahSight is the societal view. YeahVibe holds the "solutions" side (tools). yeahsight.com is to redirect here.

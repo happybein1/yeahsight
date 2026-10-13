@@ -1,7 +1,7 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
 
-const isFr = Astro.props.lang === 'fr';
+const isFr = Astro.locals.starlightRoute.lang === 'fr';
 const readLabel = isFr ? 'de lecture' : 'read';
 ---
 

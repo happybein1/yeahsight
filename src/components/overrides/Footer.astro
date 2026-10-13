@@ -2,7 +2,7 @@
 import type { Props } from '@astrojs/starlight/props';
 import { SITE_VERSION, SITE_VERSION_DATE, SITE_VERSION_NOTES } from '../../version';
 
-const isFr = Astro.props.lang === 'fr';
+const isFr = Astro.locals.starlightRoute.lang === 'fr';
 const label = isFr ? 'Version' : 'Version';
 const builtWith = isFr ? 'Construit avec' : 'Built with';
 const contactLabel = isFr ? 'Nous contacter' : 'Contact us';
