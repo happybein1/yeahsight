@@ -4,6 +4,35 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.03
+
+**New landing page design, and brand colours instead of Starlight's default purple.** User request: "could the landing page … be a bit more appealing". YeahCore got the same treatment the same session (2.1.0).
+
+**`src/content/docs/index.mdx` (EN+FR), rewritten.** It is still a Starlight splash page.
+
+- **Hero:**
+  - The title is the two-colour wordmark ("Yeah" in blue, "Sight" in green).
+  - The tagline has a smaller sub-line.
+  - The image is a large inline-SVG eye mark with a gradient and dashed orbit rings. It floats gently, and the motion turns off with `prefers-reduced-motion`.
+  - Two buttons: the primary has a blue→green gradient; "Vision & Roadmap" is now a minimal button.
+- **"Four domains":** four cards, each with a coloured top bar, an icon, a one-line description and chips linking to every article in that domain. This replaces Starlight `Card`s with bullet lists.
+- **"New on YeahSight":** three clickable cards with a "New" badge, for Fair Space Sharing, Inheritance and Vision & Roadmap.
+- **"From understanding to solutions":** a three-step strip, YeahCore → **YeahSight** → YeahVibe. The current site is highlighted. The strip stacks vertically under 40rem. A "A HappyBein initiative · happybein.com" line sits under it.
+
+**`src/styles/custom.css`** gains a shared block, identical in YeahCore:
+
+- Starlight accent variables set to the brand blue for dark and light themes, so links, buttons and focus rings everywhere lose the default purple.
+- Hero glow background, wordmark colours, centred section titles on splash pages.
+- Card, chip and chain styles.
+- The reading-time line is hidden on splash pages, where it said "1 min read".
+
+**Verification:**
+
+- Built in a scratch copy: no warnings.
+- Previewed in the built-in browser by injecting the built page's `<main>` and the new CSS into the live page. Desktop: hero, the four domain cards and the "New" row look as intended. Mobile (375px): cards stack in one column and chips wrap.
+
+---
+
 ## v2.02
 
 **Links to YeahCore now point to `yeahcore.happybein.com`.** Core was renamed YeahCore and moved off `core.yeahvibe.com` the same session (yeahvibe-astro 2.0.0). Updated:

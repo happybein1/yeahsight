@@ -3,8 +3,10 @@ title: YeahSight
 description: Comprendre comment fonctionne la société et où elle va. Des analyses claires et structurées sur l'environnement, l'économie, la technologie et l'organisation sociale, par HappyBein.
 template: splash
 hero:
-  title: YeahSight
-  tagline: Comment fonctionne la société, et où elle va. Une compréhension structurée des forces qui façonnent notre monde, pour choisir ensemble de meilleures solutions.
+  title: '<span class="w-yeah">Yeah</span><span class="w-x">Sight</span>'
+  tagline: 'Comment fonctionne la société, et où elle va.<span class="yv-sub">Une compréhension structurée des forces qui façonnent notre monde, pour choisir ensemble de meilleures solutions.</span>'
+  image:
+    html: '<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1aa3e0"/><stop offset="1" stop-color="#46e8c1"/></linearGradient></defs><circle cx="120" cy="120" r="112" fill="none" stroke="url(#g1)" stroke-width="2" opacity=".35"/><circle cx="120" cy="120" r="92" fill="none" stroke="url(#g1)" stroke-width="1.5" stroke-dasharray="4 8" opacity=".45"/><path d="M28 120 Q120 30 212 120 Q120 210 28 120 Z" fill="none" stroke="#1aa3e0" stroke-width="12" stroke-linejoin="round"/><circle cx="120" cy="120" r="40" fill="url(#g1)"/><circle cx="120" cy="120" r="16" fill="#0b2a3d"/><circle cx="130" cy="110" r="6" fill="#ffffff" opacity=".85"/></svg>'
   actions:
     - text: Commencer par les tendances
       link: /fr/foresight-trends/
@@ -13,55 +15,21 @@ hero:
     - text: Vision et feuille de route
       link: /fr/vision-roadmap/
       icon: open-book
-      variant: secondary
+      variant: minimal
 ---
-
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 ## Quatre domaines
 
-<CardGrid>
-  <Card title="🌱 Environnement et énergie">
-    Comment nous utilisons les terres et l'énergie, et comment partager équitablement la planète avec la nature.
+Chaque article se lit en quelques minutes, en français et en anglais.
 
-    - [Terres de la Terre — Vue par individu](/fr/environment-energy/earth-land-view-per-individual/)
-    - [Partage équitable de l'espace](/fr/environment-energy/fair-space-sharing/)
-    - [Énergie propre et sûre](/fr/environment-energy/clean-safe-energy/)
-    - [Consommation végétale](/fr/environment-energy/plant-based-consumption/)
-  </Card>
-  <Card title="⚖️ Économie et équité">
-    Comment la richesse est créée et répartie, et à quoi pourraient ressembler des systèmes plus justes.
+<div class="yv-grid"><div class="yv-card c-env"><div class="yv-ic">🌱</div><div class="yv-t">Environnement et énergie</div><div class="yv-d">Comment nous utilisons les terres et l'énergie, et comment partager équitablement la planète avec la nature.</div><div class="yv-chips"><a href="/fr/environment-energy/earth-land-view-per-individual/">Terres par personne</a><a href="/fr/environment-energy/fair-space-sharing/">Partage de l'espace</a><a href="/fr/environment-energy/clean-safe-energy/">Énergie propre</a><a href="/fr/environment-energy/plant-based-consumption/">Alimentation végétale</a></div></div><div class="yv-card c-eco"><div class="yv-ic">⚖️</div><div class="yv-t">Économie et équité</div><div class="yv-d">Comment la richesse est créée et partagée, et à quoi pourraient ressembler des systèmes plus justes.</div><div class="yv-chips"><a href="/fr/economy-equity/universal-allowance/">Allocation universelle</a><a href="/fr/economy-equity/the-economical-system/">Le système économique</a><a href="/fr/economy-equity/fair-globe-sharing/">Partage du monde</a><a href="/fr/economy-equity/inheritance/">Héritage</a></div></div><div class="yv-card c-tech"><div class="yv-ic">🤖</div><div class="yv-t">Technologie et automatisation</div><div class="yv-d">Comment l'automatisation et l'IA transforment le travail, la productivité et le potentiel humain.</div><div class="yv-chips"><a href="/fr/technology-automation/enhanced-automation/">Automatisation</a><a href="/fr/technology-automation/impact-of-artificial-intelligence/">Impact de l'IA</a><a href="/fr/technology-automation/life-after-automation/">La vie après l'automatisation</a></div></div><div class="yv-card c-soc"><div class="yv-ic">🌐</div><div class="yv-t">Organisation sociale</div><div class="yv-d">Comment les sociétés s'organisent, et comment elles prennent soin de leurs membres.</div><div class="yv-chips"><a href="/fr/social-organization/purpose-of-society/">Objectif de la société</a><a href="/fr/social-organization/societal-systems/">Systèmes sociétaux</a><a href="/fr/social-organization/societal-functions/">Fonctions sociétales</a><a href="/fr/social-organization/social-redistribution/">Redistribution</a><a href="/fr/social-organization/managing-regional-migration/">Migration</a></div></div></div>
 
-    - [Allocation universelle](/fr/economy-equity/universal-allowance/)
-    - [Le système économique](/fr/economy-equity/the-economical-system/)
-    - [Partage équitable du monde](/fr/economy-equity/fair-globe-sharing/)
-    - [Héritage](/fr/economy-equity/inheritance/)
-  </Card>
-  <Card title="🤖 Technologie et automatisation">
-    Comment l'automatisation et l'IA transforment le travail, la productivité et le potentiel humain.
+## Nouveau sur YeahSight
 
-    - [Automatisation améliorée](/fr/technology-automation/enhanced-automation/)
-    - [Impact de l'intelligence artificielle](/fr/technology-automation/impact-of-artificial-intelligence/)
-    - [La vie après l'automatisation](/fr/technology-automation/life-after-automation/)
-  </Card>
-  <Card title="🌐 Organisation sociale">
-    Comment les sociétés s'organisent, et comment elles prennent soin de leurs membres.
-
-    - [Objectif de la société](/fr/social-organization/purpose-of-society/)
-    - [Systèmes sociétaux](/fr/social-organization/societal-systems/)
-    - [Fonctions sociétales](/fr/social-organization/societal-functions/)
-    - [Redistribution sociale](/fr/social-organization/social-redistribution/)
-    - [Gestion de la migration régionale](/fr/social-organization/managing-regional-migration/)
-  </Card>
-</CardGrid>
+<div class="yv-grid"><a class="yv-card" href="/fr/environment-energy/fair-space-sharing/"><span class="yv-new">Nouveau</span><div class="yv-ic">🦌</div><div class="yv-t">Partage équitable de l'espace</div><div class="yv-d">Une proposition pour partager les terres entre les humains et la faune.</div><div class="yv-go">Lire →</div></a><a class="yv-card" href="/fr/economy-equity/inheritance/"><span class="yv-new">Nouveau</span><div class="yv-ic">🏛️</div><div class="yv-t">Héritage</div><div class="yv-d">Comment l'héritage transmet les inégalités, et ce qui pourrait le remplacer.</div><div class="yv-go">Lire →</div></a><a class="yv-card" href="/fr/vision-roadmap/"><span class="yv-new">Nouveau</span><div class="yv-ic">🧭</div><div class="yv-t">Vision et feuille de route</div><div class="yv-d">Six étapes proposées vers un monde plus juste et plus sûr.</div><div class="yv-go">Lire →</div></a></div>
 
 ## De la compréhension aux solutions
 
-YeahSight est un maillon d'une chaîne :
+YeahSight est un maillon d'une chaîne.
 
-<CardGrid>
-  <LinkCard title="YeahCore — ce dont les gens ont besoin" description="Les besoins et moteurs humains derrière ce que veulent les sociétés, et la base de bonnes décisions." href="https://yeahcore.happybein.com/fr/decision-foundation/find-your-directional-purpose/" />
-  <LinkCard title="YeahSight — ce que cela signifie pour la société" description="Vous êtes ici : tendances, systèmes et une direction proposée." href="/fr/vision-roadmap/" />
-  <LinkCard title="YeahVibe — passer à l'action" description="Des outils simples et gratuits pour décider et agir dans votre propre vie." href="https://yeahvibe.com/" />
-  <LinkCard title="HappyBein" description="La fondation derrière tout cela : une compréhension structurée ouvre la voie aux solutions." href="https://happybein.com/" />
-</CardGrid>
+<div class="yv-chain"><a class="yv-step" href="https://yeahcore.happybein.com/fr/"><b>YeahCore</b><span>Ce dont les gens ont besoin</span></a><div class="yv-arrow">→</div><a class="yv-step here" href="/fr/"><b>YeahSight</b><span>Ce que cela signifie pour la société</span></a><div class="yv-arrow">→</div><a class="yv-step" href="https://yeahvibe.com/"><b>YeahVibe</b><span>Des outils pour agir</span></a></div><p class="yv-foot">Une initiative HappyBein · <a href="https://happybein.com/">happybein.com</a></p>
