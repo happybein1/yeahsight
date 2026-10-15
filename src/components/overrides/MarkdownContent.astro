@@ -13,6 +13,10 @@ const KIND = {
     : { label: 'HappyBein proposal', hint: 'Our view, open for discussion.' },
 };
 const k = kind ? KIND[kind] : null;
+const audio = (Astro.locals.starlightRoute.entry.data as any).audio as (string | undefined);
+const audioMin = (Astro.locals.starlightRoute.entry.data as any).audioMinutes as (number | undefined);
+const audioLabel = isFr ? 'Écouter cet article' : 'Listen to this article';
+const audioBy = isFr ? 'Lu par la voix YeahSight' : 'Read by the YeahSight voice';
 ---
 
 {k && (
@@ -27,9 +31,20 @@ const k = kind ? KIND[kind] : null;
   <span id="yv-rt-text">...</span>
 </div>
 
+{audio && (
+  <div class="yv-audio">
+    <div class="yv-audio-head">🎧 <strong>{audioLabel}</strong>{audioMin && <span>{` · ${audioMin} min`}</span>}<span class="yv-audio-by">{audioBy}</span></div>
+    <audio controls preload="none" src={audio}></audio>
+  </div>
+)}
+
 <div class="sl-markdown-content"><slot /></div>
 
 <style>
+  .yv-audio { margin: 0 0 1.25rem; padding: .75rem .9rem; border-radius: 14px; border: 1px solid var(--sl-color-hairline); background: var(--sl-color-bg-nav); }
+  .yv-audio-head { font-size: .85rem; margin-bottom: .45rem; display: flex; flex-wrap: wrap; gap: .25rem .4rem; align-items: baseline; }
+  .yv-audio-by { color: var(--sl-color-gray-3); font-size: .78rem; margin-left: auto; }
+  .yv-audio audio { width: 100%; }
   .yv-kind { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .6rem; margin: -.25rem 0 .6rem; font-size: .8rem; }
   .yv-kind-badge { font-weight: 700; padding: .18rem .6rem; border-radius: 999px; border: 1px solid; }
   .yv-kind-explainer .yv-kind-badge { color: var(--sl-color-accent-high); border-color: var(--sl-color-accent); background: var(--sl-color-accent-low); }

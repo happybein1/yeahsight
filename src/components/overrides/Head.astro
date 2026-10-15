@@ -273,6 +273,7 @@ const frUrl = currentPath.startsWith('/fr')
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   if (document.querySelector('.hero')) return;
+  if (document.querySelector('.yv-audio')) return;   // recorded audio replaces browser text-to-speech
 
   const lang = document.documentElement.lang || 'en';
   const isFr = lang.startsWith('fr');
