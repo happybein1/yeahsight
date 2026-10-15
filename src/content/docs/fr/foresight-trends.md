@@ -23,7 +23,7 @@ YeahSight va de la compréhension aux solutions, en quatre étapes :
 
 ### 1. Comment fonctionne la société
 À quoi servent les sociétés, comment elles s'organisent, et la place de l'économie.
-- [Objectif de la société](/fr/how-society-works/purpose-of-society)
+- [À quoi sert la société ?](/fr/how-society-works/purpose-of-society)
 - [Systèmes sociétaux](/fr/how-society-works/societal-systems)
 - [Fonctions sociétales](/fr/how-society-works/societal-functions)
 - [Le système économique](/fr/how-society-works/economic-system)

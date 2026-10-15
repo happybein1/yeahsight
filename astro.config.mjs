@@ -44,7 +44,7 @@ export default defineConfig({
                     translations: { fr: '1. Comment fonctionne la société' },
                     collapsed: false,
                     items: [
-                        { label: 'Purpose of Society', translations: { fr: 'Objectif de la société' }, slug: 'how-society-works/purpose-of-society' },
+                        { label: 'What Is Society For?', translations: { fr: 'À quoi sert la société ?' }, slug: 'how-society-works/purpose-of-society' },
                         { label: 'Societal Systems', translations: { fr: 'Systèmes sociétaux' }, slug: 'how-society-works/societal-systems' },
                         { label: 'Societal Functions', translations: { fr: 'Fonctions sociétales' }, slug: 'how-society-works/societal-functions' },
                         { label: 'The Economic System', translations: { fr: 'Le système économique' }, slug: 'how-society-works/economic-system' },

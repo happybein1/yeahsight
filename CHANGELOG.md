@@ -4,6 +4,53 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.07
+
+**Rewritten article: *Purpose of Society* is now *What Is Society For?* (EN), *À quoi sert la société ?* (FR).** It still has the Explainer label, and the address `/how-society-works/purpose-of-society/` is unchanged. The user asked for a review, then approved the English draft and asked for it to go live along with a full French version.
+
+**Problems found in the old version:**
+
+- It never gave HappyBein's own lens. "What does 'the best' mean?" was answered only with four textbook views.
+- It opened with a normative claim stated as fact.
+- Its definition of society ("the people living within it") was narrower than the rest of YeahSight, which speaks of fairness "among humans and all sentient beings".
+- The schools of thought had no named thinkers and there were no sources.
+- It had nothing on how to tell whether a society is doing well.
+- "Society is not a natural object" took one side (the social contract).
+- The French version was a shortened copy: the explanation under each view and two bullets were missing. It had language errors ("réfléchiment", "trop d'emphase", "Qui bénéficie ?").
+
+**New English text (about 750 words):**
+
+- **Opening:** framed as "A useful starting point".
+- **What Societies Do That Individuals Cannot:** presents Aristotle and the social-contract thinkers side by side, instead of taking a side.
+- **Four Ways to Define "The Best":** plain-language names plus the thinkers behind each (Bentham/Mill, Locke and human rights, Sen/Nussbaum, Sandel/Taylor).
+- **A Lens Based on Human Needs (new):** brings the four views together through human needs, says this is the lens YeahSight uses, and links to YeahCore's *Human needs* and *Drivers of feelings*.
+- **Who Counts? (new):** future generations, people elsewhere and other living beings, with a link to *Fair Space Sharing*.
+- **The tension between individual and collective:** kept.
+- **How Do We Know If a Society Is Doing Well? (new):** GDP versus the Human Development Index (UN, 1990), the OECD Better Life Index (2011) and the World Happiness Report (2012).
+- **What This Means for You:** adds "Whose needs are left out?".
+- **Where to Go Next:** Societal Systems and Functions, Sharing fairly, Vision & Roadmap.
+- **Sources:** Aristotle, Hobbes, Locke, Rousseau, Bentham, Mill, Sen, Nussbaum, Sandel, Taylor, Maslow (1943), UNDP, OECD, World Happiness Report.
+
+**French:** a full translation of the new text, not a summary, with French titles of the cited works where they exist.
+
+**Also renamed:** the sidebar label, the Foresight Trends lists (EN/FR) and `llms.txt`. YeahCore's link lists still say "Purpose of Society". They work, and are left for a later YeahCore update.
+
+**Included in this commit but not visible yet:** the plumbing for recorded audio, for the podcast pilot.
+
+- `content.config.ts` accepts `audio` and `audioMinutes` in front matter.
+- `MarkdownContent.astro` renders a "🎧 Listen to this article" player box when `audio` is set.
+- `Head.astro` skips the browser text-to-speech bar on pages that have recorded audio.
+- No article sets `audio` yet, so nothing changes on the site.
+- `tools/podcast/` holds the Kokoro generator (`make_audio.py`), the first listening script (`vision-roadmap.en`) and a paste-ready plain-text copy. Its `.gitignore` excludes `out/` and `.venv/`.
+
+**Verification:**
+
+- Built in a fresh scratch copy: no warnings.
+- Both pages have the expected `<title>` and Explainer badge.
+- No broken internal links on either page.
+
+---
+
 ## v2.06
 
 **Every article now shows whether it is an explainer or a HappyBein proposal.** This is step 2 of the content review, scoped by the user to "labels only for now". The roadmap lines, YeahCore links and the reordering of section 3 are not done.

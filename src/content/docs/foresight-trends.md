@@ -34,7 +34,7 @@ YeahSight moves from understanding to solutions, in four steps:
 
 ### 1. How society works
 What societies are for, how they are organized, and how the economy fits in.
-- [Purpose of Society](/how-society-works/purpose-of-society)
+- [What Is Society For?](/how-society-works/purpose-of-society)
 - [Societal Systems](/how-society-works/societal-systems)
 - [Societal Functions](/how-society-works/societal-functions)
 - [The Economic System](/how-society-works/economic-system)
