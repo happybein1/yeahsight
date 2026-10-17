@@ -437,6 +437,16 @@ document.addEventListener('DOMContentLoaded', function() {
   pill.style.cssText = 'position:fixed;bottom:14px;left:14px;height:30px;padding:0 12px;border-radius:15px;background:#2ABFBF;color:#fff;display:flex;align-items:center;gap:5px;font-family:Nunito,Arial,sans-serif;font-weight:700;font-size:12px;text-decoration:none;box-shadow:0 2px 8px rgba(42,191,191,0.4);z-index:99998;opacity:0.85;';
   pill.addEventListener('mouseover', () => pill.style.opacity = '1');
   pill.addEventListener('mouseout',  () => pill.style.opacity = '0.85');
+  // Hide while the reader scrolls down (so it never sits over the text), show again on scroll up.
+  pill.style.transition = 'transform .25s ease, opacity .25s ease';
+  let lastY = window.scrollY;
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    const down = y > lastY && y > 120;
+    pill.style.transform = down ? 'translateY(70px)' : '';
+    pill.style.pointerEvents = down ? 'none' : '';
+    lastY = y;
+  }, { passive: true });
   document.body.appendChild(pill);
 });
 </script>

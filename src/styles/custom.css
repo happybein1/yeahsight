@@ -373,3 +373,19 @@ a.yv-card:hover, .yv-card:hover { transform: translateY(-3px); border-color: var
   [data-has-hero] .hero .stack { max-width: none; }
 }
 :root { --yv-hero-img: url(/images/hero-view.jpg); --yv-hero-img-sm: url(/images/hero-view-sm.jpg); --yv-hero-pos: 55% 60%; }
+
+/* --- Article tables: row lines, left-aligned headers, text aligned to the top (v2.10) --- */
+.sl-markdown-content table th,
+.sl-markdown-content table td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--sl-color-gray-5);
+}
+.sl-markdown-content table th {
+  border-bottom: 2px solid var(--sl-color-accent);
+}
+
+/* --- Room at the end of articles so the floating buttons never cover the last lines (v2.10) --- */
+@media (max-width: 50rem) {
+  .sl-markdown-content { padding-bottom: 4.5rem; }
+}

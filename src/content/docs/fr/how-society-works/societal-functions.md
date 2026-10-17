@@ -84,17 +84,17 @@ Les tâches dépendent les unes des autres, si bien que l'échec de l'une se pro
 
 ## Le côté humain
 
-Chaque tâche répond à un besoin décrit dans [Les besoins humains](https://yeahcore.happybein.com/fr/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) sur YeahCore :
+Chaque tâche répond à un ou plusieurs des cinq besoins décrits dans [Les besoins humains](https://yeahcore.happybein.com/fr/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) sur YeahCore :
 
-| Tâche | Principal besoin auquel elle répond |
+| Tâche | Besoins auxquels elle répond (YeahCore) |
 |---|---|
-| Sécurité | La sécurité |
-| Partage des ressources | Les besoins physiques : nourriture, eau, abri, énergie |
-| Cohésion sociale | L'appartenance et le lien |
-| Transmission du savoir | La croissance et le sens |
-| Soin | La santé et la sécurité dans les moments de fragilité |
-| Règlement des conflits | La sécurité et la reconnaissance : être traité équitablement |
-| Adaptation au changement | Garder tout ce qui précède possible dans la durée |
+| Sécurité | Sécurité et protection |
+| Partage des ressources | Santé physique et énergie |
+| Cohésion sociale | Connexion sociale |
+| Transmission du savoir | Sens et objectif, Autonomie |
+| Soin | Santé physique et énergie, Sécurité et protection |
+| Règlement des conflits | Sécurité et protection, Autonomie |
+| Adaptation au changement | Les cinq, dans la durée |
 
 ## Questions ouvertes
 

@@ -84,17 +84,17 @@ The tasks depend on each other, so a failure in one spreads to the others:
 
 ## The Human Side
 
-Each task serves a need described in [Human needs](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) on YeahCore:
+Each task serves one or more of the five needs described in [Human needs](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) on YeahCore:
 
-| Task | Main need it serves |
+| Task | Needs it serves (YeahCore) |
 |---|---|
-| Security | Safety |
-| Sharing resources | Physical needs: food, water, shelter, energy |
-| Social cohesion | Belonging and connection |
-| Passing on knowledge | Growth and meaning |
-| Care | Health and safety in times of weakness |
-| Settling disputes | Safety and recognition: being treated fairly |
-| Adapting to change | Keeping all of the above possible over time |
+| Security | Safety and security |
+| Sharing resources | Physical health and energy |
+| Social cohesion | Social connection |
+| Passing on knowledge | Meaning and purpose, Autonomy |
+| Care | Physical health and energy, Safety and security |
+| Settling disputes | Safety and security, Autonomy |
+| Adapting to change | All five, over time |
 
 ## Open Questions
 

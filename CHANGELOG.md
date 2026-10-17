@@ -4,6 +4,18 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.10
+
+**Human Side table in *What Every Society Must Do* (EN and FR) now uses YeahCore's own five needs.** The table links to YeahCore's *Human needs* page, but its right-hand column used different, invented labels ("Belonging and connection", "Growth and meaning", "Health and safety in times of weakness"…): "safety" appeared three times and Autonomy never. It now uses YeahCore's exact names (EN: Physical health and energy, Safety and security, Social connection, Autonomy, Meaning and purpose; FR: Santé physique et énergie, Sécurité et protection, Connexion sociale, Autonomie, Sens et objectif), with one or two needs per task and "All five, over time" for Adapting to change. Column header: "Needs it serves (YeahCore)" / "Besoins auxquels elle répond (YeahCore)". The user saw the table on a phone and agreed to the change.
+
+**Tables, site-wide:** headers and cells are left-aligned and aligned to the top (a two-line cell no longer sits half a row lower than its neighbour), with a thin line under each row and an accent line under the header, so rows no longer run together in dark mode (`custom.css`).
+
+**Floating "← HappyBein" pill:** it now slides away while the reader scrolls down and comes back on scroll up, so it no longer covers headings mid-article (`Head.astro`). On phones, articles also get extra space at the bottom so the pill and the Listen button never cover the last lines.
+
+**Verification:** built locally (`npm run build`, 39 pages; Node.js via nvm); checked the new table text in the built EN and FR pages. Not yet looked at on a phone.
+
+---
+
 ## v2.09
 
 **French version of *What Every Society Must Do*: *Ce que toute société doit faire*.** A full translation of the v2.08 English text (not a summary), replacing the old French *Fonctions sociétales* page at the same address. Task 3 is *La cohésion sociale*. Sources use the published French titles where they exist (Fukuyama, *La Confiance et la puissance*; Acemoglu and Robinson, *Prospérité, puissance et pauvreté*; Diamond, *Effondrement*). Links to the next article say *Systèmes sociétaux*, matching the live French page. The FR sidebar label, the FR Foresight Trends list and the link in *À quoi sert la société ?* now use the new title. The owner said translations can be published without separate approval.
