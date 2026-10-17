@@ -8,7 +8,7 @@ sidebar:
 
 <!-- DRAFT for review — not live. Address stays /how-society-works/societal-functions/. Sidebar: moves before "Who Keeps Society Running?" (today's Societal Systems). -->
 
-**In short:** Rich or poor, democratic or not, every society has to do the same seven jobs to hold together and serve its people: keep them safe, share resources, maintain trust, pass on knowledge, care for those who need it, settle disputes peacefully, and adapt to change. Societies differ mainly in *how* they do these jobs, and how well.
+**In short:** Rich or poor, democratic or not, every society has to do the same seven jobs to hold together and serve its people: keep them safe, share resources, keep social cohesion, pass on knowledge, care for those who need it, settle disputes peacefully, and adapt to change. Societies differ mainly in *how* they do these jobs, and how well.
 
 ## The Question
 
@@ -34,7 +34,7 @@ The tasks below are the same everywhere. Seeing them clearly helps you compare s
 
 **How you can tell it works:** little poverty, everyone able to cover their basic needs, and opportunities that don't depend mainly on where or to whom you were born.
 
-### 3. Trust and Belonging
+### 3. Social Cohesion
 
 **What it is:** keeping enough shared identity, trust and willingness to cooperate for people to act together.
 
@@ -78,7 +78,7 @@ The tasks below are the same everywhere. Seeing them clearly helps you compare s
 
 The tasks depend on each other, so a failure in one spreads to the others:
 
-- **When trust collapses** (task 3), sharing resources and settling disputes become much harder, because people stop believing the rules are fair.
+- **When social cohesion breaks down** (task 3), sharing resources and settling disputes become much harder, because people stop believing the rules are fair.
 - **When disputes cannot be settled peacefully** (task 6), conflict follows, and security, care and knowledge all suffer. Civil wars destroy decades of progress in a few years.
 - **When adaptation fails** (task 7), a society can keep working well for a while, then suddenly struggle when conditions change. The COVID-19 pandemic tested every society's capacity for care and adaptation at the same time, and showed large differences between them.
 
@@ -90,7 +90,7 @@ Each task serves a need described in [Human needs](https://yeahcore.happybein.co
 |---|---|
 | Security | Safety |
 | Sharing resources | Physical needs: food, water, shelter, energy |
-| Trust and belonging | Belonging and connection |
+| Social cohesion | Belonging and connection |
 | Passing on knowledge | Growth and meaning |
 | Care | Health and safety in times of weakness |
 | Settling disputes | Safety and recognition: being treated fairly |
