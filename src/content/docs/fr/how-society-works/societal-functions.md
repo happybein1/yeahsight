@@ -84,17 +84,7 @@ Les tâches dépendent les unes des autres, si bien que l'échec de l'une se pro
 
 ## Le côté humain
 
-Chaque tâche répond à un ou plusieurs des cinq besoins décrits dans [Les besoins humains](https://yeahcore.happybein.com/fr/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) sur YeahCore :
-
-| Tâche | Besoins auxquels elle répond (YeahCore) |
-|---|---|
-| Sécurité | Sécurité et protection |
-| Partage des ressources | Santé physique et énergie |
-| Cohésion sociale | Connexion sociale |
-| Transmission du savoir | Sens et objectif, Autonomie |
-| Soin | Santé physique et énergie, Sécurité et protection |
-| Règlement des conflits | Sécurité et protection, Autonomie |
-| Adaptation au changement | Les cinq, dans la durée |
+Ces tâches comptent parce que chacune protège des besoins que tout être humain partage. YeahCore en décrit cinq : [la santé physique et l'énergie, la sécurité et la protection, la connexion sociale, l'autonomie, ainsi que le sens et l'objectif](https://yeahcore.happybein.com/fr/decision-foundation/find-your-directional-purpose/humans-physiological-needs/). Quand une société accomplit bien ces tâches, chacun peut répondre à ces besoins sans lutter au quotidien. Quand une tâche échoue, les gens le ressentent directement : l'insécurité devient une peur constante, un manque de soins épuise les familles, et une cohésion brisée laisse les gens seuls et méfiants. C'est pourquoi on ne peut pas juger une société à sa seule économie. Le vrai test, c'est la mesure dans laquelle les besoins de ses membres sont satisfaits.
 
 ## Questions ouvertes
 

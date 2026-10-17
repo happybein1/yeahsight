@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.11
+
+**The Human Side in *What Every Society Must Do* (EN and FR) is now a paragraph, not a table.** Looking at the v2.10 table on a phone, the user asked whether it was actually useful. It wasn't: most rows restated the task in other words (Security → Safety and security, Social cohesion → Social connection), the last row said "All five", and it took a full phone screen. The new paragraph names YeahCore's five needs in one linked phrase, then says what the tasks mean for a person's daily life: doing them well lets people meet their needs without a daily struggle, and failures are felt directly (insecurity becomes constant fear, failing care exhausts families, broken cohesion leaves people lonely and distrustful), so a society can't be judged by its economy alone. Text approved by the user; French translated in full. The v2.10 site-wide table styling stays, since other articles have tables.
+
+**Verification:** built locally (`npm run build`, 39 pages); no table left on either page, new text present in the built EN and FR pages.
+
+---
+
 ## v2.10
 
 **Human Side table in *What Every Society Must Do* (EN and FR) now uses YeahCore's own five needs.** The table links to YeahCore's *Human needs* page, but its right-hand column used different, invented labels ("Belonging and connection", "Growth and meaning", "Health and safety in times of weakness"…): "safety" appeared three times and Autonomy never. It now uses YeahCore's exact names (EN: Physical health and energy, Safety and security, Social connection, Autonomy, Meaning and purpose; FR: Santé physique et énergie, Sécurité et protection, Connexion sociale, Autonomie, Sens et objectif), with one or two needs per task and "All five, over time" for Adapting to change. Column header: "Needs it serves (YeahCore)" / "Besoins auxquels elle répond (YeahCore)". The user saw the table on a phone and agreed to the change.

@@ -84,17 +84,7 @@ The tasks depend on each other, so a failure in one spreads to the others:
 
 ## The Human Side
 
-Each task serves one or more of the five needs described in [Human needs](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) on YeahCore:
-
-| Task | Needs it serves (YeahCore) |
-|---|---|
-| Security | Safety and security |
-| Sharing resources | Physical health and energy |
-| Social cohesion | Social connection |
-| Passing on knowledge | Meaning and purpose, Autonomy |
-| Care | Physical health and energy, Safety and security |
-| Settling disputes | Safety and security, Autonomy |
-| Adapting to change | All five, over time |
+These tasks matter because each one protects needs every person has. YeahCore describes five: [physical health and energy, safety and security, social connection, autonomy, and meaning and purpose](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/). When a society does its tasks well, people can meet these needs without a daily struggle. When a task fails, people feel it directly: insecurity turns into constant fear, failing care leaves families exhausted, and broken cohesion leaves people lonely and distrustful. That's why a society can't be judged by its economy alone. The real test is how well its people's needs are met.
 
 ## Open Questions
 
