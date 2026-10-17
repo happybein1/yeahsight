@@ -4,7 +4,7 @@ title: Fonctions sociétales
 description: Les fonctions essentielles que toute société doit remplir — et dans quelle mesure différents systèmes les remplissent.
 reading_time: "4 min de lecture"
 sidebar:
-  order: 3
+  order: 2
 ---
 
 

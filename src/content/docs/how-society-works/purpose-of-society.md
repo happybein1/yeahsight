@@ -77,7 +77,7 @@ Understanding what society is for helps you:
 
 ## Where to Go Next
 
-- How societies are organised to do all this: [Societal Systems](/how-society-works/societal-systems/) and [Societal Functions](/how-society-works/societal-functions/)
+- How societies are organised to do all this: [What Every Society Must Do](/how-society-works/societal-functions/) and [Societal Systems](/how-society-works/societal-systems/)
 - How resources could be shared more fairly: [Sharing fairly](/sharing-fairly/fair-globe-sharing/)
 - The direction HappyBein proposes: [Vision & Roadmap](/vision-roadmap/)
 

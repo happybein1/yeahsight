@@ -4,7 +4,7 @@ title: Societal Systems
 description: An overview of the major systems that organize modern societies and how they interact.
 reading_time: "4 min"
 sidebar:
-  order: 2
+  order: 3
 ---
 
 

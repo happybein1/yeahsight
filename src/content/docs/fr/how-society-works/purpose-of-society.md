@@ -78,7 +78,7 @@ Comprendre à quoi sert la société vous aide à :
 
 ## Pour aller plus loin
 
-- Comment les sociétés s'organisent pour faire tout cela : [Systèmes sociétaux](/fr/how-society-works/societal-systems/) et [Fonctions sociétales](/fr/how-society-works/societal-functions/)
+- Comment les sociétés s'organisent pour faire tout cela : [Fonctions sociétales](/fr/how-society-works/societal-functions/) et [Systèmes sociétaux](/fr/how-society-works/societal-systems/)
 - Comment les ressources pourraient être partagées plus équitablement : [Partager équitablement](/fr/sharing-fairly/fair-globe-sharing/)
 - La direction proposée par HappyBein : [Vision et feuille de route](/fr/vision-roadmap/)
 

@@ -1,54 +1,117 @@
 ---
 kind: explainer
-title: Societal Functions
-description: The core functions every society must perform — and how well different systems perform them.
-reading_time: "4 min"
+title: What Every Society Must Do
+description: The seven core tasks every society has to perform, whatever its political or economic system, and how to tell whether each one is working.
+reading_time: "5 min"
 sidebar:
-  order: 3
+  order: 2
 ---
 
 
-Every society, regardless of its political or economic system, must perform certain core functions to sustain itself and support its members. Understanding these functions is useful for evaluating policies, comparing societies, and identifying where systems are failing.
+**In short:** Rich or poor, democratic or not, every society has to do the same seven jobs to hold together and serve its people: keep them safe, share resources, keep social cohesion, pass on knowledge, care for those who need it, settle disputes peacefully, and adapt to change. Societies differ mainly in *how* they do these jobs, and how well.
 
-## Core Societal Functions
+## The Question
+
+[What Is Society For?](/how-society-works/purpose-of-society/) answered *why* society exists: to let people meet their needs better together than alone. This article asks the next question: **what work does that purpose require?**
+
+The tasks below are the same everywhere. Seeing them clearly helps you compare societies, judge policies, and spot where something is going wrong.
+
+## The Seven Tasks
 
 ### 1. Security
-Protecting members from violence, crime, and external threats. This is often considered the most fundamental function — without basic security, little else is possible.
 
-**Indicators of success**: low crime rates, absence of armed conflict, trust in law enforcement, protection of civil rights.
+**What it is:** protecting people from violence, crime and outside threats, and protecting their basic rights.
 
-### 2. Resource Allocation
-Deciding who gets what — land, food, energy, housing, money, opportunities. Every society must resolve this, whether through markets, governments, communities, or some combination.
+**Why it matters:** without basic safety, nothing else is possible. People cannot work, learn, plan or trust each other when they fear for their lives or property.
 
-**Indicators of success**: low poverty, adequate access to basic needs, fair distribution of opportunities.
+**How you can tell it works:** low crime and violence, no armed conflict, and people trusting the police and courts to protect them rather than threaten them.
+
+### 2. Sharing Resources
+
+**What it is:** deciding who gets what: food, water, land, energy, housing, money and opportunities.
+
+**Why it matters:** there is never unlimited supply, so every society needs a way to share. Markets, governments, communities and families all play a part.
+
+**How you can tell it works:** little poverty, everyone able to cover their basic needs, and opportunities that don't depend mainly on where or to whom you were born.
 
 ### 3. Social Cohesion
-Maintaining enough shared identity, trust, and cooperation to function as a unit. Without cohesion, societies fragment — into ethnic conflict, class warfare, or simply mutual indifference.
 
-**Indicators of success**: social trust, civic participation, sense of shared identity, low polarization.
+**What it is:** keeping enough shared identity, trust and willingness to cooperate for people to act together.
 
-### 4. Knowledge Transmission
-Passing on the accumulated knowledge, skills, and values of one generation to the next. This is primarily the function of education — formal and informal.
+**Why it matters:** when trust breaks down, cooperation becomes expensive and fragile. Every agreement needs checking, and every disagreement risks becoming a conflict. Societies can split into hostile groups, or simply into people who no longer care about each other.
 
-**Indicators of success**: literacy and numeracy, critical thinking capability, civic knowledge, adaptability to change.
+**How you can tell it works:** people trusting each other and their institutions, taking part in community and civic life, and debating without seeing each other as enemies.
 
-### 5. Care and Support
-Looking after members who cannot fully care for themselves — children, the elderly, the sick, those with disabilities. This function is performed by families, communities, and formal welfare systems.
+### 4. Passing On Knowledge
 
-**Indicators of success**: child well-being, elder care quality, healthcare access, disability support.
+**What it is:** handing on knowledge, skills and values from one generation to the next, through schools and also through families, workplaces and communities.
 
-### 6. Conflict Resolution
-Providing legitimate, non-violent mechanisms for resolving disputes — between individuals, groups, and the state. Courts, mediation, and democratic deliberation are all part of this function.
+**Why it matters:** each generation would otherwise start from zero. Knowledge built up over time is one of the main things that makes societies more capable.
 
-**Indicators of success**: rule of law, access to justice, low levels of political violence, trust in institutions.
+**How you can tell it works:** people who can read, count, think critically and keep learning, and who understand how their society works.
 
-### 7. Adaptation and Innovation
-Enabling the society to respond to new challenges and opportunities — technological change, environmental shifts, demographic transitions. Societies that cannot adapt decline.
+### 5. Care
 
-**Indicators of success**: research and innovation capacity, institutional flexibility, openness to change, resilience to shocks.
+**What it is:** looking after those who cannot fully look after themselves: children, older people, the sick, people with disabilities.
 
-## Using This Framework
+**Why it matters:** everyone depends on care at the beginning and often at the end of life, and anyone can need it in between. How a society treats its most vulnerable is a direct test of whether it serves all its members.
 
-When evaluating any policy or reform, ask: which societal function does this strengthen or weaken? Who benefits, and who bears the cost? Does it address a genuine gap or does it solve one problem by creating another?
+**How you can tell it works:** healthy children, good care for older people, access to healthcare for everyone, and real support for people with disabilities, without the burden falling unfairly on a few.
 
-This functional lens cuts across ideological divides and focuses attention on what matters: outcomes for real people.
+### 6. Settling Disputes
+
+**What it is:** providing fair, peaceful ways to resolve disagreements between people, between groups, and between citizens and the state.
+
+**Why it matters:** disagreement is normal in any group. What matters is that it is settled by rules and discussion rather than by force.
+
+**How you can tell it works:** laws applied equally to everyone, access to justice for ordinary people, peaceful changes of government, and little political violence.
+
+### 7. Adapting to Change
+
+**What it is:** recognising new challenges and opportunities, such as new technologies, environmental change or an ageing population, and adjusting in time.
+
+**Why it matters:** the conditions a society depends on never stay the same. A society that cannot adapt eventually fails at all the other tasks.
+
+**How you can tell it works:** a capacity to research and innovate, institutions that can reform themselves, and the ability to recover from shocks such as crises or disasters.
+
+## When a Task Fails
+
+The tasks depend on each other, so a failure in one spreads to the others:
+
+- **When social cohesion breaks down** (task 3), sharing resources and settling disputes become much harder, because people stop believing the rules are fair.
+- **When disputes cannot be settled peacefully** (task 6), conflict follows, and security, care and knowledge all suffer. Civil wars destroy decades of progress in a few years.
+- **When adaptation fails** (task 7), a society can keep working well for a while, then suddenly struggle when conditions change. The COVID-19 pandemic tested every society's capacity for care and adaptation at the same time, and showed large differences between them.
+
+## The Human Side
+
+Each task serves a need described in [Human needs](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) on YeahCore:
+
+| Task | Main need it serves |
+|---|---|
+| Security | Safety |
+| Sharing resources | Physical needs: food, water, shelter, energy |
+| Social cohesion | Belonging and connection |
+| Passing on knowledge | Growth and meaning |
+| Care | Health and safety in times of weakness |
+| Settling disputes | Safety and recognition: being treated fairly |
+| Adapting to change | Keeping all of the above possible over time |
+
+## Open Questions
+
+- Which tasks should be handled by the state, and which left to communities, families or markets? (See [Societal Systems](/how-society-works/societal-systems/))
+- How much inequality is acceptable before sharing resources and trust start to fail?
+- How can a society adapt quickly without losing the trust and stability it depends on?
+
+## Where Next
+
+- Previous: [What Is Society For?](/how-society-works/purpose-of-society/)
+- Next: [Societal Systems](/how-society-works/societal-systems/), on who carries out these tasks
+- Related: [Social Redistribution](/sharing-fairly/social-redistribution/), on sharing resources fairly
+
+## Sources
+
+- Talcott Parsons, *The Social System* (1951), an early analysis of the functions every society must fulfil
+- Francis Fukuyama, *Trust: The Social Virtues and the Creation of Prosperity* (1995)
+- Robert Putnam, *Bowling Alone* (2000), on trust and social connection
+- Daron Acemoglu and James Robinson, *Why Nations Fail* (2012), on institutions and long-term success
+- Jared Diamond, *Collapse* (2005), on societies that failed to adapt

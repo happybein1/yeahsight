@@ -4,7 +4,7 @@ title: The Economic System
 description: How economic systems work, their core components, and how they shape individual and collective outcomes.
 reading_time: "4 min"
 sidebar:
-  order: 3
+  order: 4
 ---
 
 

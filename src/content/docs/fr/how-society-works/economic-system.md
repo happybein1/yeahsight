@@ -4,7 +4,7 @@ title: Le système économique
 description: Comment fonctionnent les systèmes économiques, leurs composants essentiels et comment ils façonnent les résultats individuels et collectifs.
 reading_time: "4 min de lecture"
 sidebar:
-  order: 3
+  order: 4
 ---
 
 

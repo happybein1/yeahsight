@@ -4,6 +4,27 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.08
+
+**Rewritten article: *Societal Functions* is now *What Every Society Must Do* (EN).** It keeps the Explainer label and the address `/how-society-works/societal-functions/`. The user reviewed the English draft (`tools/drafts/societal-functions.en.DRAFT.md`) and approved it for publishing. The French page is unchanged for now: a full French translation is in `tools/drafts/societal-functions.fr.DRAFT.md`, waiting for review.
+
+**New English text (about 1,000 words, reading time 5 min):** follows the YeahSight article template.
+
+- **In short** and **The Question:** links back to *What Is Society For?* and asks what work that purpose requires.
+- **The Seven Tasks:** Security, Sharing Resources, Social Cohesion, Passing On Knowledge, Care, Settling Disputes, Adapting to Change. Each one says what it is, why it matters, and how you can tell it works. The old version's "Indicators of success" lines became the plain-language "How you can tell it works".
+- **Social Cohesion keeps its name.** An earlier draft renamed it "Trust and Belonging"; the user sees social cohesion as a function in its own right, so the name was restored (in the heading, the In short line, When a Task Fails and the Human Side table).
+- **When a Task Fails (new):** how a failure in one task spreads to the others, with civil wars and COVID-19 as examples.
+- **The Human Side (new):** a table linking each task to the human need it serves, with a link to YeahCore's *Human needs*.
+- **Open Questions**, **Where Next** and **Sources (new):** Parsons, Fukuyama, Putnam, Acemoglu and Robinson, Diamond.
+
+**Sidebar and lists:** *What Every Society Must Do* now comes before *Societal Systems* (sidebar, home-page chips EN/FR, Foresight Trends EN/FR, *What Is Society For?* EN/FR, `llms.txt`). The front-matter `sidebar.order` values were updated to match (Functions 2, Systems 3, Economic System 4). The EN sidebar label is the new title; the FR label stays "Fonctions sociétales" until the French page is replaced.
+
+**Links to the next article say "Societal Systems" for now.** The draft linked to it as "Who Keeps Society Running?", but that rewrite isn't live yet. When it goes live, change the two link texts in this article (Open Questions, Where Next).
+
+**Verification:** no Node.js on this machine, so no local build; checked after Cloudflare's deploy by fetching the live page.
+
+---
+
 ## v2.07
 
 **Rewritten article: *Purpose of Society* is now *What Is Society For?* (EN), *À quoi sert la société ?* (FR).** It still has the Explainer label, and the address `/how-society-works/purpose-of-society/` is unchanged. The user asked for a review, then approved the English draft and asked for it to go live along with a full French version.
