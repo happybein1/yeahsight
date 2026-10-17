@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.09
+
+**French version of *What Every Society Must Do*: *Ce que toute société doit faire*.** A full translation of the v2.08 English text (not a summary), replacing the old French *Fonctions sociétales* page at the same address. Task 3 is *La cohésion sociale*. Sources use the published French titles where they exist (Fukuyama, *La Confiance et la puissance*; Acemoglu and Robinson, *Prospérité, puissance et pauvreté*; Diamond, *Effondrement*). Links to the next article say *Systèmes sociétaux*, matching the live French page. The FR sidebar label, the FR Foresight Trends list and the link in *À quoi sert la société ?* now use the new title. The owner said translations can be published without separate approval.
+
+**Verification:** no Node.js on this machine; checked after Cloudflare's deploy by fetching the live page.
+
+---
+
 ## v2.08
 
 **Rewritten article: *Societal Functions* is now *What Every Society Must Do* (EN).** It keeps the Explainer label and the address `/how-society-works/societal-functions/`. The user reviewed the English draft (`tools/drafts/societal-functions.en.DRAFT.md`) and approved it for publishing. The French page is unchanged for now: a full French translation is in `tools/drafts/societal-functions.fr.DRAFT.md`, waiting for review.
