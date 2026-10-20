@@ -2,13 +2,13 @@
 kind: proposal
 title: Making the Transition
 description: How a society could move away from inherited financial unfairness towards a fair and sustainable economy, step by step, without breaking what works or leaving people behind.
-reading_time: "7 min"
+reading_time: "10 min"
 sidebar:
   order: 6
 ---
 
 
-**In short:** Most of today's financial unfairness was inherited, not chosen. Wealth keeps earning more wealth, and it passes from one generation to the next. Fixing this in one go would cause fear, resistance and damage. We propose a slow, announced path in three phases. First, give everyone a secure floor. Then change how *new* wealth flows: inheritances, land gains, pollution. Finally, let the large inherited fortunes return to a common fund that pays for everyone's start in life. Ordinary savings, pensions and family homes are protected all along the way.
+**In short:** Most of today's financial unfairness was inherited, not chosen. Wealth keeps earning more wealth, and it passes from one generation to the next. Fixing this in one go would cause fear, resistance and damage. We propose a slow, announced path in three phases. First, give everyone a secure floor. Then change how *new* wealth flows: inheritances, land gains, pollution. Finally, let the large inherited fortunes return to a common fund that pays for everyone's start in life. Ordinary savings, pensions and family homes are protected all along the way. The path is started by a group of countries rather than one alone, and every step is chosen to make the economy stronger, not weaker, so that going first doesn't mean falling behind.
 
 ## The Question
 
@@ -22,7 +22,7 @@ Plans for a fairer society usually fail on the way there, not at the destination
 
 - **Unfairness feeds itself.** Wealth invested in shares, property or land tends to grow faster than wages. Those who already have it get further ahead every year without doing anything, and their children start ahead too.
 - **People fear losing what they have.** A family that owns its home, or has saved for retirement, can easily feel threatened by any talk of redistribution, even when it is aimed at fortunes a thousand times larger.
-- **Money can move.** If one country acts alone, large fortunes can move to another one.
+- **Countries compete.** If one country acts alone, large fortunes, companies and investment can move to another one. Even a large group feels the pressure: the European Union, which has gone further than most on fairness and climate, is falling behind the United States and China in income growth.
 - **Governments change.** A reform that one government passes, the next can cancel. Long changes need support that lasts beyond one election.
 
 A good transition plan has to answer all four.
@@ -42,15 +42,16 @@ Large, peaceful shifts in who owns what have happened before:
 
 *This is a proposal for discussion, not a finished policy. Some points still need further clarification and support.*
 
-### Seven principles
+### Eight principles
 
 1. **Floor first.** Secure everyone's basic needs before asking anyone to give anything up. People accept change much more easily when they are not afraid.
 2. **Announce early, move slowly.** Publish the whole path and its dates many years in advance, so that nobody's plans are destroyed overnight.
 3. **Protect the ordinary, focus on the concentrated.** Family homes up to a fair value, pensions, normal savings and working family businesses are protected. The changes apply to very large fortunes.
-4. **Change the flows before the stocks.** Start with new money: inheritances, land values rising without any effort from the owner, pollution and resource use. Only later, and gradually, touch fortunes that already exist.
-5. **Make the gains visible.** Money raised goes into a common fund that people can see, such as a starting capital for every young adult and the basic-needs allowance. Not into the general budget, where nobody sees what it pays for.
-6. **Close the exits together.** Work with other countries on shared minimum rules and transparency, so that moving money abroad stops being an escape.
-7. **Decide together, test first.** Use citizens' assemblies to shape the details, and pilots to check that each step works before it goes national.
+4. **Make the economy stronger, not weaker.** A fairness plan that weakens the economy won't last. Steps that are fair *and* raise productivity come first, and the pace follows the economic strength of the countries taking part.
+5. **Change the flows before the stocks.** Start with new money: inheritances, land values rising without any effort from the owner, pollution and resource use. Only later, and gradually, touch fortunes that already exist.
+6. **Make the gains visible.** Money raised goes into a common fund that people can see, such as a starting capital for every young adult and the basic-needs allowance. Not into the general budget, where nobody sees what it pays for.
+7. **Start as a group, and tax first what can't move.** Begin with a group of countries large enough to matter, protect it with shared rules at its borders, and start with land, buildings and natural resources, which stay where they are whoever owns them.
+8. **Decide together, test first.** Use citizens' assemblies to shape the details, and pilots to check that each step works before it goes national.
 
 ### Three phases
 
@@ -72,10 +73,27 @@ Large, peaceful shifts in who owns what have happened before:
 - The common fund, now large, finances the basic-needs allowance and everyone's starting capital, alongside land and resource income.
 - What a person owns then reflects mainly their own life and work, and no longer the luck of being born into a rich family.
 
+## What If One Country Goes First?
+
+Competition between countries is real, and it is the main reason fair plans get watered down. But the answer is not to wait until every country agrees, and certainly not to abolish countries. What's needed is a shared floor of rules, with each country free to go further above it. That is already how trade, the ozone layer and the global minimum tax work. Five things make it possible to go first without losing:
+
+1. **Tax what can't leave first.** Land, buildings and natural resources stay in the country, whoever owns them. That is why the plan starts there, and only later moves on to fortunes that can travel.
+2. **Make leaving costly.** Germany, France and Norway already tax the gains of rich people who move abroad. The United States taxes its citizens wherever they live.
+3. **Protect the borders without closing them.** The EU's carbon border charge, from 2026, makes imports from countries without a carbon price pay the difference, so producers who go first aren't undercut. The same idea can apply to other shared rules.
+4. **Start as a group, not alone.** A group the size of the EU is too large a market to walk away from. Others then join over time, as happened with the global minimum tax.
+5. **Choose steps that make the economy stronger.** Europe's slower growth comes mainly from expensive energy, too little investment in new technology and markets split into 27 sets of rules, not from fairness itself. Several steps in this plan address those directly:
+   - Moving taxes off work and onto land and resources makes work cheaper for businesses. Economists widely see a land tax as the least harmful tax there is.
+   - Cheap renewable energy (roadmap step 3) goes straight at Europe's biggest cost problem.
+   - A starting capital for every young adult means more people able to study, start a business or take a risk, not only the children of the rich.
+   - The common fund can invest, as Norway's does, including in new technology at home.
+
+Countries also gain from fairness in ways growth figures don't show. Denmark, Sweden and the Netherlands combine high taxes with strong economies, partly because security, good education and trust attract people and businesses too. And richer countries going first is itself part of fairness between countries (see [Fair Globe Sharing](/sharing-fairly/fair-globe-sharing/)).
+
 ## Objections
 
 - **"It's my money, and I want to give it to my children."** The wish to protect one's children is deeply human. That is why the plan starts by guaranteeing every child a floor and a starting capital. The security parents want for their own children becomes something all children get.
-- **"The rich will leave."** Some will try. The answer is international rules, ownership registers and taxes tied to land and activity *inside* the country, which can't be moved abroad.
+- **"The rich will leave."** Some will try. The answer is a group of countries acting together, taxes on leaving, ownership registers, and taxes tied to land and activity *inside* the country, which can't be moved abroad (see "What If One Country Goes First?" above).
+- **"We'll lose against countries that don't do this."** Only if the steps make the economy weaker. That's why steps that also raise productivity come first, and why the pace follows the economy's strength.
 - **"Governments will waste the money."** That is why the fund is separate, transparent, with clear rules on what it pays for, and visible to every citizen, like Norway's.
 - **"The next government will cancel it."** A path decided with citizens, announced long in advance and paying benefits everyone can see is much harder to cancel. Few politicians would dare to take away every young adult's starting capital.
 - **"Forty years is too slow."** Slow at the top, but not at the bottom: the floor comes first, in the first years. The slowness is in the part that, done fast, would cause fear and flight.
@@ -124,4 +142,7 @@ This proposal is the bridge to steps 4 and 5 of the [Vision & Roadmap](/vision-r
 - Ronald P. Dore, *Land Reform in Japan* (1959)
 - Kela, *Results of Finland's Basic Income Experiment* (2020)
 - OECD/G20 Inclusive Framework, *Statement on a Two-Pillar Solution* (2021), the global minimum tax
+- OECD, *Common Reporting Standard* (2014), the automatic exchange of bank information between countries
+- Mario Draghi, *The Future of European Competitiveness* (European Commission, 2024), on why the EU is falling behind
+- European Union, *Carbon Border Adjustment Mechanism* (Regulation 2023/956)
 - The Citizens' Assembly (Ireland), final reports (2017 and 2018)
