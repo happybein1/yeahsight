@@ -27,7 +27,9 @@ PAUSE_HEAD = 0.9                       # seconds after a heading
 # Names the voice gets wrong, spelled the way they should sound. Applied to the
 # text only before reading, so the scripts keep the real spelling.
 # Heard in a test: "YeahSight" came out as "Yes, Sight", "HappyBein" as "Happy Bane".
-PRONOUNCE = {'yeahsight': 'Yeah Sight', 'happybein': 'Happy Being'}
+# French: "Yeah Sight" gets English sounds the French voice lacks; "Yé Saillte" gives /je sajt/.
+PRONOUNCE = {'en': {'yeahsight': 'Yeah Sight', 'happybein': 'Happy Being'},
+             'fr': {'yeahsight': 'Yé Saillte', 'happybein': 'Happy Being'}}
 
 here = pathlib.Path(__file__).parent
 src, out = here / 'scripts', here / 'out'
@@ -51,7 +53,7 @@ for f in sorted(src.glob('*.txt')):
                 continue
             heading = line.startswith('#')
             text = line.lstrip('#').strip()
-            for word, said in PRONOUNCE.items():
+            for word, said in PRONOUNCE[lang].items():
                 text = re.sub(word, said, text, flags=re.I)
             for _, _, chunk in pipe(text, voice=voice, speed=SPEED):
                 audio.append(np.asarray(chunk, dtype=np.float32))

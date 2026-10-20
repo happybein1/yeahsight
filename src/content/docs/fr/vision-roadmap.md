@@ -42,6 +42,8 @@ Supprimer l'héritage financier et les donations importantes, sources d'inégali
 
 → Contexte : [Héritage](/fr/sharing-fairly/inheritance/)
 
+→ Comment les étapes 4 et 5 pourraient se faire, dans l'ordre et sans laisser personne de côté : [Réussir la transition](/fr/sharing-fairly/making-the-transition/)
+
 ### 6. N'utiliser que les ressources nécessaires
 Réduire les ressources utilisées par chacun à un niveau qui garantit encore assez de confort et de productivité. Des infrastructures plus efficaces et l'automatisation des tâches le rendent possible.
 

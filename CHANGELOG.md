@@ -4,6 +4,19 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.15
+
+**French version of *Making the Transition*: *Réussir la transition*, with its own recorded audio (16 min).** User: "can you now do the french version of the audio translation for the last article? i wonder how it will sound".
+
+- **Article:** `fr/sharing-fairly/making-the-transition.md`, a full translation of the v2.12 English text (not a summary). Links go to the French pages (*Allocation universelle*, *Héritage*, *Partage équitable du monde*, *Redistribution sociale*, *Énergie propre et sûre*, *Vision et feuille de route*) and YeahCore's French needs page. Sources use the published French titles where they exist (Piketty, *Le Capital au XXIe siècle*; Atkinson, *Inégalités*; Saez and Zucman, *Le Triomphe de l'injustice*; the Draghi report, CBAM and the OECD texts in French).
+- **French links, mirroring v2.12:** home page chip "La transition" and first "Nouveau" card (replacing *Partage équitable de l'espace*), *Tendances prospectives* list, *Vision et feuille de route* step 5, *Héritage*. The sidebar label *Réussir la transition* already existed (v2.12).
+- **Audio:** listening script `tools/podcast/scripts/making-the-transition.fr.txt` (same choices as the English one: numbers in words, *Lastenausgleich* said as "une loi dite de compensation des charges"), Kokoro voice `ff_siwis` (French needs espeak-ng, installed on the Zenbook), MP3 5.6 MB, `public/audio/making-the-transition.fr.mp3`.
+- **`make_audio.py`: `PRONOUNCE` is now per language.** In French, "Yeah Sight" gave English sounds the French voice doesn't have, so it is spelled "Yé Saillte" (/je sajt/). "HappyBein" stays "Happy Being" in both languages.
+
+**Verification:** transcribed four 30-second samples of the French MP3 with faster-whisper (start, Norway fund, "Et si un pays partait en premier ?", open questions): text matches the script. Built locally; French page, player and links checked in the built HTML. Not yet listened to by the owner.
+
+---
+
 ## v2.14
 
 **New YeahSight logo: a sunrise over the horizon.** User: "peut on changer le logo de yeahsight ? je n'aime pas celui là" (the eye). I showed four ideas (circuit S, mountains, globe and lens, path), then, after "quelle idée se rapproche du but de YeahSight ?", a sunrise with rays ending in HappyBein-style rings (three variants). User: "it looks like an alien", so three more without rings on the rays; picked D (short rays, rings at the ends of the horizon), then "just remove the rings and keep the idea of D".
