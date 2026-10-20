@@ -4,6 +4,20 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.14
+
+**New YeahSight logo: a sunrise over the horizon.** User: "peut on changer le logo de yeahsight ? je n'aime pas celui là" (the eye). I showed four ideas (circuit S, mountains, globe and lens, path), then, after "quelle idée se rapproche du but de YeahSight ?", a sunrise with rays ending in HappyBein-style rings (three variants). User: "it looks like an alien", so three more without rings on the rays; picked D (short rays, rings at the ends of the horizon), then "just remove the rings and keep the idea of D".
+
+- **Mark:** green half-sun (#4CAF50), five short rounded green rays, blue horizon line (#29ABE2). Idea: where society is heading, a better future. Colours are HappyBein's (the eye used #0088CC / #46E8C1).
+- **Wordmark:** "Yeah" blue #29ABE2, "Sight" green #4CAF50, bold (Nunito → Segoe UI → Arial).
+- **Files:** `src/assets/logo.svg` (header), `public/favicon.svg` (mark on a dark rounded square), `favicon.png` 32px, `favicon.ico` 16+32, `icon-192.png` (rounded), `apple-touch-icon.png` 180px (square, iOS rounds it), `og-image.png` 1200×630 (link previews, same layout as before with the new mark). PNGs rendered with headless Firefox and scaled with Pillow.
+- **Hero title** on the home page uses the same two colours (`.w-yeah` #29ABE2 light / #5CC4F0 dark, `.w-x` #4CAF50). The rest of the site's accent colours are unchanged.
+- YeahCore still has its old circle logo in the old colours.
+
+**Verification:** built locally; home page at 412px and an article at 1100px checked in Firefox (header logo, hero title); icons and social image looked at as images.
+
+---
+
 ## v2.13
 
 **First recorded audio on YeahSight: *Making the Transition* (EN), 15 minutes.** User: "are you able to use kokoro to add a voice over this article?"
