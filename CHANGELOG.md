@@ -4,6 +4,19 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.13
+
+**First recorded audio on YeahSight: *Making the Transition* (EN), 15 minutes.** User: "are you able to use kokoro to add a voice over this article?"
+
+- **Made on the Zenbook** (Python 3.12, so the Windows PC's Python 3.14 blocker doesn't apply): Kokoro 82M in a scratch venv (CPU torch), voice `af_heart`, speed 0.95, via `tools/podcast/make_audio.py`. Took about 20 minutes for 15 minutes of audio on this 4-core laptop.
+- **Listening script** `tools/podcast/scripts/making-the-transition.en.txt`, written for the ear from the v2.12 article: no links or sources, numbers in words, *Lastenausgleich* said as "a law called the equalisation of burdens", intro and outro in the same style as the `vision-roadmap.en` script.
+- **Pronunciation fix in `make_audio.py`:** a `PRONOUNCE` map applied before reading (scripts keep the real spelling): "YeahSight" → "Yeah Sight", "HappyBein" → "Happy Being". Found by transcribing samples of the first render with faster-whisper: the voice said "Yes, Sight" and "Happy Bane".
+- **MP3** written with soundfile (libsndfile 1.2.2; no ffmpeg on this machine), constant bitrate, ≈48 kbps mono 24 kHz, 5.4 MB, in `public/audio/making-the-transition.en.mp3`. The article's front matter has `audio:` and `audioMinutes: 15`, which shows the player (v2.07) instead of the browser "Listen" button.
+
+**Verification:** transcribed four 30-second samples of the final MP3 with faster-whisper (start, history section, "What if one country goes first?", ending): text matches the script, "Happy Being" now heard correctly. The transcriber still writes "Yes, Sight", although Kokoro's phonemes are the right ones (`jˈɛə sˈIt`, the same as for "Yeah, that is right"): "yeah" running into "s" is ambiguous to it. Not yet listened to by the owner. Built locally (`npm run build`); player present in the built page.
+
+---
+
 ## v2.12
 
 **New article: *Making the Transition* (`sharing-fairly/making-the-transition`, `kind: proposal`), English only for now.** The user's main goal for YeahSight: "how to get out of legacy financial unfairness and move towards fair and sustainable society". Asked "what would be your recommendation for how to make the transition. can you write an article about that?", then raised competition between countries ("if a country do that, they may loose versus other countries. so should countries disappear to reach that state?" and "even the eu is trying to move in the good direction, but competition is real and they are getting poorer"), and said "you can publish as such, i will review later". So it is live **without the owner's text review yet**.

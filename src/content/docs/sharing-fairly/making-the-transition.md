@@ -3,6 +3,8 @@ kind: proposal
 title: Making the Transition
 description: How a society could move away from inherited financial unfairness towards a fair and sustainable economy, step by step, without breaking what works or leaving people behind.
 reading_time: "10 min"
+audio: /audio/making-the-transition.en.mp3
+audioMinutes: 15
 sidebar:
   order: 6
 ---
