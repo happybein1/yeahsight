@@ -4,6 +4,20 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.12
+
+**New article: *Making the Transition* (`sharing-fairly/making-the-transition`, `kind: proposal`), English only for now.** The user's main goal for YeahSight: "how to get out of legacy financial unfairness and move towards fair and sustainable society". Asked "what would be your recommendation for how to make the transition. can you write an article about that?", then raised competition between countries ("if a country do that, they may loose versus other countries. so should countries disappear to reach that state?" and "even the eu is trying to move in the good direction, but competition is real and they are getting poorer"), and said "you can publish as such, i will review later". So it is live **without the owner's text review yet**.
+
+- **Content:** In short → The Question (WIR 2022: top 10% own ~76% of wealth, bottom half ~2%) → Why Change Is Hard (unfairness feeds itself, fear of loss, countries compete, governments change) → What History Teaches (West Germany's 1952 *Lastenausgleich* paid over 30 years, Japan's 1946–50 land reform, Alaska and Norway funds, Finland's 2017–18 basic income test, the 2021 global minimum tax, Ireland's Citizens' Assembly) → HappyBein's Proposed Direction: eight principles (floor first; announce early, move slowly; protect the ordinary; make the economy stronger, not weaker; flows before stocks; visible gains via a common fund; start as a group and tax first what can't move; decide together, test first) and three phases (≈0–5 years floor and transparency; ≈5–20 lifetime inheritance cap, tax shift to land and resources, starting capital for young adults; ≈20–40 complete the shift) → What If One Country Goes First? (shared floor of rules, not abolishing countries; tax what can't leave; exit taxes; border adjustment like the EU CBAM; start as a group; steps that also fix Europe's real weaknesses per the Draghi report) → Objections → First Steps → The Human Side (YeahCore's five needs) → Open Questions → Roadmap Step (4 and 5) → Where Next → Sources.
+- **New proposals the site hadn't stated before**, flagged to the owner for review: the lifetime cap on inheritances, a starting capital for every young adult, the rough 40-year timeline.
+- **Links:** sidebar after *Inheritance* (FR label *Réussir la transition*), home page "Sharing fairly" chip "The transition" and first "New on YeahSight" card (replacing *Fair Space Sharing*), *Foresight Trends* list, *Vision & Roadmap* step 5, *Inheritance* (before "See also"), `llms.txt`.
+- **French:** not yet; the French site falls back to the English page until the translation is added.
+- Draft kept in `tools/drafts/making-the-transition.en.DRAFT.md`.
+
+**Verification:** built locally in a scratch copy (`npm run build`, 41 pages); the new page, home and roadmap links present in the built HTML; article checked at 412px in Firefox.
+
+---
+
 ## v2.11
 
 **The Human Side in *What Every Society Must Do* (EN and FR) is now a paragraph, not a table.** Looking at the v2.10 table on a phone, the user asked whether it was actually useful. It wasn't: most rows restated the task in other words (Security → Safety and security, Social cohesion → Social connection), the last row said "All five", and it took a full phone screen. The new paragraph names YeahCore's five needs in one linked phrase, then says what the tasks mean for a person's daily life: doing them well lets people meet their needs without a daily struggle, and failures are felt directly (insecurity becomes constant fear, failing care exhausts families, broken cohesion leaves people lonely and distrustful), so a society can't be judged by its economy alone. Text approved by the user; French translated in full. The v2.10 site-wide table styling stays, since other articles have tables.

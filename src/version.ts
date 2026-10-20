@@ -1,3 +1,3 @@
-export const SITE_VERSION = '2.11';
-export const SITE_VERSION_DATE = '2026-10-13';
-export const SITE_VERSION_NOTES = 'Rewritten article: What Is Society For? (EN+FR)';
+export const SITE_VERSION = '2.12';
+export const SITE_VERSION_DATE = '2026-10-20';
+export const SITE_VERSION_NOTES = 'New article: Making the Transition (EN)';

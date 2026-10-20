@@ -74,6 +74,7 @@ export default defineConfig({
                         { label: 'Social Redistribution', translations: { fr: 'Redistribution sociale' }, slug: 'sharing-fairly/social-redistribution' },
                         { label: 'Universal Allowance', translations: { fr: 'Allocation universelle' }, slug: 'sharing-fairly/universal-allowance' },
                         { label: 'Inheritance', translations: { fr: 'Héritage' }, slug: 'sharing-fairly/inheritance' },
+                        { label: 'Making the Transition', translations: { fr: 'Réussir la transition' }, slug: 'sharing-fairly/making-the-transition' },
                     ],
                 },
                 { label: '4. Vision & Roadmap', translations: { fr: '4. Vision et feuille de route' }, slug: 'vision-roadmap' },
