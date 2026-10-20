@@ -152,11 +152,29 @@ Par-dessus, un **petit fonds partagé** s'occupe de ce qui traverse les frontiè
 - **« Une taxe sur les énergies fossiles nuit à la compétitivité. »** Pour les industries en concurrence à l'étranger, oui : elles ne sont donc taxées qu'avec une taxe aux frontières sur les importations. Pour les logements, les transports et les entreprises locales, tout l'argent revient aux gens. La Suède a l'une des taxes carbone les plus élevées du monde depuis 1991, et ses émissions ont baissé pendant que son économie continuait de croître.
 - **« Quarante ans, c'est trop lent. »** Lent en haut, mais pas en bas : le socle vient d'abord, dès les premières années. La lenteur ne concerne que la partie qui, faite trop vite, provoquerait peur et fuite.
 
+## Comment cela pourrait se faire concrètement
+
+Ce n'est pas le programme d'un candidat qui serait élu et ferait tout. Même un président a besoin d'une majorité au parlement, le plan s'étend sur une dizaine d'élections, et les parties menées ensemble demandent l'accord de plusieurs gouvernements en même temps. Il ne peut appartenir ni à une personne ni à un parti.
+
+Les grands changements suivent en général le même chemin, sur 10 à 30 ans :
+
+1. **Une idée est écrite clairement.** En 1942, le *rapport Beveridge* britannique décrivait un État-providence.
+2. **Des personnes et des organisations la diffusent et la défendent :** associations, syndicats, chercheurs, journalistes.
+3. **Des partis en reprennent des morceaux,** souvent plusieurs partis, chacun avec les parties qui lui conviennent.
+4. **Une crise ou une élection ouvre une fenêtre,** et un morceau devient loi. Après la guerre, la Grande-Bretagne a bâti son État-providence à partir du rapport Beveridge en quelques années.
+5. **Une fois que les gens en voient les bienfaits, il devient difficile de revenir en arrière.** Peu de responsables politiques oseraient aujourd'hui supprimer l'assurance maladie publique.
+
+Certains morceaux de ce plan sont déjà sur ce chemin. L'impôt minimum mondial (2021) est arrivé après des années de pression de chercheurs et d'associations. En 2024, le Brésil a demandé au G20 d'étudier un impôt minimum sur les milliardaires, à partir d'un rapport de l'économiste Gabriel Zucman. Les assemblées citoyennes irlandaises ont commencé par un petit essai mené par des chercheurs universitaires en 2011, avant que le gouvernement ne reprenne l'idée.
+
+Ce plan se voit donc plutôt comme un menu : des morceaux que différents mouvements, partis et pays peuvent reprendre au fil du temps. Ce qu'il apporte, c'est la vue d'ensemble : comment les morceaux s'emboîtent, dans quel ordre, et pourquoi chacun peut se faire sans danger. Le rôle de YeahSight, c'est l'étape 1 : expliquer l'idée clairement, pour que d'autres puissent la diffuser et s'en servir.
+
 ## Premiers pas
 
 Ce qui peut commencer dès maintenant, sans attendre l'ensemble du plan :
 
 - Soutenir la transparence : des registres publics de qui possède réellement les entreprises et les terres.
+- Demander aux candidats, à chaque élection, ce qu'ils pensent de deux ou trois morceaux concrets de ce plan.
+- Utiliser l'initiative citoyenne européenne : avec un million de signatures venant d'au moins sept pays de l'UE, la Commission européenne doit répondre officiellement.
 - Soutenir une imposition identique des revenus du patrimoine et des revenus du travail.
 - Appuyer les expériences de besoins de base garantis là où vous vivez.
 - Demander des assemblées citoyennes sur la richesse et l'héritage.
@@ -201,6 +219,10 @@ Cette proposition fait le lien avec les étapes 4 et 5 de la [Vision et feuille 
 - Gouvernement suédois, *Sweden's carbon tax*, sur ses résultats depuis 1991
 - Cour de justice de l'UE, arrêt *de Lasteyrie du Saillant* (C-9/02, 2004), sur les impôts de sortie au sein de l'UE
 - The Citizens' Assembly (Irlande), rapports finaux (2017 et 2018)
+- William Beveridge, *Social Insurance and Allied Services* (le *rapport Beveridge*, 1942)
+- Gabriel Zucman, *A Blueprint for a Coordinated Minimum Effective Taxation Standard for Ultra-High-Net-Worth Individuals* (rapport pour la présidence brésilienne du G20, 2024)
+- *We the Citizens* (2011), l'assemblée citoyenne pilote irlandaise
+- Union européenne, *Règlement relatif à l'initiative citoyenne européenne* (2019/788)
 - Norges Bank Investment Management, *Government Pension Fund Global*, sur la gestion du fonds norvégien
 - Alaska Permanent Fund Corporation, histoire du fonds et du dividende
 - Commission européenne, *NextGenerationEU* (2020), et sa proposition de nouvelles ressources propres de l'UE (2021)

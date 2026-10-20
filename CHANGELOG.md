@@ -4,6 +4,21 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.18
+
+**_Making the Transition_ / _Réussir la transition_: new section "How It Could Actually Happen" (*Comment cela pourrait se faire concrètement*), before First Steps.** User: "in practice how can such plan materializes? should a person propose this plan and get elected president?", then "yes" to adding the answer.
+
+- **Not one candidate:** a president still needs a parliamentary majority, the plan spans about ten elections, and the "together" parts need several governments at once.
+- **The usual 10–30 year pattern, in five steps:** an idea written down clearly (Beveridge Report, 1942); people and organisations spread it; parties take up pieces; a crisis or election opens a window (Britain's post-war welfare state); visible benefits make it hard to undo.
+- **Pieces already on that path:** global minimum tax (2021) after years of pressure; Brazil's 2024 G20 request to study a billionaire minimum tax (Zucman report); Ireland's citizens' assemblies starting from the 2011 *We the Citizens* academic pilot.
+- **The plan as a menu**, with YeahSight's role as step 1 (explaining the idea clearly).
+- **First Steps:** two new items (ask candidates where they stand on two or three pieces; the European Citizens' Initiative, one million signatures from at least seven EU countries).
+- **Sources added:** Beveridge Report; Zucman's 2024 G20 report; *We the Citizens*; ECI Regulation 2019/788. Same changes in French and in the English draft. Audio still not updated (owner's request).
+
+**Verification:** built locally (41 pages); new section checked in the built HTML in both languages.
+
+---
+
 ## v2.17
 
 **_Making the Transition_ / _Réussir la transition_: what one country can do alone versus together, rules for leaving from day one, and a split fossil-fuel tax.** From a back-and-forth with the user: "so at the start, all governments should agree on this plan right?"; "taxing income from wealth same as work will get rich leave. also just the prospect of phase 2"; "but that contradicts with the transparent plan announced at the start for 40 years"; "i am puzzled in the plan on what can a country do himself versus all should be together"; "pollution and fossil fuels tax goes against country competitiveness"; then "ok you can update the text".

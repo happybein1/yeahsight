@@ -152,11 +152,29 @@ As trust grows and the gaps between countries shrink, more can be pooled. People
 - **"A fossil-fuel tax hurts competitiveness."** For industries that compete abroad, it would, so they are only taxed with a border charge on imports. For homes, transport and local businesses, all the money goes back to people. Sweden has had one of the world's highest carbon taxes since 1991, and its emissions fell while its economy kept growing.
 - **"Forty years is too slow."** Slow at the top, but not at the bottom: the floor comes first, in the first years. The slowness is in the part that, done fast, would cause fear and flight.
 
+## How It Could Actually Happen
+
+This is not a programme for one candidate who gets elected and does it all. Even a president needs a majority in parliament, the plan runs over about ten elections, and the parts done together need several governments to agree at the same time. It can't belong to one person or one party.
+
+Big changes usually follow the same pattern, over 10 to 30 years:
+
+1. **An idea is written down clearly.** In 1942, the British *Beveridge Report* described a welfare state.
+2. **People and organisations spread it and push for it:** associations, unions, researchers, journalists.
+3. **Parties take up pieces of it,** often several parties, each with the parts that suit them.
+4. **A crisis or an election opens a window,** and a piece becomes law. After the war, Britain built its welfare state from the Beveridge Report within a few years.
+5. **Once people see the benefits, it becomes hard to undo.** Few politicians today would dare to remove public health care.
+
+Some pieces of this plan are already on that path. The global minimum tax (2021) came after years of pressure from researchers and campaign groups. In 2024, Brazil asked the G20 to study a minimum tax on billionaires, based on a report by the economist Gabriel Zucman. Ireland's citizens' assemblies began as a small trial by university researchers in 2011, before the government took up the idea.
+
+So this plan is best seen as a menu: pieces that different movements, parties and countries can pick up over time. What it adds is the overall picture of how the pieces fit together, in what order, and why each one is safe to do. YeahSight's part is step 1: explaining the idea clearly, so that others can spread it and use it.
+
 ## First Steps
 
 Things that can start now, without waiting for the whole plan:
 
 - Support transparency: public registers of who really owns companies and land.
+- Ask candidates in every election where they stand on two or three concrete pieces of this plan.
+- Use the European Citizens' Initiative: with one million signatures from at least seven EU countries, the European Commission must formally respond.
 - Support taxing income from wealth and income from work in the same way.
 - Back pilots of guaranteed basic needs where you live.
 - Ask for citizens' assemblies on wealth and inheritance.
@@ -201,6 +219,10 @@ This proposal is the bridge to steps 4 and 5 of the [Vision & Roadmap](/vision-r
 - Government Offices of Sweden, *Sweden's carbon tax*, on its results since 1991
 - Court of Justice of the EU, *de Lasteyrie du Saillant* (C-9/02, 2004), on exit taxes inside the EU
 - The Citizens' Assembly (Ireland), final reports (2017 and 2018)
+- William Beveridge, *Social Insurance and Allied Services* (the *Beveridge Report*, 1942)
+- Gabriel Zucman, *A Blueprint for a Coordinated Minimum Effective Taxation Standard for Ultra-High-Net-Worth Individuals* (report for the Brazilian G20 presidency, 2024)
+- *We the Citizens* (2011), the Irish pilot citizens' assembly
+- European Union, *Regulation on the European Citizens' Initiative* (2019/788)
 - Norges Bank Investment Management, *Government Pension Fund Global*, on how Norway's fund is run
 - Alaska Permanent Fund Corporation, history of the fund and the dividend
 - European Commission, *NextGenerationEU* (2020), and its proposal for new EU own resources (2021)
