@@ -87,9 +87,32 @@ La concurrence entre pays est réelle, et c'est la principale raison pour laquel
    - Déplacer les impôts du travail vers les terrains et les ressources rend le travail moins cher pour les entreprises. Les économistes considèrent largement l'impôt foncier comme l'impôt le moins nuisible qui soit.
    - Une énergie renouvelable bon marché (étape 3 de la feuille de route) s'attaque directement au plus gros problème de coûts de l'Europe.
    - Un capital de départ pour chaque jeune adulte permet à plus de gens d'étudier, de créer une entreprise ou de prendre un risque, et pas seulement aux enfants de familles riches.
-   - Le fonds commun peut investir, comme celui de la Norvège, y compris dans les nouvelles technologies du pays.
+   - Le fonds commun peut investir, comme celui de la Norvège, avec une petite part plafonnée pour les nouvelles technologies du pays (voir « Qui gère le fonds ? » plus bas).
 
 Les pays gagnent aussi à la justice d'une manière que les chiffres de croissance ne montrent pas. Le Danemark, la Suède et les Pays-Bas combinent des impôts élevés et des économies solides, en partie parce que la sécurité, une bonne éducation et la confiance attirent aussi les gens et les entreprises. Et que les pays les plus riches partent en premier fait en soi partie de la justice entre pays (voir [Partage équitable du monde](/fr/sharing-fairly/fair-globe-sharing/)).
+
+## Qui gère le fonds ?
+
+Le fonds commun deviendra très important. Il doit donc être protégé du gaspillage et des faveurs politiques. Aucun acteur ne doit le contrôler seul. Le travail est partagé en quatre :
+
+1. **Le parlement écrit les règles une fois, dans une loi difficile à modifier.** La loi fixe ce que le fonds finance (l'allocation pour les besoins de base et le capital de départ de chaque jeune adulte), combien il peut verser chaque année et dans quoi il peut investir. Elle ne décide pas, année après année, où va l'argent.
+2. **Un organisme public indépendant gère l'argent au quotidien.** Des gestionnaires professionnels, nommés pour de longs mandats fixes, l'investissent à distance du gouvernement, comme une banque centrale fixe les taux d'intérêt. C'est ainsi qu'est géré le fonds pétrolier norvégien : par une branche de sa banque centrale, pas par des ministres.
+3. **Les citoyens le surveillent.** Un petit panel de citoyens tirés au sort, renouvelé régulièrement, examine le fonds chaque année et publie son rapport. La Cour des comptes vérifie les comptes, et chacun peut voir en ligne ce qui est entré et ce qui est sorti.
+4. **Les versements suivent une formule fixe, pas un choix politique annuel.** Par exemple, le fonds verse au plus environ 3 % de sa valeur chaque année, à parts égales. La Norvège applique une règle semblable.
+
+Le fonds et sa formule de versement ont besoin de la protection la plus forte possible : la constitution, ou une large majorité ou un référendum pour les changer. L'Alaska montre pourquoi : son fonds est protégé par la constitution de l'État, mais la formule du dividende annuel n'était qu'une loi ordinaire. Depuis 2016, à court d'argent, l'État a versé à plusieurs reprises moins que ce que promettait la formule, et la confiance en a souffert.
+
+L'essentiel du fonds reste dans des placements larges et peu risqués, répartis entre de nombreuses entreprises et de nombreux pays. Investir dans son propre pays, c'est là que les faveurs politiques s'infiltrent (« mettez l'argent dans l'usine de ma région »), et c'est pourquoi le fonds norvégien n'investit qu'à l'étranger. Seule une petite part plafonnée va donc aux nouvelles technologies du pays, selon ses propres règles publiées.
+
+### Le fonds est-il partagé entre pays ?
+
+Pas au début. Chaque pays garde son propre fonds, alimenté par ses propres impôts sur les héritages, les terrains et la pollution, et rendant des comptes à son propre parlement et à ses citoyens. On accepte de payer plus quand on voit l'argent revenir vers soi et ses voisins. Et les pays partent de niveaux de richesse très différents : un fonds unique dès le premier jour signifierait de gros transferts entre eux, le moyen le plus rapide de perdre les électeurs des deux côtés.
+
+Ce que le groupe partage dès le départ, ce sont les **règles** : les mêmes règles de plafond sur les héritages, les mêmes registres de propriété, les mêmes principes de versement. Ainsi, personne ne gagne à déplacer une fortune d'un pays membre à un autre.
+
+Par-dessus, un **petit fonds partagé** s'occupe de ce qui traverse les frontières. Il est financé par l'argent que le groupe collecte ensemble, surtout la taxe carbone aux frontières (la Commission européenne a déjà proposé que l'essentiel de ces recettes aille au budget commun de l'UE). Il aide les membres les plus pauvres à atteindre plus vite le socle commun et finance des investissements partagés, comme les réseaux électriques entre pays. Il existe un précédent : en 2020, l'UE a emprunté en commun à grande échelle pour la première fois, environ 750 milliards d'euros pour la relance après le Covid.
+
+À mesure que la confiance grandit et que les écarts entre pays se réduisent, davantage peut être mis en commun. Ceux qui changent de pays membre gardent leurs droits : l'allocation suit le lieu où l'on vit, et le capital de départ reste à soi où que l'on aille. Le partage au-delà du groupe est une étape suivante (voir [Partage équitable du monde](/fr/sharing-fairly/fair-globe-sharing/)).
 
 ## Objections
 
@@ -120,7 +143,6 @@ L'argent est rarement juste de l'argent. Pour la plupart des gens, il représent
 - Qu'est-ce qu'un logement familial de « valeur raisonnable », entièrement protégé ?
 - Comment des pays aux niveaux de richesse différents peuvent-ils avancer ensemble sur ce chemin ?
 - Comment reconnaître le passé, par exemple les richesses bâties sur l'exploitation coloniale, sans rendre la transition impossible ?
-- Qui devrait gérer le fonds commun, et comment le protéger des abus politiques ?
 
 ## Étape de la feuille de route
 
@@ -148,3 +170,6 @@ Cette proposition fait le lien avec les étapes 4 et 5 de la [Vision et feuille 
 - Mario Draghi, *L'avenir de la compétitivité européenne* (Commission européenne, 2024), sur les raisons du retard de l'UE
 - Union européenne, *Mécanisme d'ajustement carbone aux frontières* (règlement 2023/956)
 - The Citizens' Assembly (Irlande), rapports finaux (2017 et 2018)
+- Norges Bank Investment Management, *Government Pension Fund Global*, sur la gestion du fonds norvégien
+- Alaska Permanent Fund Corporation, histoire du fonds et du dividende
+- Commission européenne, *NextGenerationEU* (2020), et sa proposition de nouvelles ressources propres de l'UE (2021)

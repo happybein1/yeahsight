@@ -4,6 +4,19 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.16
+
+**New section in *Making the Transition* / *Réussir la transition*: "Who Manages the Fund?" (with a sub-section "Is the fund shared between countries?").** User, after listening to the English audio: "not bad ideas, who should be managing this fund?", then "ok but would that fund be shared between countries?", then "you can add but wait for the recording update".
+
+- **Who manages it:** split four ways. Parliament sets the rules once in a hard-to-change law; an independent public body invests (like Norway's fund, run by a unit of its central bank); a randomly chosen citizens' panel and the public auditor oversee it; payouts follow a fixed formula (at most ~3% of the fund's value a year, like Norway's rule). The formula needs constitutional-level protection: Alaska's fund principal is in its constitution but the dividend formula was ordinary law, and payouts have been cut below it since 2016. Most of the fund stays in broad investments; only a small, capped part may go to technology at home (Norway's fund invests only abroad to avoid political favours).
+- **Shared between countries?** Not at first: national funds, shared rules (same cap rules, registers, payout principles), plus a small shared fund paid mainly by the carbon border charge (the Commission's 2021 own-resources proposal sends most CBAM revenue to the EU budget), for helping poorer members and cross-border investments. Precedent: NextGenerationEU, ~€750 billion of common borrowing in 2020. More pooled as gaps shrink; rights move with people. Link to *Fair Globe Sharing*.
+- **Also changed:** the "What If One Country Goes First?" bullet on the fund investing at home now says "a small, capped part"; the open question "Who should manage the common fund…" is removed (now answered); three sources added (NBIM, Alaska Permanent Fund Corporation, NextGenerationEU / own resources). Same changes in French and in `tools/drafts/making-the-transition.en.DRAFT.md`.
+- **Audio not updated yet** (owner's request): the English and French MP3s still read the v2.12/v2.15 text, without this section and with the old open question.
+
+**Verification:** built locally (41 pages); the new section, its links and both languages checked in the built HTML.
+
+---
+
 ## v2.15
 
 **French version of *Making the Transition*: *Réussir la transition*, with its own recorded audio (16 min).** User: "can you now do the french version of the audio translation for the last article? i wonder how it will sound".
