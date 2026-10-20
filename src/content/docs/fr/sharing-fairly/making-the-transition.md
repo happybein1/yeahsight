@@ -2,7 +2,7 @@
 kind: proposal
 title: Réussir la transition
 description: Comment une société pourrait sortir des injustices financières héritées du passé et aller vers une économie juste et durable, étape par étape, sans casser ce qui fonctionne ni laisser personne de côté.
-reading_time: "10 min"
+reading_time: "12 min"
 audio: /audio/making-the-transition.fr.mp3
 audioMinutes: 16
 sidebar:
@@ -10,7 +10,7 @@ sidebar:
 ---
 
 
-**En bref :** l'essentiel des injustices financières d'aujourd'hui a été hérité, pas choisi. La richesse continue de produire de la richesse, et elle passe d'une génération à la suivante. Tout corriger d'un coup provoquerait peur, résistance et dégâts. Nous proposons un chemin lent, annoncé à l'avance, en trois phases. D'abord, garantir à chacun un socle de sécurité. Ensuite, changer la façon dont circule la richesse *nouvelle* : héritages, plus-values foncières, pollution. Enfin, laisser les grandes fortunes héritées revenir à un fonds commun qui finance le départ dans la vie de chacun. L'épargne ordinaire, les retraites et les logements familiaux sont protégés tout au long du chemin. Ce chemin est lancé par un groupe de pays plutôt que par un seul, et chaque étape est choisie pour renforcer l'économie, pas l'affaiblir, afin que partir en premier ne veuille pas dire prendre du retard.
+**En bref :** l'essentiel des injustices financières d'aujourd'hui a été hérité, pas choisi. La richesse continue de produire de la richesse, et elle passe d'une génération à la suivante. Tout corriger d'un coup provoquerait peur, résistance et dégâts. Nous proposons un chemin lent, annoncé à l'avance, en trois phases. D'abord, garantir à chacun un socle de sécurité. Ensuite, changer la façon dont circule la richesse *nouvelle* : héritages, plus-values foncières, pollution. Enfin, laisser les grandes fortunes héritées revenir à un fonds commun qui finance le départ dans la vie de chacun. L'épargne ordinaire, les retraites et les logements familiaux sont protégés tout au long du chemin. N'importe quel pays peut lancer seul les premières étapes ; ce qui peut partir en un clic est traité par un groupe de pays ensemble. Chaque étape est choisie pour renforcer l'économie, pas l'affaiblir, afin que partir en premier ne veuille pas dire prendre du retard.
 
 ## La question
 
@@ -47,26 +47,47 @@ De grands transferts pacifiques de propriété ont déjà eu lieu :
 ### Huit principes
 
 1. **D'abord le socle.** Garantir les besoins de base de chacun avant de demander à quiconque de renoncer à quoi que ce soit. On accepte bien plus facilement le changement quand on n'a pas peur.
-2. **Annoncer tôt, avancer lentement.** Publier tout le chemin et ses dates de nombreuses années à l'avance, pour que les projets de personne ne soient détruits du jour au lendemain.
+2. **Tout annoncer tôt, y compris les règles pour ceux qui partent.** Publier tout le chemin et ses dates de nombreuses années à l'avance, pour que les projets de personne ne soient détruits du jour au lendemain. Les règles pour ceux qui quittent le pays s'appliquent dès le jour de l'annonce : lent pour ceux qui restent, pas d'avance pour ceux qui partent.
 3. **Protéger l'ordinaire, viser le concentré.** Les logements familiaux jusqu'à une valeur raisonnable, les retraites, l'épargne normale et les entreprises familiales en activité sont protégés. Les changements portent sur les très grandes fortunes.
 4. **Renforcer l'économie, pas l'affaiblir.** Un plan de justice qui affaiblit l'économie ne durera pas. Les étapes à la fois justes *et* favorables à la productivité passent en premier, et le rythme suit la force économique des pays qui y participent.
 5. **Changer les flux avant les stocks.** Commencer par l'argent nouveau : les héritages, la hausse de la valeur des terrains sans effort du propriétaire, la pollution et l'usage des ressources. Ne toucher que plus tard, et progressivement, aux fortunes déjà constituées.
 6. **Rendre les gains visibles.** L'argent collecté va dans un fonds commun que chacun peut voir, par exemple pour un capital de départ pour chaque jeune adulte et pour l'allocation pour les besoins de base. Pas dans le budget général, où personne ne voit ce qu'il finance.
-7. **Partir en groupe, et taxer d'abord ce qui ne peut pas partir.** Commencer avec un groupe de pays assez grand pour peser, le protéger par des règles communes à ses frontières, et commencer par les terrains, les bâtiments et les ressources naturelles, qui restent là où ils sont, quel que soit leur propriétaire.
+7. **Taxer d'abord ce qui ne peut pas partir, et faire le reste en groupe.** Les terrains, les bâtiments et les ressources naturelles restent là où ils sont, quel que soit leur propriétaire : n'importe quel pays peut donc commencer par là, seul. L'argent qui peut partir en un clic est taxé par un groupe de pays assez grand pour peser, protégé par des règles communes à ses frontières.
 8. **Décider ensemble, tester d'abord.** Utiliser des assemblées citoyennes pour définir les détails, et des expériences pilotes pour vérifier que chaque étape fonctionne avant de l'étendre à tout le pays.
+
+### Seul ou ensemble
+
+Une règle simple décide qui fait quoi : si cela **reste sur place**, un pays peut agir seul. Si cela peut **partir en un clic**, les pays agissent ensemble.
+
+| Un pays peut le faire seul | Il faut un groupe de pays |
+|---|---|
+| Garantir les besoins de base (d'abord des expériences pilotes, puis l'allocation complète) | Taxer le patrimoine financier détenu n'importe où : actions, fonds, comptes bancaires à l'étranger |
+| Des registres publics de qui possède les terrains, les bâtiments et les entreprises | Le plafond à vie sur les grands héritages |
+| Des assemblées citoyennes sur le plan | Une taxe sur les énergies fossiles pour les industries en concurrence avec d'autres pays, avec une taxe aux frontières sur les importations |
+| Taxer davantage les terrains et les bâtiments, et moins le travail | Des taux minimums sous lesquels personne ne descend, pour qu'aucun membre n'attire les fortunes d'un autre |
+| Taxer les loyers et les bénéfices des terrains, bâtiments et entreprises du pays, là où ils sont | Le petit fonds partagé (voir « Qui gère le fonds ? ») |
+| Des règles pour ceux qui partent : impôt sur leurs plus-values, règles qui les suivent pendant 10 ans | |
+| Une taxe sur les énergies fossiles pour les logements, les transports et les entreprises locales, rendue aux gens | |
+| Créer le fonds commun et le capital de départ des jeunes adultes | |
+
+La phase 1 correspond à toute la première colonne : n'importe quel pays peut commencer demain. La phase 2 commence quand un groupe est prêt pour la seconde colonne. Si aucun groupe ne se forme encore, un pays ne s'arrête pas : il va plus loin dans ce qu'il peut faire seul, par exemple plus d'impôt foncier et un fonds plus important, et continue de pousser pour former le groupe.
 
 ### Trois phases
 
 **Phase 1 : construire le socle et la confiance (environ les 5 premières années)**
 - Tester l'[Allocation universelle](/fr/sharing-fairly/universal-allowance/) dans quelques régions, puis l'étendre pas à pas.
 - Rendre la propriété visible : un registre public de qui possède réellement les entreprises, les terres et les grandes fortunes.
-- Imposer les revenus du patrimoine (dividendes, loyers, plus-values) aux mêmes taux que les revenus du travail, et fermer les principales niches.
-- Créer un fonds commun, d'abord alimenté par une taxe sur les énergies fossiles et la pollution (voir [Énergie propre et sûre](/fr/forces/clean-safe-energy/)). La justice et la durabilité sont ainsi financées par la même mesure.
+- Imposer les revenus du patrimoine qui ne peuvent pas s'échapper, là où ils sont gagnés : les loyers des bâtiments, les plus-values sur les terrains et les bénéfices des entreprises installées dans le pays. Commencer à déplacer les impôts du travail vers les terrains.
+- Mettre en place les règles pour ceux qui partent dès le jour de l'annonce du plan (voir « Et si un pays partait en premier ? »). À partir de ce jour, les donations comptent aussi pour le futur plafond à vie : tout donner tôt ne permet donc pas d'y échapper.
+- Créer un fonds commun, d'abord alimenté par les impôts sur les terrains et les loyers.
+- Taxer les énergies fossiles et la pollution des logements, des transports et des entreprises locales, et rendre tout cet argent aux gens, à parts égales, via le fonds (voir [Énergie propre et sûre](/fr/forces/clean-safe-energy/)). La plupart des ménages ordinaires récupèrent plus qu'ils ne paient, car les riches consomment bien plus d'énergie. La justice et la durabilité sont ainsi financées par la même mesure.
 - Réunir une assemblée citoyenne sur l'ensemble du chemin, et publier son calendrier.
 
-**Phase 2 : changer les flux (environ de la 5e à la 20e année)**
-- Instaurer un **plafond à vie** sur ce qu'une personne peut recevoir en héritages et donations. Tout ce qui dépasse le plafond va au fonds commun. Le plafond commence généreux et baisse selon un calendrier publié.
-- Déplacer progressivement les impôts du travail vers la valeur des terrains et l'usage des ressources, que personne n'a créés par son propre effort.
+**Phase 2 : changer les flux, ensemble (environ de la 5e à la 20e année)**
+- Avec un groupe de pays, imposer les revenus de tout le patrimoine financier, où qu'il soit détenu, aux mêmes taux que les revenus du travail, et fermer les principales niches.
+- Étendre la taxe sur les énergies fossiles aux industries en concurrence à l'étranger, avec une taxe aux frontières pour que les importations paient autant.
+- Instaurer un **plafond à vie** sur ce qu'une personne peut recevoir en héritages et donations. Tout ce qui dépasse le plafond va au fonds commun. Le plafond commence généreux et baisse selon un calendrier publié. Il s'applique aux héritiers qui vivent dans le groupe de pays, où que vive la personne qui donne.
+- Continuer à déplacer les impôts du travail vers la valeur des terrains et l'usage des ressources, que personne n'a créés par son propre effort.
 - Le fonds commence à verser un **capital de départ** à chaque jeune adulte (par exemple à 18 ou 25 ans), pour les études, un premier logement ou une entreprise.
 - Les entreprises familiales et les exploitations agricoles bénéficient d'un chemin pour transmettre l'activité elle-même, par exemple en payant sur de nombreuses années à partir de ses bénéfices, comme pour le prélèvement allemand.
 
@@ -80,8 +101,14 @@ De grands transferts pacifiques de propriété ont déjà eu lieu :
 La concurrence entre pays est réelle, et c'est la principale raison pour laquelle les projets de justice sont édulcorés. Mais la réponse n'est pas d'attendre que tous les pays soient d'accord, et encore moins de supprimer les pays. Il faut un socle de règles communes, chaque pays restant libre d'aller plus loin. C'est déjà ainsi que fonctionnent le commerce, la protection de la couche d'ozone et l'impôt minimum mondial. Cinq choses permettent de partir en premier sans y perdre :
 
 1. **Taxer d'abord ce qui ne peut pas partir.** Les terrains, les bâtiments et les ressources naturelles restent dans le pays, quel que soit leur propriétaire. C'est pourquoi le plan commence par là, et ne passe que plus tard aux fortunes qui peuvent voyager.
-2. **Rendre le départ coûteux.** L'Allemagne, la France et la Norvège taxent déjà les plus-values des personnes fortunées qui partent à l'étranger. Les États-Unis imposent leurs citoyens où qu'ils vivent.
-3. **Protéger les frontières sans les fermer.** Le mécanisme d'ajustement carbone aux frontières de l'UE, à partir de 2026, fait payer la différence aux importations venant de pays sans prix du carbone, pour que les producteurs qui partent en premier ne soient pas concurrencés de façon déloyale. La même idée peut s'appliquer à d'autres règles communes.
+2. **Mettre d'abord en place les règles pour ceux qui partent, dès le premier jour.** Annoncer le plan sans elles inviterait les fortunes à partir avant qu'il ne commence. Donc, dès le jour de l'annonce :
+   - Ceux qui partent paient l'impôt sur les plus-values accumulées ici, comme s'ils avaient vendu. L'Allemagne, la France et la Norvège le font déjà.
+   - Les règles les suivent pendant 10 ans. L'Allemagne applique déjà son impôt sur les successions aux Allemands pendant 5 ans après leur départ, et les États-Unis imposent leurs citoyens où qu'ils vivent.
+   - Le plafond à vie compte là où vivent les héritiers. Un parent riche qui part à l'étranger n'y gagne rien si ses enfants restent.
+   - Un petit organisme indépendant revoit régulièrement les règles et ferme les nouvelles failles, sans changer le chemin lui-même.
+
+   Rien de tout cela n'interdit de partir, et cela ne prend rien à ceux qui restent. Au sein de l'UE, un impôt de sortie entre pays membres ne peut être perçu qu'au moment où les biens sont réellement vendus : une raison de plus pour que le groupe partage les mêmes règles.
+3. **Protéger les frontières sans les fermer.** Une forte taxe sur les énergies fossiles, seule, nuirait aux usines qui vendent à l'étranger : pour elles, elle ne vient donc qu'avec une taxe aux frontières. Le mécanisme d'ajustement carbone aux frontières de l'UE, à partir de 2026, fait payer la différence aux importations venant de pays sans prix du carbone, pour que les producteurs qui partent en premier ne soient pas concurrencés de façon déloyale. La même idée peut s'appliquer à d'autres règles communes.
 4. **Partir en groupe, pas seul.** Un ensemble de la taille de l'UE est un marché trop grand pour qu'on s'en détourne. Les autres le rejoignent ensuite avec le temps, comme pour l'impôt minimum mondial.
 5. **Choisir des étapes qui renforcent l'économie.** La croissance plus lente de l'Europe vient surtout d'une énergie chère, de trop peu d'investissements dans les nouvelles technologies et de marchés divisés en 27 ensembles de règles, pas de la justice sociale en soi. Plusieurs étapes de ce plan s'attaquent directement à ces faiblesses :
    - Déplacer les impôts du travail vers les terrains et les ressources rend le travail moins cher pour les entreprises. Les économistes considèrent largement l'impôt foncier comme l'impôt le moins nuisible qui soit.
@@ -121,6 +148,8 @@ Par-dessus, un **petit fonds partagé** s'occupe de ce qui traverse les frontiè
 - **« Nous allons perdre face aux pays qui ne le font pas. »** Seulement si les étapes affaiblissent l'économie. C'est pourquoi les étapes qui augmentent aussi la productivité passent en premier, et pourquoi le rythme suit la force de l'économie.
 - **« Les gouvernements vont gaspiller l'argent. »** C'est pourquoi le fonds est séparé, transparent, avec des règles claires sur ce qu'il finance, et visible par chaque citoyen, comme celui de la Norvège.
 - **« Le prochain gouvernement va tout annuler. »** Un chemin décidé avec les citoyens, annoncé longtemps à l'avance et qui apporte des bénéfices visibles par tous est beaucoup plus difficile à annuler. Peu de responsables politiques oseraient supprimer le capital de départ de chaque jeune adulte.
+- **« Rien que l'annonce les fera partir. »** C'est pourquoi les règles pour ceux qui partent s'appliquent dès le jour de l'annonce, et les donations comptent pour le plafond dès ce jour-là aussi. Ce qui est lent, c'est ce que paieront ceux qui restent, pas la protection contre la fuite.
+- **« Une taxe sur les énergies fossiles nuit à la compétitivité. »** Pour les industries en concurrence à l'étranger, oui : elles ne sont donc taxées qu'avec une taxe aux frontières sur les importations. Pour les logements, les transports et les entreprises locales, tout l'argent revient aux gens. La Suède a l'une des taxes carbone les plus élevées du monde depuis 1991, et ses émissions ont baissé pendant que son économie continuait de croître.
 - **« Quarante ans, c'est trop lent. »** Lent en haut, mais pas en bas : le socle vient d'abord, dès les premières années. La lenteur ne concerne que la partie qui, faite trop vite, provoquerait peur et fuite.
 
 ## Premiers pas
@@ -169,6 +198,8 @@ Cette proposition fait le lien avec les étapes 4 et 5 de la [Vision et feuille 
 - OCDE, *Norme commune de déclaration* (2014), l'échange automatique d'informations bancaires entre pays
 - Mario Draghi, *L'avenir de la compétitivité européenne* (Commission européenne, 2024), sur les raisons du retard de l'UE
 - Union européenne, *Mécanisme d'ajustement carbone aux frontières* (règlement 2023/956)
+- Gouvernement suédois, *Sweden's carbon tax*, sur ses résultats depuis 1991
+- Cour de justice de l'UE, arrêt *de Lasteyrie du Saillant* (C-9/02, 2004), sur les impôts de sortie au sein de l'UE
 - The Citizens' Assembly (Irlande), rapports finaux (2017 et 2018)
 - Norges Bank Investment Management, *Government Pension Fund Global*, sur la gestion du fonds norvégien
 - Alaska Permanent Fund Corporation, histoire du fonds et du dividende

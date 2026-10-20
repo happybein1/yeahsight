@@ -4,6 +4,23 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.17
+
+**_Making the Transition_ / _Réussir la transition_: what one country can do alone versus together, rules for leaving from day one, and a split fossil-fuel tax.** From a back-and-forth with the user: "so at the start, all governments should agree on this plan right?"; "taxing income from wealth same as work will get rich leave. also just the prospect of phase 2"; "but that contradicts with the transparent plan announced at the start for 40 years"; "i am puzzled in the plan on what can a country do himself versus all should be together"; "pollution and fossil fuels tax goes against country competitiveness"; then "ok you can update the text".
+
+- **New sub-section "Alone or together"** before the three phases: rule of thumb (stays put → one country alone; moves with one click → a group), a two-column table, and what a country does if no group forms yet (goes further alone, keeps pushing).
+- **Principle 2** is now "Announce everything early, including the rules for leaving": rules for those who leave apply from the day of the announcement ("slow for those who stay, no head start for those who leave"). **Principle 7** is now "Tax first what can't move, and do the rest as a group."
+- **Phase 1** no longer taxes all wealth income like work income alone: only income that can't escape (rent, land gains, profits of local companies), taxed at the source. Adds the rules for leaving from day one, and gifts counting towards the future lifetime cap from the announcement. The common fund starts from land and rent taxes; the fossil-fuel tax on homes, transport and local businesses is returned to people equally through the fund.
+- **Phase 2** is now "Change the flows, together": taxing all financial wealth like work (group), the fossil-fuel tax for industries that compete abroad with a border charge, and the lifetime cap counted by where the heirs live.
+- **"What If One Country Goes First?"** point 2 is now "Put the rules for leaving first, from day one": exit tax on built-up gains (Germany, France, Norway), rules that follow people for 10 years (Germany already does 5 years for its inheritance tax; US taxes citizens anywhere), cap by heirs' residence, an independent body closing loopholes, and the EU limit (exit taxes between member countries only collectable on actual sale, *de Lasteyrie du Saillant*, 2004). Point 3 now says why exporting industries get the fossil tax only with a border charge.
+- **Two new objections:** "Just announcing it will make them leave" and "A fossil-fuel tax hurts competitiveness" (Sweden: carbon tax since 1991, emissions down, economy growing).
+- **Sources added:** Government Offices of Sweden on its carbon tax; CJEU *de Lasteyrie du Saillant* (C-9/02). Reading time 10 → 12 min. Same changes in French and in the English draft.
+- **Audio still not updated** (owner's request): both MP3s read the v2.12/v2.15 text.
+
+**Verification:** built locally (41 pages); table, new phase text and objections checked in the built HTML in both languages.
+
+---
+
 ## v2.16
 
 **New section in *Making the Transition* / *Réussir la transition*: "Who Manages the Fund?" (with a sub-section "Is the fund shared between countries?").** User, after listening to the English audio: "not bad ideas, who should be managing this fund?", then "ok but would that fund be shared between countries?", then "you can add but wait for the recording update".
