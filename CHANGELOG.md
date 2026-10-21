@@ -4,6 +4,17 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.20
+
+**Layout fix, whole site: paragraphs get their spacing back and headings their normal size.** Noticed while checking the v2.19 screenshots: on every article, paragraphs ran together with no gap and section headings were oversized. User: "you can fix the layout".
+
+- **Cause:** `src/components/overrides/MarkdownContent.astro` replaces Starlight's own component, which imports `@astrojs/starlight/style/markdown.css`. The override never did, so Starlight's article styles (spacing between blocks, heading sizes, list spacing, link colours) were missing site-wide, apparently since the v2.00 rebuild.
+- **Fix:** the override now imports `@astrojs/starlight/style/markdown.css` itself. No other style changes; `custom.css` rules still apply on top.
+
+**Verification:** built locally; screenshots of the home page (compared with the live one: same layout, slightly more space under headings), *Making the Transition* at 1280px, French *Héritage* at 412px, and the new directory page.
+
+---
+
 ## v2.19
 
 **New page: *Who's Working on This* / *Qui agit déjà*, a filterable directory of 50 organisations working on pieces of the *Making the Transition* plan.** From the discussion on how the plan could happen: YeahSight explains the bigger picture and connects to existing campaigns rather than running one. User: "there are many ongoing relatable campaigns, in various countries", "we could possibly still maintain a separate page with a comprehensive list of initiatives, which could serve as a mean to connect and share the existence of this proposal", "could that list be filterable as well like an embedded table?", "okay", then after review "you can publish the list as well".

@@ -1,5 +1,8 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
+// Starlight's own MarkdownContent imports this; overriding the component dropped it, which removed
+// paragraph spacing and heading sizes site-wide until v2.20.
+import '@astrojs/starlight/style/markdown.css';
 
 const isFr = Astro.locals.starlightRoute.lang === 'fr';
 const readLabel = isFr ? 'de lecture' : 'read';
