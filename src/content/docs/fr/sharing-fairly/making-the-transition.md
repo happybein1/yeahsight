@@ -172,6 +172,7 @@ Ce plan se voit donc plutôt comme un menu : des morceaux que différents mouvem
 
 Ce qui peut commencer dès maintenant, sans attendre l'ensemble du plan :
 
+- Rejoindre ou soutenir un groupe qui travaille déjà sur un morceau du plan : voir [Qui agit déjà](/fr/sharing-fairly/who-is-working-on-this/), un annuaire filtrable.
 - Soutenir la transparence : des registres publics de qui possède réellement les entreprises et les terres.
 - Demander aux candidats, à chaque élection, ce qu'ils pensent de deux ou trois morceaux concrets de ce plan.
 - Utiliser l'initiative citoyenne européenne : avec un million de signatures venant d'au moins sept pays de l'UE, la Commission européenne doit répondre officiellement.

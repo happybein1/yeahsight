@@ -67,6 +67,8 @@ const audioBy = isFr ? 'Lu par la voix YeahSight' : 'Read by the YeahSight voice
     const content = document.querySelector('.sl-markdown-content');
     const el = document.getElementById('yv-rt-text');
     if (!content || !el) return;
+    // Directory pages (v2.19) are lists to browse, not text to read: no reading time.
+    if (content.querySelector('.org-dir')) { document.getElementById('yv-reading-time')?.remove(); return; }
 
     const words = content.innerText.trim().split(/\s+/).length;
     const mins = Math.max(1, Math.round(words / 200));

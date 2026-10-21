@@ -21,6 +21,7 @@
 - [Fair Globe Sharing](https://yeahsight.happybein.com/sharing-fairly/fair-globe-sharing/): what a fair distribution of the world's resources could look like
 - [Inheritance](https://yeahsight.happybein.com/sharing-fairly/inheritance/): how inheritance carries inequity forward, and a proposal for redistribution
 - [Making the Transition](https://yeahsight.happybein.com/sharing-fairly/making-the-transition/): a proposed step-by-step path from inherited financial unfairness to a fair and sustainable society, including how countries can go first without losing out
+- [Who's Working on This](https://yeahsight.happybein.com/sharing-fairly/who-is-working-on-this/): a filterable directory of organisations working on pieces of that path (tax justice, inheritance and wealth, basic income, citizens' assemblies, carbon pricing)
 
 ## Technology & Automation
 

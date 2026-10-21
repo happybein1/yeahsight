@@ -4,6 +4,19 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.19
+
+**New page: *Who's Working on This* / *Qui agit déjà*, a filterable directory of 50 organisations working on pieces of the *Making the Transition* plan.** From the discussion on how the plan could happen: YeahSight explains the bigger picture and connects to existing campaigns rather than running one. User: "there are many ongoing relatable campaigns, in various countries", "we could possibly still maintain a separate page with a comprehensive list of initiatives, which could serve as a mean to connect and share the existence of this proposal", "could that list be filterable as well like an embedded table?", "okay", then after review "you can publish the list as well".
+
+- **Data:** `src/data/organisations.json` (one entry per organisation: name, url, country INT/EU/FR/BE/NL/DE, type network/campaign/research, topics tax/wealth/income/assembly/carbon, one-line description in EN and FR, plus a `checked` date). 21 international/European, 7 France, 5 Belgium, 6 Netherlands, 11 Germany. Every URL answered on 2026-10-21 (a few return 403 to scripts behind bot protection but are live sites). Dropped: the Belgian Réseau pour la Justice Fiscale campaign site (unreachable) and basicincome.be (domain for sale).
+- **Component:** `src/components/OrgDirectory.astro` (`lang` prop). Server-rendered table (works without JavaScript), search box + country + topic filters, "x of 50 organisations" count and "Clear filters"; rows become cards under 640px. Sorted by country (International, Europe, then FR/BE/NL/DE), networks first.
+- **Pages:** `sharing-fairly/who-is-working-on-this.mdx` and the French one, with listing criteria (active, non-party, working on a piece of the plan; being listed is not an endorsement either way) and "Contact us" for suggestions. Sidebar entry after *Making the Transition*; *First Steps* in both articles gains a first item linking to it; `public/llms.txt` entry.
+- **Reading time** is hidden on pages containing the directory (`MarkdownContent.astro` script), since "6 min read" made no sense for a list.
+
+**Verification:** built locally (43 pages); screenshots at 1280px (filtered to Germany + Inheritance & wealth: 4 of 50) and 412px in French.
+
+---
+
 ## v2.18
 
 **_Making the Transition_ / _Réussir la transition_: new section "How It Could Actually Happen" (*Comment cela pourrait se faire concrètement*), before First Steps.** User: "in practice how can such plan materializes? should a person propose this plan and get elected president?", then "yes" to adding the answer.

@@ -172,6 +172,7 @@ So this plan is best seen as a menu: pieces that different movements, parties an
 
 Things that can start now, without waiting for the whole plan:
 
+- Join or support a group already working on a piece of the plan: see [Who's Working on This](/sharing-fairly/who-is-working-on-this/), a filterable directory.
 - Support transparency: public registers of who really owns companies and land.
 - Ask candidates in every election where they stand on two or three concrete pieces of this plan.
 - Use the European Citizens' Initiative: with one million signatures from at least seven EU countries, the European Commission must formally respond.

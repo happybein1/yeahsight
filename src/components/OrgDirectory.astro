@@ -1,0 +1,138 @@
+---
+// Filterable directory of organisations working on pieces of the transition plan (v2.19).
+// Data lives in src/data/organisations.json: add one entry there and both languages update.
+import data from '../data/organisations.json';
+
+interface Props { lang?: 'en' | 'fr' }
+const { lang = 'en' } = Astro.props;
+const fr = lang === 'fr';
+
+const COUNTRIES: Record<string, [string, string]> = {
+  INT: ['🌍 International', '🌍 International'],
+  EU:  ['🇪🇺 Europe', '🇪🇺 Europe'],
+  FR:  ['🇫🇷 France', '🇫🇷 France'],
+  BE:  ['🇧🇪 Belgium', '🇧🇪 Belgique'],
+  NL:  ['🇳🇱 Netherlands', '🇳🇱 Pays-Bas'],
+  DE:  ['🇩🇪 Germany', '🇩🇪 Allemagne'],
+};
+const TOPICS: Record<string, [string, string]> = {
+  tax:      ['Tax justice', 'Justice fiscale'],
+  wealth:   ['Inheritance & wealth', 'Héritage et fortune'],
+  income:   ['Basic income', 'Revenu de base'],
+  assembly: ["Citizens' assemblies", 'Assemblées citoyennes'],
+  carbon:   ['Carbon pricing & climate', 'Prix du carbone et climat'],
+};
+const TYPES: Record<string, [string, string]> = {
+  network:  ['Network', 'Réseau'],
+  campaign: ['Campaign group', 'Groupe de campagne'],
+  research: ['Research', 'Recherche'],
+};
+const L = (pair: [string, string]) => (fr ? pair[1] : pair[0]);
+const countryOrder = Object.keys(COUNTRIES);
+const orgs = [...data.organisations].sort((a, b) =>
+  countryOrder.indexOf(a.country) - countryOrder.indexOf(b.country) ||
+  (a.type === 'network' ? 0 : 1) - (b.type === 'network' ? 0 : 1) ||
+  a.name.localeCompare(b.name));
+const total = orgs.length;
+const t = fr
+  ? { search: 'Rechercher…', allC: 'Tous les pays', allT: 'Tous les sujets', name: 'Organisation', where: 'Pays', what: 'Sujets', count: 'organisations', of: 'sur', none: 'Aucune organisation ne correspond. Essayez un autre filtre.', reset: 'Effacer les filtres', checked: 'Liens vérifiés le' }
+  : { search: 'Search…', allC: 'All countries', allT: 'All topics', name: 'Organisation', where: 'Country', what: 'Topics', count: 'organisations', of: 'of', none: 'No organisation matches. Try another filter.', reset: 'Clear filters', checked: 'Links checked on' };
+---
+<div class="org-dir not-content" data-total={total}>
+  <div class="org-controls">
+    <input type="search" class="org-q" placeholder={t.search} aria-label={t.search} />
+    <select class="org-c" aria-label={t.where}>
+      <option value="">{t.allC}</option>
+      {countryOrder.map((c) => <option value={c}>{L(COUNTRIES[c])}</option>)}
+    </select>
+    <select class="org-t" aria-label={t.what}>
+      <option value="">{t.allT}</option>
+      {Object.keys(TOPICS).map((k) => <option value={k}>{L(TOPICS[k])}</option>)}
+    </select>
+  </div>
+  <p class="org-count" aria-live="polite"><span class="org-n">{total}</span> <span class="org-of" hidden>{t.of} {total}</span> {t.count}<span class="org-resetwrap" hidden> · <button type="button" class="org-reset">{t.reset}</button></span></p>
+  <table class="org-table">
+    <thead><tr><th>{t.name}</th><th>{t.where}</th><th>{t.what}</th></tr></thead>
+    <tbody>
+      {orgs.map((o) => (
+        <tr data-c={o.country} data-t={o.topics.join(' ')} data-s={`${o.name} ${o.en} ${o.fr}`.toLowerCase()}>
+          <td>
+            <a href={o.url} target="_blank" rel="noopener">{o.name}</a>
+            <span class="org-type">{L(TYPES[o.type])}</span>
+            <div class="org-desc">{fr ? o.fr : o.en}</div>
+          </td>
+          <td class="org-where">{L(COUNTRIES[o.country])}</td>
+          <td class="org-topics">{o.topics.map((k) => <span class="org-tag">{L(TOPICS[k])}</span>)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <p class="org-none" hidden>{t.none}</p>
+  <p class="org-checked">{t.checked} {data.checked}.</p>
+</div>
+
+<style>
+  .org-dir { margin-top: 1.25rem; }
+  .org-controls { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .org-controls input, .org-controls select {
+    font: inherit; font-size: 16px; padding: .45rem .6rem; border-radius: 8px;
+    border: 1px solid var(--sl-color-gray-5); background: var(--sl-color-bg); color: var(--sl-color-text);
+  }
+  .org-controls input { flex: 1 1 14rem; min-width: 0; }
+  .org-controls select { flex: 1 1 10rem; min-width: 0; }
+  .org-count { margin: .75rem 0 .5rem; font-size: .9rem; color: var(--sl-color-gray-3); }
+  .org-reset { font: inherit; font-size: .9rem; background: none; border: 0; padding: 0; color: var(--sl-color-accent); cursor: pointer; text-decoration: underline; }
+  .org-table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  .org-table th { text-align: left; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; color: var(--sl-color-gray-3); padding: .4rem .5rem; border-bottom: 1px solid var(--sl-color-gray-5); }
+  .org-table td { vertical-align: top; padding: .7rem .5rem; border-bottom: 1px solid var(--sl-color-hairline); }
+  .org-table a { font-weight: 700; color: var(--sl-color-accent); text-decoration: none; }
+  .org-table a:hover { text-decoration: underline; }
+  .org-type { margin-left: .4rem; font-size: .72rem; padding: .05rem .4rem; border-radius: 999px; border: 1px solid var(--sl-color-gray-5); color: var(--sl-color-gray-3); white-space: nowrap; }
+  .org-desc { margin-top: .25rem; color: var(--sl-color-gray-2); line-height: 1.45; }
+  .org-where { white-space: nowrap; }
+  .org-tag { display: inline-block; margin: 0 .3rem .3rem 0; font-size: .78rem; padding: .1rem .5rem; border-radius: 999px; background: var(--sl-color-accent-low); color: var(--sl-color-accent-high); white-space: nowrap; }
+  .org-table tr[hidden] { display: none; }
+  .org-none { padding: 1rem 0; color: var(--sl-color-gray-3); }
+  .org-checked { margin-top: .75rem; font-size: .8rem; color: var(--sl-color-gray-3); }
+  @media (max-width: 640px) {
+    .org-table thead { display: none; }
+    .org-table, .org-table tbody, .org-table tr, .org-table td { display: block; width: 100%; }
+    .org-table tr { padding: .6rem 0; border-bottom: 1px solid var(--sl-color-hairline); }
+    .org-dir .org-table td { border: 0; padding: .15rem 0; }
+    .org-where { font-size: .85rem; color: var(--sl-color-gray-3); }
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.org-dir').forEach((root) => {
+    const q = root.querySelector<HTMLInputElement>('.org-q')!;
+    const c = root.querySelector<HTMLSelectElement>('.org-c')!;
+    const tp = root.querySelector<HTMLSelectElement>('.org-t')!;
+    const rows = [...root.querySelectorAll<HTMLTableRowElement>('tbody tr')];
+    const n = root.querySelector('.org-n')!;
+    const of = root.querySelector<HTMLElement>('.org-of')!;
+    const none = root.querySelector<HTMLElement>('.org-none')!;
+    const reset = root.querySelector<HTMLButtonElement>('.org-reset')!;
+    const resetWrap = root.querySelector<HTMLElement>('.org-resetwrap')!;
+    const apply = () => {
+      const s = q.value.trim().toLowerCase();
+      let shown = 0;
+      for (const r of rows) {
+        const ok = (!c.value || r.dataset.c === c.value) &&
+          (!tp.value || (r.dataset.t || '').split(' ').includes(tp.value)) &&
+          (!s || (r.dataset.s || '').includes(s));
+        r.hidden = !ok;
+        if (ok) shown++;
+      }
+      const filtered = !!(s || c.value || tp.value);
+      n.textContent = String(shown);
+      of.hidden = !filtered;
+      resetWrap.hidden = !filtered;
+      none.hidden = shown > 0;
+    };
+    q.addEventListener('input', apply);
+    c.addEventListener('change', apply);
+    tp.addEventListener('change', apply);
+    reset.addEventListener('click', () => { q.value = ''; c.value = ''; tp.value = ''; apply(); });
+  });
+</script>
