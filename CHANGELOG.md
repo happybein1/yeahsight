@@ -4,6 +4,20 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.22
+
+**French audio of *Réussir la transition* re-recorded to match the current text (27 min, was 16), with a blended voice and loudness levelling.** User: "i am ok for the loudness levelling, and rerecord in french. use the blended voice is possible".
+
+- **Script** `tools/podcast/scripts/making-the-transition.fr.txt` rewritten from the current English script (v2.21), reusing the old French wording where the text hadn't changed: new "En bref" ending, principles 2 and 7, "Seul, ou ensemble ?", the new phase 1 and 2 content, rules for leaving from day one, the fossil-tax split, "Qui gère le fonds ?", "Le fonds est-il partagé entre pays ?", the two new objections, "Comment cela pourrait se faire concrètement", the new first steps, the shorter open questions, and an outro mentioning the directory.
+- **Blended voices** in `make_audio.py`: a voice can now be a mix `{voice: weight}`. French is 0.75 `ff_siwis` + 0.25 `af_bella` (siwis is Kokoro's only French voice); English is 0.7 `af_heart` + 0.3 `af_bella` for future recordings (the English episode itself is still the v2.21 recording with plain `af_heart`). Chosen after short test clips: the French blend transcribed cleanly with faster-whisper, slightly cleaner than a siwis + heart mix.
+- **Loudness levelling:** `make_audio.py` now also writes the MP3 itself, levelled to -16 LUFS (`loudnorm=I=-16:TP=-1.5:LRA=11`, 24 kHz mono, 48 kb/s, same format as before), using ffmpeg or the imageio-ffmpeg package. Measured -16.7 LUFS integrated.
+- **Pronunciation:** French HappyBein is now "Hapi Bi Ine", the spelling the HappyBein intro video uses (was "Happy Being").
+- **MP3** 9.7 MB, 1,614 s; French front matter `audioMinutes: 27`. Recorded in 41 minutes on the Zenbook.
+
+**Verification:** transcribed 45 s at the start, middle (~13 min, "Et si un pays partait en premier ?") and end with faster-whisper: text matches the script; HappyBein heard as "Hapi Bihine".
+
+---
+
 ## v2.21
 
 **English audio of *Making the Transition* re-recorded to match the current text (25 min, was 15).** User: "go ahead with re record the english version and update. happybein, is maybe better pronounced 'happy be in'".

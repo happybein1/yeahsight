@@ -5,7 +5,8 @@ Usage (from this folder, in a terminal where Kokoro is installed):
     python make_audio.py                     # all scripts in scripts/
     python make_audio.py vision-roadmap.en   # just one
 
-Each scripts/<name>.<lang>.txt becomes out/<name>.<lang>.wav
+Each scripts/<name>.<lang>.txt becomes out/<name>.<lang>.wav, plus a loudness-levelled
+out/<name>.<lang>.mp3 ready for public/audio/ (needs ffmpeg, or the imageio-ffmpeg package).
 - '# Title' and '## Heading' lines are read with a longer pause after them.
 - Blank lines separate paragraphs (a short pause).
 Language comes from the file name: .en -> English, .fr -> French.
@@ -13,13 +14,15 @@ Language comes from the file name: .en -> English, .fr -> French.
 Needs:  pip install kokoro soundfile numpy
 (French also needs espeak-ng installed on the computer.)
 """
-import sys, re, pathlib
+import sys, re, pathlib, shutil, subprocess
 import numpy as np
 import soundfile as sf
 from kokoro import KPipeline
 
-VOICES = {'en': ('a', 'af_heart'),     # American English, warm female voice
-          'fr': ('f', 'ff_siwis')}     # French
+# A voice is one Kokoro voice, or a blend {voice: weight}. Owner (2026-10-21) chose the
+# blends: a little of 'Bella' mixed in gives YeahSight a voice of its own.
+VOICES = {'en': ('a', {'af_heart': 0.7, 'af_bella': 0.3}),    # American English
+          'fr': ('f', {'ff_siwis': 0.75, 'af_bella': 0.25})}  # French (siwis is Kokoro's only French voice)
 SPEED = 0.95                           # a touch slower than default, for listening
 SR = 24000
 PAUSE_PARA = 0.55                      # seconds between paragraphs
@@ -29,8 +32,23 @@ PAUSE_HEAD = 0.9                       # seconds after a heading
 # Heard in a test: "YeahSight" came out as "Yes, Sight", "HappyBein" as "Happy Bane".
 # Owner (2026-10-21): HappyBein is said "Happy Be In".
 # French: "Yeah Sight" gets English sounds the French voice lacks; "Yé Saillte" gives /je sajt/.
+# French "Hapi Bi Ine" is the same spelling the HappyBein intro video uses.
 PRONOUNCE = {'en': {'yeahsight': 'Yeah Sight', 'happybein': 'Happy Be In'},
-             'fr': {'yeahsight': 'Yé Saillte', 'happybein': 'Happy Being'}}
+             'fr': {'yeahsight': 'Yé Saillte', 'happybein': 'Hapi Bi Ine'}}
+# Every episode is levelled to the same loudness (podcast standard, -16 LUFS), so
+# episodes and languages don't play at different volumes.
+LOUDNORM = 'loudnorm=I=-16:TP=-1.5:LRA=11'
+
+
+def find_ffmpeg():
+    if shutil.which('ffmpeg'):
+        return 'ffmpeg'
+    try:
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except ImportError:
+        return None
+
 
 here = pathlib.Path(__file__).parent
 src, out = here / 'scripts', here / 'out'
@@ -44,7 +62,9 @@ for f in sorted(src.glob('*.txt')):
         continue
     lang = name.rsplit('.', 1)[-1]
     code, voice = VOICES[lang]
-    pipe = pipes.setdefault(code, KPipeline(lang_code=code))
+    pipe = pipes.setdefault(code, KPipeline(lang_code=code, repo_id='hexgrad/Kokoro-82M'))
+    if isinstance(voice, dict):
+        voice = sum(w * pipe.load_voice(v) for v, w in voice.items())
     blocks = [b.strip() for b in re.split(r'\n\s*\n', f.read_text(encoding='utf-8')) if b.strip()]
     audio = []
     for b in blocks:
@@ -63,3 +83,11 @@ for f in sorted(src.glob('*.txt')):
     target = out / f'{name}.wav'
     sf.write(target, np.concatenate(audio), SR)
     print('wrote', target)
+    ffmpeg = find_ffmpeg()
+    if ffmpeg:
+        mp3 = target.with_suffix('.mp3')
+        subprocess.run([ffmpeg, '-loglevel', 'error', '-y', '-i', str(target), '-af', LOUDNORM,
+                        '-ar', str(SR), '-ac', '1', '-b:a', '48k', str(mp3)], check=True)
+        print('wrote', mp3)
+    else:
+        print('no ffmpeg found: MP3 not made')

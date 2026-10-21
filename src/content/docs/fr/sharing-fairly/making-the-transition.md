@@ -4,7 +4,7 @@ title: Réussir la transition
 description: Comment une société pourrait sortir des injustices financières héritées du passé et aller vers une économie juste et durable, étape par étape, sans casser ce qui fonctionne ni laisser personne de côté.
 reading_time: "12 min"
 audio: /audio/making-the-transition.fr.mp3
-audioMinutes: 16
+audioMinutes: 27
 sidebar:
   order: 6
 ---
