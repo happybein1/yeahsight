@@ -4,6 +4,19 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.21
+
+**English audio of *Making the Transition* re-recorded to match the current text (25 min, was 15).** User: "go ahead with re record the english version and update. happybein, is maybe better pronounced 'happy be in'".
+
+- **Script** `tools/podcast/scripts/making-the-transition.en.txt` rewritten from the v2.16–v2.19 text: new "In short" ending, principles 2 and 7, "Alone, or together?" (the table read as two spoken lists), the new phase 1 and 2 content, rules for leaving from day one, the fossil-tax split, "Who manages the fund?", "Is the fund shared between countries?", the two new objections, "How it could actually happen", the new first steps (directory, candidates, European Citizens' Initiative), the shorter open questions, and an outro mentioning the directory.
+- **Pronunciation:** `make_audio.py` English `PRONOUNCE` now reads HappyBein as "Happy Be In" (owner's choice; was "Happy Being"). French unchanged for now.
+- **MP3** 9.1 MB, 1,520 s; front matter `audioMinutes: 25`. Recorded in about 38 minutes on the Zenbook.
+- **The French audio is still the v2.15 recording** and doesn't include the later sections.
+
+**Verification:** transcribed the start, a middle sample (Finland, minimum tax) and the end with faster-whisper: text matches the script and HappyBein is heard as "Happy Be In" (Whisper still writes YeahSight as "Yasite", a transcription quirk already noted in v2.13; the phonemes are right).
+
+---
+
 ## v2.20
 
 **Layout fix, whole site: paragraphs get their spacing back and headings their normal size.** Noticed while checking the v2.19 screenshots: on every article, paragraphs ran together with no gap and section headings were oversized. User: "you can fix the layout".

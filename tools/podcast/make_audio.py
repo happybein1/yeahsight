@@ -27,8 +27,9 @@ PAUSE_HEAD = 0.9                       # seconds after a heading
 # Names the voice gets wrong, spelled the way they should sound. Applied to the
 # text only before reading, so the scripts keep the real spelling.
 # Heard in a test: "YeahSight" came out as "Yes, Sight", "HappyBein" as "Happy Bane".
+# Owner (2026-10-21): HappyBein is said "Happy Be In".
 # French: "Yeah Sight" gets English sounds the French voice lacks; "Yé Saillte" gives /je sajt/.
-PRONOUNCE = {'en': {'yeahsight': 'Yeah Sight', 'happybein': 'Happy Being'},
+PRONOUNCE = {'en': {'yeahsight': 'Yeah Sight', 'happybein': 'Happy Be In'},
              'fr': {'yeahsight': 'Yé Saillte', 'happybein': 'Happy Being'}}
 
 here = pathlib.Path(__file__).parent
