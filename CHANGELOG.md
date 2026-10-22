@@ -4,6 +4,19 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.25
+
+**Audio moved off the site to Cloudflare R2: episodes now play from `https://audio.happybein.com/yeahsight/`.** Second half of the owner's option 2. The owner turned on R2, created the bucket `happybein-audio`, connected the custom domain `audio.happybein.com`, and saved an Object Read & Write token (that bucket only) in `~/.config/happybein/r2.env` on the Zenbook (file set to 600; the key never went through the conversation or the repo).
+
+- **Uploaded** both *Making the Transition* MP3s with `tools/podcast/upload_audio.py` (content type `audio/mpeg`, `Cache-Control: public, max-age=3600` so a re-recording at the same address reaches listeners within the hour).
+- **Front matter** `audio` now points at the R2 addresses (EN + FR); `audioDate` kept as the original recording dates so the feeds don't present them as new episodes.
+- **`public/audio/` removed** from the site, so the repo stops growing by ~10 MB per recording (the old files stay in git history). `_redirects`: `/audio/*` → `https://audio.happybein.com/yeahsight/:splat` (301), so old links keep working.
+- **The feeds** (`/podcast/en.xml`, `/podcast/fr.xml`) pick up the new addresses automatically.
+
+**Verification:** both files on R2 answer 200 with the right size, `audio/mpeg`, `accept-ranges: bytes`, and a range request answers 206 (skipping ahead in the player works); the downloaded French file is byte-identical to the local one. Built in the scratch copy: the article pages' `<audio>` and the feeds' `<enclosure>` use the R2 addresses.
+
+---
+
 ## v2.24
 
 **Podcast feeds carry a contact address: contact@happybein.com** (as `itunes:owner`, name "HappyBein"). Spotify and Apple Podcasts send their ownership confirmation code to this address when the feeds are submitted. User: "i have contact@happybein.com or dvpt@happybein.com"; contact@ used since the feed is public and this is the general public address (the owner's Gmail deliberately kept out of the public feed).

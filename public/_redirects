@@ -112,3 +112,6 @@
 /fr/economy-equity/inheritance/   /fr/sharing-fairly/inheritance/   301
 /applications/*      /      301
 /fr/applications/*   /fr/   301
+
+# v2.25: audio moved to Cloudflare R2 (old MP3 links keep working)
+/audio/*   https://audio.happybein.com/yeahsight/:splat   301

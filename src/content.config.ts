@@ -10,7 +10,7 @@ export const collections = {
 				// Article type badge shown above the article (v2.06):
 				// 'explainer' = neutral background, 'proposal' = HappyBein's view, open for discussion.
 				kind: z.enum(['explainer', 'proposal']).optional(),
-				// Recorded audio version of the article (v2.07), e.g. /audio/vision-roadmap.en.mp3
+				// Recorded audio version of the article (v2.07), e.g. https://audio.happybein.com/yeahsight/vision-roadmap.en.mp3 (R2 since v2.25)
 				audio: z.string().optional(),
 				audioMinutes: z.number().optional(),
 				// Podcast feed details (v2.23): file size in bytes, length in seconds, and the date
