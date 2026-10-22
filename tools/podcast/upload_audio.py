@@ -14,7 +14,7 @@ The key lives in ~/.config/happybein/r2.env (never in this repo, which is public
 
 Needs:  pip install boto3  (and ffmpeg, or the imageio-ffmpeg package, for the duration)
 """
-import sys, re, pathlib, shutil, subprocess, datetime
+import sys, re, pathlib, shutil, subprocess, datetime, mimetypes
 
 BUCKET = 'happybein-audio'
 PREFIX = 'yeahsight/'
@@ -54,8 +54,12 @@ def main(args):
         return
     for f in map(pathlib.Path, args):
         key = PREFIX + f.name
+        kind = mimetypes.guess_type(f.name)[0] or 'application/octet-stream'
         # Short cache: a re-recording keeps the same address and should reach listeners within the hour.
-        s3.upload_file(str(f), BUCKET, key, ExtraArgs={'ContentType': 'audio/mpeg', 'CacheControl': 'public, max-age=3600'})
+        s3.upload_file(str(f), BUCKET, key, ExtraArgs={'ContentType': kind, 'CacheControl': 'public, max-age=3600'})
+        if f.suffix != '.mp3':
+            print(f'uploaded {PUBLIC}{key} ({kind})')   # a working file passed between laptops, not an episode
+            continue
         now = datetime.datetime.now().astimezone().replace(microsecond=0, second=0)
         print(f'uploaded {PUBLIC}{key}\n  front matter:')
         print(f'    audio: {PUBLIC}{key}')
