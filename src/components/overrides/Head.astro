@@ -71,6 +71,9 @@ const frUrl = currentPath.startsWith('/fr')
 <link rel="alternate" hreflang="fr" href={frUrl} />
 <link rel="alternate" hreflang="x-default" href={enUrl} />
 
+<!-- Podcast feed (v2.23), lets podcast apps and browsers find it from any page -->
+<link rel="alternate" type="application/rss+xml" title={isFr ? 'YeahSight (en français), podcast' : 'YeahSight podcast'} href={`${siteUrl}/podcast/${isFr ? 'fr' : 'en'}.xml`} />
+
 <!-- Open Graph -->
 <meta property="og:title" content={seoTitle} />
 <meta property="og:description" content={description} />

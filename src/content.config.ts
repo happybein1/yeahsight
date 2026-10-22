@@ -13,6 +13,11 @@ export const collections = {
 				// Recorded audio version of the article (v2.07), e.g. /audio/vision-roadmap.en.mp3
 				audio: z.string().optional(),
 				audioMinutes: z.number().optional(),
+				// Podcast feed details (v2.23): file size in bytes, length in seconds, and the date
+				// this recording was published. An article is a feed episode once all three are set.
+				audioBytes: z.number().optional(),
+				audioSeconds: z.number().optional(),
+				audioDate: z.coerce.date().optional(),
 			}),
 		}),
 	}),

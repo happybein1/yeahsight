@@ -4,6 +4,20 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.23
+
+**Podcast feeds: `/podcast/en.xml` and `/podcast/fr.xml`.** First half of the owner's choice to host audio on Cloudflare R2 with the site's own podcast feed (option 2, over a hosted service like Spotify for Creators). User: "ok go for option 2".
+
+- **Feed endpoint** `src/pages/podcast/[lang].xml.ts`: one RSS 2.0 + iTunes feed per language (Apple Podcasts and Spotify expect one language per feed). Episodes are generated from the articles: any article whose front matter has `audio`, `audioBytes`, `audioSeconds` and `audioDate` becomes an episode, newest first, with the article description plus a link to the full article. Stable GUIDs (`yeahsight-<article id>`), so a re-recording replaces an episode instead of adding a duplicate. `audio` can be a site path or a full URL (ready for the R2 move).
+- **New front matter fields** in `src/content.config.ts`: `audioBytes`, `audioSeconds`, `audioDate`; filled in for both *Making the Transition* recordings.
+- **Cover art** `public/podcast/cover-{en,fr}.jpg`, 3000×3000: the sunrise mark, "YeahSight", the tagline ("How society works, and where it's heading" / "Comprendre la société, et où elle va") and "A podcast by HappyBein".
+- **Head:** every page links its language's feed (`<link rel="alternate" type="application/rss+xml">`), so podcast apps and browsers can find it.
+- **Not yet:** no contact email in the feeds (Spotify sends a verification code to it when submitting; to decide with the owner), no visible "Podcast" link on the site until the feeds are listed in Spotify/Apple, and the MP3s still come from the site itself until R2 is set up.
+
+**Verification:** built in the scratch copy; both feeds parse as XML, one episode each with the right title, size, duration and article link; the French home page carries the French feed link.
+
+---
+
 ## v2.22
 
 **French audio of *Réussir la transition* re-recorded to match the current text (27 min, was 16), with a blended voice and loudness levelling.** User: "i am ok for the loudness levelling, and rerecord in french. use the blended voice is possible".

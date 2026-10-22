@@ -5,6 +5,9 @@ description: Comment une société pourrait sortir des injustices financières h
 reading_time: "12 min"
 audio: /audio/making-the-transition.fr.mp3
 audioMinutes: 27
+audioBytes: 9687260
+audioSeconds: 1614
+audioDate: 2026-10-21T22:18:00+02:00
 sidebar:
   order: 6
 ---

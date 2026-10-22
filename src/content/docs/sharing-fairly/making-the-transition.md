@@ -5,6 +5,9 @@ description: How a society could move away from inherited financial unfairness t
 reading_time: "12 min"
 audio: /audio/making-the-transition.en.mp3
 audioMinutes: 25
+audioBytes: 9121392
+audioSeconds: 1520
+audioDate: 2026-10-21T13:13:00+02:00
 sidebar:
   order: 6
 ---
