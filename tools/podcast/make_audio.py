@@ -20,8 +20,9 @@ import soundfile as sf
 from kokoro import KPipeline
 
 # A voice is one Kokoro voice, or a blend {voice: weight}. Owner (2026-10-21) chose the
-# blends: a little of 'Bella' mixed in gives YeahSight a voice of its own.
-VOICES = {'en': ('a', {'af_heart': 0.7, 'af_bella': 0.3}),    # American English
+# blends: a little of 'Bella' mixed in gives YeahSight a voice of its own. English switched to
+# Puck (male) on 2026-10-22, the voice the owner chose for the HappyBein intro video.
+VOICES = {'en': ('a', 'am_puck'),                              # American English
           'fr': ('f', {'ff_siwis': 0.75, 'af_bella': 0.25})}  # French (siwis is Kokoro's only French voice)
 SPEED = 0.95                           # a touch slower than default, for listening
 SR = 24000

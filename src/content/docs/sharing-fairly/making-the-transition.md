@@ -4,9 +4,9 @@ title: Making the Transition
 description: How a society could move away from inherited financial unfairness towards a fair and sustainable economy, step by step, without breaking what works or leaving people behind.
 reading_time: "12 min"
 audio: https://audio.happybein.com/yeahsight/making-the-transition.en.mp3
-audioMinutes: 25
-audioBytes: 9121392
-audioSeconds: 1520
+audioMinutes: 23
+audioBytes: 8271885
+audioSeconds: 1379
 audioDate: 2026-10-21T13:13:00+02:00
 sidebar:
   order: 6

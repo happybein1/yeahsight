@@ -4,6 +4,19 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.26
+
+**English *Making the Transition* episode re-recorded in the Kokoro Puck voice (`am_puck`, male).** The owner compared voices for the HappyBein intro video (Kokoro Puck, a Chatterbox copy of Puck made on the ROG, and the earlier female voices), chose Kokoro Puck, and asked for the Transition episode to use it too. French keeps its Siwis + Bella blend (Kokoro has no French male voice, and Puck reading French has an English accent).
+
+- **`tools/podcast/make_audio.py`:** English voice `{'af_heart': 0.7, 'af_bella': 0.3}` -> `'am_puck'`. Speed (0.95), pauses, pronunciations and the -16 LUFS loudnorm unchanged.
+- **Recorded on the ROG laptop** (the Zenbook's run was stopped for low memory): about 16 minutes. 1,379 s (23 min, was 25), 8,271,885 bytes, -17.1 LUFS integrated.
+- **Uploaded to R2 at the same address** (`https://audio.happybein.com/yeahsight/making-the-transition.en.mp3`), replacing the af_heart recording. Front matter: `audioMinutes` 23, `audioBytes` 8271885, `audioSeconds` 1379; `audioDate` kept, so the feed doesn't present it as a new episode. The R2 cache header is one hour, so the old file can still play for up to an hour.
+- **Test files removed from the bucket:** the `.en.puck.mp3` staging copy and the Chatterbox intro test (`test-intro-puck-cb.wav`, `.times.json`).
+
+**Verification:** the downloaded MP3 decodes completely (24 kHz mono, 48 kb/s, 22:58.6); the bucket listing shows the new size at the live address.
+
+---
+
 ## v2.25
 
 **Audio moved off the site to Cloudflare R2: episodes now play from `https://audio.happybein.com/yeahsight/`.** Second half of the owner's option 2. The owner turned on R2, created the bucket `happybein-audio`, connected the custom domain `audio.happybein.com`, and saved an Object Read & Write token (that bucket only) in `~/.config/happybein/r2.env` on the Zenbook (file set to 600; the key never went through the conversation or the repo).
