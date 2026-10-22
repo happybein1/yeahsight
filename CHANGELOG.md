@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.24
+
+**Podcast feeds carry a contact address: contact@happybein.com** (as `itunes:owner`, name "HappyBein"). Spotify and Apple Podcasts send their ownership confirmation code to this address when the feeds are submitted. User: "i have contact@happybein.com or dvpt@happybein.com"; contact@ used since the feed is public and this is the general public address (the owner's Gmail deliberately kept out of the public feed).
+
+**Verification:** built in the scratch copy; both feeds still parse as XML with the owner block.
+
+---
+
 ## v2.23
 
 **Podcast feeds: `/podcast/en.xml` and `/podcast/fr.xml`.** First half of the owner's choice to host audio on Cloudflare R2 with the site's own podcast feed (option 2, over a hosted service like Spotify for Creators). User: "ok go for option 2".

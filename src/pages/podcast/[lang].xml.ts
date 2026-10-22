@@ -61,6 +61,7 @@ export const GET: APIRoute = async ({ params, site }) => {
     <language>${feed.language}</language>
     <copyright>HappyBein</copyright>
     <itunes:author>HappyBein</itunes:author>
+    <itunes:owner><itunes:name>HappyBein</itunes:name><itunes:email>contact@happybein.com</itunes:email></itunes:owner>
     <itunes:image href="${cover}"/>
     <image><url>${cover}</url><title>${esc(feed.title)}</title><link>${feed.home}</link></image>
     <itunes:category text="Society &amp; Culture"/>
