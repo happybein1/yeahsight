@@ -22,7 +22,9 @@ import LanguageSelect from '@astrojs/starlight/components/LanguageSelect.astro';
     <div class="lang-select-wrapper">
       <LanguageSelect {...Astro.props} />
     </div>
-    <ThemeSelect {...Astro.props} />
+    <div class="theme-desktop">
+      <ThemeSelect {...Astro.props} />
+    </div>
   </div>
 </div>
 
@@ -45,5 +47,10 @@ import LanguageSelect from '@astrojs/starlight/components/LanguageSelect.astro';
   @media (max-width: 50rem) {
     .social-desktop { display: none; }
     .search-wrapper { flex: 0; }
+    /* v2.32: on phones the theme choice lives at the bottom of the menu (MobileMenuFooter)
+       and the language choice is narrower, so the menu button keeps its place in the top bar
+       (owner: "i cannot see the yeahsight menu anymore"). */
+    .theme-desktop { display: none; }
+    .lang-select-wrapper :global(select) { width: 6.2rem; }
   }
 </style>

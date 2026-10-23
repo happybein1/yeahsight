@@ -4,6 +4,17 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.32
+
+**No menu on the home page, and a crowded top bar on phones.** Owner (phone screenshot of the home page): "i cannot see the yeahsight menu anymore, seems like some layout issues as well".
+
+- **Home page had no menu at all:** since July (`template: splash`) it used Starlight's landing layout, which has no sidebar and so no ☰ button on phones. Home (EN + FR) now uses the normal page layout (`template: doc`, `tableOfContents: false`), keeping its hero: the sidebar shows on desktop like on every article, and phones get the menu button. Trade-off accepted by the owner: the home content is a little narrower on desktop.
+- **Phone top bar** (`src/components/overrides/Header.astro`, every page): logo, search, language and theme choices sat in one row, so on narrow phones or with large text the menu button was pushed off the screen (already the case on articles since v2.00). Under 50rem the theme choice is hidden there (it stays at the bottom of the phone menu, `MobileMenuFooter.astro`) and the language choice is narrowed to 6.2rem. Desktop unchanged.
+
+**Verification:** built locally; screenshots at 360 and 412 px (home and an article: ☰ visible) and 1280/1366 px (desktop header unchanged, home with sidebar), reviewed by the owner before release.
+
+---
+
 ## v2.31
 
 **Phones still offered the old eye logo when installing YeahSight.** Owner's screenshot: Edge on Android showed "Install / Create shortcut" with the eye icon from before v2.14, although every icon file on the site has shown the sunrise since then. Cause: the browser had saved the old icon under the same addresses, and the site had no web app manifest that could give it a fresh one.
