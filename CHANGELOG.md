@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.30
+
+**Sharper link-preview image.** LinkedIn's preview of the v2.29 image looked blurry: LinkedIn shrinks and recompresses the card, and the small text at 1200×630 did not survive it. The same design is now rendered at double resolution (2400×1260) as `public/og-card.png`, with the bottom line slightly larger and darker; `Head.astro` points og:image and twitter:image at it and declares 2400×1260 in og:image:width/height. New file name so LinkedIn fetches it fresh; `og-share.png` removed.
+
+**Verification:** built locally; og:image and its declared size on the home page and an article match the new file.
+
+---
+
 ## v2.29
 
 **New link-preview image.** Shared YeahSight links (LinkedIn, Facebook, chat apps) used a dark `og-image.png`. To match the new happybein.com, YeahVibe and YeahCore previews made the same day, a light version in the HappyBein style replaces it: YeahSight logo, "How society works, and where it's heading", topic chips Economy / Energy & food / Automation & AI / Sharing fairly, "Free to read · English and French · With audio · A HappyBein initiative", yeahsight.happybein.com. New file `public/og-share.png` (1200×630); `src/components/overrides/Head.astro` points og:image and twitter:image at it. The new file name makes LinkedIn and others fetch it fresh. The old `og-image.png` stays in place, unused. The owner approved the draft.
