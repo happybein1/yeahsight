@@ -75,6 +75,7 @@ export default defineConfig({
                         { label: 'Universal Allowance', translations: { fr: 'Allocation universelle' }, slug: 'sharing-fairly/universal-allowance' },
                         { label: 'Inheritance', translations: { fr: 'Héritage' }, slug: 'sharing-fairly/inheritance' },
                         { label: 'Making the Transition', translations: { fr: 'Réussir la transition' }, slug: 'sharing-fairly/making-the-transition' },
+                        { label: 'The Transition in Practice', translations: { fr: 'La transition en pratique' }, slug: 'sharing-fairly/transition-in-practice' },
                         { label: "Who's Working on This", translations: { fr: 'Qui agit déjà' }, slug: 'sharing-fairly/who-is-working-on-this' },
                     ],
                 },
