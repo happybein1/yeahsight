@@ -50,10 +50,13 @@ const frUrl = currentPath.startsWith('/fr')
 <Default {...Astro.props} />
 
 <!-- Favicons — override Starlight default -->
-<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
-<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<!-- v2.31: ?v= on the icon URLs so browsers that saved the old eye logo fetch the sunrise one;
+     the manifest gives phones a proper name and icon when installing. -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico?v=2.31" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=2.31" />
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png?v=2.31" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2.31" />
+<link rel="manifest" href="/manifest.webmanifest" />
 
 <!-- SEO Core -->
 <title>{seoTitle}</title>

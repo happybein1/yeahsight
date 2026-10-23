@@ -4,6 +4,18 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.31
+
+**Phones still offered the old eye logo when installing YeahSight.** Owner's screenshot: Edge on Android showed "Install / Create shortcut" with the eye icon from before v2.14, although every icon file on the site has shown the sunrise since then. Cause: the browser had saved the old icon under the same addresses, and the site had no web app manifest that could give it a fresh one.
+
+- New `public/manifest.webmanifest`: name "YeahSight by HappyBein", short name "YeahSight", standalone, background `#1A1A1A`, theme `#0e7fbe`, icons 192 and 512 (any + maskable).
+- New `public/icon-512.png` and `public/icon-maskable-192.png`: the sunrise on a full-bleed dark square, logo scaled to 70% so it stays inside the maskable safe zone (rendered from `favicon.svg`).
+- `Head.astro`: icon links carry `?v=2.31`, so browsers fetch them again, plus `<link rel="manifest">`; Starlight's `favicon` setting in `astro.config.mjs` likewise.
+
+**Verification:** built locally; the home page links the manifest and the versioned icons. On a phone that saved the old icon, remove the old shortcut and install again.
+
+---
+
 ## v2.30
 
 **Sharper link-preview image.** LinkedIn's preview of the v2.29 image looked blurry: LinkedIn shrinks and recompresses the card, and the small text at 1200×630 did not survive it. The same design is now rendered at double resolution (2400×1260) as `public/og-card.png`, with the bottom line slightly larger and darker; `Head.astro` points og:image and twitter:image at it and declares 2400×1260 in og:image:width/height. New file name so LinkedIn fetches it fresh; `og-share.png` removed.

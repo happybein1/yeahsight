@@ -18,7 +18,7 @@ export default defineConfig({
         starlight({
             title: { en: 'YeahSight', fr: 'YeahSight' },
             logo: { src: './src/assets/logo.svg', replacesTitle: true },
-            favicon: '/favicon.svg',
+            favicon: '/favicon.svg?v=2.31',
             social: [
                 { icon: 'github', label: 'GitHub', href: 'https://github.com/happybein1/yeahsight' },
                 { icon: 'discord', label: 'Discord', href: 'https://discord.com/invite/62xRJHCbRW' },
