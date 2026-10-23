@@ -19,38 +19,35 @@ La prospective est la pratique consistant à scanner systématiquement les signa
 
 ## Comment YeahSight est organisé
 
-YeahSight va de la compréhension aux solutions, en quatre étapes :
+YeahSight explique comment fonctionnent les sociétés et ce qui change, puis formule des recommandations argumentées sur la façon dont elles peuvent se développer. En quatre étapes :
 
 ### 1. Comment fonctionne la société
-À quoi servent les sociétés, comment elles s'organisent, et la place de l'économie.
+À quoi servent les sociétés, comment elles s'organisent, et comment les ressources sont partagées aujourd'hui.
 - [À quoi sert la société ?](/fr/how-society-works/purpose-of-society)
 - [Ce que toute société doit faire](/fr/how-society-works/societal-functions)
 - [Systèmes sociétaux](/fr/how-society-works/societal-systems)
 - [Le système économique](/fr/how-society-works/economic-system)
+- [Redistribution sociale](/fr/sharing-fairly/social-redistribution)
+- [Partage équitable du monde](/fr/sharing-fairly/fair-globe-sharing)
 
 ### 2. Les forces qui façonnent l'avenir
-Terres, énergie, alimentation, technologie et migration : les grandes forces déjà en mouvement.
+Terres, énergie, migration et technologie : les grandes forces déjà en mouvement.
 - [Terres par personne](/fr/forces/land-per-person)
 - [Énergie propre et sûre](/fr/forces/clean-safe-energy)
-- [Consommation végétale](/fr/forces/plant-based-consumption)
+- [Gestion de la migration régionale](/fr/forces/managing-regional-migration)
 - [Automatisation améliorée](/fr/forces/enhanced-automation)
 - [Impact de l'intelligence artificielle](/fr/forces/impact-of-artificial-intelligence)
 - [La vie après l'automatisation](/fr/forces/life-after-automation)
-- [Gestion de la migration régionale](/fr/forces/managing-regional-migration)
 
-### 3. Partager équitablement
-Comment les ressources pourraient être partagées plus équitablement, entre les personnes et avec la nature.
-- [Partage équitable du monde](/fr/sharing-fairly/fair-globe-sharing)
-- [Partage équitable de l'espace](/fr/sharing-fairly/fair-space-sharing)
-- [Redistribution sociale](/fr/sharing-fairly/social-redistribution)
-- [Allocation universelle](/fr/sharing-fairly/universal-allowance)
-- [Héritage](/fr/sharing-fairly/inheritance)
-- [Réussir la transition](/fr/sharing-fairly/making-the-transition)
-- [La transition en pratique](/fr/sharing-fairly/transition-in-practice)
+### 3. Recommandations
+Ce que les sociétés pourraient faire face à ces forces, et pourquoi. Chaque recommandation précise son objectif, les faits, les compromis et les objections.
+- **Vivre dans les limites :** [Consommation végétale](/fr/forces/plant-based-consumption)
+- **Partager équitablement :** [Allocation universelle](/fr/sharing-fairly/universal-allowance), [Partage équitable de l'espace](/fr/sharing-fairly/fair-space-sharing), [Héritage](/fr/sharing-fairly/inheritance), [Réussir la transition](/fr/sharing-fairly/making-the-transition), [La transition en pratique](/fr/sharing-fairly/transition-in-practice)
 
-### 4. Où nous allons
-La direction proposée, en six étapes.
+### 4. Vision et feuille de route
+Les recommandations réunies en six étapes concrètes.
 - [Vision et feuille de route](/fr/vision-roadmap/)
+- [Qui agit déjà](/fr/sharing-fairly/who-is-working-on-this/)
 
 ## Où cela mène
 

@@ -4,6 +4,19 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.33
+
+**New purpose and structure: from understanding to recommendations.** Owner: YeahSight's end goal "is not just about fairness but about motivated recommendations for societies to develop". Agreed structure (draft reviewed by the owner; no new articles written, on the owner's instruction): understand how societies work → what is changing → well-reasoned recommendations, grouped in themes that mirror the forces → the roadmap.
+
+- **Menu** (`astro.config.mjs`, EN + FR): 1. How society works now ends with Social Redistribution and Fair Globe Sharing (they describe how resources are shared today); 2. Forces shaping the future, ordered resources (land, energy) → people (migration) → technology (automation, AI, life after automation); **3. Recommendations** with themes *Living within limits* (Plant-Based Consumption, moved from Forces) and *Sharing fairly* (Universal Allowance, Fair Space Sharing, Inheritance, the two Transition parts); 4. Vision & Roadmap now a group with the roadmap and Who's Working on This. Article addresses unchanged, so no link breaks.
+- **Badge:** `kind: proposal` now reads "💡 HappyBein recommendation · What we recommend, and why. Open for discussion." (FR "Recommandation HappyBein"); the front matter value stays `proposal`.
+- **Home page** (EN + FR): the four cards follow the new structure (card 3 "Recommendations"); second tagline line "Understand the forces shaping our world, and what societies could do about them, with the reasons why."
+- **Foresight Trends** "How YeahSight is organized" (EN + FR) lists the new structure and states the purpose.
+
+**Verification:** built locally; home page and an article (sidebar with nested themes, new badge) screenshotted.
+
+---
+
 ## v2.32
 
 **No menu on the home page, and a crowded top bar on phones.** Owner (phone screenshot of the home page): "i cannot see the yeahsight menu anymore, seems like some layout issues as well".

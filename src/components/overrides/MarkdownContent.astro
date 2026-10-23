@@ -11,9 +11,10 @@ const KIND = {
   explainer: isFr
     ? { label: 'Explication', hint: 'Faits, fonctionnement et options, sans prise de position.' }
     : { label: 'Explainer', hint: 'Facts, how it works and the options, without taking a side.' },
+  // v2.33: shown as "recommendation" (the front matter value stays 'proposal').
   proposal: isFr
-    ? { label: 'Proposition HappyBein', hint: 'Notre point de vue, ouvert à la discussion.' }
-    : { label: 'HappyBein proposal', hint: 'Our view, open for discussion.' },
+    ? { label: 'Recommandation HappyBein', hint: 'Ce que nous recommandons, et pourquoi. Ouvert à la discussion.' }
+    : { label: 'HappyBein recommendation', hint: 'What we recommend, and why. Open for discussion.' },
 };
 const k = kind ? KIND[kind] : null;
 const audio = (Astro.locals.starlightRoute.entry.data as any).audio as (string | undefined);

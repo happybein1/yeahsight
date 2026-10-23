@@ -30,38 +30,35 @@ Organizations and individuals who practice foresight tend to:
 
 ## How YeahSight is organized
 
-YeahSight moves from understanding to solutions, in four steps:
+YeahSight explains how societies work and what is changing, then gives well-reasoned recommendations for how they can develop. It does this in four steps:
 
 ### 1. How society works
-What societies are for, how they are organized, and how the economy fits in.
+What societies are for, how they are organized, and how resources are shared today.
 - [What Is Society For?](/how-society-works/purpose-of-society)
 - [What Every Society Must Do](/how-society-works/societal-functions)
 - [Societal Systems](/how-society-works/societal-systems)
 - [The Economic System](/how-society-works/economic-system)
+- [Social Redistribution](/sharing-fairly/social-redistribution)
+- [Fair Globe Sharing](/sharing-fairly/fair-globe-sharing)
 
 ### 2. Forces shaping the future
-Land, energy, food, technology and migration: the big forces already in motion.
+Land, energy, migration and technology: the big forces already in motion.
 - [Land per Person](/forces/land-per-person)
 - [Clean & Safe Energy](/forces/clean-safe-energy)
-- [Plant-Based Consumption](/forces/plant-based-consumption)
+- [Managing Regional Migration](/forces/managing-regional-migration)
 - [Enhanced Automation](/forces/enhanced-automation)
 - [Impact of Artificial Intelligence](/forces/impact-of-artificial-intelligence)
 - [Life After Automation](/forces/life-after-automation)
-- [Managing Regional Migration](/forces/managing-regional-migration)
 
-### 3. Sharing fairly
-How resources could be shared more fairly, between people and with nature.
-- [Fair Globe Sharing](/sharing-fairly/fair-globe-sharing)
-- [Fair Space Sharing](/sharing-fairly/fair-space-sharing)
-- [Social Redistribution](/sharing-fairly/social-redistribution)
-- [Universal Allowance](/sharing-fairly/universal-allowance)
-- [Inheritance](/sharing-fairly/inheritance)
-- [Making the Transition](/sharing-fairly/making-the-transition)
-- [The Transition in Practice](/sharing-fairly/transition-in-practice)
+### 3. Recommendations
+What societies could do about these forces, and why. Each recommendation states its goal, the evidence, the trade-offs and the objections.
+- **Living within limits:** [Plant-Based Consumption](/forces/plant-based-consumption)
+- **Sharing fairly:** [Universal Allowance](/sharing-fairly/universal-allowance), [Fair Space Sharing](/sharing-fairly/fair-space-sharing), [Inheritance](/sharing-fairly/inheritance), [Making the Transition](/sharing-fairly/making-the-transition), [The Transition in Practice](/sharing-fairly/transition-in-practice)
 
-### 4. Where we are heading
-The proposed direction, in six steps.
+### 4. Vision & Roadmap
+The recommendations combined into six concrete steps.
 - [Vision & Roadmap](/vision-roadmap/)
+- [Who's Working on This](/sharing-fairly/who-is-working-on-this/)
 
 ## Where it leads
 
