@@ -42,7 +42,7 @@ Remove financial inheritance and large donations, which are sources of inequity 
 
 → Background: [Inheritance](/sharing-fairly/inheritance/)
 
-→ How steps 4 and 5 could happen, in order and without leaving people behind: [Making the Transition](/sharing-fairly/making-the-transition/)
+→ How steps 4 and 5 could happen, in order and without leaving people behind: [Making the Transition](/sharing-fairly/making-the-transition/), with the practical questions in [The Transition in Practice](/sharing-fairly/transition-in-practice/)
 
 ### 6. Use only the resources we need
 Reduce the resources each person uses to a level that still gives enough comfort and productivity. More efficient infrastructure and the automation of tasks make this possible.

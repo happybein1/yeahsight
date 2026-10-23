@@ -61,6 +61,6 @@ Des étapes intermédiaires, comme une taxation plus forte des très gros hérit
 
 L'héritage touche certains de nos moteurs les plus profonds : la sécurité, l'appartenance et le désir de prendre soin de ceux qui viennent après nous. Tout changement devrait respecter ces besoins tout en y répondant plus équitablement pour tous. Voir [Les besoins physiologiques humains](https://yeahcore.happybein.com/fr/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) pour les besoins qui sont derrière.
 
-Comment y arriver étape par étape : [Réussir la transition](/fr/sharing-fairly/making-the-transition/).
+Comment y arriver étape par étape : [Réussir la transition](/fr/sharing-fairly/making-the-transition/), et en pratique : [La transition en pratique](/fr/sharing-fairly/transition-in-practice/).
 
 Voir aussi : [Redistribution sociale](/fr/sharing-fairly/social-redistribution), [Allocation universelle](/fr/sharing-fairly/universal-allowance) et [Partage équitable du monde](/fr/sharing-fairly/fair-globe-sharing).

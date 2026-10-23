@@ -4,6 +4,19 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.27
+
+**Making the Transition split into two articles and two episodes, in English and French.** The 12-minute article was long for one sitting and its episode ran 23 to 27 minutes. The owner reviewed the split drafts and the four recordings and approved publishing.
+
+- **Part 1, *Making the Transition* / *Réussir la transition*** (same address, `/sharing-fairly/making-the-transition/`, 6 min, sidebar order 6): In short, The Question, Why Change Is Hard, What History Teaches, the proposed direction (eight principles, alone or together, three phases), The Human Side, Roadmap Step, Where Next, and the sources for those parts. A line under In short points to part 2. The two cross-references in the table and in Phase 1 now link to the matching sections of part 2.
+- **Part 2, *The Transition in Practice* / *La transition en pratique*** (new, `/sharing-fairly/transition-in-practice/`, 7 min, sidebar order 7): its own In short, What If One Country Goes First?, Who Manages the Fund? (with the shared-fund question), Objections, How It Could Actually Happen, First Steps, Open Questions, Where Next, and its sources.
+- **French:** cut from the existing French article section by section, with the new In short, part notes, Where Next lists and descriptions translated.
+- **Audio** (Kokoro, recorded on the Zenbook: English `am_puck`, French Siwis + Bella blend), uploaded to R2: part 1 replaces the old full episodes at the same addresses (EN 721 s / 4,326,860 bytes, FR 843 s / 5,060,828 bytes); part 2 at `transition-in-practice.{en,fr}.mp3` (EN 750 s / 4,501,676 bytes, FR 877 s / 5,262,284 bytes). `audioDate` 2026-10-23 05:49 for part 1 and 05:50 for part 2, so both appear as new podcast episodes in that order.
+- **Links:** home "New" card mentions the two parts; Inheritance, Vision & Roadmap, Who's Working on This (now sidebar order 8) and Foresight & Trends link to both parts, in both languages.
+- **Scripts:** `tools/podcast/scripts/making-the-transition-1.{en,fr}.txt` and `transition-in-practice.{en,fr}.txt` added.
+
+---
+
 ## v2.26
 
 **English *Making the Transition* episode re-recorded in the Kokoro Puck voice (`am_puck`, male).** The owner compared voices for the HappyBein intro video (Kokoro Puck, a Chatterbox copy of Puck made on the ROG, and the earlier female voices), chose Kokoro Puck, and asked for the Transition episode to use it too. French keeps its Siwis + Bella blend (Kokoro has no French male voice, and Puck reading French has an English accent).

@@ -57,6 +57,7 @@ How resources could be shared more fairly, between people and with nature.
 - [Universal Allowance](/sharing-fairly/universal-allowance)
 - [Inheritance](/sharing-fairly/inheritance)
 - [Making the Transition](/sharing-fairly/making-the-transition)
+- [The Transition in Practice](/sharing-fairly/transition-in-practice)
 
 ### 4. Where we are heading
 The proposed direction, in six steps.

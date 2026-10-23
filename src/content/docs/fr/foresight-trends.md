@@ -46,6 +46,7 @@ Comment les ressources pourraient être partagées plus équitablement, entre le
 - [Allocation universelle](/fr/sharing-fairly/universal-allowance)
 - [Héritage](/fr/sharing-fairly/inheritance)
 - [Réussir la transition](/fr/sharing-fairly/making-the-transition)
+- [La transition en pratique](/fr/sharing-fairly/transition-in-practice)
 
 ### 4. Où nous allons
 La direction proposée, en six étapes.
