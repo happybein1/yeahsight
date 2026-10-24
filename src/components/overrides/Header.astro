@@ -5,11 +5,15 @@ import SiteTitle from '@astrojs/starlight/components/SiteTitle.astro';
 import SocialIcons from '@astrojs/starlight/components/SocialIcons.astro';
 import ThemeSelect from '@astrojs/starlight/components/ThemeSelect.astro';
 import LanguageSelect from '@astrojs/starlight/components/LanguageSelect.astro';
+import { SITE_VERSION, SITE_VERSION_DATE, SITE_VERSION_NOTES } from '../../version';
 ---
 
 <div class="header sl-flex">
   <div class="title-wrapper sl-flex">
     <SiteTitle {...Astro.props} />
+    <!-- v2.40 (owner): the version next to the title, as on the other sites; browsers with the
+         owner's internal mark get their teal dot under it (Head.astro, yv-internal). -->
+    <span class="header-version" title={`${SITE_VERSION_NOTES} · ${SITE_VERSION_DATE}`}>v{SITE_VERSION}</span>
   </div>
   <div class="sl-flex search-wrapper">
     <Search {...Astro.props} />
@@ -35,7 +39,8 @@ import LanguageSelect from '@astrojs/starlight/components/LanguageSelect.astro';
     align-items: center;
     height: 100%;
   }
-  .title-wrapper { overflow: hidden; flex-shrink: 0; }
+  .title-wrapper { overflow: hidden; flex-shrink: 0; align-items: center; gap: 0.4rem; }
+  .header-version { font-family: var(--sl-font-mono, monospace); font-size: 0.62rem; font-weight: 600; opacity: 0.6; color: var(--sl-color-text-accent); padding: 0.6rem 0.1rem; }
   .search-wrapper { flex: 1; justify-content: flex-end; }
   .right-group { gap: 0.5rem; align-items: center; flex-shrink: 0; }
 
@@ -43,14 +48,19 @@ import LanguageSelect from '@astrojs/starlight/components/LanguageSelect.astro';
     display: flex !important;
     align-items: center;
   }
+  /* v2.40 (owner): the language menu as its icon only; the open list still names each language. */
+  .lang-select-wrapper :global(label) { width: 2.4rem; height: 2.4rem; justify-content: center; }
+  .lang-select-wrapper :global(.label-icon) { --sl-label-icon-size: 1.15rem; inset-inline-start: 50%; translate: -50% 0; font-size: 1.15rem; }
+  .lang-select-wrapper :global(.caret) { display: none; }
+  .lang-select-wrapper :global(select) { width: 2.4rem; height: 2.4rem; padding: 0; margin: 0; color: transparent; }
+  .lang-select-wrapper :global(option) { color: var(--sl-color-gray-1); }
 
   @media (max-width: 50rem) {
     .social-desktop { display: none; }
     .search-wrapper { flex: 0; }
     /* v2.32: on phones the theme choice lives at the bottom of the menu (MobileMenuFooter)
-       and the language choice is narrower, so the menu button keeps its place in the top bar
+       and the language choice is narrower (v2.40: icon only, everywhere), so the menu button keeps its place in the top bar
        (owner: "i cannot see the yeahsight menu anymore"). */
     .theme-desktop { display: none; }
-    .lang-select-wrapper :global(select) { width: 6.2rem; }
   }
 </style>

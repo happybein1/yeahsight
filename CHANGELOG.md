@@ -4,6 +4,12 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.40
+
+**Version number next to the title, and the language menu as an icon only** (owner: "I don't see versioning and internal tag on yeahsight", then "you may reduce the language toggle to the icon only as well"). The version was only in the footer at the bottom of article pages, so the owner's internal mark (the teal dot from yv-internal, `Head.astro`) appeared there, out of sight. The header now shows a small `v2.40` next to the YeahSight title (`Header.astro`, tooltip with the version notes and date), styled like the other sites' version badges; `Head.astro`'s dot picks it up since it finds `.yv-version` / `.header-version` in page order. The footer version stays. The language menu shows only its translate icon (no "English" label, no caret) at every width; the open list still names each language. This replaces v2.32's narrowed 6.2rem phone menu.
+
+**Verification:** site builds (45 pages). Headless Firefox at 1280 px and 400 px: version next to the title, teal dot under it with `?internal`, language icon only, menu button still visible on phones.
+
 ## v2.39
 
 **Land per Person moves to "How society works"; the energy item becomes "The Energy Transition".** Owner: Land per Person is meant to make each person's land need and use easy to picture, not a force, so in the menu (EN + FR) it now sits in 1. How society works, between Social Redistribution and Fair Globe Sharing (how much land each of us uses, then how the world's resources are shared). Forces now reads as changes in motion: The Energy Transition, migration, automation, AI, life after automation. Clean & Safe Energy is retitled The Energy Transition / La transition énergétique (menu, page title, and the link texts in Vision & Roadmap and Making the Transition). Foresight Trends' overview and the home cards follow (EN + FR). Article addresses unchanged, so no link breaks.
