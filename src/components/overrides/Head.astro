@@ -232,7 +232,7 @@ const frUrl = currentPath.startsWith('/fr')
     gtag('config', 'G-TJFL5YQ705', internal ? { anonymize_ip: true, traffic_type: 'internal' } : { anonymize_ip: true });
     if (internal) gtag('set', 'user_properties', { internal_user: 'true' });
     var here = p.slice(-2).join('.');
-    var CF = { 'happybein.com': 'bc29302dbc214188aebf56490bf4cef4' }[here];
+    var CF = { 'happybein.com': 'bc29302dbc214188aebf56490bf4cef4', 'yeahdev.com': 'eb13518849014d5e9fd376c4202f3432' }[here];
     if (CF && !internal) {
       var b = d.createElement('script');
       b.defer = true; b.src = 'https://static.cloudflareinsights.com/beacon.min.js';
