@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.39
+
+**Land per Person moves to "How society works"; the energy item becomes "The Energy Transition".** Owner: Land per Person is meant to make each person's land need and use easy to picture, not a force, so in the menu (EN + FR) it now sits in 1. How society works, between Social Redistribution and Fair Globe Sharing (how much land each of us uses, then how the world's resources are shared). Forces now reads as changes in motion: The Energy Transition, migration, automation, AI, life after automation. Clean & Safe Energy is retitled The Energy Transition / La transition énergétique (menu, page title, and the link texts in Vision & Roadmap and Making the Transition). Foresight Trends' overview and the home cards follow (EN + FR). Article addresses unchanged, so no link breaks.
+
+**Verification:** site builds; menu and overview checked in the built pages.
+
+---
+
 ## v2.38
 
 **Google Analytics and the cookie banner removed; Cloudflare Web Analytics only** (owner decision, after confirming Cloudflare counts visits). The yv-consent banner and the GA4 config are gone, as is the "Cookie settings" link in the footer. The head now carries the shared snippet `_shared/internal.js` (yv-internal v5): Cloudflare's cookieless beacon for every visitor except browsers with the owner's `?internal` mark (dot under the version number), and on happybein.com / yeahdev.com it deletes leftover `_ga*` cookies and the old `yv_consent` choice (not on yeahvibe.com, where the apps still use them). No cookies are set for visitors any more.

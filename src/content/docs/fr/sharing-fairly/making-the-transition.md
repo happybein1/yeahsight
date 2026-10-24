@@ -84,7 +84,7 @@ La phase 1 correspond à toute la première colonne : n'importe quel pays peut c
 - Imposer les revenus du patrimoine qui ne peuvent pas s'échapper, là où ils sont gagnés : les loyers des bâtiments, les plus-values sur les terrains et les bénéfices des entreprises installées dans le pays. Commencer à déplacer les impôts du travail vers les terrains.
 - Mettre en place les règles pour ceux qui partent dès le jour de l'annonce du plan (voir [Et si un pays partait en premier ?](/fr/sharing-fairly/transition-in-practice/#et-si-un-pays-partait-en-premier-)). À partir de ce jour, les donations comptent aussi pour le futur plafond à vie : tout donner tôt ne permet donc pas d'y échapper.
 - Créer un fonds commun, d'abord alimenté par les impôts sur les terrains et les loyers.
-- Taxer les énergies fossiles et la pollution des logements, des transports et des entreprises locales, et rendre tout cet argent aux gens, à parts égales, via le fonds (voir [Énergie propre et sûre](/fr/forces/clean-safe-energy/)). La plupart des ménages ordinaires récupèrent plus qu'ils ne paient, car les riches consomment bien plus d'énergie. La justice et la durabilité sont ainsi financées par la même mesure.
+- Taxer les énergies fossiles et la pollution des logements, des transports et des entreprises locales, et rendre tout cet argent aux gens, à parts égales, via le fonds (voir [La transition énergétique](/fr/forces/clean-safe-energy/)). La plupart des ménages ordinaires récupèrent plus qu'ils ne paient, car les riches consomment bien plus d'énergie. La justice et la durabilité sont ainsi financées par la même mesure.
 - Réunir une assemblée citoyenne sur l'ensemble du chemin, et publier son calendrier.
 
 **Phase 2 : changer les flux, ensemble (environ de la 5e à la 20e année)**

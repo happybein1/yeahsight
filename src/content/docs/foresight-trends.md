@@ -33,18 +33,18 @@ Organizations and individuals who practice foresight tend to:
 YeahSight explains how societies work and what is changing, then gives well-reasoned recommendations for how they can develop. It does this in four steps:
 
 ### 1. How society works
-What societies are for, how they are organized, and how resources are shared today.
+What societies are for, how they are organized, how much land each of us uses, and how resources are shared today.
 - [What Is Society For?](/how-society-works/purpose-of-society)
 - [What Every Society Must Do](/how-society-works/societal-functions)
 - [Societal Systems](/how-society-works/societal-systems)
 - [The Economic System](/how-society-works/economic-system)
 - [Social Redistribution](/sharing-fairly/social-redistribution)
+- [Land per Person](/forces/land-per-person)
 - [Fair Globe Sharing](/sharing-fairly/fair-globe-sharing)
 
 ### 2. Forces shaping the future
-Land, energy, migration and technology: the big forces already in motion.
-- [Land per Person](/forces/land-per-person)
-- [Clean & Safe Energy](/forces/clean-safe-energy)
+The energy transition, migration and technology: the big forces already in motion.
+- [The Energy Transition](/forces/clean-safe-energy)
 - [Managing Regional Migration](/forces/managing-regional-migration)
 - [Enhanced Automation](/forces/enhanced-automation)
 - [Impact of Artificial Intelligence](/forces/impact-of-artificial-intelligence)

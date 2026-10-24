@@ -1,6 +1,6 @@
 ---
 kind: explainer
-title: Énergie propre et sûre
+title: La transition énergétique
 description: Un aperçu des sources d'énergie propre et comment les décisions énergétiques affectent les individus, les organisations et la planète.
 reading_time: "4 min de lecture"
 sidebar:

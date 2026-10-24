@@ -1,6 +1,6 @@
 ---
 kind: explainer
-title: Clean & Safe Energy
+title: The Energy Transition
 description: An overview of clean energy sources and how energy decisions affect individuals, organizations, and the planet.
 reading_time: "4 min"
 sidebar:

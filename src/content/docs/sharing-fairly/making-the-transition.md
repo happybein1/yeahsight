@@ -84,7 +84,7 @@ Phase 1 is everything in the first column, so any country can start tomorrow. Ph
 - Tax the wealth income that can't escape, where it is earned: rent from buildings, gains on land, and profits of companies based in the country. Start shifting taxes off work and onto land.
 - Put the rules for leaving in place from the day the plan is announced (see [What If One Country Goes First?](/sharing-fairly/transition-in-practice/#what-if-one-country-goes-first)). From that day, gifts also count towards the future lifetime cap, so giving everything away early doesn't escape it.
 - Start a common fund, at first from taxes on land and rent.
-- Tax non-renewable fuels and pollution used by homes, transport and local businesses, and give all of that money back to people, equally, through the fund (see [Clean & Safe Energy](/forces/clean-safe-energy/)). Most ordinary households get back more than they pay, because the rich use far more energy. Fairness and sustainability are financed by the same move.
+- Tax non-renewable fuels and pollution used by homes, transport and local businesses, and give all of that money back to people, equally, through the fund (see [The Energy Transition](/forces/clean-safe-energy/)). Most ordinary households get back more than they pay, because the rich use far more energy. Fairness and sustainability are financed by the same move.
 - Hold a citizens' assembly on the full path, and publish its timeline.
 
 **Phase 2: Change the flows, together (roughly years 5 to 20)**

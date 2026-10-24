@@ -52,6 +52,8 @@ export default defineConfig({
                         { label: 'Societal Systems', translations: { fr: 'Systèmes sociétaux' }, slug: 'how-society-works/societal-systems' },
                         { label: 'The Economic System', translations: { fr: 'Le système économique' }, slug: 'how-society-works/economic-system' },
                         { label: 'Social Redistribution', translations: { fr: 'Redistribution sociale' }, slug: 'sharing-fairly/social-redistribution' },
+                        // v2.39 (owner): Land per Person is a tool to picture each person's land use today, not a force.
+                        { label: 'Land per Person', translations: { fr: 'Terres par personne' }, slug: 'forces/land-per-person' },
                         { label: 'Fair Globe Sharing', translations: { fr: 'Partage équitable du monde' }, slug: 'sharing-fairly/fair-globe-sharing' },
                     ],
                 },
@@ -60,8 +62,7 @@ export default defineConfig({
                     translations: { fr: '2. Les forces qui façonnent l\'avenir' },
                     collapsed: false,
                     items: [
-                        { label: 'Land per Person', translations: { fr: 'Terres par personne' }, slug: 'forces/land-per-person' },
-                        { label: 'Clean & Safe Energy', translations: { fr: 'Énergie propre et sûre' }, slug: 'forces/clean-safe-energy' },
+                        { label: 'The Energy Transition', translations: { fr: 'La transition énergétique' }, slug: 'forces/clean-safe-energy' },
                         { label: 'Managing Regional Migration', translations: { fr: 'Gestion de la migration régionale' }, slug: 'forces/managing-regional-migration' },
                         { label: 'Enhanced Automation', translations: { fr: 'Automatisation améliorée' }, slug: 'forces/enhanced-automation' },
                         { label: 'Impact of Artificial Intelligence', translations: { fr: 'Impact de l\'intelligence artificielle' }, slug: 'forces/impact-of-artificial-intelligence' },

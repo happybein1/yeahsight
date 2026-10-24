@@ -30,7 +30,7 @@ Transition to renewable energy, mostly solar, combined with geothermal and wood/
 - a tax on non-renewable fuels, redirected to the development of renewables
 - indexing the energy price to solar output, so that use naturally shifts to when solar energy is at its peak, and seasonal storage becomes worth developing
 
-→ Background: [Clean & Safe Energy](/forces/clean-safe-energy/)
+→ Background: [The Energy Transition](/forces/clean-safe-energy/)
 
 ### 4. Guarantee a basic-needs budget
 Set up a standard, time-limited budget for every individual and entity, dedicated to basic needs: food, energy, housing, education, health and insurance. It works like a universal income, but ensures it is used for its intended purpose.

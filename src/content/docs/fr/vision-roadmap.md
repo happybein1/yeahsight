@@ -30,7 +30,7 @@ Passer aux énergies renouvelables, surtout le solaire, combiné à la géotherm
 - une taxe sur les combustibles non renouvelables, réinvestie dans le développement des renouvelables
 - l'indexation du prix de l'énergie sur la production solaire, pour que la consommation se déplace naturellement vers les pics solaires et que le stockage saisonnier devienne rentable
 
-→ Contexte : [Énergie propre et sûre](/fr/forces/clean-safe-energy/)
+→ Contexte : [La transition énergétique](/fr/forces/clean-safe-energy/)
 
 ### 4. Garantir un budget pour les besoins de base
 Mettre en place un budget standard et limité dans le temps pour chaque personne et chaque entité, dédié aux besoins de base : alimentation, énergie, logement, éducation, santé et assurances. Il fonctionne comme un revenu universel, mais garantit son usage pour l'objectif prévu.
