@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.34
+
+**Owner-traffic marker for Google Analytics.** Opening any page with `?internal` marks this browser as internal for the whole domain for a year (first-party cookie `yv_internal=1` on the registrable domain, plus a localStorage copy); `?internal=off` removes it. While marked, the GA4 config carries `traffic_type=internal` (what GA4's "Internal traffic" data filter keys on) and the user property `internal_user=true`. A small notice confirms the change and links to the same switch on the other two domains (happybein.com, yeahvibe.com, yeahdev.com). Same cookie name and meaning as the *.yeahvibe.com apps, which already set it when the owner signs in to IntentFlow or ShopTools and read it on every open. Consent is unchanged: without "Accept" nothing is sent at all. Snippet source: `_shared/internal.js`, replacing the plain `gtag('config', ...)` block (now `is:inline`, so Astro no longer bundles it as a module).
+
+**Verification:** the snippet run in headless Firefox: `?internal` sets cookie + localStorage, config carries `traffic_type: internal` and the user property, notice shown; the next plain visit keeps the mark with no notice; `?internal=off` clears both and the config goes back to plain; the visit after stays unmarked. Site builds cleanly.
+
+---
+
 ## v2.33
 
 **New purpose and structure: from understanding to recommendations.** Owner: YeahSight's end goal "is not just about fairness but about motivated recommendations for societies to develop". Agreed structure (draft reviewed by the owner; no new articles written, on the owner's instruction): understand how societies work → what is changing → well-reasoned recommendations, grouped in themes that mirror the forces → the roadmap.
