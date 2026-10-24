@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.37
+
+**Internal mark shown as a dot under the version number** (owner request). Browsers with the owner's internal mark now get a small teal dot under the site's version number (tooltip: "Internal: your visits are not counted in the analytics") instead of the corner label; the corner label remains only on a page with no version number. Shared snippet `_shared/internal.js` is now yv-internal v4, which also carries the yeahvibe.com Cloudflare Web Analytics site token.
+
+**Verification:** built site in headless Firefox, marked: dot under the version, no corner label. Builds clean.
+
+---
+
 ## v2.36
 
 **A visible hint for marked browsers.** Browsers carrying the owner's internal mark (`?internal`) now show a small "● internal" label in the bottom-left corner; tapping it explains the status and offers "Remove the mark" (`?internal=off`). Visitors without the mark never see it. Shared snippet `_shared/internal.js`, now yv-internal v3 (it sits under the cookie banner while that is open).
