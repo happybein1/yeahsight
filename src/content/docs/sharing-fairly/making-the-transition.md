@@ -96,7 +96,7 @@ Phase 1 is everything in the first column, so any country can start tomorrow. Ph
 - Family businesses and farms get a path to pass on the business itself, for example by paying over many years out of its profits, like the German levy.
 
 **Phase 3: Complete the shift (roughly years 20 to 40)**
-- Financial inheritance beyond the cap and large donations are phased out, as in the [Inheritance](/sharing-fairly/inheritance/) proposal. Personal and sentimental belongings stay in families.
+- The cap reaches its final level, as in the [Inheritance](/sharing-fairly/inheritance/) proposal: each person can still receive a meaningful amount, and gifts to charities stay allowed. Personal and sentimental belongings stay in families.
 - The common fund, now large, finances the basic-needs allowance and everyone's starting capital, alongside land and resource income.
 - What a person owns then reflects mainly their own life and work, and no longer the luck of being born into a rich family.
 
@@ -106,7 +106,7 @@ Money is rarely just money. For most people it stands for safety, freedom and th
 
 ## Roadmap Step
 
-This proposal is the bridge to steps 4 and 5 of the [Vision & Roadmap](/vision-roadmap/): guaranteeing a basic-needs budget, and phasing out financial inheritance. It shows the order and pace in which both could happen.
+This proposal is the bridge to steps 4 and 5 of the [Vision & Roadmap](/vision-roadmap/): guaranteeing a basic-needs budget, and capping inheritance so everyone gets a fair start. It shows the order and pace in which both could happen.
 
 ## Where Next
 

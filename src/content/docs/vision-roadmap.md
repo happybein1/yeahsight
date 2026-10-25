@@ -37,8 +37,8 @@ Set up a standard, time-limited budget for every individual and entity, dedicate
 
 → Background: [Universal Allowance](/sharing-fairly/universal-allowance/)
 
-### 5. Phase out financial inheritance and donations
-Remove financial inheritance and large donations, which are sources of inequity and insecurity, and redistribute accumulated assets fairly through the public system.
+### 5. Cap inheritance and give everyone a fair start
+Cap what each person can receive in inheritance and gifts over their lifetime, since large inheritances are a source of inequity and insecurity. What lies above the cap funds a starting capital for every young adult. Gifts to charities stay allowed.
 
 → Background: [Inheritance](/sharing-fairly/inheritance/)
 

@@ -96,7 +96,7 @@ La phase 1 correspond à toute la première colonne : n'importe quel pays peut c
 - Les entreprises familiales et les exploitations agricoles bénéficient d'un chemin pour transmettre l'activité elle-même, par exemple en payant sur de nombreuses années à partir de ses bénéfices, comme pour le prélèvement allemand.
 
 **Phase 3 : achever la transition (environ de la 20e à la 40e année)**
-- L'héritage financier au-delà du plafond et les grandes donations sont progressivement supprimés, comme dans la proposition [Héritage](/fr/sharing-fairly/inheritance/). Les objets personnels et sentimentaux restent dans les familles.
+- Le plafond atteint son niveau final, comme dans la proposition [Héritage](/fr/sharing-fairly/inheritance/) : chacun peut toujours recevoir un montant important, et les dons aux associations restent autorisés. Les objets personnels et sentimentaux restent dans les familles.
 - Le fonds commun, désormais important, finance l'allocation pour les besoins de base et le capital de départ de chacun, avec les revenus des terrains et des ressources.
 - Ce qu'une personne possède reflète alors surtout sa propre vie et son propre travail, et non plus la chance d'être né dans une famille riche.
 
@@ -106,7 +106,7 @@ L'argent est rarement juste de l'argent. Pour la plupart des gens, il représent
 
 ## Étape de la feuille de route
 
-Cette proposition fait le lien avec les étapes 4 et 5 de la [Vision et feuille de route](/fr/vision-roadmap/) : garantir un budget pour les besoins de base, et supprimer progressivement l'héritage financier. Elle montre dans quel ordre et à quel rythme les deux pourraient se faire.
+Cette proposition fait le lien avec les étapes 4 et 5 de la [Vision et feuille de route](/fr/vision-roadmap/) : garantir un budget pour les besoins de base, et plafonner l'héritage pour donner à chacun un départ équitable. Elle montre dans quel ordre et à quel rythme les deux pourraient se faire.
 
 ## Pour aller plus loin
 

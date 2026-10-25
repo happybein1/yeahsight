@@ -4,6 +4,12 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.41
+
+**Inheritance: a lifetime cap instead of phasing it out** (owner decision, 2026-10-25, after working through the main objections: how to keep investment going and people's motivation). Roadmap step 5 is now "Cap inheritance and give everyone a fair start": each person can receive up to a set amount over their life (inheritance and gifts together), anything above the cap goes to a common fund that pays every young adult a starting capital, and gifts to charities stay allowed (owner: "charities giving is okay"). The Inheritance article (EN/FR) rewrites "HappyBein's proposed direction" accordingly, adds the owner's point that a cap per receiver lets people without children pass on what they built to many people (spreading wealth), and gains a "Two common objections" section: motivation (people work mainly for their own life; large inheritances tend to reduce heirs' work, Holtz-Eakin, Joulfaian & Rosen 1993) and investment (pension funds, savings and a public fund such as Norway's; a path for family businesses and farms). "Points to work through" updated; the old "intermediate steps" paragraph became the gradual, published schedule for the cap. Making the Transition (EN/FR) phase 3 and roadmap-step lines, the Vision & Roadmap (EN/FR) and the home page cards (EN/FR) follow. Background and scoring: the owner's private research notes (workspace `research/yeahsight-leverage.md`).
+
+**Verification:** site builds; no page still says inheritance is phased out or removed.
+
 ## v2.40
 
 **Version number next to the title, and the language menu as an icon only** (owner: "I don't see versioning and internal tag on yeahsight", then "you may reduce the language toggle to the icon only as well"). The version was only in the footer at the bottom of article pages, so the owner's internal mark (the teal dot from yv-internal, `Head.astro`) appeared there, out of sight. The header now shows a small `v2.40` next to the YeahSight title (`Header.astro`, tooltip with the version notes and date), styled like the other sites' version badges; `Head.astro`'s dot picks it up since it finds `.yv-version` / `.header-version` in page order. The footer version stays. The language menu shows only its translate icon (no "English" label, no caret) at every width; the open list still names each language. This replaces v2.32's narrowed 6.2rem phone menu.

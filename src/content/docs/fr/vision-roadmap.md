@@ -37,8 +37,8 @@ Mettre en place un budget standard et limité dans le temps pour chaque personne
 
 → Contexte : [Allocation universelle](/fr/sharing-fairly/universal-allowance/)
 
-### 5. Supprimer progressivement l'héritage financier et les donations
-Supprimer l'héritage financier et les donations importantes, sources d'inégalités et d'insécurité, et redistribuer équitablement les biens accumulés par le système public.
+### 5. Plafonner l'héritage et donner à chacun un départ équitable
+Plafonner ce que chaque personne peut recevoir en héritages et donations au cours de sa vie, car les gros héritages sont une source d'inégalités et d'insécurité. Ce qui dépasse le plafond finance un capital de départ pour chaque jeune adulte. Les dons aux associations restent autorisés.
 
 → Contexte : [Héritage](/fr/sharing-fairly/inheritance/)
 
