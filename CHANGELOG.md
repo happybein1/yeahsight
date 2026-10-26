@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.45
+
+**Home-page questions 5 and 6 without repetition or vague words** (owner: no "these"/"of these"). 5. "Which solutions could tackle society's main challenges?" · 6. "Which causes would do the most good for the world?" ("causes", as in the YeahSight video, instead of a second "solutions"). Intro line follows: "From what every person needs to the causes that would do the most good." EN/FR.
+
+**Verification:** site builds.
+
+---
+
 ## v2.44
 
 **The six questions, in the owner's wording** (owner: every question specific, no "we" or "it"; "what resources do we have" as its own question; the gaps inside the matching questions). EN/FR: 1. What does every person need to live well and thrive? · 2. What resources does the planet offer? (new: Land per person, Energy, Global sharing) · 3. How does society turn those resources into what people need? · 4. Which big forces are reshaping society? · 5. Which solutions could solve these challenges? · 6. Which solutions should society focus on? (Vision & Roadmap, Who's working on this). The separate "What's not covered yet?" card is gone: each gap is a small "Not covered yet, likely later" line in its card (nature and water under 2; democracy and reliable information, global health and extreme poverty under 3; big risks under 4), styled by the new `.yv-gap` class. The "living project" note stays.
