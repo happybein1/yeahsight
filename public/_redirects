@@ -115,3 +115,18 @@
 
 # v2.25: audio moved to Cloudflare R2 (old MP3 links keep working)
 /audio/*   https://audio.happybein.com/yeahsight/:splat   301
+
+# Old core.yeahvibe.com/applications/<category>/<article> URLs arrive here through YeahCore's
+# /applications/* rule (2026-10-26, from Google Search Console "Not found").
+/environment-energy/earth-land-view-per-individual*     /forces/land-per-person/                 301
+/fr/environment-energy/earth-land-view-per-individual*  /fr/forces/land-per-person/              301
+/economy-equity/the-economical-system*                  /how-society-works/economic-system/      301
+/fr/economy-equity/the-economical-system*               /fr/how-society-works/economic-system/   301
+/social-organization/social-redistribution*             /sharing-fairly/social-redistribution/   301
+/fr/social-organization/social-redistribution*          /fr/sharing-fairly/social-redistribution/ 301
+/environment-energy/*      /           301
+/economy-equity/*          /           301
+/social-organization/*     /           301
+/fr/environment-energy/*   /fr/        301
+/fr/economy-equity/*       /fr/        301
+/fr/social-organization/*  /fr/        301
