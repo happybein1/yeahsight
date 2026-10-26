@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.44
+
+**The six questions, in the owner's wording** (owner: every question specific, no "we" or "it"; "what resources do we have" as its own question; the gaps inside the matching questions). EN/FR: 1. What does every person need to live well and thrive? · 2. What resources does the planet offer? (new: Land per person, Energy, Global sharing) · 3. How does society turn those resources into what people need? · 4. Which big forces are reshaping society? · 5. Which solutions could solve these challenges? · 6. Which solutions should society focus on? (Vision & Roadmap, Who's working on this). The separate "What's not covered yet?" card is gone: each gap is a small "Not covered yet, likely later" line in its card (nature and water under 2; democracy and reliable information, global health and extreme poverty under 3; big risks under 4), styled by the new `.yv-gap` class. The "living project" note stays.
+
+**Verification:** site builds; links checked; phone width checked.
+
+---
+
 ## v2.43
 
 **Home page tells one story, in six questions** (owner: mention it is a work in progress, name the areas still to cover, and make a storyline between all topics; "remove any promise", then "you can say we will likely cover them"). "From understanding to solutions, in four steps" becomes "The story, in six questions" (EN/FR): 1. What do people need? (YeahCore human needs) · 2. How does society try to meet them? (Land per person moves here, as in the menu since v2.39) · 3. What is changing? · 4. What could we do about it? (names the basic-needs budget and the inheritance cap) · 5. Where does help count most? (Vision & Roadmap, Who's working on this) · 6. What's not covered yet? (big risks, global health and extreme poverty, democracy and reliable information, nature and water: "will likely cover later", no dates). Followed by a "living project" note inviting ideas, corrections and sources at contact@happybein.com. The topics come from the owner's private leverage research.

@@ -391,3 +391,6 @@ a.yv-card:hover, .yv-card:hover { transform: translateY(-3px); border-color: var
 @media (max-width: 50rem) {
   .sl-markdown-content { padding-bottom: 4.5rem; }
 }
+
+/* v2.44: "not covered yet" line at the bottom of a home-page question card */
+.yv-card .yv-gap { margin-top: .75rem; font-size: .8rem; font-style: italic; color: var(--sl-color-gray-3); line-height: 1.45; }
