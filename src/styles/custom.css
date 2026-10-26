@@ -394,3 +394,6 @@ a.yv-card:hover, .yv-card:hover { transform: translateY(-3px); border-color: var
 
 /* v2.44: "not covered yet" line at the bottom of a home-page question card */
 .yv-card .yv-gap { margin-top: .75rem; font-size: .8rem; font-style: italic; color: var(--sl-color-gray-3); line-height: 1.45; }
+
+/* v2.46: topics in the menu that YeahSight will likely cover later: shown, not clickable. */
+.sidebar-content a.yv-planned, a.yv-planned { pointer-events: none; opacity: .5; font-style: italic; }

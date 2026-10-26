@@ -4,6 +4,16 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.46
+
+**The menu follows the six questions, and articles link to each other in that order** (owner approved the menu draft). `astro.config.mjs` sidebar: one group per home-page question (EN/FR labels), each article under its question; Land per Person and Fair Globe Sharing under 2 (resources), Fair Space Sharing under "Living within limits" in 5; question 1 links out to the human needs on YeahCore. Topics YeahSight will likely cover later are shown grey and not clickable ("likely later", class `yv-planned`): Nature and Water (2), Democracy and Reliable Information and Global Health and Extreme Poverty (3), Big Risks (4). Article addresses unchanged.
+
+New: **Previous / Next** links at the bottom of every article (the custom Footer had left out Starlight's pagination), through `overrides/Pagination.astro`, which follows the six-question order and skips grey items and links to other sites; not on the home pages. Each article also starts with a small line "Question N of 6: <question> · The whole story" (`MarkdownContent.astro`, from the menu group).
+
+**Verification:** site builds; Previous/Next checked on several pages in both languages (e.g. Fair Globe Sharing: Land per Person ← → What Is Society For?; Transition in Practice → Vision & Roadmap); grey items not clickable; screenshot at desktop width.
+
+---
+
 ## v2.45
 
 **Home-page questions 5 and 6 without repetition or vague words** (owner: no "these"/"of these"). 5. "Which solutions could tackle society's main challenges?" · 6. "Which causes would do the most good for the world?" ("causes", as in the YeahSight video, instead of a second "solutions"). Intro line follows: "From what every person needs to the causes that would do the most good." EN/FR.

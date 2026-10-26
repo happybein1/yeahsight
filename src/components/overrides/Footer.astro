@@ -1,6 +1,9 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
 import { SITE_VERSION, SITE_VERSION_DATE, SITE_VERSION_NOTES } from '../../version';
+// v2.46: Previous/Next between articles, in the order of the six-question menu (overrides/Pagination.astro).
+import Pagination from 'virtual:starlight/components/Pagination';
+const isHome = ['/', '/fr/', '/fr'].includes(Astro.url.pathname);
 
 const isFr = Astro.locals.starlightRoute.lang === 'fr';
 const label = isFr ? 'Version' : 'Version';
@@ -11,6 +14,7 @@ const revealLabel = isFr ? 'Écrivez-nous à :' : 'Write to us at:';
 const instrLabel = isFr ? 'Cochez la case pour afficher notre adresse e-mail.' : 'Tick the box to reveal our email address.';
 ---
 
+{!isHome && <div class="yv-pager"><Pagination /></div>}
 <footer class="yv-footer">
   <div class="yv-footer-inner">
     <span class="yv-version" title={`${SITE_VERSION_NOTES} · ${SITE_VERSION_DATE}`}>
@@ -54,6 +58,7 @@ const instrLabel = isFr ? 'Cochez la case pour afficher notre adresse e-mail.' :
 </footer>
 
 <style>
+  .yv-pager { margin: 2.5rem 0 1.5rem; }
   /* Footer layout */
   .yv-footer {
     border-top: 1px solid var(--sl-color-hairline);

@@ -21,7 +21,18 @@ const audio = (Astro.locals.starlightRoute.entry.data as any).audio as (string |
 const audioMin = (Astro.locals.starlightRoute.entry.data as any).audioMinutes as (number | undefined);
 const audioLabel = isFr ? 'Écouter cet article' : 'Listen to this article';
 const audioBy = isFr ? 'Lu par la voix YeahSight' : 'Read by the YeahSight voice';
+// v2.46 (owner): which of the six home-page questions this article belongs to, from the menu group.
+type E = { type: string; label: string; isCurrent?: boolean; entries?: E[] };
+const has = (e: E): boolean => !!e.isCurrent || (e.entries || []).some(has);
+const q = (Astro.locals.starlightRoute.sidebar as E[]).find((e) => e.type === 'group' && /^\d\./.test(e.label) && has(e));
+const qNum = q ? q.label.split('.')[0] : '';
+const qText = q ? q.label.replace(/^\d\.\s*/, '') : '';
+const storyHref = isFr ? '/fr/' : '/';
 ---
+
+{q && (
+  <p class="yv-story">{isFr ? `Question ${qNum} sur 6 : ` : `Question ${qNum} of 6: `}<em>{qText}</em> · <a href={storyHref}>{isFr ? "Toute l'histoire" : 'The whole story'}</a></p>
+)}
 
 {k && (
   <div class={`yv-kind yv-kind-${kind}`}>
@@ -45,6 +56,8 @@ const audioBy = isFr ? 'Lu par la voix YeahSight' : 'Read by the YeahSight voice
 <div class="sl-markdown-content"><slot /></div>
 
 <style>
+  .yv-story { font-size: .8rem; color: var(--sl-color-gray-3); margin: -.25rem 0 .5rem; }
+  .yv-story a { color: var(--sl-color-accent-high); }
   .yv-audio { margin: 0 0 1.25rem; padding: .75rem .9rem; border-radius: 14px; border: 1px solid var(--sl-color-hairline); background: var(--sl-color-bg-nav); }
   .yv-audio-head { font-size: .85rem; margin-bottom: .45rem; display: flex; flex-wrap: wrap; gap: .25rem .4rem; align-items: baseline; }
   .yv-audio-by { color: var(--sl-color-gray-3); font-size: .78rem; margin-left: auto; }

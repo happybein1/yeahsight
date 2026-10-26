@@ -29,6 +29,7 @@ export default defineConfig({
                 Header: './src/components/overrides/Header.astro',
                 MobileMenuFooter: './src/components/overrides/MobileMenuFooter.astro',
                 MarkdownContent: './src/components/overrides/MarkdownContent.astro',
+                Pagination: './src/components/overrides/Pagination.astro',
                 Footer: './src/components/overrides/Footer.astro',
             },
             defaultLocale: 'root',
@@ -39,12 +40,30 @@ export default defineConfig({
             sidebar: [
                 { label: '🏠 Home', translations: { fr: '🏠 Accueil' }, link: '/' },
                 { label: 'Foresight Trends', translations: { fr: 'Tendances prospectives' }, slug: 'foresight-trends' },
-                // v2.33: purpose = understand how societies work and what is changing, then give
-                // well-reasoned recommendations. Recommendation themes mirror the forces; article
-                // addresses are unchanged (only the menu groups moved).
+                // v2.46 (owner): the menu follows the six questions of the home-page story; Previous/Next
+                // (components/overrides/Pagination.astro) follow it too and skip the grey 'likely later' items
+                // (class yv-planned, not clickable). Article addresses are unchanged.
                 {
-                    label: '1. How society works',
-                    translations: { fr: '1. Comment fonctionne la société' },
+                    label: '1. What does every person need to live well and thrive?',
+                    translations: { fr: "1. De quoi chaque personne a-t-elle besoin pour bien vivre et s'épanouir ?" },
+                    collapsed: false,
+                    items: [
+                        { label: 'Human needs on YeahCore ↗', translations: { fr: 'Les besoins humains sur YeahCore ↗' }, link: 'https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/', attrs: { target: '_blank' } },
+                    ],
+                },
+                {
+                    label: '2. What resources does the planet offer?',
+                    translations: { fr: '2. Quelles ressources la planète offre-t-elle ?' },
+                    collapsed: false,
+                    items: [
+                        { label: 'Land per Person', translations: { fr: 'Terres par personne' }, slug: 'forces/land-per-person' },
+                        { label: 'Fair Globe Sharing', translations: { fr: 'Partage équitable du monde' }, slug: 'sharing-fairly/fair-globe-sharing' },
+                        { label: 'Nature and Water (likely later)', translations: { fr: "La nature et l'eau (probablement plus tard)" }, link: '#', attrs: { class: 'yv-planned', 'aria-disabled': 'true', tabindex: '-1' } },
+                    ],
+                },
+                {
+                    label: '3. How does society turn those resources into what people need?',
+                    translations: { fr: '3. Comment la société transforme-t-elle ces ressources en ce dont les gens ont besoin ?' },
                     collapsed: false,
                     items: [
                         { label: 'What Is Society For?', translations: { fr: 'À quoi sert la société ?' }, slug: 'how-society-works/purpose-of-society' },
@@ -52,26 +71,26 @@ export default defineConfig({
                         { label: 'Societal Systems', translations: { fr: 'Systèmes sociétaux' }, slug: 'how-society-works/societal-systems' },
                         { label: 'The Economic System', translations: { fr: 'Le système économique' }, slug: 'how-society-works/economic-system' },
                         { label: 'Social Redistribution', translations: { fr: 'Redistribution sociale' }, slug: 'sharing-fairly/social-redistribution' },
-                        // v2.39 (owner): Land per Person is a tool to picture each person's land use today, not a force.
-                        { label: 'Land per Person', translations: { fr: 'Terres par personne' }, slug: 'forces/land-per-person' },
-                        { label: 'Fair Globe Sharing', translations: { fr: 'Partage équitable du monde' }, slug: 'sharing-fairly/fair-globe-sharing' },
+                        { label: 'Democracy and Reliable Information (likely later)', translations: { fr: 'La démocratie et une information fiable (probablement plus tard)' }, link: '#', attrs: { class: 'yv-planned', 'aria-disabled': 'true', tabindex: '-1' } },
+                        { label: 'Global Health and Extreme Poverty (likely later)', translations: { fr: "La santé mondiale et l'extrême pauvreté (probablement plus tard)" }, link: '#', attrs: { class: 'yv-planned', 'aria-disabled': 'true', tabindex: '-1' } },
                     ],
                 },
                 {
-                    label: '2. Forces shaping the future',
-                    translations: { fr: '2. Les forces qui façonnent l\'avenir' },
+                    label: '4. Which big forces are reshaping society?',
+                    translations: { fr: '4. Quelles grandes forces transforment la société ?' },
                     collapsed: false,
                     items: [
                         { label: 'The Energy Transition', translations: { fr: 'La transition énergétique' }, slug: 'forces/clean-safe-energy' },
                         { label: 'Managing Regional Migration', translations: { fr: 'Gestion de la migration régionale' }, slug: 'forces/managing-regional-migration' },
                         { label: 'Enhanced Automation', translations: { fr: 'Automatisation améliorée' }, slug: 'forces/enhanced-automation' },
-                        { label: 'Impact of Artificial Intelligence', translations: { fr: 'Impact de l\'intelligence artificielle' }, slug: 'forces/impact-of-artificial-intelligence' },
-                        { label: 'Life After Automation', translations: { fr: 'La vie après l\'automatisation' }, slug: 'forces/life-after-automation' },
+                        { label: 'Impact of Artificial Intelligence', translations: { fr: "Impact de l'intelligence artificielle" }, slug: 'forces/impact-of-artificial-intelligence' },
+                        { label: 'Life After Automation', translations: { fr: "La vie après l'automatisation" }, slug: 'forces/life-after-automation' },
+                        { label: 'Big Risks: Pandemics, Nuclear War, Advanced AI (likely later)', translations: { fr: 'Les grands risques : pandémies, guerre nucléaire, IA avancée (probablement plus tard)' }, link: '#', attrs: { class: 'yv-planned', 'aria-disabled': 'true', tabindex: '-1' } },
                     ],
                 },
                 {
-                    label: '3. Recommendations',
-                    translations: { fr: '3. Recommandations' },
+                    label: "5. Which solutions could tackle society's main challenges?",
+                    translations: { fr: '5. Quelles solutions pourraient répondre aux principaux défis de la société ?' },
                     collapsed: false,
                     items: [
                         {
@@ -80,6 +99,7 @@ export default defineConfig({
                             collapsed: false,
                             items: [
                                 { label: 'Plant-Based Consumption', translations: { fr: 'Consommation végétale' }, slug: 'forces/plant-based-consumption' },
+                                { label: 'Fair Space Sharing', translations: { fr: "Partage équitable de l'espace" }, slug: 'sharing-fairly/fair-space-sharing' },
                             ],
                         },
                         {
@@ -88,7 +108,6 @@ export default defineConfig({
                             collapsed: false,
                             items: [
                                 { label: 'Universal Allowance', translations: { fr: 'Allocation universelle' }, slug: 'sharing-fairly/universal-allowance' },
-                                { label: 'Fair Space Sharing', translations: { fr: 'Partage équitable de l\'espace' }, slug: 'sharing-fairly/fair-space-sharing' },
                                 { label: 'Inheritance', translations: { fr: 'Héritage' }, slug: 'sharing-fairly/inheritance' },
                                 { label: 'Making the Transition', translations: { fr: 'Réussir la transition' }, slug: 'sharing-fairly/making-the-transition' },
                                 { label: 'The Transition in Practice', translations: { fr: 'La transition en pratique' }, slug: 'sharing-fairly/transition-in-practice' },
@@ -97,12 +116,12 @@ export default defineConfig({
                     ],
                 },
                 {
-                    label: '4. Vision & Roadmap',
-                    translations: { fr: '4. Vision et feuille de route' },
+                    label: '6. Which causes would do the most good for the world?',
+                    translations: { fr: '6. Quelles causes feraient le plus de bien au monde ?' },
                     collapsed: false,
                     items: [
                         { label: 'Vision & Roadmap', translations: { fr: 'Vision et feuille de route' }, slug: 'vision-roadmap' },
-                        { label: 'Who\'s Working on This', translations: { fr: 'Qui agit déjà' }, slug: 'sharing-fairly/who-is-working-on-this' },
+                        { label: "Who's Working on This", translations: { fr: 'Qui agit déjà' }, slug: 'sharing-fairly/who-is-working-on-this' },
                     ],
                 },
                 {
