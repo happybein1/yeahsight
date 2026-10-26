@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.43
+
+**Home page tells one story, in six questions** (owner: mention it is a work in progress, name the areas still to cover, and make a storyline between all topics; "remove any promise", then "you can say we will likely cover them"). "From understanding to solutions, in four steps" becomes "The story, in six questions" (EN/FR): 1. What do people need? (YeahCore human needs) · 2. How does society try to meet them? (Land per person moves here, as in the menu since v2.39) · 3. What is changing? · 4. What could we do about it? (names the basic-needs budget and the inheritance cap) · 5. Where does help count most? (Vision & Roadmap, Who's working on this) · 6. What's not covered yet? (big risks, global health and extreme poverty, democracy and reliable information, nature and water: "will likely cover later", no dates). Followed by a "living project" note inviting ideas, corrections and sources at contact@happybein.com. The topics come from the owner's private leverage research.
+
+**Verification:** site builds; all card links answer 200; checked at phone width.
+
+---
+
 ## v2.42
 
 **Old addresses that Google reported as "Not found" now redirect** (Google Search Console, yeahvibe.com property, 2026-10-26). Old core.yeahvibe.com/applications/<category>/<article> links reach YeahSight through YeahCore's `/applications/*` rule but kept their old category folders: `public/_redirects` now sends earth-land-view-per-individual to Land per Person, the-economical-system to The Economic System and social-redistribution to Social Redistribution (EN/FR), and any other old environment-energy / economy-equity / social-organization address to the home page. Also removed the schema.org `SearchAction` from `Head.astro`: it pointed to a `/search?q=` page that does not exist, and Google was crawling it as a broken page.
