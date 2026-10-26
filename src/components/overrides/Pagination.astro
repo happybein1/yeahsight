@@ -4,7 +4,9 @@ import { Icon } from '@astrojs/starlight/components';
 // six-question menu: grey "likely later" items (class yv-planned) and links to other sites are skipped.
 const { dir, sidebar } = Astro.locals.starlightRoute;
 type E = { type: string; href?: string; label: string; isCurrent?: boolean; attrs?: Record<string, unknown>; entries?: E[] };
-const flat = (es: E[]): E[] => es.flatMap((e) => (e.type === 'group' ? flat(e.entries || []) : [e]));
+// v2.47: an "Overview" item is shown under its question's title, so Previous/Next say which question.
+const flat = (es: E[], group = ''): E[] => es.flatMap((e) => (e.type === 'group' ? flat(e.entries || [], /^\d\./.test(e.label) ? e.label : group)
+  : [/^(Overview|Vue d'ensemble)$/.test(e.label) && group ? { ...e, label: group } : e]));
 const all = flat(sidebar as E[]);
 const real = all.filter((e) => e.isCurrent || (e.href && e.href !== '#' && !/^https?:/.test(e.href) && !String(e.attrs?.class || '').includes('yv-planned')));
 const i = real.findIndex((e) => e.isCurrent);

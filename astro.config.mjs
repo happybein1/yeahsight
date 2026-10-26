@@ -40,6 +40,7 @@ export default defineConfig({
             sidebar: [
                 { label: '🏠 Home', translations: { fr: '🏠 Accueil' }, link: '/' },
                 { label: 'Foresight Trends', translations: { fr: 'Tendances prospectives' }, slug: 'foresight-trends' },
+                // v2.47 (owner): each question opens with an Overview page (src/content/docs/questions/).
                 // v2.46 (owner): the menu follows the six questions of the home-page story; Previous/Next
                 // (components/overrides/Pagination.astro) follow it too and skip the grey 'likely later' items
                 // (class yv-planned, not clickable). Article addresses are unchanged.
@@ -48,6 +49,7 @@ export default defineConfig({
                     translations: { fr: "1. De quoi chaque personne a-t-elle besoin pour bien vivre et s'épanouir ?" },
                     collapsed: false,
                     items: [
+                        { label: 'Overview', translations: { fr: "Vue d'ensemble" }, slug: 'questions/1-needs' },
                         { label: 'Human needs on YeahCore ↗', translations: { fr: 'Les besoins humains sur YeahCore ↗' }, link: 'https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/', attrs: { target: '_blank' } },
                     ],
                 },
@@ -56,6 +58,7 @@ export default defineConfig({
                     translations: { fr: '2. Quelles ressources la planète offre-t-elle ?' },
                     collapsed: false,
                     items: [
+                        { label: 'Overview', translations: { fr: "Vue d'ensemble" }, slug: 'questions/2-resources' },
                         { label: 'Land per Person', translations: { fr: 'Terres par personne' }, slug: 'forces/land-per-person' },
                         { label: 'Fair Globe Sharing', translations: { fr: 'Partage équitable du monde' }, slug: 'sharing-fairly/fair-globe-sharing' },
                         { label: 'Nature and Water (likely later)', translations: { fr: "La nature et l'eau (probablement plus tard)" }, link: '#', attrs: { class: 'yv-planned', 'aria-disabled': 'true', tabindex: '-1' } },
@@ -66,6 +69,7 @@ export default defineConfig({
                     translations: { fr: '3. Comment la société transforme-t-elle ces ressources en ce dont les gens ont besoin ?' },
                     collapsed: false,
                     items: [
+                        { label: 'Overview', translations: { fr: "Vue d'ensemble" }, slug: 'questions/3-society' },
                         { label: 'What Is Society For?', translations: { fr: 'À quoi sert la société ?' }, slug: 'how-society-works/purpose-of-society' },
                         { label: 'What Every Society Must Do', translations: { fr: 'Ce que toute société doit faire' }, slug: 'how-society-works/societal-functions' },
                         { label: 'Societal Systems', translations: { fr: 'Systèmes sociétaux' }, slug: 'how-society-works/societal-systems' },
@@ -80,6 +84,7 @@ export default defineConfig({
                     translations: { fr: '4. Quelles grandes forces transforment la société ?' },
                     collapsed: false,
                     items: [
+                        { label: 'Overview', translations: { fr: "Vue d'ensemble" }, slug: 'questions/4-forces' },
                         { label: 'The Energy Transition', translations: { fr: 'La transition énergétique' }, slug: 'forces/clean-safe-energy' },
                         { label: 'Managing Regional Migration', translations: { fr: 'Gestion de la migration régionale' }, slug: 'forces/managing-regional-migration' },
                         { label: 'Enhanced Automation', translations: { fr: 'Automatisation améliorée' }, slug: 'forces/enhanced-automation' },
@@ -93,6 +98,7 @@ export default defineConfig({
                     translations: { fr: '5. Quelles solutions pourraient répondre aux principaux défis de la société ?' },
                     collapsed: false,
                     items: [
+                        { label: 'Overview', translations: { fr: "Vue d'ensemble" }, slug: 'questions/5-solutions' },
                         {
                             label: 'Living within limits',
                             translations: { fr: 'Vivre dans les limites' },
@@ -120,6 +126,7 @@ export default defineConfig({
                     translations: { fr: '6. Quelles causes feraient le plus de bien au monde ?' },
                     collapsed: false,
                     items: [
+                        { label: 'Overview', translations: { fr: "Vue d'ensemble" }, slug: 'questions/6-causes' },
                         { label: 'Vision & Roadmap', translations: { fr: 'Vision et feuille de route' }, slug: 'vision-roadmap' },
                         { label: "Who's Working on This", translations: { fr: 'Qui agit déjà' }, slug: 'sharing-fairly/who-is-working-on-this' },
                     ],

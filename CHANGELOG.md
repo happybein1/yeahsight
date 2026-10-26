@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.47
+
+**One overview page per question** (owner asked for "a page for all articles under each question and how they connect to each other", then approved the draft). New `src/content/docs/questions/` (EN) and `fr/questions/` (FR): 1-needs, 2-resources, 3-society, 4-forces, 5-solutions, 6-causes. Each: why the question matters, its articles in reading order with one line each, "How they connect", what is not covered yet (likely later), and a link to the next question. Shown as the first item ("Overview" / "Vue d'ensemble") of each question in the menu; in Previous/Next an overview is labelled with its question's title (`overrides/Pagination.astro`).
+
+**Verification:** site builds; every link on the twelve pages resolves; Previous/Next run 1 → 6 through the overviews and articles in both languages.
+
+---
+
 ## v2.46
 
 **The menu follows the six questions, and articles link to each other in that order** (owner approved the menu draft). `astro.config.mjs` sidebar: one group per home-page question (EN/FR labels), each article under its question; Land per Person and Fair Globe Sharing under 2 (resources), Fair Space Sharing under "Living within limits" in 5; question 1 links out to the human needs on YeahCore. Topics YeahSight will likely cover later are shown grey and not clickable ("likely later", class `yv-planned`): Nature and Water (2), Democracy and Reliable Information and Global Health and Extreme Poverty (3), Big Risks (4). Article addresses unchanged.
