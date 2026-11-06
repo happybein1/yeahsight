@@ -1,8 +1,8 @@
 ---
 kind: explainer
 title: The Energy Transition
-description: An overview of clean energy sources and how energy decisions affect individuals, organizations, and the planet.
-reading_time: "4 min"
+description: "Why energy is at the heart of climate change, how the main clean sources compare, how far the switch has come, and what individuals, organisations and governments can do."
+reading_time: "5 min"
 sidebar:
   order: 1
 audio: https://audio.happybein.com/yeahsight/clean-safe-energy.en.mp3
@@ -12,52 +12,83 @@ audioSeconds: 210
 audioDate: 2026-11-06T16:26:00+01:00
 ---
 
-Decisions about energy — at the individual, organizational, and policy level — are among the most consequential we make. Understanding the landscape of clean energy enables better choices at every level.
+**In short:** Producing energy is the largest single cause of greenhouse gas emissions. Clean sources each have trade-offs: solar and wind are now among the cheapest electricity in most of the world but come and go with the weather; hydropower is steady but has limits; nuclear is low-carbon and steady but slow and expensive to build. In 2024, low-carbon sources produced just over 40% of the world's electricity, with solar growing fastest. The switch is well under way, but electricity is only part of energy use, and fossil fuels still dominate transport, heating and industry.
 
-## Why energy decisions matter
+## The Question
 
-Energy production is the largest single driver of greenhouse gas emissions globally. Transitioning to clean energy sources is therefore central to addressing climate change — but it also has direct implications for air quality, energy security, cost, and long-term sustainability.
+[Climate Change](/forces/climate-change/) shows that burning coal, oil and gas is the main cause of global warming. This article asks: **what can replace them, and how fast is the switch happening?**
 
-## Key clean energy sources
+## Why Energy Decisions Matter
 
-### Solar
-Solar photovoltaic (PV) technology converts sunlight directly into electricity. Costs have fallen dramatically over the past decade, making solar one of the cheapest sources of new electricity generation in most of the world.
+Energy use causes about three quarters of greenhouse gas emissions. Switching to clean energy is therefore central to tackling climate change. It also means cleaner air, less dependence on imported fuel, and, more and more, lower costs.
 
-- **Advantages**: Zero emissions in operation, declining cost, scalable from rooftop to utility-scale, long lifespan.
-- **Challenges**: Intermittent (dependent on sunlight), requires storage or grid backup, land use at scale.
+## The Main Clean Sources
 
-### Wind
-Wind turbines convert kinetic energy from wind into electricity. Onshore wind is among the cheapest electricity sources available; offshore wind is more expensive but has higher and more consistent output.
+**Solar.** Panels turn sunlight straight into electricity. The cost of large solar plants fell by about 90% between 2010 and 2023, making solar one of the cheapest sources of new electricity in most of the world.
+- *Strengths:* no emissions while running, falling cost, works from a single roof to huge plants, long life.
+- *Challenges:* produces only when the sun shines, so it needs storage or backup; large plants take up land.
 
-- **Advantages**: Zero emissions in operation, increasingly cost-competitive, long lifespan.
-- **Challenges**: Intermittent, visual and noise impact, wildlife considerations (especially birds and bats).
+**Wind.** Turbines turn moving air into electricity. Wind on land is among the cheapest electricity there is; wind at sea costs more but blows stronger and more steadily.
+- *Strengths:* no emissions while running, competitive cost, long life.
+- *Challenges:* comes and goes, visual and noise impact, care needed for birds and bats.
 
-### Hydropower
-Hydropower uses the movement of water to generate electricity. It is the largest source of renewable electricity globally.
+**Hydropower.** Electricity from moving water, and still the largest source of low-carbon electricity in the world.
+- *Strengths:* reliable, can be turned up or down, helps keep the grid stable.
+- *Challenges:* large dams have serious effects on rivers, nature and nearby communities; in many regions the best sites are already used.
 
-- **Advantages**: Reliable, controllable output, long lifespan, can provide grid stability.
-- **Challenges**: Large dams have significant ecological and social impacts; limited new sites in many regions.
+**Nuclear.** Electricity from splitting atoms, with very low emissions over its whole life and steady output.
+- *Strengths:* very low emissions, uses little land, runs day and night.
+- *Challenges:* high building costs, long construction times, managing the waste, and public trust.
 
-### Nuclear
-Nuclear power generates electricity through fission reactions. It produces very low lifecycle greenhouse gas emissions and provides reliable, controllable output.
+No source is perfect, which is why most plans combine several, with batteries and other storage, stronger grids linking regions, and using energy more flexibly.
 
-- **Advantages**: Very low emissions, high energy density, reliable baseload power.
-- **Challenges**: High capital cost, waste management, public perception, long construction timelines.
+## How Far the Switch Has Come
 
-## Individual and organizational energy decisions
+- In 2024, low-carbon sources produced **40.9%** of the world's electricity: hydro 14.3%, nuclear 9.0%, wind 8.1%, solar 6.9%, and other renewables the rest.
+- Solar was the fastest-growing source for the third year in a row, and wind and solar together now produce more than hydropower.
+- But demand also grew, partly because of heatwaves and air conditioning, so emissions from electricity still reached a record high.
+- Electricity is only about a fifth of the energy the world uses. Transport, heating and industry still run mostly on fossil fuels, which is why electric cars, heat pumps and clean industrial heat matter as much as clean power plants.
 
-### At the individual level
-- Switch to a renewable electricity tariff if available in your area.
-- Consider rooftop solar if you own your home.
-- Reduce energy consumption through insulation, efficient appliances, and behavioral changes.
-- Choose electric vehicles over fossil fuel equivalents where feasible.
+## What You Can Do
 
-### At the organizational level
-- Audit energy consumption and identify the largest sources.
-- Set targets for renewable energy procurement (Power Purchase Agreements, on-site generation).
-- Reduce consumption through efficiency measures — often the cheapest "energy source."
-- Report on energy use and progress toward targets.
+**As an individual:**
+- choose a renewable electricity contract where one is available;
+- consider solar panels if you own your home;
+- use less energy: insulation, efficient appliances, small habits;
+- choose an electric car, public transport or cycling over petrol and diesel where possible.
 
-## The transition ahead
+**As an organisation:**
+- measure where your energy goes and find the biggest uses;
+- set targets for buying renewable power, or produce it on site;
+- cut waste through efficiency, often the cheapest energy source of all;
+- report progress openly.
 
-The global energy transition is underway but will require sustained effort, investment, and policy support. Understanding the options and trade-offs enables more informed decisions — whether as a voter, a consumer, an investor, or an organizational leader.
+## Examples
+
+- **China:** installed more solar capacity in 2023 alone than the United States has in its whole history, driving down the price of panels worldwide.
+- **Denmark:** gets more than half of its electricity from wind, and the Danish grid stays stable by trading power with its neighbours.
+
+## The Human Side
+
+Energy can feel abstract until the bill arrives. The 2022 price shock showed how much people's sense of security depends on affordable heat and power. A fair transition means helping households insulate homes and switch heating, so that the people with the least are not left paying the most. See [Mastering finance basics](https://yeahcore.happybein.com/personal-effectiveness/mastering-finance-basics/) on YeahCore.
+
+## Open Questions
+
+- What role should nuclear power play alongside renewables?
+- Who should pay for new grids and storage: consumers, taxpayers or energy companies?
+- How can poorer countries get clean energy fast enough without paying more than rich countries did for fossil fuels?
+
+## Where Next
+
+- Previous: [Climate Change](/forces/climate-change/)
+- Next: [Managing Regional Migration](/forces/managing-regional-migration/)
+- Related: [Nature and Water](/forces/nature-and-water/), [Making the Transition](/sharing-fairly/making-the-transition/), on returning fossil-fuel taxes to people
+
+## Sources
+
+- Ember, *Global Electricity Review 2025*
+- IRENA, *Renewable Power Generation Costs in 2023* (2024)
+- IEA, *World Energy Outlook 2024*
+- IPCC, *Sixth Assessment Report, Working Group III* (2022), on emissions by sector
+- Danish Energy Agency, annual energy statistics
+- China National Energy Administration, 2023 national power industry statistics, and Carbon Brief analysis (2024)

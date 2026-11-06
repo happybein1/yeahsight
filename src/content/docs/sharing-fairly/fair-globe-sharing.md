@@ -1,8 +1,8 @@
 ---
 kind: explainer
 title: Fair Globe Sharing
-description: How global resources are distributed and what fairer sharing might look like for people and the planet.
-reading_time: "4 min"
+description: "How the world's resources are shared today, why that is unfair and unstable, and the principles a fairer, sustainable sharing could rest on."
+reading_time: "5 min"
 sidebar:
   order: 4
 audio: https://audio.happybein.com/yeahsight/fair-globe-sharing.en.mp3
@@ -12,51 +12,71 @@ audioSeconds: 199
 audioDate: 2026-11-06T16:21:00+01:00
 ---
 
+**In short:** The Earth's land, water, energy, minerals and living nature are limited and very unevenly shared. The richest tenth of the world's people cause about half of the carbon emissions linked to consumption, while about 2.1 billion people still lack safe drinking water and about 670 million have no electricity. Fairer sharing rests on four principles: respect the planet's limits, give every person an equal claim to what we hold in common, make up for past overuse, and meet everyone's basic needs before extra consumption. Beyond a certain level of comfort, more stuff adds little to well-being, so a fairer world need not be a less happy one.
 
 <div style="max-width:680px;margin:1.5rem 0;aspect-ratio:16/9;border-radius:10px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
   <iframe src="https://player.vimeo.com/video/881363029" style="width:100%;height:100%;border:none;" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-## The Question of Fair Distribution
+## The Question
 
-The Earth's resources — land, water, energy, minerals, biodiversity — are finite and unevenly distributed. How they are shared, used, and governed shapes the life conditions of every person on the planet.
-
-Fair globe sharing asks a fundamental question: what would a just and sustainable distribution of the world's resources look like?
+[Land per Person](/forces/land-per-person/) shows how little of the Earth each of us really has. How it is shared, used and governed shapes the life of every person on the planet. This article asks: **what would a fair and sustainable sharing of the world's resources look like?**
 
 ## The Current Reality
 
-Global resource distribution is highly unequal:
+- **Emissions:** the richest 10% of the world's people are responsible for about half of all consumption-based carbon emissions. The poorer half causes about a tenth.
+- **Water:** about 2.1 billion people, one in four, still lack safely managed drinking water at home.
+- **Energy:** about 670 million people have no electricity, most of them in sub-Saharan Africa.
+- **Overuse:** humanity uses resources as if it had more than one and a half Earths. In 2025, "Earth Overshoot Day", the day by which we have used what nature can renew in a year, fell on 24 July.
+- **Commons run for a few:** forests, oceans and mineral deposits are often managed for the benefit of a narrow group, rather than as something everyone shares.
 
-- The wealthiest 10% of the global population account for roughly half of all consumption-based carbon emissions.
-- Access to clean water, fertile land, and reliable energy varies enormously by geography and income.
-- Natural resources — forests, oceans, mineral deposits — are frequently managed for the benefit of a narrow group rather than as shared global commons.
+This creates instability: damaged environments, conflicts over resources, migration driven by scarcity, and whole regions held back from developing.
 
-This inequality creates instability: environmental degradation, conflict over resources, migration driven by scarcity, and systemic barriers to human development.
+## Four Principles for Fairer Sharing
 
-## Principles for Fairer Sharing
+1. **Respect the planet's limits.** Don't take more than nature can regrow, and don't emit more than it can absorb.
+2. **An equal claim for every person.** Clean air, a stable climate and the oceans belong to everyone. Each person has an equal claim to a share of them. This idea already sits behind carbon budgets and many discussions of water rights.
+3. **Make up for past overuse.** Rich countries have used far more than their share of the planet's resources for a long time. A fair deal may include climate finance, debt relief or sharing technology.
+4. **Needs before wants.** A basic level of food, clean water, shelter, energy and health care should be guaranteed for everyone, before resources flow to extra consumption.
 
-### 1. Recognizing planetary boundaries
-Fair sharing starts with acknowledging that the Earth's systems have limits. Sustainable use means not extracting more than can be regenerated, not emitting more than can be absorbed.
+## What It Means in Practice
 
-### 2. Equal per-person entitlement
-One framework for fairness is that every person has an equal claim to a share of global commons — clean air, stable climate, shared oceans. This principle underpins carbon budget frameworks and water rights discussions.
+- **For individuals:** what we eat, how we travel, where we live and how much energy we use all have a footprint.
+- **For organisations:** honest supply chains, fair sourcing and real accounting of environmental impact.
+- **For governments:** international agreements, carbon pricing, tax cooperation between countries and development finance are the main tools at scale.
 
-### 3. Compensating for historical extraction
-Wealthier nations and populations have historically consumed a disproportionate share of planetary resources. Fair sharing may require compensating for this — through climate finance, debt relief, or technology transfer.
+## Enough Is Enough
 
-### 4. Needs before wants
-A minimum threshold of access — to food, clean water, shelter, energy, and healthcare — should be guaranteed before surplus resources flow to discretionary consumption.
+Research consistently finds that beyond a certain level of material comfort, more consumption adds little to well-being. Fairer sharing would not require the well-off to give up well-being, only to share what is piled up beyond the point where it really helps anyone.
 
-## Practical Implications
+## Examples
 
-For **individuals**: consumption choices matter. Diet, travel, housing, and energy use all have resource footprints that connect to global distribution.
+- **The Montreal Protocol (1987):** every country in the world agreed to phase out the chemicals destroying the ozone layer, with a fund helping poorer countries make the switch. The ozone layer is now slowly recovering.
+- **Climate finance:** at the 2024 climate summit in Baku, rich countries agreed to provide at least $300 billion a year by 2035 to help poorer countries cut emissions and adapt. Many poorer countries called it far too little.
 
-For **organizations**: supply chain transparency, fair sourcing, and honest accounting of environmental impact are increasingly expected.
+## The Human Side
 
-For **policymakers**: international agreements, carbon pricing, global tax cooperation, and development finance are the levers of fair globe sharing at scale.
+Unfairness is felt, not only measured. People who see others using far more than their share, while they struggle for basics, lose trust in the rules. And people with plenty can still feel insecure if they fear losing it. A floor for everyone makes both groups safer. See [human needs](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) on YeahCore.
 
-## The Connection to Well-Being
+## Open Questions
 
-Research consistently shows that beyond a certain threshold of material consumption, additional resources do not improve well-being. Fairer distribution would therefore not require the wealthy to sacrifice well-being — but it would require sharing resources that are currently concentrated beyond the point of meaningful benefit.
+- Should the planet's limits be shared equally per person, or should past use count against rich countries?
+- How can poorer countries develop without repeating the high-emission path of rich ones?
+- Who should govern resources that belong to no one, such as the high seas and the atmosphere?
 
-See also: [Fair Space Sharing](/sharing-fairly/fair-space-sharing) (sharing fairly with nature), [Universal Allowance](/sharing-fairly/universal-allowance) and [Land per Person](/forces/land-per-person).
+## Where Next
+
+- Previous: [Land per Person](/forces/land-per-person/)
+- Next: [Nature and Water](/forces/nature-and-water/)
+- Related: [Fair Space Sharing](/sharing-fairly/fair-space-sharing/), on sharing land with nature, and [Universal Allowance](/sharing-fairly/universal-allowance/), on guaranteeing basic needs
+
+## Sources
+
+- Oxfam and Stockholm Environment Institute, *Climate Equality: A Planet for the 99%* (2023)
+- Lucas Chancel, "Global carbon inequality over 1990–2019", *Nature Sustainability* (2022)
+- WHO and UNICEF Joint Monitoring Programme, *Progress on Household Drinking-Water, Sanitation and Hygiene 2000–2024* (2025)
+- IEA, IRENA, UN DESA, World Bank and WHO, *Tracking SDG 7: The Energy Progress Report 2025*
+- Global Footprint Network, Earth Overshoot Day 2025
+- United Nations Environment Programme, *Ozone Secretariat*, on the Montreal Protocol and the recovery of the ozone layer
+- UNFCCC, New Collective Quantified Goal on Climate Finance, COP29 (2024)
+- Kahneman and Deaton, "High income improves evaluation of life but not emotional well-being", *PNAS* (2010)

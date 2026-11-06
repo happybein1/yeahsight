@@ -4,6 +4,18 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.54
+
+**Nine older articles refreshed, in English and French** (owner, 2026-11-06: "publish and refresh the old articles", then "publish" on the drafts).
+- *Land per Person*, *Fair Globe Sharing*, *The Economic System*, *Social Redistribution*, *The Energy Transition*, *Managing Regional Migration*, *Enhanced Automation*, *Impact of Artificial Intelligence* and *Life After Automation* now follow the same structure as the newer explainers: **In short**, The Question, the content, Examples, The Human Side (with a YeahCore link), Open Questions, Where Next (previous/next in menu order) and Sources. None of them had sources before.
+- The articles' own ideas are kept (Land per Person's tables, the four fair-sharing principles, the three ways work could be shared, falling costs, AI backup training, working for pleasure). New figures, each checked against a recent source: richest 10% ≈ half of consumption emissions (Oxfam/SEI 2023, Chancel 2022); 2.1 billion without safely managed drinking water (WHO/UNICEF JMP 2025); about 670 million without electricity (Tracking SDG7 2025); Earth Overshoot Day 24 July 2025; 40.9% low-carbon electricity in 2024 with the split by source (Ember 2025); solar cost down about 90% 2010–2023 (IRENA); 304 million international migrants (UN DESA 2024); 123.2 million forcibly displaced at end 2024 (UNHCR); $685 billion remittances in 2024 (World Bank estimate); taxes and transfers cut OECD income inequality by slightly over a quarter (Causa and Hermansen); 40%/60% of jobs exposed to AI (IMF 2024); 170 million jobs created and 92 million displaced 2025–2030 (WEF 2025).
+- French: all nine translated from the refreshed English in the same release (FR *La vie après l'automatisation* gets the full new text; it had no reading time before).
+- The episodes recorded in v2.53 still match: the refresh adds to the articles without contradicting them.
+- Drafts kept in `tools/drafts/refresh/`.
+- Checked: build, every internal link on the 18 pages resolves, one page at phone width.
+
+---
+
 ## v2.53
 
 **Every explainer now has an Emma and Sam episode** (owner, 2026-11-06: "go for 1" on writing them, then "publish").

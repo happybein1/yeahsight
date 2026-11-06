@@ -1,90 +1,98 @@
 ---
 kind: explainer
 title: Automatisation améliorée
-description: L'automatisation s'accélère en rythme, en portée et en intelligence. Voici ce qui est en train d'être automatisé, comment le travail va probablement évoluer au cours de la prochaine décennie, et comment s'adapter.
+description: "Comment les machines et l'IA prennent en charge une part croissante de notre travail, quels emplois changent en premier, pourquoi les prix pourraient baisser, comment le travail pourrait être réparti, et comment s'adapter."
+reading_time: "6 min"
 ---
 
-## L'ère de l'automatisation améliorée
+**En bref :** les machines ont toujours pris en charge des tâches, mais elles peuvent aujourd'hui faire aussi un travail intellectuel : lire, écrire, programmer, diagnostiquer. Le FMI estime qu'environ 40 % des emplois dans le monde, et 60 % dans les pays riches, sont exposés à l'IA. Le travail de bureau et les services sont touchés en premier ; le travail physique suit dès que les robots sont prêts, peut-être en cinq à dix ans pour une tâche donnée. De nouveaux emplois apparaissent, mais avec un décalage et d'autres compétences. L'automatisation rend aussi les choses moins chères, donc il faudrait moins de revenus, même si le logement et la santé résistent à cette baisse. La répartition du travail dépendra de trois forces : la concentration sur le marché, le choix de travailler moins, et l'intervention des pouvoirs publics.
 
-L'automatisation n'est pas nouvelle — les humains construisent des outils pour étendre leurs capacités depuis des millénaires. Ce qui est nouveau, c'est le rythme, la portée et l'intelligence de l'automatisation moderne. Les machines peuvent désormais effectuer non seulement des tâches physiques, mais aussi des tâches cognitives : lire des documents, écrire du code, diagnostiquer des images et naviguer dans des environnements complexes.
+## La question
 
-## Qu'est-ce qui est automatisé ?
+L'automatisation n'est pas nouvelle : les humains fabriquent des outils pour étendre leurs capacités depuis des millénaires. Ce qui est nouveau, c'est la vitesse, l'étendue et l'intelligence des machines actuelles. Cet article demande : **que va faire l'automatisation au travail, et comment pouvons-nous nous adapter ?**
 
-L'automatisation suit généralement un schéma : elle remplace d'abord les tâches **routinières, prévisibles et bien définies** — qu'elles soient physiques (travail à la chaîne) ou cognitives (saisie de données, analyses standards).
+## Ce qui est automatisé
 
-Ce qui est plus difficile à automatiser :
+L'automatisation a d'abord remplacé les tâches **routinières, prévisibles et bien définies**, qu'elles soient physiques (le travail à la chaîne) ou intellectuelles (la saisie de données, l'analyse standard). Sont plus difficiles à automatiser :
 
-- Les tâches nécessitant une véritable créativité et une résolution de problèmes inédite
-- Le travail exigeant une forte intelligence émotionnelle (soins, accompagnement, négociations complexes)
-- Le jugement dans des situations ambiguës et à enjeux élevés
-- Les tâches physiques dans des environnements non structurés et imprévisibles
+- la vraie créativité et la résolution de problèmes nouveaux ;
+- le travail qui demande beaucoup d'intelligence émotionnelle, comme le soin, l'accompagnement ou les négociations complexes ;
+- le jugement dans des situations floues et à fort enjeu ;
+- le travail physique dans des environnements désordonnés et imprévisibles.
 
-Cependant, la frontière de ce qui est automatisable évolue rapidement — notamment avec les avancées de l'IA. Le travail de services et de connaissance fondé sur la synthèse d'informations (conseil, finance, diagnostic) est désormais exposé plus tôt que ce que le seul schéma du « travail routinier » suggérerait, car l'IA devient de plus en plus *meilleure*, pas seulement moins chère, sur des parties de ce travail — pas seulement plus rapide.
+Cette frontière bouge vite. Le travail intellectuel fondé sur la synthèse d'informations, comme le conseil, la finance ou le diagnostic, est exposé plus tôt que ne le suggère l'ancien schéma, parce que l'IA devient *meilleure* sur une partie de ce travail, pas seulement moins chère ou plus rapide.
 
 ## L'impact sur le travail
 
-### Emplois à risque
+- **L'exposition :** le FMI estime qu'environ 40 % des emplois dans le monde, et environ 60 % dans les économies avancées, sont exposés à l'IA. Être exposé ne veut pas dire disparaître : dans environ la moitié de ces emplois, l'IA devrait plutôt aider les travailleurs que les remplacer.
+- **L'ordre des changements :** les emplois de bureau et de services sont généralement touchés en premier, ce qui peut réduire la demande pour certains postes et peser sur les salaires. Le travail physique suit plus lentement, limité par la vitesse de diffusion des robots. Mais une fois la robotique prête pour une tâche donnée, les emplois du transport, de l'industrie ou des métiers qualifiés pourraient basculer en **cinq à dix ans** environ, bien moins de temps pour s'adapter que lors des changements passés.
+- **Les nouveaux emplois :** historiquement, l'automatisation a créé à peu près autant d'emplois qu'elle en a supprimé, mais avec un décalage, et les nouveaux emplois demandent d'autres compétences. Le Forum économique mondial prévoit environ 170 millions d'emplois créés et 92 millions supprimés dans le monde entre 2025 et 2030. Le coût de ce décalage retombe surtout sur les travailleurs qui ont le moins d'alternatives.
+- **Des emplois qui changent :** même les emplois qui restent vont évoluer. Les machines prennent la routine ; les humains se concentrent sur le jugement, les relations, la créativité et la supervision.
 
-Les recherches suggèrent qu'une proportion significative des emplois actuels contiennent des tâches hautement automatisables. Cela ne signifie pas nécessairement que ces emplois vont disparaître, mais ils vont changer — souvent de manière substantielle.
+## Des coûts qui baissent
 
-Le rythme varie selon le secteur. Les emplois de services et de cols blancs sont généralement touchés en premier, car l'IA prend en charge la synthèse d'informations et les analyses routinières — cela peut entraîner une baisse de la demande pour certains postes et une pression à la baisse sur les salaires, à mesure que la capacité automatisée concurrence le travail humain. Le travail physique et dépendant du matériel a tendance à suivre avec retard, contraint par le rythme plus lent du déploiement de la robotique — mais cet écart pourrait être plus réduit que prévu. Une fois la robotique mature pour une tâche donnée, le déplacement dans des domaines comme le transport, la fabrication et les métiers qualifiés peut survenir en environ **cinq à dix ans**, une fenêtre bien plus courte que celle qu'ont permise les précédentes transitions d'automatisation pour s'adapter.
+Quand les machines produisent des biens et des services moins chers, les prix tendent à baisser : alimentation, produits manufacturés, transport, certains services. Le revenu nécessaire pour un niveau de vie donné pourrait donc diminuer, et moins de travail rémunéré pourrait suffire.
 
-### Nouveaux emplois créés
+Tout dépend de *quels* coûts baissent. Le logement et la santé pèsent bien plus sur le coût de la vie que l'électronique, et ont jusqu'ici résisté aux baisses de prix dues à l'automatisation. Des biens moins chers ne compenseront pas à eux seuls la baisse du travail rémunéré.
 
-Historiquement, l'automatisation a créé autant d'emplois qu'elle en a supprimés — mais avec un décalage, et avec des inadéquations entre les compétences nécessaires pour les anciens emplois et les nouveaux. Les coûts de transition sont réels et pèsent souvent de manière disproportionnée sur les travailleurs ayant le moins d'alternatives.
+## Comment le travail pourrait être réparti
 
-### La nature du travail change
+Trois forces pourraient façonner cette répartition, et elles peuvent agir en même temps :
 
-Même les emplois qui persistent vont changer. L'automatisation prend en charge la routine ; les humains se concentrent sur le jugement, les relations, la créativité et la supervision que les machines ne peuvent pas encore fournir.
+- **La concentration :** laissés à eux-mêmes, les employeurs préfèrent en général moins de travailleurs à l'aise avec l'automatisation, plutôt que de répartir le travail sur plus de personnes. Le résultat par défaut : un groupe plus restreint qui travaille à plein temps, souvent dans des rôles de supervision, pendant que les autres se disputent moins d'emplois, à des salaires plus bas.
+- **Le choix de travailler moins :** si le coût de la vie baisse assez, certains pourraient choisir de travailler moins d'heures parce qu'ils ont besoin de moins de revenus. Pas tout le monde, mais ceux qui disposent d'une certaine marge.
+- **L'intervention publique :** si le chômage devient plus élevé que ce que la société accepte, l'histoire suggère que les gouvernements réagissent, généralement tard plutôt que tôt : semaines de travail plus courtes, plus de redistribution, ou incitations au partage du travail.
 
-## S'adapter en tant qu'individu
+Un avenir plausible mêle les trois. L'équilibre dépendra de la vitesse du changement, de la manière dont les baisses de prix se répartissent, et de la rapidité de réaction des institutions.
 
-Les travailleurs les plus résilients ont tendance à :
+## Comment s'adapter
 
-- **Investir dans les compétences proprement humaines** : communication, empathie, créativité, raisonnement complexe
-- **Travailler avec l'automatisation plutôt que contre elle** : apprendre à utiliser les outils d'IA comme des multiplicateurs de force
-- **Rester curieux et continuer à apprendre** : la durée de vie des compétences spécifiques se raccourcit ; apprendre à apprendre compte plus que n'importe quelle connaissance spécifique
-- **Construire une résilience financière** : la période de transition entre l'ancien et le nouveau travail peut être difficile ; un fonds d'urgence et des sources de revenus diversifiées offrent un coussin
+**En tant qu'individu :**
+- développer des compétences profondément humaines : communication, empathie, créativité, raisonnement complexe ;
+- travailler avec l'automatisation, en utilisant les outils d'IA comme un multiplicateur plutôt que de les combattre ;
+- continuer à apprendre : les compétences précises vieillissent plus vite, alors apprendre à apprendre compte le plus ;
+- se constituer une réserve financière, comme une épargne de précaution, pour la période entre l'ancien et le nouveau travail.
 
-## S'adapter en tant qu'organisation
+**En tant qu'organisation :**
+- investir dans la reconversion en même temps que dans l'automatisation ;
+- repenser les postes autour de ce que les humains font bien ;
+- être transparent avec les salariés sur les projets d'automatisation ;
+- tenir compte des effets plus larges des pertes d'emplois à grande échelle.
 
-- Investir dans la reconversion et le perfectionnement en parallèle des investissements en automatisation
-- Repenser les rôles autour de ce que les humains font bien, pas seulement ce que les machines ont remplacé
-- Être transparent avec les employés sur les plans d'automatisation
-- Considérer les implications sociales plus larges d'un déplacement à grande échelle
+**En tant que société :**
+- une éducation tournée vers la capacité d'adaptation plutôt que vers des contenus figés ;
+- un filet de sécurité assez solide pour les personnes en transition ;
+- des systèmes fiscaux qui devront peut-être évoluer si davantage de valeur va aux machines et moins provient de l'impôt sur le travail.
 
-## L'effet économique : la baisse des coûts
+Si cela ne suffit pas, la réponse pourra combiner redistribution, comme une [Allocation universelle](/fr/sharing-fairly/universal-allowance/), et choix délibérés sur les rôles qui restent humains, non parce que les machines ne pourraient pas les remplir, mais parce que la part humaine fait leur valeur.
 
-Une conséquence directe de l'automatisation est déflationniste : lorsque les systèmes pilotés par l'IA et la robotique peuvent produire des biens et services à moindre coût que le travail humain, les prix de ces biens et services ont tendance à baisser au fil du temps. L'alimentation, les biens manufacturés, le transport et même certains services pourraient devenir nettement moins chers à produire à mesure que l'automatisation se répand dans ces secteurs.
+## Exemples
 
-Cela compte pour l'emploi dans deux directions à la fois. Non seulement il pourrait y avoir moins de travail rémunéré disponible dans les secteurs concernés — mais le revenu nécessaire pour maintenir un certain niveau de vie pourrait aussi diminuer. Une quantité de travail plus faible, ou un revenu provenant d'autres sources, pourrait en principe aller plus loin qu'aujourd'hui.
+- **Les guichetiers et les distributeurs automatiques :** quand les distributeurs de billets se sont répandus aux États-Unis, le nombre de guichetiers de banque n'a pas baissé pendant des décennies. Chaque agence en avait besoin de moins, mais les banques ont ouvert plus d'agences, et les guichetiers se sont tournés vers le conseil et la vente.
+- **La rédaction freelance après ChatGPT :** une étude d'une plateforme de travail indépendant en ligne a montré qu'après la sortie de ChatGPT fin 2022, les indépendants des métiers de l'écrit ont obtenu moins de missions et gagné moins, un effet rapide et direct.
 
-L'ampleur réelle de cet effet dépend fortement de *quels* coûts baissent. Le logement et les soins de santé ont un effet beaucoup plus important sur le coût de la vie que, par exemple, l'électronique grand public — et ces secteurs ont historiquement été plus résistants aux baisses de prix induites par l'automatisation. Donc, bien que l'effet soit réel, il ne faut pas supposer qu'il compense entièrement à lui seul la réduction de l'emploi.
+## Le côté humain
 
-## Comment le travail pourrait-il réellement être réparti ?
+Perdre son travail, ou le craindre, touche bien plus que le revenu. Cela atteint l'identité, le rythme de vie et le sentiment d'être utile. Le changement est plus facile à affronter avec une marge financière, des personnes autour de soi, et le sentiment qu'on peut encore apprendre et choisir. Voir [Maîtriser les bases de la finance](https://yeahcore.happybein.com/fr/personal-effectiveness/mastering-finance-basics/) et [Gérer la peur](https://yeahcore.happybein.com/fr/personal-effectiveness/fear-management/) sur YeahCore.
 
-En combinant les éléments ci-dessus, il y a environ trois dynamiques différentes qui pourraient façonner la façon dont le travail rémunéré est réparti dans la population — et elles ne s'excluent pas mutuellement.
+## Questions ouvertes
 
-**Concentration du marché.** Laissé à lui-même, le marché du travail a tendance à se concentrer plutôt qu'à se partager : les employeurs préfèrent généralement un nombre réduit de travailleurs maîtrisant l'automatisation plutôt que de répartir la même quantité de travail sur davantage de personnes, car les coûts de coordination et de gestion par travailleur sont plus faibles. Le résultat par défaut de l'automatisation, en l'absence d'autres forces, est un bassin plus restreint de personnes travaillant (souvent à temps plein, souvent dans des rôles de supervision ou de jugement), tandis que les travailleurs déplacés se disputent un ensemble réduit de postes restants — ce qui fait baisser les salaires dans ces rôles par la concurrence.
+- À qui doivent profiter les gains de l'automatisation : aux propriétaires, aux travailleurs, ou à tous ?
+- Faut-il réduire le temps de travail à mesure que la productivité augmente, comme au XXe siècle ?
+- Quels métiers la société devrait-elle délibérément garder humains ?
 
-**Réduction volontaire.** La baisse des coûts (ci-dessus) contrebalance en partie cette concentration — au niveau individuel. Si le coût de la vie baisse suffisamment, certaines personnes pourraient simplement choisir de travailler moins d'heures, parce qu'elles ont besoin de moins de revenus pour maintenir le mode de vie qu'elles souhaitent. Ce n'est pas un choix politique ni un changement du marché du travail ; c'est un choix personnel, rendu possible par la baisse des coûts plutôt qu'imposé par quiconque. Tout le monde ne fera pas ce choix — certains continueront à travailler à temps plein pour un revenu au-delà de la subsistance, ou pour la structure et le sens que le travail apporte — mais pour ceux qui disposent d'un certain coussin financier, c'est un ajustement réaliste.
+## Pour aller plus loin
 
-**Correction politique.** Si la concentration du marché produit des niveaux de chômage devenant socialement ou politiquement insoutenables, l'histoire suggère que la réponse a tendance à être réactive plutôt que proactive — des ajustements comme des semaines de travail standard plus courtes, une redistribution renforcée ou des incitations au partage de l'emploi ont tendance à suivre une tension visible plutôt qu'à l'anticiper.
+- Précédent : [Évolution de la population et vieillissement](/fr/forces/population-change/)
+- Suivant : [Impact de l'intelligence artificielle](/fr/forces/impact-of-artificial-intelligence/)
+- Voir aussi : [La vie après l'automatisation](/fr/forces/life-after-automation/), [Allocation universelle](/fr/sharing-fairly/universal-allowance/)
 
-Au final, une image plausible n'est pas un résultat unique et net, mais plusieurs de ces dynamiques fonctionnant en parallèle : une partie de la population travaillant à temps plein (souvent dans des rôles de supervision ou de jugement), une partie travaillant volontairement moins parce qu'elle le peut, et — si le chômage parmi le reste devient suffisamment grave — la politique finissant par évoluer vers un partage du travail ou une redistribution plus large. La façon dont ces proportions se stabilisent dépend de la rapidité de la transition, de l'inégalité de répartition des baisses de coûts, et de la rapidité de réaction des institutions face aux tensions visibles.
+## Sources
 
-## Réponses politiques
-
-La société devra adapter ses institutions à mesure que l'automatisation change la nature du travail :
-
-- **Les systèmes éducatifs** doivent évoluer vers l'adaptabilité, plutôt que vers des programmes fixes
-- **La protection sociale** doit être suffisamment robuste pour soutenir les travailleurs en transition
-- **Les systèmes fiscaux** pourraient devoir évoluer si l'automatisation capte davantage de valeur économique tout en réduisant l'assiette fiscale issue du travail
-
-Si la dynamique de « correction politique » ci-dessus devient effectivement nécessaire — parce que la concentration du marché et la réduction volontaire ne suffisent pas à maintenir le chômage à des niveaux gérables — la réponse implique généralement une combinaison de mécanismes de redistribution (comme un Revenu de Base Universel) et de décisions sur les rôles que la société choisit de garder exercés par des humains, non pas parce que les machines ne peuvent pas les faire, mais parce que l'élément humain fait partie de ce qui rend le rôle précieux.
-
-L'ampleur exacte de la redistribution nécessaire reste elle-même une question ouverte — l'effet de baisse des coûts et les schémas de réduction volontaire ci-dessus sont tous deux des facteurs qui façonnent la taille de cet écart, plutôt qu'un chiffre fixe qui pourrait être supposé dès aujourd'hui.
-
-Ce que cette transition signifie pour les individus une fois qu'elle est bien engagée — au-delà de l'adaptation et jusqu'aux questions de sens — est exploré plus en détail dans [La vie après l'automatisation](/fr/forces/life-after-automation/).
-
-Voir aussi : [Impact de l'intelligence artificielle](/fr/forces/impact-of-artificial-intelligence/) et [Allocation universelle](/fr/sharing-fairly/universal-allowance/).
+- Mauro Cazzaniga et al., *Gen-AI: Artificial Intelligence and the Future of Work*, note de discussion du FMI (2024)
+- Forum économique mondial, *The Future of Jobs Report 2025*
+- OCDE, *Perspectives de l'emploi 2019 : l'avenir du travail*
+- Daron Acemoglu et Pascual Restrepo, « Robots and Jobs: Evidence from US Labor Markets », *Journal of Political Economy* (2020)
+- James Bessen, *Learning by Doing* (2015), sur les distributeurs automatiques et les guichetiers
+- Xiang Hui, Oren Reshef et Luofeng Zhou, « The Short-Term Effects of Generative Artificial Intelligence on Employment: Evidence from an Online Labor Market », *Organization Science* (2024)
+- David Autor, « Why Are There Still So Many Jobs? The History and Future of Workplace Automation », *Journal of Economic Perspectives* (2015)

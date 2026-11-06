@@ -1,7 +1,7 @@
 ---
 kind: explainer
 title: Enhanced Automation
-description: Automation is accelerating in pace, scope, and intelligence. Here's what's being automated, how work is likely to change over the next decade, and how to adapt.
+description: "How machines and AI are taking on more of our work, which jobs change first, why prices may fall, how work could end up being shared, and how people, organisations and governments can adapt."
 audio: https://audio.happybein.com/yeahsight/enhanced-automation.en.mp3
 audioMinutes: 5
 audioBytes: 2247410
@@ -9,87 +9,94 @@ audioSeconds: 281
 audioDate: 2026-11-06T16:28:00+01:00
 ---
 
-## The Age of Enhanced Automation
+**In short:** Machines have always taken over tasks, but today they can also do mental work: reading, writing, coding, diagnosing. The IMF estimates that about 40% of jobs worldwide, and 60% in rich countries, are exposed to AI. Office and service work is affected first; physical work follows once robots are ready, possibly within five to ten years for a given task. New jobs appear, but with a delay and with different skills. Automation also makes things cheaper, so less income may be needed, though housing and health care resist that. How work ends up shared will depend on three forces: concentration in the market, people choosing to work less, and policy stepping in.
 
-Automation is not new — humans have been building tools to extend their capabilities for millennia. What is new is the pace, scope, and intelligence of modern automation. Machines can now perform not just physical tasks, but cognitive ones: reading documents, writing code, diagnosing images, and navigating complex environments.
+## The Question
 
-## What Is Being Automated?
+Automation is not new: humans have built tools to extend their abilities for millennia. What is new is the speed, the range and the intelligence of today's machines. This article asks: **what will automation do to work, and how can we adapt?**
 
-Automation tends to follow a pattern: it first replaces tasks that are **routine, predictable, and well-defined** — whether physical (assembly line work) or cognitive (data entry, standard analysis).
+## What Gets Automated
 
-What is harder to automate:
+Automation has usually replaced tasks that are **routine, predictable and well defined** first, whether physical (assembly lines) or mental (data entry, standard analysis). Harder to automate are:
 
-- Tasks requiring genuine creativity and novel problem-solving
-- Work demanding high emotional intelligence (care, counseling, complex negotiation)
-- Judgment in ambiguous, high-stakes situations
-- Physical tasks in unstructured, unpredictable environments
+- real creativity and solving new problems;
+- work that needs a lot of emotional intelligence, such as care, counselling or complex negotiation;
+- judgment in unclear, high-stakes situations;
+- physical work in messy, unpredictable places.
 
-However, the boundary of what is automatable is shifting rapidly — especially with advances in AI. Service and knowledge work built on information synthesis (consulting, finance, diagnostics) is now exposed earlier than the "routine work" pattern alone would suggest, because AI is increasingly *better*, not just cheaper, at parts of this work — not only faster.
+That line is moving fast. Knowledge work built on pulling information together, such as consulting, finance or diagnostics, is now exposed earlier than the old pattern suggests, because AI is becoming *better* at parts of it, not just cheaper or faster.
 
 ## The Impact on Work
 
-### Jobs at risk
+- **Exposure:** the IMF estimates that about 40% of jobs worldwide, and about 60% in advanced economies, are exposed to AI. Exposure does not mean disappearance: in about half of those jobs, AI is more likely to help workers than replace them.
+- **Order of change:** office and service roles are usually affected first, which can mean less demand for some roles and pressure on wages. Physical work follows more slowly, limited by how fast robots spread. But once robotics is ready for a given task, jobs in transport, manufacturing or skilled trades could shift within roughly **five to ten years**, much less time to adjust than past changes allowed.
+- **New jobs:** historically, automation has created about as many jobs as it removed, but with a delay, and the new jobs need different skills. The World Economic Forum expects about 170 million jobs to be created and 92 million displaced worldwide between 2025 and 2030. The cost of the gap tends to fall on workers with the fewest alternatives.
+- **Changed jobs:** even jobs that stay will change. Machines take the routine; people focus on judgment, relationships, creativity and oversight.
 
-Research suggests a significant proportion of current jobs contain tasks that are highly automatable. This does not necessarily mean those jobs will disappear, but they will change — often substantially.
+## Falling Costs
 
-The pace differs by sector. Service and white-collar roles are typically affected first, as AI handles information synthesis and routine analysis — this can mean reduced demand for certain roles and downward pressure on wages as automated capacity competes with human labor. Physical and hardware-dependent work tends to lag, constrained by the slower pace of robotics deployment — but this gap may be narrower than expected. Once robotics matures for a given task, displacement in areas like transportation, manufacturing, and skilled trades can follow within roughly **five to ten years**, a much shorter window than past automation transitions allowed for adjustment.
+When machines produce goods and services more cheaply, prices tend to fall: food, manufactured goods, transport, some services. So the income needed for a given standard of living could drop, and less paid work could go further.
 
-### New jobs created
+How much this helps depends on *which* costs fall. Housing and health care weigh much more on living costs than electronics, and have so far resisted automation's price drops. Cheaper goods alone won't make up for less paid work.
 
-Historically, automation has created as many jobs as it has displaced — but with a lag, and with mismatches between the skills needed for old jobs and new ones. The transition costs are real and often fall disproportionately on workers with fewer alternatives.
+## How Work Could End Up Being Shared
 
-### The nature of work changes
+Three forces could shape this, and they can run side by side:
 
-Even jobs that persist will change. Automation handles the routine; humans focus on the judgment, relationships, creativity, and oversight that machines cannot yet provide.
+- **Concentration:** left alone, employers tend to prefer fewer workers who are fluent with automation, rather than spreading work across more people. The default is a smaller group working full time, often in oversight roles, while others compete for fewer jobs at lower wages.
+- **Choosing to work less:** if living costs fall enough, some people may choose to work fewer hours because they need less income. Not everyone, but those with some cushion.
+- **Policy stepping in:** if unemployment becomes more than society will accept, history suggests governments react, usually late rather than early: shorter working weeks, more redistribution, or rewards for sharing jobs.
 
-## Adapting as an Individual
+A plausible future mixes all three. The balance will depend on how fast the change comes, how evenly prices fall, and how quickly institutions respond.
 
-The most resilient workers tend to:
+## How to Adapt
 
-- **Invest in uniquely human skills**: communication, empathy, creativity, complex reasoning
-- **Work with automation rather than against it**: learn to use AI tools as force multipliers
-- **Stay curious and keep learning**: the half-life of specific skills is shortening; learning how to learn matters more than any specific knowledge
-- **Build financial resilience**: the transition period between old and new work can be difficult; an emergency fund and diverse income streams provide a buffer
+**As an individual:**
+- build skills that are deeply human: communication, empathy, creativity, complex reasoning;
+- work with automation, using AI tools as a multiplier rather than fighting them;
+- keep learning: specific skills go out of date faster, so learning how to learn matters most;
+- build financial resilience, such as an emergency fund, for the period between old and new work.
 
-## Adapting as an Organization
+**As an organisation:**
+- invest in retraining alongside automation;
+- redesign jobs around what people do well;
+- be open with staff about automation plans;
+- consider the wider effects of large-scale job loss.
 
-- Invest in retraining and reskilling alongside automation investment
-- Redesign roles around what humans do well, not just what machines replaced
-- Be transparent with employees about automation plans
-- Consider the broader social implications of large-scale displacement
+**As a society:**
+- education focused on adaptability, not fixed content;
+- a safety net strong enough for people in transition;
+- tax systems that may need to change if more value goes to machines and less comes from taxing work.
 
-## The Economic Effect: Falling Costs
+If these aren't enough, the response may combine redistribution, such as a [Universal Allowance](/sharing-fairly/universal-allowance/), with deliberate choices about which roles stay human, not because machines can't do them, but because the human part is what gives them value.
 
-A direct consequence of automation is deflationary: when AI-driven systems and robotics can produce goods and services more cheaply than human labor, prices for those goods and services tend to fall over time. Food, manufactured goods, transportation, and even some services could become significantly cheaper to produce as automation spreads through these sectors.
+## Examples
 
-This matters for the employment picture in two directions at once. Not only might there be less paid work available in affected sectors — the income people need to maintain a given standard of living could also drop. A smaller amount of work, or income from other sources, could in principle go further than it does today.
+- **Bank tellers and ATMs:** when cash machines spread in the United States, the number of bank tellers did not fall for decades. Each branch needed fewer tellers, but banks opened more branches, and tellers moved towards advice and sales.
+- **Freelance writing after ChatGPT:** a study of an online freelance platform found that after ChatGPT's release in late 2022, freelancers in writing-related jobs got fewer jobs and earned less, a fast and direct effect.
 
-How much this matters in practice depends heavily on *which* costs fall. Housing and healthcare have a much bigger effect on living costs than, say, consumer electronics — and those sectors have historically been more resistant to automation-driven price drops. So while the effect is real, it shouldn't be assumed to fully offset reduced employment on its own.
+## The Human Side
 
-## How Might Work Actually Be Distributed?
+Losing work, or fearing it, hits more than income. It touches identity, routine and the feeling of being useful. Change is easier to face with some financial cushion, people around you, and a sense that you can still learn and choose. See [Mastering finance basics](https://yeahcore.happybein.com/personal-effectiveness/mastering-finance-basics/) and [Managing fear](https://yeahcore.happybein.com/personal-effectiveness/fear-management/) on YeahCore.
 
-Putting the pieces above together, there are roughly three different dynamics that could shape how paid work gets distributed across the population — and they aren't mutually exclusive.
+## Open Questions
 
-**Market concentration.** Left to its own devices, the labor market tends toward concentration rather than sharing: employers generally prefer fewer, more automation-fluent workers over spreading the same amount of work across more people, since coordination and overhead costs are lower per worker. The default outcome of automation, absent other forces, is a smaller pool of people working (often full-time, often in roles requiring oversight or judgment) while displaced workers compete for a shrinking set of remaining roles — pushing down wages in those roles through competition.
+- Who should benefit from the gains of automation: owners, workers, or everyone?
+- Should working time be shortened as productivity rises, as it was in the twentieth century?
+- Which jobs should society deliberately keep human?
 
-**Voluntary reduction.** Falling costs (above) work against this concentration somewhat — at the individual level. If the cost of living drops enough, some people may simply choose to work fewer hours, because they need less income to maintain the life they want. This isn't a policy choice or a labor-market shift; it's a personal one, made possible by lower costs rather than imposed by anyone. Not everyone will make this choice — some will keep working full-time for income beyond subsistence, or for the structure and purpose work provides — but for those with some financial cushion, it's a realistic adjustment.
+## Where Next
 
-**Policy correction.** If market concentration produces unemployment levels that become socially or politically unsustainable, history suggests the response tends to be reactive rather than proactive — adjustments like shorter standard work weeks, stronger redistribution, or job-sharing incentives tend to follow visible strain rather than anticipate it.
+- Previous: [Population Change and Ageing](/forces/population-change/)
+- Next: [Impact of Artificial Intelligence](/forces/impact-of-artificial-intelligence/)
+- Related: [Life After Automation](/forces/life-after-automation/), [Universal Allowance](/sharing-fairly/universal-allowance/)
 
-Put together, a plausible picture isn't a single clean outcome but several of these running in parallel: a portion of the population working full-time (often in oversight or judgment-heavy roles), a portion voluntarily working less because they can afford to, and — if unemployment among the rest becomes severe enough — policy eventually shifting toward broader work-sharing or redistribution. How these proportions settle depends on how fast the transition happens, how unevenly the cost reductions land, and how quickly institutions respond to visible strain.
+## Sources
 
-## Policy Responses
-
-Society will need to adapt its institutions as automation changes the nature of work:
-
-- **Education systems** need to shift toward adaptability, not fixed curricula
-- **Social protection** needs to be robust enough to support workers in transition
-- **Tax systems** may need to evolve if automation captures more economic value while reducing the tax base from labor
-
-If the "policy correction" dynamic above does become necessary — because market concentration and voluntary reduction together aren't enough to keep unemployment at manageable levels — the response tends to involve some combination of redistribution mechanisms (such as Universal Basic Income) and decisions about which roles society chooses to keep human-performed, not because machines can't do them, but because the human element is part of what makes the role valuable.
-
-Exactly how much redistribution would be needed is itself an open question — the falling-cost effect and voluntary-reduction patterns above are both factors that shape the size of that gap, rather than a fixed number that can be assumed today.
-
-What this transition means for individuals once it's well underway — beyond adaptation and into questions of purpose — is explored further in [Life After Automation](/forces/life-after-automation/).
-
-See also: [Impact of Artificial Intelligence](/forces/impact-of-artificial-intelligence/) and [Universal Allowance](/sharing-fairly/universal-allowance/).
+- Mauro Cazzaniga and others, *Gen-AI: Artificial Intelligence and the Future of Work*, IMF Staff Discussion Note (2024)
+- World Economic Forum, *The Future of Jobs Report 2025*
+- OECD, *Employment Outlook 2019: The Future of Work*
+- Daron Acemoglu and Pascual Restrepo, "Robots and Jobs: Evidence from US Labor Markets", *Journal of Political Economy* (2020)
+- James Bessen, *Learning by Doing* (2015), on ATMs and bank tellers
+- Xiang Hui, Oren Reshef and Luofeng Zhou, "The Short-Term Effects of Generative Artificial Intelligence on Employment: Evidence from an Online Labor Market", *Organization Science* (2024)
+- David Autor, "Why Are There Still So Many Jobs? The History and Future of Workplace Automation", *Journal of Economic Perspectives* (2015)

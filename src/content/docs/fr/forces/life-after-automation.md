@@ -1,82 +1,108 @@
 ---
 kind: explainer
 title: La vie après l'automatisation
-description: À mesure que l'IA et la robotique prennent en charge une part croissante de l'économie productive, le défi central passe de l'emploi à la question du sens — et du contrôle que les humains conservent.
+description: "Ce que deviennent le sens, les compétences et la vie quotidienne quand les machines font l'essentiel du travail : de l'exécution à la supervision, le besoin de compétences de secours, et ce qui reste profondément humain."
+reading_time: "6 min"
 ---
+
+**En bref :** pendant la plus grande partie de l'histoire, le travail a organisé nos vies : un revenu, mais aussi un rythme, une identité, des collègues et le sentiment de contribuer. À mesure que l'IA en prend davantage en charge, nous passerons probablement de l'exécution à la supervision, ce qui rend essentiel de garder les compétences pour reprendre la main quand les systèmes tombent en panne. Une fois l'essentiel du travail automatisé, la grande question n'est plus de savoir quels emplois disparaissent, mais ce qui donne à la vie sa structure et son sens. Les relations, la créativité humaine, la compétition et l'artisanat devraient garder leur valeur justement parce que ce sont des humains qui les pratiquent, et « travailler pour le plaisir » pourrait devenir central dans une vie réussie.
+
+## La question
+
+[Automatisation améliorée](/fr/forces/enhanced-automation/) décrit comment le changement se déroule. Cet article en regarde l'autre versant : **que deviennent la vie, les compétences et le sens quand les machines font l'essentiel du travail ?**
 
 ## De l'exécution à la supervision
 
-Pendant la plus grande partie de l'histoire humaine, le travail a été la structure principale autour de laquelle la vie s'organise — il fournit un revenu, mais aussi un emploi du temps, une identité, des liens sociaux et un sentiment de contribution. À mesure que les systèmes d'IA deviennent plus performants, la relation entre les humains et ces systèmes va probablement évoluer en plusieurs étapes.
+Au début, l'IA produit et les humains vérifient et valident : un partenariat. À mesure que les systèmes deviennent plus fiables, la tentation de leur confier davantage grandit. Le chemin probable va de **l'exécution à la supervision** : on passe moins de temps à faire le travail et plus de temps à vérifier ce que fait l'IA, à repérer les erreurs et à rester prêt à intervenir.
 
-Au départ, l'IA agit comme un « exécutant » dont le travail est revu et validé par des humains — un modèle de partenariat. Mais à mesure que les systèmes deviennent plus fiables, la tentation de déléguer davantage augmente. La trajectoire probable est un glissement de l'**exécution vers la supervision** : les humains passent moins de temps à effectuer le travail et plus de temps à vérifier ce que fait l'IA, à repérer les erreurs, et à rester prêts à intervenir en cas de défaillance des systèmes.
+Des règles pourraient, en principe, préserver un vrai contrôle humain sur les décisions clés. Mais les faire respecter partout, entre entreprises, secteurs et pays, est un problème de coordination difficile, sans garantie de succès.
 
-Les politiques publiques pourraient, en principe, fixer des garde-fous préservant un contrôle humain significatif sur les décisions clés. Mais faire respecter de telles limites de manière cohérente — à travers les organisations, les secteurs et les pays — est un problème de coordination réellement difficile, et rien ne garantit qu'il tiendra partout.
+### Le besoin de compétences de secours
 
-### Le besoin d'une formation de secours à l'IA
+Superviser ne veut pas dire oublier comment le travail se fait. Si un système qui gère une tâche depuis des années tombe soudain en panne, à cause d'une coupure, d'une attaque, d'une mauvaise mise à jour ou d'un cas qu'il ne sait pas traiter, quelqu'un doit pouvoir reprendre la main. Cette capacité n'apparaît pas toute seule : il faut l'entretenir délibérément.
 
-Un passage à la supervision ne signifie pas que les humains peuvent arrêter de savoir *comment* le travail sous-jacent est réalisé. Si un système qui gère une tâche depuis des années tombe soudainement en panne — à cause d'une coupure, d'une attaque, d'une mauvaise mise à jour ou d'un cas limite qu'il ne peut pas gérer — quelqu'un doit être capable d'intervenir. Cette capacité n'apparaît pas automatiquement ; elle doit être délibérément entretenue.
+D'où un besoin durable de ce qu'on pourrait appeler une **formation de secours face à l'IA** : garder assez de personnes qui savent vraiment piloter l'avion, soigner le patient ou faire tourner le système à la main, même si elles en ont rarement besoin. Sans cela, la dépendance à l'automatisation crée une fragilité cachée : les compétences s'effacent sans bruit, jusqu'au jour où on en a le plus besoin.
 
-Cela souligne un besoin permanent de ce qu'on pourrait appeler une **formation de secours à l'IA** : maintenir un socle de personnes qui savent réellement piloter l'avion, soigner le patient ou faire fonctionner le système manuellement, même si elles n'en ont rarement besoin en pratique. Sans cela, la dépendance croissante à l'automatisation crée une fragilité cachée — la compétence s'érode silencieusement jusqu'au jour où elle est le plus nécessaire.
+## Quand l'essentiel du travail est automatisé
 
-Les organisations et les individus qui considèrent les compétences essentielles comme « redondantes » une fois que l'IA prend le relais échangent peut-être un petit gain d'efficacité contre un risque bien plus grand plus tard.
+Une fois que l'IA et les robots prennent en charge l'essentiel de ce qu'on appelle aujourd'hui « l'économie productive », la question change. Il ne s'agit plus surtout de savoir quels emplois disparaissent ni à quelle vitesse, mais de savoir ce qui occupe la place du travail rémunéré, dans l'économie et dans la vie de chacun.
 
-## Quand la plus grande partie du travail est automatisée
+## La question du sens
 
-[Automatisation améliorée](/fr/forces/enhanced-automation/) explique comment cette transition se déroule secteur par secteur et sur quel horizon temporel. La question ici est ce qui se passe une fois cette transition achevée — lorsque l'IA cognitive et la robotique physique se combinent pour prendre en charge la majeure partie de ce qui constitue aujourd'hui « l'économie productive ».
+Même si le revenu ne dépend plus du travail, grâce à la baisse des coûts, à la redistribution ou aux deux, beaucoup de gens feraient face à une question à laquelle l'argent ne répond pas : **que faire de mon temps, et pourquoi cela compte-t-il ?**
 
-À ce stade, la conversation change de nature. Il ne s'agit plus principalement de savoir quels emplois disparaissent ou à quelle vitesse, mais de ce qui occupe l'espace que le travail rémunéré occupait auparavant — pour l'économie comme pour les individus.
+Le travail nous a apporté :
 
-## La crise du sens
+- le sentiment de contribuer et d'être utile ;
+- une structure et un rythme ;
+- des liens sociaux grâce aux collègues et aux objectifs communs ;
+- la maîtrise, la satisfaction de progresser dans quelque chose de difficile.
 
-Même si le revenu est dissocié du travail — que ce soit par la baisse des coûts (voir [Automatisation améliorée](/fr/forces/enhanced-automation/)), des mécanismes de redistribution, ou une combinaison des deux — la plupart des gens seraient toujours confrontés à une question que l'argent ne peut résoudre : **que faire de mon temps, et pourquoi est-ce important ?**
+Retirez-le brutalement et à grande échelle, et beaucoup de gens pourraient avoir du temps en abondance mais aucune direction claire. Une meilleure technologie ne règle pas ce problème. Au contraire, mieux l'IA répond à nos besoins, plus la question devient aiguë.
 
-Le travail a historiquement fourni :
+## Ce qui reste profondément humain
 
-- Un sentiment de contribution et d'utilité
-- Une structure et une routine
-- Des liens sociaux à travers les collègues et des objectifs partagés
-- La maîtrise — la satisfaction de progresser dans quelque chose de difficile
+Certaines activités devraient garder leur valeur justement *parce que* ce sont des humains qui les pratiquent :
 
-Si le travail disparaît soudainement et à grande échelle, beaucoup de personnes pourraient se retrouver avec un temps abondant mais sans direction claire. Ce n'est pas un problème que la technologie résout automatiquement — au contraire, plus l'IA répond efficacement aux besoins de l'humanité, plus cette question devient pressante.
+- **Les relations et la communauté :** la plupart des gens ne veulent pas les automatiser, même si une IA pouvait les imiter de façon convaincante.
+- **La créativité et le divertissement humains :** des œuvres dont la valeur tient en partie au fait qu'une personne les a faites.
+- **La compétition :** le sport et les jeux de stratégie gardent leur sens parce que les limites humaines font partie du défi.
+- **L'artisanat et le fait-main :** pour le plaisir du geste et du résultat, même quand une machine ferait plus vite.
 
-## Qu'est-ce qui reste distinctement humain ?
+Ce ne sont pas des lots de consolation. Elles pourraient devenir centrales dans la façon de construire une vie qui a du sens, une fois que la nécessité ne dicte plus l'usage du temps.
 
-Même dans un monde hautement automatisé, certaines activités semblent susceptibles de conserver leur valeur précisément *parce qu'elles* sont humaines — et non malgré cela. Elles ont tendance à se regrouper autour de :
+### Travailler pour le plaisir, pas par nécessité
 
-- **Le lien social et émotionnel** — les relations, la communauté et les expériences partagées ne sont généralement pas des choses que les gens veulent voir automatisées, même si une IA pouvait les simuler de manière convaincante
-- **La créativité et le divertissement exclusivement humains** — un travail dont la valeur tient en partie au fait de savoir qu'une personne l'a réalisé
-- **La compétition** — le sport et les jeux de stratégie conservent leur sens précisément parce que les limites humaines font partie du défi
-- **L'artisanat et le bricolage** — fabriquer soi-même des choses, même quand une machine pourrait le faire plus vite ou mieux, pour le plaisir du processus et du résultat
+Quand la survie ne dépend plus du travail, le travail ne disparaît pas : il change de nature. Des gens cuisinent déjà tout eux-mêmes, restaurent des meubles ou cultivent des légumes pour le plaisir. Ce travail choisi pourrait devenir une source majeure de structure et de satisfaction.
 
-Ce ne sont pas de simples activités de consolation — elles pourraient devenir centrales dans la façon dont les gens structurent une vie pleine de sens une fois que la nécessité économique ne dicte plus l'usage du temps.
+Il y a aussi un enjeu énergétique. L'automatisation à grande échelle, centres de données, robots et IA, consomme beaucoup d'électricité. Les activités simples et manuelles sont gratifiantes en elles-mêmes et forment un petit contrepoids à cette demande :
 
-### Travailler par plaisir, non par nécessité
+- jardiner et cultiver sa nourriture ;
+- cuisiner et faire son pain soi-même ;
+- travailler le bois, coudre et réparer ;
+- marcher et faire du vélo ;
+- l'artisanat, la musique et d'autres loisirs manuels.
 
-Une possibilité sous-estimée : quand la survie ne dépend plus du travail, le travail ne disparaît pas — il change de nature. Les gens choisissent déjà d'effectuer des tâches physiquement exigeantes ou répétitives par plaisir, même lorsque des alternatives moins chères ou plus rapides existent (cuisiner à partir de zéro, restaurer des meubles, cultiver des légumes). Dans un monde post-automatisation, ce type de « travail volontaire » pourrait devenir une source majeure de structure et de satisfaction.
+Rien de cela n'a besoin d'être vu comme un sacrifice. Il s'agit de reconnaître ces activités comme des façons précieuses de passer son temps, plutôt que comme des inefficacités à automatiser.
 
-Il y a aussi un angle pratique à considérer. L'automatisation à grande échelle — centres de données, robotique, inférence IA — consomme une quantité significative d'électricité. Les activités peu technologiques, peu énergivores et réalisées par des humains ne sont pas seulement personnellement gratifiantes ; elles constituent un petit contrepoids à cette demande énergétique croissante. Exemples :
+## Un avantage possible
 
-- **Jardinage et petite production alimentaire** — potagers, arbres fruitiers, apiculture
-- **Cuisine et pâtisserie maison** — plutôt que de dépendre de la production alimentaire automatisée
-- **Menuiserie, couture et réparation** — fabriquer et réparer des objets physiques à la main
-- **Marche, vélo et transport manuel** — pour de courtes distances, plutôt que des options automatisées
-- **Entretien manuel de la maison et du jardin** — tâches comme le nettoyage, la peinture ou le jardinage effectuées délibérément plutôt que déléguées
-- **Travaux manuels et loisirs analogiques** — poterie, tricot, peinture, instruments de musique, travail d'outillage
+Un monde où l'IA prend en charge une grande partie de la production n'est pas qu'une histoire de pertes. Si l'IA aide aussi à résoudre les problèmes politiques et de coordination qui alimentent les conflits pour des ressources rares, on peut imaginer moins de grands conflits et davantage de capacité à relever des défis communs comme la durabilité. Que cela arrive dépend de choix et de gouvernance, pas de la technologie seule.
 
-Aucune de ces activités ne doit être perçue comme un sacrifice. Ce sont des activités que beaucoup de gens trouvent déjà satisfaisantes — le changement consiste à les reconnaître comme des façons légitimes, voire précieuses, de passer son temps, plutôt que comme des inefficacités à automatiser.
+## Exemples
 
-## Une possible bonne nouvelle
-
-Il vaut la peine de considérer aussi l'autre face de ce constat. Un monde où l'IA assure une part bien plus grande de la production n'est pas seulement une histoire de perte. Si l'IA aide également à résoudre des problèmes politiques et de coordination complexes — du type qui alimente actuellement les conflits liés aux ressources rares — il est possible d'imaginer un avenir avec *moins* de conflits à grande échelle et plus de capacité à relever des défis communs comme la durabilité, simplement parce que les pressions économiques sous-jacentes qui alimentent une grande partie de ces conflits sont atténuées.
-
-Que ce potentiel se réalise est en soi une question de gouvernance et de politique, et non une inévitabilité technologique — voir [Automatisation améliorée](/fr/forces/enhanced-automation/) pour les choix politiques que cela implique.
+- **La prédiction de Keynes :** en 1930, l'économiste John Maynard Keynes prédisait que d'ici 2030, la hausse de la productivité permettrait de travailler environ 15 heures par semaine, et que le vrai défi serait de bien utiliser cette liberté. La productivité a progressé à peu près comme il l'avait prévu ; le temps de travail a bien moins baissé.
+- **Des compétences qui s'effacent :** les autorités de sécurité aérienne ont averti que les pilotes qui s'appuient beaucoup sur le pilote automatique peuvent perdre leurs compétences de pilotage manuel, et recommandent un entraînement régulier à la main. La même leçon vaut partout où l'IA prend en charge une tâche.
+- **Quand le travail disparaît :** dans les années 1930, des chercheurs ont étudié Marienthal, un village autrichien dont la seule usine avait fermé. Avec un chômage presque général, les habitants ont perdu leur rapport au temps et leurs routines, pas seulement leurs revenus.
 
 ## En tant qu'individu
 
-- Réfléchissez à quelle part de votre sentiment de sens est liée à *ce que vous produisez* par rapport à *qui vous êtes et comment vous vous connectez aux autres* — ce second aspect résiste bien mieux à l'automatisation
-- Investissez du temps dans les activités ci-dessus — non pas comme des loisirs pour combler le vide, mais comme de véritables sources de sens
-- Envisagez des activités peu technologiques et manuelles (jardinage, cuisine, réparation, artisanat) pour elles-mêmes — elles sont gratifiantes, et réduisent modestement la dépendance aux alternatives automatisées énergivores
-- Si votre travail consiste à superviser un processus automatisé, continuez à pratiquer la compétence sous-jacente elle-même — ne la laissez pas complètement s'éroder
-- Commencez à réfléchir dès maintenant à ce qui donnerait du sens à votre vie si le travail rémunéré n'était plus le principe organisateur de votre temps — cette transition pourrait arriver plus vite que prévu
+- Demandez-vous quelle part de votre sens vient de *ce que vous produisez*, et quelle part de *qui vous êtes et de vos liens avec les autres*. La seconde est bien plus difficile à automatiser.
+- Consacrez du temps à des activités qui ont un vrai sens, pas seulement pour combler des vides.
+- Essayez des activités simples et manuelles pour elles-mêmes.
+- Si vous supervisez un processus automatisé, continuez à pratiquer la compétence qui est derrière.
+- Commencez dès maintenant à réfléchir à où vous trouveriez du sens si le travail rémunéré n'était plus au centre de votre temps.
 
-Voir aussi : [Automatisation améliorée](/fr/forces/enhanced-automation/) et [Impact de l'intelligence artificielle](/fr/forces/impact-of-artificial-intelligence/).
+## Le côté humain
+
+Le sens est l'un des besoins humains les plus profonds. Sans le sentiment de contribuer, on peut se sentir perdu même quand tous les besoins matériels sont couverts. La bonne nouvelle, c'est que le sens peut venir de nombreuses sources : les relations, l'apprentissage, la création, le soin, l'aide aux autres. Voir [ce qui guide nos émotions](https://yeahcore.happybein.com/fr/decision-foundation/find-your-directional-purpose/core-drivers-of-feelings/) et [Lien et solitude](https://yeahcore.happybein.com/fr/personal-effectiveness/connection-and-loneliness/) sur YeahCore.
+
+## Questions ouvertes
+
+- Comment les sociétés peuvent-elles garder assez de personnes compétentes pour reprendre la main quand les systèmes automatisés tombent en panne ?
+- Qu'est-ce qui devrait remplacer le travail comme source de statut et de reconnaissance ?
+- Certaines tâches devraient-elles rester humaines par choix, même quand les machines les feraient mieux ?
+
+## Pour aller plus loin
+
+- Précédent : [Impact de l'intelligence artificielle](/fr/forces/impact-of-artificial-intelligence/)
+- Suivant : [Les grands risques : pandémies, guerre nucléaire, IA avancée](/fr/forces/big-risks/)
+- Voir aussi : [Automatisation améliorée](/fr/forces/enhanced-automation/), [Allocation universelle](/fr/sharing-fairly/universal-allowance/)
+
+## Sources
+
+- John Maynard Keynes, « Perspectives économiques pour nos petits-enfants » (1930)
+- Marie Jahoda, Paul Lazarsfeld et Hans Zeisel, *Les chômeurs de Marienthal* (1981 ; original : 1933)
+- Administration fédérale de l'aviation des États-Unis (FAA), *Operational Use of Flight Path Management Systems* (2013), sur la dépendance des pilotes à l'automatisation
+- Lisanne Bainbridge, « Ironies of Automation », *Automatica* (1983)
+- Daniel Susskind, *A World Without Work* (2020)
