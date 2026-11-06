@@ -53,7 +53,7 @@ The energy transition, migration and technology: the big forces already in motio
 ### 3. Recommendations
 What societies could do about these forces, and why. Each recommendation states its goal, the evidence, the trade-offs and the objections.
 - **Living within limits:** [Plant-Based Consumption](/forces/plant-based-consumption)
-- **Sharing fairly:** [Universal Allowance](/sharing-fairly/universal-allowance), [Fair Space Sharing](/sharing-fairly/fair-space-sharing), [Inheritance](/sharing-fairly/inheritance), [Making the Transition](/sharing-fairly/making-the-transition), [The Transition in Practice](/sharing-fairly/transition-in-practice)
+- **Sharing fairly:** [Universal Allowance](/sharing-fairly/universal-allowance), [Fair Space Sharing](/sharing-fairly/fair-space-sharing), [Inheritance](/sharing-fairly/inheritance), [Making the Transition](/sharing-fairly/making-the-transition)
 
 ### 4. Vision & Roadmap
 The recommendations combined into six concrete steps.

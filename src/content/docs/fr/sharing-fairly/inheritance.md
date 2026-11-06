@@ -70,6 +70,6 @@ Le plafond peut commencer généreux et baisser progressivement selon un calendr
 
 L'héritage touche certains de nos moteurs les plus profonds : la sécurité, l'appartenance et le désir de prendre soin de ceux qui viennent après nous. Tout changement devrait respecter ces besoins tout en y répondant plus équitablement pour tous. Voir [Les besoins physiologiques humains](https://yeahcore.happybein.com/fr/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) pour les besoins qui sont derrière.
 
-Comment y arriver étape par étape : [Réussir la transition](/fr/sharing-fairly/making-the-transition/), et en pratique : [La transition en pratique](/fr/sharing-fairly/transition-in-practice/).
+Comment y arriver étape par étape, et en pratique : [Réussir la transition](/fr/sharing-fairly/making-the-transition/).
 
 Voir aussi : [Redistribution sociale](/fr/sharing-fairly/social-redistribution), [Allocation universelle](/fr/sharing-fairly/universal-allowance) et [Partage équitable du monde](/fr/sharing-fairly/fair-globe-sharing).

@@ -70,6 +70,6 @@ The cap can start generous and come down gradually on a published schedule, so p
 
 Inheritance touches some of our deepest drivers: security, belonging, and the wish to care for those who come after us. Any change should respect these needs while meeting them more fairly for everyone. See [Humans' Physiological Needs](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) for the needs behind this.
 
-How to get there step by step: [Making the Transition](/sharing-fairly/making-the-transition/), and in practice: [The Transition in Practice](/sharing-fairly/transition-in-practice/).
+How to get there step by step, and in practice: [Making the Transition](/sharing-fairly/making-the-transition/).
 
 See also: [Social Redistribution](/sharing-fairly/social-redistribution), [Universal Allowance](/sharing-fairly/universal-allowance) and [Fair Globe Sharing](/sharing-fairly/fair-globe-sharing).

@@ -130,3 +130,9 @@
 /fr/environment-energy/*   /fr/        301
 /fr/economy-equity/*       /fr/        301
 /fr/social-organization/*  /fr/        301
+
+# v2.52 (owner: "transition can be merged back to one article"): The Transition in Practice is now part of Making the Transition.
+/sharing-fairly/transition-in-practice/     /sharing-fairly/making-the-transition/      301
+/sharing-fairly/transition-in-practice      /sharing-fairly/making-the-transition/      301
+/fr/sharing-fairly/transition-in-practice/  /fr/sharing-fairly/making-the-transition/   301
+/fr/sharing-fairly/transition-in-practice   /fr/sharing-fairly/making-the-transition/   301

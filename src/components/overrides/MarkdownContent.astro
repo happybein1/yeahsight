@@ -20,7 +20,11 @@ const k = kind ? KIND[kind] : null;
 const audio = (Astro.locals.starlightRoute.entry.data as any).audio as (string | undefined);
 const audioMin = (Astro.locals.starlightRoute.entry.data as any).audioMinutes as (number | undefined);
 const audioLabel = isFr ? 'Écouter cet article' : 'Listen to this article';
-const audioBy = isFr ? 'Lu par la voix YeahSight' : 'Read by the YeahSight voice';
+// v2.52: the episodes are Emma and Sam dialogs (an audio file named .en.mp3 or -dialog.en.mp3 from v2.50 on);
+// a single-voice reading keeps the old line.
+const dialog = !!audio && !/\/(vision-roadmap|making-the-transition|transition-in-practice)\.(en|fr)\.mp3$/.test(audio);
+const audioBy = dialog ? (isFr ? 'Une conversation entre Emma et Sam, voix IA' : 'A conversation between Emma and Sam, AI voices')
+  : (isFr ? 'Lu par la voix YeahSight' : 'Read by the YeahSight voice');
 // v2.46 (owner): which of the six home-page questions this article belongs to, from the menu group.
 type E = { type: string; label: string; isCurrent?: boolean; entries?: E[] };
 const has = (e: E): boolean => !!e.isCurrent || (e.entries || []).some(has);

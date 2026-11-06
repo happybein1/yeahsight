@@ -19,8 +19,7 @@ Les questions 1 à 4 posent les défis : répondre aux besoins de chacun, avec d
 
 3. [Allocation universelle](/fr/sharing-fairly/universal-allowance/) : un budget garanti pour les besoins de base : nourriture, logement, santé, énergie.
 4. [Héritage](/fr/sharing-fairly/inheritance/) : un plafond à vie sur ce que chacun peut hériter, et un départ équitable pour tous.
-5. [Réussir la transition](/fr/sharing-fairly/making-the-transition/) : comment y arriver étape par étape, sans laisser personne de côté.
-6. [La transition en pratique](/fr/sharing-fairly/transition-in-practice/) : et si un pays commençait seul, qui gère le fonds commun, les principales objections.
+5. [Réussir la transition](/fr/sharing-fairly/making-the-transition/) : comment y arriver étape par étape sans laisser personne de côté, y compris si un pays commence seul, qui gère le fonds commun, et les principales objections.
 
 ## Comment ils se relient
 

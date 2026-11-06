@@ -4,6 +4,17 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.52
+
+**Making the Transition is one article again, with an Emma and Sam episode** (owner, 2026-11-06: "transition can be merges back to ome article", then "go" on the merged draft).
+- *The Transition in Practice* is merged into *Making the Transition* (same address), in EN and FR: one structure (question, why it's hard, history, principles, alone or together, three phases, going first, who manages the fund, objections, how it could happen, first steps, human side, roadmap, open questions). About 3,000 words instead of 4,300: the part notes and repeated points (rules for leaving, land tax, border charge) removed, the fund section shortened, one repeated objection dropped. No figure changed; all sources kept in one list. Draft in `tools/drafts/making-the-transition-merged.en.DRAFT.md`.
+- The old address redirects (301) to the merged article in both languages (`public/_redirects`); the menu has one item; links on Vision & Roadmap, Foresight Trends, the question 5 overview, Inheritance and Who's Working on This (EN and FR) point to the single article.
+- **Audio:** a new 9.5-minute Emma and Sam dialog (`tools/podcast/scripts/making-the-transition.en.dialog.txt`, recorded on the ROG 15:56, uploaded as `making-the-transition-dialog.en.mp3`) replaces the two single-voice readings in English. The French single-voice readings no longer match the text and are removed, so the French feed is empty until a French dialog is recorded.
+- The player line now says "A conversation between Emma and Sam, AI voices" on dialog episodes (FR: "Une conversation entre Emma et Sam, voix IA") instead of "Read by the YeahSight voice".
+- Checked: build, the English feed (9 episodes, Making the Transition as 9 in Solutions), no built page links the old address, the article page at phone width.
+
+---
+
 ## v2.51
 
 **Podcast episodes grouped by section** (owner, 2026-11-06: "should articles be organized by sections?", then "go").
