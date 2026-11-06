@@ -36,7 +36,7 @@ YeahSight explains how societies work and what is changing, then gives well-reas
 What societies are for, how they are organized, how much land each of us uses, and how resources are shared today.
 - [What Is Society For?](/how-society-works/purpose-of-society)
 - [What Every Society Must Do](/how-society-works/societal-functions)
-- [Societal Systems](/how-society-works/societal-systems)
+- [Who Keeps Society Running?](/how-society-works/societal-systems/)
 - [The Economic System](/how-society-works/economic-system)
 - [Social Redistribution](/sharing-fairly/social-redistribution)
 - [Land per Person](/forces/land-per-person)

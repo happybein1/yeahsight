@@ -9,6 +9,8 @@
 
 ## Environment & Energy
 
+- [Climate Change](https://yeahsight.happybein.com/forces/climate-change/): what is warming the planet, how far it has gone, and what it changes for people
+- [Nature and Water](https://yeahsight.happybein.com/forces/nature-and-water/): the living systems and fresh water every economy depends on, and the pressure they are under
 - [Land per Person](https://yeahsight.happybein.com/forces/land-per-person/): global land use broken down per person
 - [Fair Space Sharing](https://yeahsight.happybein.com/sharing-fairly/fair-space-sharing/): a proposal for sharing land between humans and wildlife
 - [Clean & Safe Energy](https://yeahsight.happybein.com/forces/clean-safe-energy/): energy sources compared, and the path to renewables
@@ -28,14 +30,19 @@
 - [Enhanced Automation](https://yeahsight.happybein.com/forces/enhanced-automation/)
 - [Impact of Artificial Intelligence](https://yeahsight.happybein.com/forces/impact-of-artificial-intelligence/)
 - [Life After Automation](https://yeahsight.happybein.com/forces/life-after-automation/)
+- [Big Risks: Pandemics, Nuclear War, Advanced AI](https://yeahsight.happybein.com/forces/big-risks/): rare events that could set humanity back for generations, and what lowers the risk
 
 ## Social Organization
 
 - [What Is Society For?](https://yeahsight.happybein.com/how-society-works/purpose-of-society/)
 - [What Every Society Must Do](https://yeahsight.happybein.com/how-society-works/societal-functions/)
-- [Societal Systems](https://yeahsight.happybein.com/how-society-works/societal-systems/)
+- [Who Keeps Society Running?](https://yeahsight.happybein.com/how-society-works/societal-systems/): the four kinds of actors (state, markets, communities, families) and the main public systems
+- [Democracy and Reliable Information](https://yeahsight.happybein.com/how-society-works/democracy-and-information/): how societies make shared choices, and why that depends on trustworthy information
+- [Global Health and Extreme Poverty](https://yeahsight.happybein.com/how-society-works/global-health-and-poverty/): how far the world has come, and who is still left behind
+- [How Societies Change](https://yeahsight.happybein.com/how-society-works/how-societies-change/): what drives big changes and what makes them last
 - [Social Redistribution](https://yeahsight.happybein.com/sharing-fairly/social-redistribution/)
 - [Managing Regional Migration](https://yeahsight.happybein.com/forces/managing-regional-migration/)
+- [Population Change and Ageing](https://yeahsight.happybein.com/forces/population-change/): fewer children, longer lives, and what it changes for care, pensions and work
 
 ## Related
 

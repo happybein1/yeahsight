@@ -4,6 +4,25 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.48
+
+**Seven new explainers, and "Who Keeps Society Running?" with its first dialog episode** (owner, 2026-11-06: asked "are there missing articles", then "can you draft all missing articles", asked for the figures to be checked, then "can you publish all except the proposal?").
+- **New articles (English):**
+  - question 2: *Nature and Water* (`forces/nature-and-water`);
+  - question 3: *Democracy and Reliable Information* (`how-society-works/democracy-and-information`), *Global Health and Extreme Poverty* (`how-society-works/global-health-and-poverty`), and *How Societies Change* (`how-society-works/how-societies-change`), which closes question 3 and leads into the forces;
+  - question 4: *Climate Change* (`forces/climate-change`, now first), *Population Change and Ageing* (`forces/population-change`, after Migration), and *Big Risks: Pandemics, Nuclear War, Advanced AI* (`forces/big-risks`, last).
+  - Each follows the article template (In short, The Question, key ideas, examples, The Human Side, Open Questions, Where Next, Sources). They replace the grey "likely later" items in the menu.
+- **Figures checked against the sources** on the same day, and four corrected before publishing: extreme poverty (about 800 million under the World Bank's $3-a-day line since June 2025, about one in ten people; "more than a third" in 1990), the share of people under autocratic rule (three in four, V-Dem Democracy Report 2026), and birth rates in Europe and East Asia (about 1.0 to 1.6; South Korea 0.75 in 2024).
+- **Who Keeps Society Running?** replaces *Societal Systems* at the same address: the draft the owner liked (four kinds of actors, the main public systems, loops, examples). Its table uses the seven task names of *What Every Society Must Do*; link texts to it are renamed on Foresight Trends, What Is Society For?, What Every Society Must Do and the question 3 overview.
+  - **First YeahSight dialog episode:** Emma and Sam (Kokoro `af_heart` + `am_puck`, the YeahCore podcast voices), 7 min, recorded on the ROG with the YeahCore recorder plus the "Yeah Sight" pronunciation, levelled to -16 LUFS, uploaded to `audio.happybein.com/yeahsight/societal-systems.en.mp3`. Owner: "the dialogue sounds good", and wants YeahSight episodes as dialogs from now on. Script: `tools/podcast/scripts/societal-systems.en.dialog.txt`.
+- **Left out on purpose:** the two proposals (*Work in an Automated World*, *Migration That Works*) and *Where Help Counts Most* (its scores still need sources) stay in `tools/drafts/`.
+- **Also updated:** the question 2, 3 and 4 overview pages (EN and FR: new articles in order, "How they connect", no more "Not covered yet"), the home page cards (EN and FR: new links, Climate and Ageing added to question 4), the menu labels (with French labels), and `llms.txt`.
+- **French:** the new articles show in English under `/fr/` until they are translated (at the end of the session, per the standing rule). The French *Systèmes sociétaux* page is still the old text until then.
+
+**Verification:** site builds; every link on the new and changed pages resolves; Previous/Next follow the new order.
+
+---
+
 ## v2.47
 
 **One overview page per question** (owner asked for "a page for all articles under each question and how they connect to each other", then approved the draft). New `src/content/docs/questions/` (EN) and `fr/questions/` (FR): 1-needs, 2-resources, 3-society, 4-forces, 5-solutions, 6-causes. Each: why the question matters, its articles in reading order with one line each, "How they connect", what is not covered yet (likely later), and a link to the next question. Shown as the first item ("Overview" / "Vue d'ensemble") of each question in the menu; in Previous/Next an overview is labelled with its question's title (`overrides/Pagination.astro`).

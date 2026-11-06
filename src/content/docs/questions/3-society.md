@@ -12,14 +12,15 @@ Resources don't meet needs by themselves. Societies organise work, rules and exc
 
 1. [What Is Society For?](/how-society-works/purpose-of-society/): what societies exist to do, and how to tell whether one serves its people.
 2. [What Every Society Must Do](/how-society-works/societal-functions/): the seven core tasks any society has to perform.
-3. [Societal Systems](/how-society-works/societal-systems/): the main systems that carry out those tasks, and how they interact.
+3. [Who Keeps Society Running?](/how-society-works/societal-systems/): the four kinds of actors (state, markets, communities, families) and the public systems that carry out those tasks.
 4. [The Economic System](/how-society-works/economic-system/): how the economy produces and shares, and what it rewards.
 5. [Social Redistribution](/sharing-fairly/social-redistribution/): how taxes and transfers reduce inequality.
+6. [Democracy and Reliable Information](/how-society-works/democracy-and-information/): how societies make shared choices, and why that depends on information people can trust.
+7. [Global Health and Extreme Poverty](/how-society-works/global-health-and-poverty/): how well basic needs are met worldwide, and for whom.
+8. [How Societies Change](/how-society-works/how-societies-change/): what drives big changes, and what makes them last.
 
 ## How they connect
 
-From the purpose (1), to the tasks that serve it (2), to the systems that perform the tasks (3), with the economy as the largest of them (4), and redistribution as the way societies correct its outcomes (5).
-
-*Not covered yet, likely later: democracy and reliable information; global health and extreme poverty.*
+From the purpose (1), to the tasks that serve it (2), to the systems that perform the tasks (3), with the economy as the largest of them (4), and redistribution as the way societies correct its outcomes (5). Democracy (6) is how they decide all this together, and global health and poverty (7) show the results worldwide. How Societies Change (8) explains how any of it changes, which leads into the big forces of question 4.
 
 **Next:** [4. Which big forces are reshaping society?](/questions/4-forces/)

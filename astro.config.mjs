@@ -40,6 +40,9 @@ export default defineConfig({
             sidebar: [
                 { label: '🏠 Home', translations: { fr: '🏠 Accueil' }, link: '/' },
                 { label: 'Foresight Trends', translations: { fr: 'Tendances prospectives' }, slug: 'foresight-trends' },
+                // v2.48 (owner: "publish all except the proposals"): seven new explainers replace the grey items or join them
+                // (Climate Change first in 4, Population after Migration, How Societies Change closes 3); Societal Systems
+                // is renamed "Who Keeps Society Running?" (same address).
                 // v2.47 (owner): each question opens with an Overview page (src/content/docs/questions/).
                 // v2.46 (owner): the menu follows the six questions of the home-page story; Previous/Next
                 // (components/overrides/Pagination.astro) follow it too and skip the grey 'likely later' items
@@ -61,7 +64,7 @@ export default defineConfig({
                         { label: 'Overview', translations: { fr: "Vue d'ensemble" }, slug: 'questions/2-resources' },
                         { label: 'Land per Person', translations: { fr: 'Terres par personne' }, slug: 'forces/land-per-person' },
                         { label: 'Fair Globe Sharing', translations: { fr: 'Partage équitable du monde' }, slug: 'sharing-fairly/fair-globe-sharing' },
-                        { label: 'Nature and Water (likely later)', translations: { fr: "La nature et l'eau (probablement plus tard)" }, link: '#', attrs: { class: 'yv-planned', 'aria-disabled': 'true', tabindex: '-1' } },
+                        { label: 'Nature and Water', translations: { fr: "La nature et l'eau" }, slug: 'forces/nature-and-water' },
                     ],
                 },
                 {
@@ -72,11 +75,12 @@ export default defineConfig({
                         { label: 'Overview', translations: { fr: "Vue d'ensemble" }, slug: 'questions/3-society' },
                         { label: 'What Is Society For?', translations: { fr: 'À quoi sert la société ?' }, slug: 'how-society-works/purpose-of-society' },
                         { label: 'What Every Society Must Do', translations: { fr: 'Ce que toute société doit faire' }, slug: 'how-society-works/societal-functions' },
-                        { label: 'Societal Systems', translations: { fr: 'Systèmes sociétaux' }, slug: 'how-society-works/societal-systems' },
+                        { label: 'Who Keeps Society Running?', translations: { fr: 'Qui fait tourner la société ?' }, slug: 'how-society-works/societal-systems' },
                         { label: 'The Economic System', translations: { fr: 'Le système économique' }, slug: 'how-society-works/economic-system' },
                         { label: 'Social Redistribution', translations: { fr: 'Redistribution sociale' }, slug: 'sharing-fairly/social-redistribution' },
-                        { label: 'Democracy and Reliable Information (likely later)', translations: { fr: 'La démocratie et une information fiable (probablement plus tard)' }, link: '#', attrs: { class: 'yv-planned', 'aria-disabled': 'true', tabindex: '-1' } },
-                        { label: 'Global Health and Extreme Poverty (likely later)', translations: { fr: "La santé mondiale et l'extrême pauvreté (probablement plus tard)" }, link: '#', attrs: { class: 'yv-planned', 'aria-disabled': 'true', tabindex: '-1' } },
+                        { label: 'Democracy and Reliable Information', translations: { fr: 'La démocratie et une information fiable' }, slug: 'how-society-works/democracy-and-information' },
+                        { label: 'Global Health and Extreme Poverty', translations: { fr: "La santé mondiale et l'extrême pauvreté" }, slug: 'how-society-works/global-health-and-poverty' },
+                        { label: 'How Societies Change', translations: { fr: 'Comment les sociétés changent' }, slug: 'how-society-works/how-societies-change' },
                     ],
                 },
                 {
@@ -85,12 +89,14 @@ export default defineConfig({
                     collapsed: false,
                     items: [
                         { label: 'Overview', translations: { fr: "Vue d'ensemble" }, slug: 'questions/4-forces' },
+                        { label: 'Climate Change', translations: { fr: 'Le changement climatique' }, slug: 'forces/climate-change' },
                         { label: 'The Energy Transition', translations: { fr: 'La transition énergétique' }, slug: 'forces/clean-safe-energy' },
                         { label: 'Managing Regional Migration', translations: { fr: 'Gestion de la migration régionale' }, slug: 'forces/managing-regional-migration' },
+                        { label: 'Population Change and Ageing', translations: { fr: 'Évolution de la population et vieillissement' }, slug: 'forces/population-change' },
                         { label: 'Enhanced Automation', translations: { fr: 'Automatisation améliorée' }, slug: 'forces/enhanced-automation' },
                         { label: 'Impact of Artificial Intelligence', translations: { fr: "Impact de l'intelligence artificielle" }, slug: 'forces/impact-of-artificial-intelligence' },
                         { label: 'Life After Automation', translations: { fr: "La vie après l'automatisation" }, slug: 'forces/life-after-automation' },
-                        { label: 'Big Risks: Pandemics, Nuclear War, Advanced AI (likely later)', translations: { fr: 'Les grands risques : pandémies, guerre nucléaire, IA avancée (probablement plus tard)' }, link: '#', attrs: { class: 'yv-planned', 'aria-disabled': 'true', tabindex: '-1' } },
+                        { label: 'Big Risks: Pandemics, Nuclear War, Advanced AI', translations: { fr: 'Les grands risques : pandémies, guerre nucléaire, IA avancée' }, slug: 'forces/big-risks' },
                     ],
                 },
                 {

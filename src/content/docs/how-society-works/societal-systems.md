@@ -1,53 +1,86 @@
 ---
 kind: explainer
-title: Societal Systems
-description: An overview of the major systems that organize modern societies and how they interact.
-reading_time: "4 min"
-sidebar:
-  order: 3
+title: Who Keeps Society Running?
+description: The four kinds of actors that carry out society's work (the state, markets, communities and families), the main public systems, and how they depend on each other.
+reading_time: "5 min"
+audio: https://audio.happybein.com/yeahsight/societal-systems.en.mp3
+audioMinutes: 7
+audioBytes: 3265350
+audioSeconds: 408
+audioDate: 2026-11-06T14:01:00+01:00
 ---
 
 
-## What Are Societal Systems?
+**In short:** Every society has the same jobs to do: keep people safe, share resources, care for each other, pass on knowledge. Four kinds of actors do this work: the state, markets, communities and families. No society relies on just one; what differs is the mix. And because they depend on each other, a change in one ripples through all the others.
 
-Societal systems are the large-scale structures and institutions through which a society organizes itself. They are the mechanisms that translate the purpose of society into lived reality — for better or worse.
+## The Question
 
-Understanding them helps you navigate the world more effectively and participate more meaningfully in shaping it.
+[What Every Society Must Do](/how-society-works/societal-functions/) lists the tasks every society has to perform. This article asks the next question: **who actually performs them, and how?**
 
-## Major Societal Systems
+When people talk about "the system", they usually mean the government. But a large share of society's work happens elsewhere: in shops and companies, in neighbourhoods and associations, and above all at home.
 
-### Political System
-How power is organized and exercised. Key dimensions include:
-- **Democracy vs. authoritarianism**: who has a voice in collective decisions?
-- **Federal vs. centralized**: how is power distributed between levels of government?
-- **Separation of powers**: how are legislative, executive, and judicial functions divided?
+## Four Kinds of Actors
 
-The political system shapes all other systems — it determines the rules of the game.
+**The state** acts through laws, taxes and public services. Its strength is reaching everyone on equal terms and enforcing rules. Its weakness is that it can be slow, distant, and only as good as the politics behind it.
 
-### Economic System
-How resources are produced, distributed, and consumed. See [The Economic System](/how-society-works/economic-system) for a full treatment.
+**Markets** act through prices and exchange. Their strength is coordinating millions of choices and rewarding innovation. Their weakness is that they serve those who can pay, and ignore costs nobody pays for, such as pollution.
 
-### Legal System
-How rules are made, interpreted, and enforced. The legal system translates political decisions into binding norms and provides mechanisms for resolving disputes. It also protects rights — in theory, and in practice to varying degrees.
+**Communities and civil society** act through trust and shared norms: associations, cooperatives, religious groups, volunteers, neighbours. The economist Elinor Ostrom showed that communities can manage shared resources like forests, fisheries and water well, without either state control or private ownership. Their weakness is that they can exclude outsiders, and they are hard to scale up.
 
-### Education System
-How knowledge, skills, and values are transmitted across generations. Education systems shape the capabilities and identities of citizens, workers, and community members.
+**Families and households** act through love and obligation. They provide most of the care in any society. The International Labour Organization estimates that people spend more than 16 billion hours a day on unpaid care work worldwide, about three-quarters of it done by women. This work rarely appears in economic statistics, yet without it nothing else would function.
 
-### Healthcare System
-How physical and mental health is maintained and restored. Healthcare systems vary enormously in their organization (public, private, or mixed), their equity, and their effectiveness.
+## The Main Public Systems
 
-### Social Protection System
-How societies support members who face hardship — through unemployment benefits, disability support, pensions, housing assistance, and similar programs. See [Social Redistribution](/sharing-fairly/social-redistribution).
+Within the state, and often shared with the other three, a handful of large systems carry out the core tasks:
 
-### Information and Media System
-How information is produced, distributed, and consumed. In the digital age, this system has been profoundly disrupted — with major implications for democracy, public health, and social cohesion.
+| System | What it does | Main tasks it serves |
+|---|---|---|
+| **Political** | Decides who holds power and how collective choices are made | Settling disputes, adapting to change |
+| **Legal** | Turns decisions into binding rules and settles disputes | Security, settling disputes |
+| **Economic** | Organises production and exchange. See [The Economic System](/how-society-works/economic-system/) | Sharing resources |
+| **Education** | Passes on knowledge, skills and values | Passing on knowledge |
+| **Health** | Prevents illness and restores health | Care |
+| **Social protection** | Supports people facing hardship: pensions, unemployment, disability, housing. See [Social Redistribution](/sharing-fairly/social-redistribution/) | Care, sharing resources |
+| **Information and media** | Produces and spreads news and knowledge | Social cohesion, adapting to change |
 
-## How Systems Interact
+Countries organise these very differently. The sociologist Gøsta Esping-Andersen described three broad types of welfare state: ones that leave most to the market, ones built around work and family, and ones where the state provides broadly for everyone.
 
-These systems are deeply interdependent. The political system shapes the economic system; the economic system funds the education and healthcare systems; the information system influences what citizens believe about all the others.
+## How They Depend on Each Other
 
-Understanding these interactions helps you see beyond surface-level policy debates to the underlying dynamics that drive outcomes.
+These systems form loops, where a change in one comes back around:
 
-## Systems Change Slowly — and Then Quickly
+- **A virtuous loop:** good education raises skills and incomes, which raises tax revenue, which funds better education.
+- **A vicious loop:** misinformation lowers trust, lower trust weakens democratic institutions, and weaker institutions protect the information space less well.
 
-Societal systems tend to be stable over long periods, then go through rapid transformation. Understanding when a system is under pressure — from technological change, demographic shifts, economic stress, or political crisis — helps you anticipate what comes next.
+Power also runs both ways. Politics sets the rules for the economy, but economic power, through funding and lobbying, also shapes politics. Neither simply controls the other.
+
+The systems thinker Donella Meadows pointed out that the most effective way to change a system is rarely to push harder on one part. It is better to change the goals, rules or information flows that shape how all the parts behave.
+
+## Examples
+
+- **Care for older people:** depending on the country, it is provided mainly by families, by paid private services, by the state, or by a mix. When families get smaller and women work more outside the home, the burden shifts, and the other actors have to take more of it on.
+- **The internet and media:** within about twenty years, online platforms changed how news is made and paid for. That in turn affected politics, trust and social cohesion. It is an example of a system that changed slowly for decades, and then very quickly.
+
+## The Human Side
+
+Each actor meets different human needs. The state and markets mainly cover physical needs and security. Communities and families also meet the needs for belonging, recognition and care that no public service can fully replace. A society that weakens one actor needs another to fill the gap. See [Human needs](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) on YeahCore.
+
+## Open Questions
+
+- What should be done by the state, what by markets, and what by communities? Countries answer very differently, and the balance shifts over time.
+- How can care work done at home be recognised and supported?
+- How can societies protect a healthy information system without restricting free speech?
+
+## Where Next
+
+- Previous: [What Every Society Must Do](/how-society-works/societal-functions/)
+- Next: [The Economic System](/how-society-works/economic-system/)
+- Related: [What Is Society For?](/how-society-works/purpose-of-society/), [Social Redistribution](/sharing-fairly/social-redistribution/)
+
+## Sources
+
+- Elinor Ostrom, *Governing the Commons* (1990)
+- Gøsta Esping-Andersen, *The Three Worlds of Welfare Capitalism* (1990)
+- Donella Meadows, *Thinking in Systems* (2008) and "Leverage Points: Places to Intervene in a System" (1999)
+- Karl Polanyi, *The Great Transformation* (1944), on markets as part of society
+- International Labour Organization, *Care Work and Care Jobs for the Future of Decent Work* (2018)

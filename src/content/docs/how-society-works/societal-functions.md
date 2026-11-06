@@ -88,14 +88,14 @@ These tasks matter because each one protects needs every person has. YeahCore de
 
 ## Open Questions
 
-- Which tasks should be handled by the state, and which left to communities, families or markets? (See [Societal Systems](/how-society-works/societal-systems/))
+- Which tasks should be handled by the state, and which left to communities, families or markets? (See [Who Keeps Society Running?](/how-society-works/societal-systems/))
 - How much inequality is acceptable before sharing resources and trust start to fail?
 - How can a society adapt quickly without losing the trust and stability it depends on?
 
 ## Where Next
 
 - Previous: [What Is Society For?](/how-society-works/purpose-of-society/)
-- Next: [Societal Systems](/how-society-works/societal-systems/), on who carries out these tasks
+- Next: [Who Keeps Society Running?](/how-society-works/societal-systems/), on who carries out these tasks
 - Related: [Social Redistribution](/sharing-fairly/social-redistribution/), on sharing resources fairly
 
 ## Sources

@@ -12,11 +12,11 @@ On répond aux besoins avec des ressources : terres, énergie, eau, matériaux. 
 
 1. [Terres par personne](/fr/forces/land-per-person/) : combien de terres il y a pour chaque personne, et ce que prennent l'alimentation et le logement.
 2. [Partage équitable du monde](/fr/sharing-fairly/fair-globe-sharing/) : comment les ressources du monde sont réparties aujourd'hui, et à quoi pourrait ressembler un partage plus juste.
+3. [La nature et l'eau](/fr/forces/nature-and-water/) : les systèmes vivants et l'eau douce dont dépend toute économie, et la pression qu'ils subissent.
 
 ## Comment ils se relient
 
-Terres par personne rend les limites concrètes pour une personne ; Partage équitable du monde élargit la vue à tous, y compris à ceux qui utilisent bien plus que leur part. Ensemble, ils montrent l'écart entre les besoins des personnes et ce que la planète peut donner.
+Terres par personne rend les limites concrètes pour une personne ; Partage équitable du monde élargit la vue à tous, y compris à ceux qui utilisent bien plus que leur part. Ensemble, ils montrent l'écart entre les besoins des personnes et ce que la planète peut donner. La nature et l'eau ajoute ce qui vit sur ces terres et ce qui les traverse, plus difficile à remplacer que l'argent ne le laisse croire.
 
-*Pas encore couvert, probablement plus tard : la nature et l'eau, au-delà de l'usage des terres.*
 
 **Suite :** [3. Comment la société transforme-t-elle ces ressources en ce dont les gens ont besoin ?](/fr/questions/3-society/)
