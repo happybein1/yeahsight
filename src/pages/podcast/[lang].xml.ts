@@ -3,11 +3,17 @@
 // audioDate in their front matter; nothing else to update when a new recording is published.
 import type { APIRoute, GetStaticPaths } from 'astro';
 import { getCollection } from 'astro:content';
+import { readFileSync } from 'node:fs';
+
+// v2.50: each episode carries <itunes:episode>, its place in the six-question reading order (the order of
+// the slugs in the menu in astro.config.mjs), so apps such as the HappyBein Podcast can play them in order.
+const ORDER = [...readFileSync(`${process.cwd()}/astro.config.mjs`, 'utf8').matchAll(/slug: '([^']+)'/g)].map((m) => m[1]);
+const place = (id: string) => { const i = ORDER.indexOf(id.replace(/^fr\//, '')); return i < 0 ? ORDER.length : i; };
 
 const FEEDS = {
   en: {
     title: 'YeahSight',
-    description: "How society works, and where it's heading. Clear, structured explanations of the forces shaping our world (economy, environment, technology, fairness) and proposals for a fairer, sustainable society. Each episode is a YeahSight article, read aloud. By HappyBein, a small independent not-for-profit foundation.",
+    description: "How society works, and where it's heading. Clear, structured explanations of the forces shaping our world (economy, environment, technology, fairness) and proposals for a fairer, sustainable society. Each episode is a YeahSight article, as a short conversation between Emma and Sam or read aloud. By HappyBein, a small independent not-for-profit foundation.",
     language: 'en',
     home: 'https://yeahsight.happybein.com/',
   },
@@ -33,6 +39,7 @@ export const GET: APIRoute = async ({ params, site }) => {
   const cover = `${base}/podcast/cover-${lang}.jpg`;
   const docs = await getCollection('docs', (e) =>
     (lang === 'fr') === e.id.startsWith('fr/') && !!e.data.audio && !!e.data.audioBytes && !!e.data.audioSeconds && !!e.data.audioDate);
+  const num = new Map([...docs].sort((a, b) => place(a.id) - place(b.id)).map((e, i) => [e.id, i + 1]));
   docs.sort((a, b) => b.data.audioDate!.getTime() - a.data.audioDate!.getTime());
   const items = docs.map((e) => {
     const d = e.data;
@@ -48,6 +55,7 @@ export const GET: APIRoute = async ({ params, site }) => {
       <enclosure url="${esc(url)}" length="${d.audioBytes}" type="audio/mpeg"/>
       <itunes:duration>${hms(d.audioSeconds!)}</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>${num.get(e.id)}</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>`;
   }).join('');

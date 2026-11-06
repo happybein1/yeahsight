@@ -3,6 +3,11 @@ kind: explainer
 title: "Big Risks: Pandemics, Nuclear War, Advanced AI"
 description: The rare events that could set humanity back for generations, why they get so little attention, and what lowers the risk.
 reading_time: "4 min"
+audio: https://audio.happybein.com/yeahsight/big-risks.en.mp3
+audioMinutes: 5
+audioBytes: 2360259
+audioSeconds: 295
+audioDate: 2026-11-06T14:38:00+01:00
 ---
 
 

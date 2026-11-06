@@ -4,6 +4,17 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.50
+
+**Seven new dialog episodes, and episode numbers in reading order** (owner, 2026-11-06: "also record all podcast scripts", then "publish and move them to happybein podcast as well").
+- Emma and Sam dialog episodes (Kokoro `af_heart` + `am_puck`, 4 to 5 min each, levelled to -16 LUFS) for *Nature and Water*, *Democracy and Reliable Information*, *Global Health and Extreme Poverty*, *How Societies Change*, *Climate Change*, *Population Change and Ageing* and *Big Risks*. Scripts in `tools/podcast/scripts/<article>.en.dialog.txt`, recorded on the ROG with the YeahCore recorder plus the "Yeah Sight" pronunciation, uploaded to `audio.happybein.com/yeahsight/<article>.en.mp3`. Each article's front matter now has the audio fields, so the player shows on the page and the episode is in `/podcast/en.xml`. Their `audioDate`s are one minute apart in reading order (14:32 to 14:38), so podcast apps list them sensibly.
+- **Feed:** each item now carries `<itunes:episode>`, its place in the six-question reading order (taken from the order of the `slug:` entries in `astro.config.mjs`'s menu), in both feeds. The HappyBein Podcast app uses it to play YeahSight in order. The feed description now says episodes are "a short conversation between Emma and Sam or read aloud".
+- English only: no French audio for these yet.
+
+**Verification:** site builds; `/podcast/en.xml` lists 10 episodes numbered 1 (Nature and Water) to 10 (The Transition in Practice); `/podcast/fr.xml` numbers its two.
+
+---
+
 ## v2.49
 
 **French translations of the v2.48 articles** (owner, 2026-11-06: "go ahead with translation").

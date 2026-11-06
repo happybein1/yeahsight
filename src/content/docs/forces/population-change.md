@@ -3,6 +3,11 @@ kind: explainer
 title: Population Change and Ageing
 description: Fewer children, longer lives and a world population that will peak this century. What it changes for care, pensions, work and migration.
 reading_time: "3 min"
+audio: https://audio.happybein.com/yeahsight/population-change.en.mp3
+audioMinutes: 4
+audioBytes: 2163400
+audioSeconds: 270
+audioDate: 2026-11-06T14:37:00+01:00
 ---
 
 

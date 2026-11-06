@@ -3,6 +3,11 @@ kind: explainer
 title: Nature and Water
 description: The living systems and fresh water every economy depends on, how much pressure they are under, and why they are harder to replace than money suggests.
 reading_time: "4 min"
+audio: https://audio.happybein.com/yeahsight/nature-and-water.en.mp3
+audioMinutes: 4
+audioBytes: 2125157
+audioSeconds: 266
+audioDate: 2026-11-06T14:32:00+01:00
 ---
 
 

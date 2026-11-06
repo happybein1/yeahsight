@@ -3,6 +3,11 @@ kind: explainer
 title: Climate Change
 description: What is warming the planet, how far it has gone, what it changes for people, and why every tenth of a degree matters.
 reading_time: "4 min"
+audio: https://audio.happybein.com/yeahsight/climate-change.en.mp3
+audioMinutes: 5
+audioBytes: 2220034
+audioSeconds: 277
+audioDate: 2026-11-06T14:36:00+01:00
 ---
 
 
