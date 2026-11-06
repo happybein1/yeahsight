@@ -4,6 +4,18 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.49
+
+**French translations of the v2.48 articles** (owner, 2026-11-06: "go ahead with translation").
+- New French pages: *La nature et l'eau*, *La démocratie et une information fiable*, *La santé mondiale et l'extrême pauvreté*, *Comment les sociétés changent*, *Le changement climatique*, *Évolution de la population et vieillissement*, *Les grands risques : pandémies, guerre nucléaire, IA avancée* (same addresses under `/fr/`), with the same figures as the English (checked on 2026-11-06).
+- *Qui fait tourner la société ?* replaces the old French *Systèmes sociétaux* text (same address). Its table uses the French task names of *Ce que toute société doit faire*; link texts to it renamed on the French Foresight Trends, What Is Society For? and What Every Society Must Do pages.
+- YeahCore links point to the French YeahCore pages (human needs, *Gérer la peur*, *Lien et solitude*).
+- No French audio: the dialog episodes are English only for now.
+
+**Verification:** site builds; every link on the eight French pages resolves.
+
+---
+
 ## v2.48
 
 **Seven new explainers, and "Who Keeps Society Running?" with its first dialog episode** (owner, 2026-11-06: asked "are there missing articles", then "can you draft all missing articles", asked for the figures to be checked, then "can you publish all except the proposal?").

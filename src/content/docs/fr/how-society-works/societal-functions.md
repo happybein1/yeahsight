@@ -88,14 +88,14 @@ Ces tâches comptent parce que chacune protège des besoins que tout être humai
 
 ## Questions ouvertes
 
-- Quelles tâches devraient relever de l'État, et lesquelles laisser aux communautés, aux familles ou aux marchés ? (Voir [Systèmes sociétaux](/fr/how-society-works/societal-systems/).)
+- Quelles tâches devraient relever de l'État, et lesquelles laisser aux communautés, aux familles ou aux marchés ? (Voir [Qui fait tourner la société ?](/fr/how-society-works/societal-systems/).)
 - Jusqu'à quel niveau d'inégalité le partage des ressources et la confiance peuvent-ils tenir avant de se dégrader ?
 - Comment une société peut-elle s'adapter rapidement sans perdre la confiance et la stabilité dont elle dépend ?
 
 ## Pour aller plus loin
 
 - Précédent : [À quoi sert la société ?](/fr/how-society-works/purpose-of-society/)
-- Suivant : [Systèmes sociétaux](/fr/how-society-works/societal-systems/), sur ceux qui accomplissent ces tâches
+- Suivant : [Qui fait tourner la société ?](/fr/how-society-works/societal-systems/), sur ceux qui accomplissent ces tâches
 - Voir aussi : [Redistribution sociale](/fr/sharing-fairly/social-redistribution/), sur le partage équitable des ressources
 
 ## Sources

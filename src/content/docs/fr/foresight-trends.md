@@ -25,7 +25,7 @@ YeahSight explique comment fonctionnent les sociétés et ce qui change, puis fo
 À quoi servent les sociétés, comment elles s'organisent, combien de terres chacun utilise, et comment les ressources sont partagées aujourd'hui.
 - [À quoi sert la société ?](/fr/how-society-works/purpose-of-society)
 - [Ce que toute société doit faire](/fr/how-society-works/societal-functions)
-- [Systèmes sociétaux](/fr/how-society-works/societal-systems)
+- [Qui fait tourner la société ?](/fr/how-society-works/societal-systems/)
 - [Le système économique](/fr/how-society-works/economic-system)
 - [Redistribution sociale](/fr/sharing-fairly/social-redistribution)
 - [Terres par personne](/fr/forces/land-per-person)
