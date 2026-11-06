@@ -64,12 +64,12 @@ A change of this size raises real questions:
 - **Avoidance**: moving assets abroad or into companies would need to be addressed, ideally through international coordination, for example at EU level.
 - **Trust in public institutions**: redistribution only works if people trust that the fund is managed transparently and fairly.
 
-The cap can start generous and come down gradually on a published schedule, so people have time to plan. [Making the Transition](/sharing-fairly/making-the-transition/) describes the order and pace.
+The cap can start generous and come down gradually on a published schedule, so people have time to plan. [From Inherited Wealth to a Fair Start](/sharing-fairly/making-the-transition/) describes the order and pace.
 
 ## The Human Side
 
 Inheritance touches some of our deepest drivers: security, belonging, and the wish to care for those who come after us. Any change should respect these needs while meeting them more fairly for everyone. See [Humans' Physiological Needs](https://yeahcore.happybein.com/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) for the needs behind this.
 
-How to get there step by step, and in practice: [Making the Transition](/sharing-fairly/making-the-transition/).
+How to get there step by step, and in practice: [From Inherited Wealth to a Fair Start](/sharing-fairly/making-the-transition/).
 
 See also: [Social Redistribution](/sharing-fairly/social-redistribution), [Universal Allowance](/sharing-fairly/universal-allowance) and [Fair Globe Sharing](/sharing-fairly/fair-globe-sharing).

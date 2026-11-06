@@ -121,7 +121,7 @@ export default defineConfig({
                             items: [
                                 { label: 'Universal Allowance', translations: { fr: 'Allocation universelle' }, slug: 'sharing-fairly/universal-allowance' },
                                 { label: 'Inheritance', translations: { fr: 'Héritage' }, slug: 'sharing-fairly/inheritance' },
-                                { label: 'Making the Transition', translations: { fr: 'Réussir la transition' }, slug: 'sharing-fairly/making-the-transition' },
+                                { label: 'From Inherited Wealth to a Fair Start', translations: { fr: 'De la richesse héritée à un départ équitable' }, slug: 'sharing-fairly/making-the-transition' },
                             ],
                         },
                     ],

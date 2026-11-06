@@ -75,7 +75,7 @@ A safety net is not only about money. Knowing you won't fall into poverty if you
 
 - Previous: [The Economic System](/how-society-works/economic-system/)
 - Next: [Democracy and Reliable Information](/how-society-works/democracy-and-information/)
-- Related: [Universal Allowance](/sharing-fairly/universal-allowance/), [Inheritance](/sharing-fairly/inheritance/), [Making the Transition](/sharing-fairly/making-the-transition/)
+- Related: [Universal Allowance](/sharing-fairly/universal-allowance/), [Inheritance](/sharing-fairly/inheritance/), [From Inherited Wealth to a Fair Start](/sharing-fairly/making-the-transition/)
 
 ## Sources
 

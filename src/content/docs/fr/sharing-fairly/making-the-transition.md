@@ -1,6 +1,6 @@
 ---
 kind: proposal
-title: Réussir la transition
+title: De la richesse héritée à un départ équitable
 description: "Comment une société pourrait sortir des injustices financières héritées du passé et aller vers une économie juste et durable, étape par étape, sans casser ce qui fonctionne ni laisser personne de côté : le chemin, qui fait quoi, qui gère l'argent, et comment cela pourrait se faire concrètement."
 reading_time: "12 min"
 sidebar:

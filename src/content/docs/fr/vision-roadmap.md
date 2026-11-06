@@ -42,7 +42,7 @@ Plafonner ce que chaque personne peut recevoir en héritages et donations au cou
 
 → Contexte : [Héritage](/fr/sharing-fairly/inheritance/)
 
-→ Comment les étapes 4 et 5 pourraient se faire, dans l'ordre et sans laisser personne de côté : [Réussir la transition](/fr/sharing-fairly/making-the-transition/)
+→ Comment les étapes 4 et 5 pourraient se faire, dans l'ordre et sans laisser personne de côté : [De la richesse héritée à un départ équitable](/fr/sharing-fairly/making-the-transition/)
 
 ### 6. N'utiliser que les ressources nécessaires
 Réduire les ressources utilisées par chacun à un niveau qui garantit encore assez de confort et de productivité. Des infrastructures plus efficaces et l'automatisation des tâches le rendent possible.

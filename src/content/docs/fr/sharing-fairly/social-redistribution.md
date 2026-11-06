@@ -70,7 +70,7 @@ Un filet de sécurité n'est pas qu'une question d'argent. Savoir qu'on ne tombe
 
 - Précédent : [Le système économique](/fr/how-society-works/economic-system/)
 - Suivant : [La démocratie et une information fiable](/fr/how-society-works/democracy-and-information/)
-- Voir aussi : [Allocation universelle](/fr/sharing-fairly/universal-allowance/), [Héritage](/fr/sharing-fairly/inheritance/), [Réussir la transition](/fr/sharing-fairly/making-the-transition/)
+- Voir aussi : [Allocation universelle](/fr/sharing-fairly/universal-allowance/), [Héritage](/fr/sharing-fairly/inheritance/), [De la richesse héritée à un départ équitable](/fr/sharing-fairly/making-the-transition/)
 
 ## Sources
 

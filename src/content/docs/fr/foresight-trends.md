@@ -42,7 +42,7 @@ La transition énergétique, les migrations et la technologie : les grandes forc
 ### 3. Recommandations
 Ce que les sociétés pourraient faire face à ces forces, et pourquoi. Chaque recommandation précise son objectif, les faits, les compromis et les objections.
 - **Vivre dans les limites :** [Consommation végétale](/fr/forces/plant-based-consumption)
-- **Partager équitablement :** [Allocation universelle](/fr/sharing-fairly/universal-allowance), [Partage équitable de l'espace](/fr/sharing-fairly/fair-space-sharing), [Héritage](/fr/sharing-fairly/inheritance), [Réussir la transition](/fr/sharing-fairly/making-the-transition)
+- **Partager équitablement :** [Allocation universelle](/fr/sharing-fairly/universal-allowance), [Partage équitable de l'espace](/fr/sharing-fairly/fair-space-sharing), [Héritage](/fr/sharing-fairly/inheritance), [De la richesse héritée à un départ équitable](/fr/sharing-fairly/making-the-transition)
 
 ### 4. Vision et feuille de route
 Les recommandations réunies en six étapes concrètes.

@@ -77,7 +77,7 @@ L'énergie paraît abstraite jusqu'à l'arrivée de la facture. Le choc des prix
 
 - Précédent : [Le changement climatique](/fr/forces/climate-change/)
 - Suivant : [Gestion de la migration régionale](/fr/forces/managing-regional-migration/)
-- Voir aussi : [La nature et l'eau](/fr/forces/nature-and-water/), [Réussir la transition](/fr/sharing-fairly/making-the-transition/), sur le reversement des taxes sur les énergies fossiles aux gens
+- Voir aussi : [La nature et l'eau](/fr/forces/nature-and-water/), [De la richesse héritée à un départ équitable](/fr/sharing-fairly/making-the-transition/), sur le reversement des taxes sur les énergies fossiles aux gens
 
 ## Sources
 

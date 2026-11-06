@@ -42,7 +42,7 @@ Cap what each person can receive in inheritance and gifts over their lifetime, s
 
 → Background: [Inheritance](/sharing-fairly/inheritance/)
 
-→ How steps 4 and 5 could happen, in order and without leaving people behind: [Making the Transition](/sharing-fairly/making-the-transition/)
+→ How steps 4 and 5 could happen, in order and without leaving people behind: [From Inherited Wealth to a Fair Start](/sharing-fairly/making-the-transition/)
 
 ### 6. Use only the resources we need
 Reduce the resources each person uses to a level that still gives enough comfort and productivity. More efficient infrastructure and the automation of tasks make this possible.

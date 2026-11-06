@@ -19,7 +19,7 @@ Questions 1 to 4 set out the challenges: meeting everyone's needs, with limited 
 
 3. [Universal Allowance](/sharing-fairly/universal-allowance/): a guaranteed budget for basic needs: food, housing, health, energy.
 4. [Inheritance](/sharing-fairly/inheritance/): a lifetime cap on what each person can inherit, and a fair start for everyone.
-5. [Making the Transition](/sharing-fairly/making-the-transition/): how to get there step by step without leaving people behind, including what if one country goes first, who runs the common fund, and the main objections.
+5. [From Inherited Wealth to a Fair Start](/sharing-fairly/making-the-transition/): how to get there step by step without leaving people behind, including what if one country goes first, who runs the common fund, and the main objections.
 
 ## How they connect
 

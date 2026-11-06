@@ -56,7 +56,7 @@ Le changement peut apporter de l'espoir, et aussi la peur de perdre ce que l'on 
 
 - Précédent : [La santé mondiale et l'extrême pauvreté](/fr/how-society-works/global-health-and-poverty/)
 - Suivant : [Le changement climatique](/fr/forces/climate-change/), la première des grandes forces qui transforment la société
-- Voir aussi : [Réussir la transition](/fr/sharing-fairly/making-the-transition/), [Vision et feuille de route](/fr/vision-roadmap/)
+- Voir aussi : [De la richesse héritée à un départ équitable](/fr/sharing-fairly/making-the-transition/), [Vision et feuille de route](/fr/vision-roadmap/)
 
 ## Sources
 

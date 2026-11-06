@@ -62,7 +62,7 @@ Change can bring hope, and also fear of losing what we know. People accept chang
 
 - Previous: [Global Health and Extreme Poverty](/how-society-works/global-health-and-poverty/)
 - Next: [Climate Change](/forces/climate-change/), the first of the big forces reshaping society
-- Related: [Making the Transition](/sharing-fairly/making-the-transition/), [Vision & Roadmap](/vision-roadmap/)
+- Related: [From Inherited Wealth to a Fair Start](/sharing-fairly/making-the-transition/), [Vision & Roadmap](/vision-roadmap/)
 
 ## Sources
 

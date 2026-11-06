@@ -64,12 +64,12 @@ Un changement de cette ampleur soulève de vraies questions :
 - **Le contournement** : le transfert d'actifs à l'étranger ou dans des sociétés devrait être traité, idéalement par une coordination internationale, par exemple au niveau européen.
 - **La confiance dans les institutions publiques** : la redistribution ne fonctionne que si les gens ont confiance dans une gestion transparente et juste du fonds.
 
-Le plafond peut commencer généreux et baisser progressivement selon un calendrier publié, pour laisser à chacun le temps de s'organiser. [Réussir la transition](/fr/sharing-fairly/making-the-transition/) décrit l'ordre et le rythme.
+Le plafond peut commencer généreux et baisser progressivement selon un calendrier publié, pour laisser à chacun le temps de s'organiser. [De la richesse héritée à un départ équitable](/fr/sharing-fairly/making-the-transition/) décrit l'ordre et le rythme.
 
 ## Le côté humain
 
 L'héritage touche certains de nos moteurs les plus profonds : la sécurité, l'appartenance et le désir de prendre soin de ceux qui viennent après nous. Tout changement devrait respecter ces besoins tout en y répondant plus équitablement pour tous. Voir [Les besoins physiologiques humains](https://yeahcore.happybein.com/fr/decision-foundation/find-your-directional-purpose/humans-physiological-needs/) pour les besoins qui sont derrière.
 
-Comment y arriver étape par étape, et en pratique : [Réussir la transition](/fr/sharing-fairly/making-the-transition/).
+Comment y arriver étape par étape, et en pratique : [De la richesse héritée à un départ équitable](/fr/sharing-fairly/making-the-transition/).
 
 Voir aussi : [Redistribution sociale](/fr/sharing-fairly/social-redistribution), [Allocation universelle](/fr/sharing-fairly/universal-allowance) et [Partage équitable du monde](/fr/sharing-fairly/fair-globe-sharing).

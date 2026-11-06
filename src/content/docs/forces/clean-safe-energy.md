@@ -82,7 +82,7 @@ Energy can feel abstract until the bill arrives. The 2022 price shock showed how
 
 - Previous: [Climate Change](/forces/climate-change/)
 - Next: [Managing Regional Migration](/forces/managing-regional-migration/)
-- Related: [Nature and Water](/forces/nature-and-water/), [Making the Transition](/sharing-fairly/making-the-transition/), on returning fossil-fuel taxes to people
+- Related: [Nature and Water](/forces/nature-and-water/), [From Inherited Wealth to a Fair Start](/sharing-fairly/making-the-transition/), on returning fossil-fuel taxes to people
 
 ## Sources
 

@@ -1,12 +1,12 @@
 ---
 kind: proposal
-title: Making the Transition
+title: From Inherited Wealth to a Fair Start
 description: "How a society could move from inherited financial unfairness to a fair and sustainable economy, step by step, without breaking what works or leaving people behind: the path, who does what, who runs the money, and how it could actually happen."
 reading_time: "12 min"
-audio: https://audio.happybein.com/yeahsight/making-the-transition-dialog.en.mp3
+audio: https://audio.happybein.com/yeahsight/fair-start.en.mp3
 audioMinutes: 10
-audioBytes: 4557261
-audioSeconds: 570
+audioBytes: 4574189
+audioSeconds: 572
 audioDate: 2026-11-06T15:57:00+01:00
 sidebar:
   order: 6

@@ -4,6 +4,15 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.55
+
+**Making the Transition is renamed "From Inherited Wealth to a Fair Start"** (owner, 2026-11-06: "can we make the name of the transition article more specific?", then "go").
+- New title in EN and FR ("De la richesse héritée à un départ équitable"): the article, the menu, the home-page card, `llms.txt`, and every link text pointing to it (Vision & Roadmap, Foresight Trends, the question 5 overview, Inheritance, Social Redistribution, Who's Working on This, How Societies Change, The Energy Transition). The address stays `/sharing-fairly/making-the-transition/`, so no link breaks.
+- The episode is re-recorded with Emma's opening line naming the new subject ("getting from inherited wealth to a fair start for everyone"); rest of the script unchanged. Recorded and uploaded on the ROG 16:59 to 17:00 as `fair-start.en.mp3` (9.5 min); same `audioDate`, so podcast apps keep it in place. The feed title follows the article title.
+- Checked: build, no text left with the old title, the article page and the podcast app's YeahSight card at phone width.
+
+---
+
 ## v2.54
 
 **Nine older articles refreshed, in English and French** (owner, 2026-11-06: "publish and refresh the old articles", then "publish" on the drafts).
