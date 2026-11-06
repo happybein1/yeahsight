@@ -2,6 +2,11 @@
 kind: explainer
 title: Impact of Artificial Intelligence
 description: AI is a general-purpose technology reshaping the economy and society. Here's what it can do now, what that means economically and socially, and how to think about it clearly.
+audio: https://audio.happybein.com/yeahsight/impact-of-artificial-intelligence.en.mp3
+audioMinutes: 4
+audioBytes: 1818375
+audioSeconds: 227
+audioDate: 2026-11-06T16:29:00+01:00
 ---
 
 ## AI: A General-Purpose Technology

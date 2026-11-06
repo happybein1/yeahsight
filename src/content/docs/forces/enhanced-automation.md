@@ -2,6 +2,11 @@
 kind: explainer
 title: Enhanced Automation
 description: Automation is accelerating in pace, scope, and intelligence. Here's what's being automated, how work is likely to change over the next decade, and how to adapt.
+audio: https://audio.happybein.com/yeahsight/enhanced-automation.en.mp3
+audioMinutes: 5
+audioBytes: 2247410
+audioSeconds: 281
+audioDate: 2026-11-06T16:28:00+01:00
 ---
 
 ## The Age of Enhanced Automation

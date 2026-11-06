@@ -5,6 +5,11 @@ description: How economic systems work, their core components, and how they shap
 reading_time: "4 min"
 sidebar:
   order: 4
+audio: https://audio.happybein.com/yeahsight/economic-system.en.mp3
+audioMinutes: 4
+audioBytes: 1750039
+audioSeconds: 219
+audioDate: 2026-11-06T16:24:00+01:00
 ---
 
 

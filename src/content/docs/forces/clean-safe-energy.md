@@ -5,6 +5,11 @@ description: An overview of clean energy sources and how energy decisions affect
 reading_time: "4 min"
 sidebar:
   order: 1
+audio: https://audio.happybein.com/yeahsight/clean-safe-energy.en.mp3
+audioMinutes: 4
+audioBytes: 1684210
+audioSeconds: 210
+audioDate: 2026-11-06T16:26:00+01:00
 ---
 
 Decisions about energy — at the individual, organizational, and policy level — are among the most consequential we make. Understanding the landscape of clean energy enables better choices at every level.

@@ -5,6 +5,11 @@ description: How global resources are distributed and what fairer sharing might 
 reading_time: "4 min"
 sidebar:
   order: 4
+audio: https://audio.happybein.com/yeahsight/fair-globe-sharing.en.mp3
+audioMinutes: 3
+audioBytes: 1592259
+audioSeconds: 199
+audioDate: 2026-11-06T16:21:00+01:00
 ---
 
 

@@ -5,6 +5,11 @@ description: Understanding global land use from a per-person perspective to info
 reading_time: "4 min"
 sidebar:
   order: 1
+audio: https://audio.happybein.com/yeahsight/land-per-person.en.mp3
+audioMinutes: 4
+audioBytes: 1722662
+audioSeconds: 215
+audioDate: 2026-11-06T16:20:00+01:00
 ---
 
 
@@ -12,7 +17,7 @@ Grasping the size and complexity of Earth's surface is challenging from a human-
 
 ## Understanding Global Land Use: A Per-Person Perspective
 
-Breaking global land figures down to a per-person scale makes the numbers more tangible and easier to reason about.
+Breaking global land figures down to a per-person scale makes the numbers more tangible and easier to reason about. The per-person figures below divide each area by **10 billion people**, roughly where the world's population is expected to peak this century. Today, with about 8.2 billion people, each share is about a fifth larger: around 12,800 m² of habitable land per person.
 
 ### Earth Surface Overview
 
@@ -53,7 +58,7 @@ Breaking global land figures down to a per-person scale makes the numbers more t
 
 ## What this means in practice
 
-Each person on Earth has roughly **10,500 m²** of habitable land to share — about the size of a large city block. Of that, nearly half is used for agriculture, and of that agriculture, the vast majority supports livestock rather than direct food crops.
+In a world of 10 billion, each person would have roughly **10,500 m²** of habitable land to share (about 12,800 m² today) — about the size of a large city block. Of that, nearly half is used for agriculture, and of that agriculture, the vast majority supports livestock rather than direct food crops.
 
 This framing helps make visible the trade-offs embedded in everyday choices — particularly around diet, housing, and consumption — and connects individual decisions to planetary-scale outcomes.
 

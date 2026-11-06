@@ -5,6 +5,11 @@ description: How societies redistribute resources to reduce inequality and suppo
 reading_time: "5 min"
 sidebar:
   order: 4
+audio: https://audio.happybein.com/yeahsight/social-redistribution.en.mp3
+audioMinutes: 4
+audioBytes: 1776788
+audioSeconds: 222
+audioDate: 2026-11-06T16:25:00+01:00
 ---
 
 

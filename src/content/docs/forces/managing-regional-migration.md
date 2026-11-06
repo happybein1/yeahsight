@@ -5,6 +5,11 @@ description: Understanding migration patterns, their causes, and how societies c
 reading_time: "5 min"
 sidebar:
   order: 6
+audio: https://audio.happybein.com/yeahsight/managing-regional-migration.en.mp3
+audioMinutes: 4
+audioBytes: 2022339
+audioSeconds: 253
+audioDate: 2026-11-06T16:27:00+01:00
 ---
 
 

@@ -5,6 +5,11 @@ description: The seven core tasks every society has to perform, whatever its pol
 reading_time: "5 min"
 sidebar:
   order: 2
+audio: https://audio.happybein.com/yeahsight/societal-functions.en.mp3
+audioMinutes: 4
+audioBytes: 1997053
+audioSeconds: 250
+audioDate: 2026-11-06T16:23:00+01:00
 ---
 
 

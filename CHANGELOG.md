@@ -4,6 +4,16 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.53
+
+**Every explainer now has an Emma and Sam episode** (owner, 2026-11-06: "go for 1" on writing them, then "publish").
+- Eleven new dialog episodes, 3 to 5 min each, about 43 min in all: *Land per Person*, *Fair Globe Sharing*, *What Is Society For?*, *What Every Society Must Do*, *The Economic System*, *Social Redistribution*, *The Energy Transition*, *Managing Regional Migration*, *Enhanced Automation*, *Impact of Artificial Intelligence*, *Life After Automation*. Scripts in `tools/podcast/scripts/<article>.en.dialog.txt`, following each article's own content (no new figures); each ends with "Next time: …" naming the next episode in reading order, matching the hand-offs of the episodes already live. Recorded on the ROG 16:07 to 16:16 (Kokoro `af_heart` + `am_puck`, levelled to -16 LUFS), uploaded 16:26 to `audio.happybein.com/yeahsight/<article>.en.mp3`; `audioDate`s one minute apart in reading order (16:20 to 16:30).
+- The English feed now has 20 episodes, numbered 1 to 20 in menu order and grouped by section (The planet 3, How society works 8, Forces of change 8, Solutions 1). The HappyBein Podcast app picks them up without a change.
+- **Land per Person** (EN and FR): the per-person figures divide by 10 billion people, which the page never said. It now says so, and gives today's share (about 12,800 m² of habitable land per person at 8.2 billion). The episode says the same.
+- Checked: build, feed order and sections, the player line on the new pages.
+
+---
+
 ## v2.52
 
 **Making the Transition is one article again, with an Emma and Sam episode** (owner, 2026-11-06: "transition can be merges back to ome article", then "go" on the merged draft).

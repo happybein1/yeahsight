@@ -4,6 +4,11 @@ title: What Is Society For?
 description: What societies exist to do, the main ways of defining "a good society", and how to tell whether a society is serving its people.
 sidebar:
   order: 1
+audio: https://audio.happybein.com/yeahsight/purpose-of-society.en.mp3
+audioMinutes: 4
+audioBytes: 1955675
+audioSeconds: 244
+audioDate: 2026-11-06T16:22:00+01:00
 ---
 
 A useful starting point: a society exists to make life better for the people in it than they could make it alone.

@@ -12,7 +12,7 @@ Saisir la taille et la complexité de la surface terrestre est difficile à l'é
 
 ## Comprendre l'utilisation mondiale des terres : une perspective par personne
 
-Décomposer les chiffres mondiaux des terres à l'échelle par personne rend les chiffres plus tangibles et plus faciles à raisonner.
+Décomposer les chiffres mondiaux des terres à l'échelle par personne rend les chiffres plus tangibles et plus faciles à raisonner. Les chiffres par personne ci-dessous divisent chaque surface par **10 milliards de personnes**, à peu près le pic de population mondiale attendu au cours de ce siècle. Aujourd'hui, avec environ 8,2 milliards d'habitants, chaque part est environ un cinquième plus grande : près de 12 800 m² de terres habitables par personne.
 
 ### Vue d'ensemble de la surface terrestre
 
@@ -53,7 +53,7 @@ Décomposer les chiffres mondiaux des terres à l'échelle par personne rend les
 
 ## Ce que cela signifie en pratique
 
-Chaque personne sur Terre dispose d'environ **10 500 m²** de terres habitables à partager. La moitié est utilisée pour l'agriculture, et la grande majorité de cette agriculture soutient l'élevage plutôt que les cultures directes.
+Dans un monde de 10 milliards d'habitants, chaque personne disposerait d'environ **10 500 m²** de terres habitables à partager (environ 12 800 m² aujourd'hui). La moitié est utilisée pour l'agriculture, et la grande majorité de cette agriculture soutient l'élevage plutôt que les cultures directes.
 
 Ce cadrage aide à rendre visibles les compromis intégrés dans les choix quotidiens — notamment autour de l'alimentation, du logement et de la consommation — et connecte les décisions individuelles aux résultats à l'échelle planétaire.
 
