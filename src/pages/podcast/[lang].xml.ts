@@ -9,6 +9,19 @@ import { readFileSync } from 'node:fs';
 // the slugs in the menu in astro.config.mjs), so apps such as the HappyBein Podcast can play them in order.
 const ORDER = [...readFileSync(`${process.cwd()}/astro.config.mjs`, 'utf8').matchAll(/slug: '([^']+)'/g)].map((m) => m[1]);
 const place = (id: string) => { const i = ORDER.indexOf(id.replace(/^fr\//, '')); return i < 0 ? ORDER.length : i; };
+// v2.51: each episode also carries <category>, a short name for its menu question, so apps can group the
+// episodes in sections (the HappyBein Podcast shows them as section titles).
+const SECTIONS = {
+  en: ['', 'Needs', 'The planet', 'How society works', 'Forces of change', 'Solutions', 'Causes'],
+  fr: ['', 'Les besoins', 'La planète', 'Comment fonctionne la société', 'Les forces du changement', 'Les solutions', 'Les causes'],
+};
+const QUESTION = new Map<string, number>();
+{
+  let q = 0;
+  for (const m of readFileSync(`${process.cwd()}/astro.config.mjs`, 'utf8').matchAll(/label: ['"](\d)\. |slug: '([^']+)'/g)) {
+    if (m[1]) q = +m[1]; else if (q) QUESTION.set(m[2], q);
+  }
+}
 
 const FEEDS = {
   en: {
@@ -55,7 +68,8 @@ export const GET: APIRoute = async ({ params, site }) => {
       <enclosure url="${esc(url)}" length="${d.audioBytes}" type="audio/mpeg"/>
       <itunes:duration>${hms(d.audioSeconds!)}</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:episode>${num.get(e.id)}</itunes:episode>
+      <itunes:episode>${num.get(e.id)}</itunes:episode>${QUESTION.has(e.id.replace(/^fr\//, '')) ? `
+      <category>${esc(SECTIONS[lang][QUESTION.get(e.id.replace(/^fr\//, ''))!])}</category>` : ''}
       <itunes:episodeType>full</itunes:episodeType>
     </item>`;
   }).join('');

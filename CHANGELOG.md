@@ -4,6 +4,15 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.51
+
+**Podcast episodes grouped by section** (owner, 2026-11-06: "should articles be organized by sections?", then "go").
+- **Feed:** each item in both feeds now carries `<category>`, a short name for its menu question, read from `astro.config.mjs` (each `slug:` takes the number of the last `label: 'N. …'` above it). Names: EN Needs / The planet / How society works / Forces of change / Solutions / Causes; FR Les besoins / La planète / Comment fonctionne la société / Les forces du changement / Les solutions / Les causes. Items outside the six questions (Foresight Trends) get none.
+- The HappyBein Podcast app already shows a feed's `<category>` as section titles, so its YeahSight page now reads: The planet (1), How society works (4), Forces of change (3), Solutions (2). No app change needed.
+- Checked: built feed lists episodes 1 to 10 with the expected sections; preview of the app page with the built feed.
+
+---
+
 ## v2.50
 
 **Seven new dialog episodes, and episode numbers in reading order** (owner, 2026-11-06: "also record all podcast scripts", then "publish and move them to happybein podcast as well").
