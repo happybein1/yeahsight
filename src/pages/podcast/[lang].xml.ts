@@ -23,6 +23,18 @@ const QUESTION = new Map<string, number>();
   }
 }
 
+// v2.57 (owner, 2026-11-07, "go"): one listening program per "What can we do about…?" topic card (act/*.mdx),
+// English only for now. Ignored by podcast apps; the HappyBein Podcast reads them. Episodes by their audio file
+// name (yeahsight/<name>.en.mp3), so the app can also find the review episodes that aren't in this feed yet.
+const ACT = [
+  { id: 'climate', title: 'What can we do about climate change?', emoji: '🌡️', short: 'Climate change', episodes: ['climate-change', 'clean-safe-energy', 'plant-based-consumption'] },
+  { id: 'food', title: 'What can we do about food, animals and nature?', emoji: '🥗', short: 'Food, animals and nature', episodes: ['plant-based-consumption', 'nature-and-water', 'fair-space-sharing'] },
+  { id: 'poverty', title: 'What can we do about extreme poverty?', emoji: '🌍', short: 'Extreme poverty', episodes: ['global-health-and-poverty', 'fair-globe-sharing', 'universal-allowance'] },
+  { id: 'democracy', title: 'What can we do about democracy and information?', emoji: '🗳️', short: 'Democracy and information', episodes: ['democracy-and-information', 'how-societies-change'] },
+  { id: 'ai', title: 'What can we do about AI and big risks?', emoji: '🤖', short: 'AI and big risks', episodes: ['impact-of-artificial-intelligence', 'work-in-an-automated-world', 'big-risks'] },
+  { id: 'sharing', title: 'What can we do about unfair sharing?', emoji: '⚖️', short: 'Unfair sharing', episodes: ['social-redistribution', 'inheritance', 'fair-start'] },
+];
+
 const FEEDS = {
   en: {
     title: 'YeahSight',
@@ -73,8 +85,10 @@ export const GET: APIRoute = async ({ params, site }) => {
       <itunes:episodeType>full</itunes:episodeType>
     </item>`;
   }).join('');
+  const progs = lang === 'en' ? ACT.map((s) => `
+    <hb:program id="${s.id}" emoji="${s.emoji}" short="${esc(s.short)}" title="${esc(s.title)}" link="${feed.home}act/${s.id}/" episodes="${s.episodes.join(' ')}"/>`).join('') : '';
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:hb="https://happybein.com/podcast/ns">
   <channel>
     <title>${esc(feed.title)}</title>
     <link>${feed.home}</link>
@@ -89,7 +103,7 @@ export const GET: APIRoute = async ({ params, site }) => {
     <itunes:category text="Society &amp; Culture"/>
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:type>episodic</itunes:type>${items}
+    <itunes:type>episodic</itunes:type>${progs}${items}
   </channel>
 </rss>
 `;

@@ -397,3 +397,29 @@ a.yv-card:hover, .yv-card:hover { transform: translateY(-3px); border-color: var
 
 /* v2.46: topics in the menu that YeahSight will likely cover later: shown, not clickable. */
 .sidebar-content a.yv-planned, a.yv-planned { pointer-events: none; opacity: .5; font-style: italic; }
+
+/* v2.57: "What can we do about…?" topic cards on the home page and their pages (act/*.mdx), same look as YeahCore's situation cards */
+.sl-markdown-content .yv-sits { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: .75rem; margin-top: 1.25rem; }
+.sl-markdown-content .yv-sits * { margin: 0; }
+.sl-markdown-content a.yv-sit { display: flex; flex-direction: column; gap: .45rem; padding: 1rem .95rem; border-radius: 16px; background: var(--yv-card); border: 1.5px solid var(--sl-color-hairline); text-decoration: none; color: inherit; transition: transform .18s ease, border-color .18s ease; }
+.sl-markdown-content a.yv-sit:hover { transform: translateY(-2px); border-color: var(--sl-color-accent); }
+.yv-sit-e { font-size: 1.7rem; line-height: 1; }
+.yv-sit-t { font-weight: 700; font-size: 1rem; color: var(--sl-color-white); line-height: 1.3; }
+.yv-sits-wrap { container-type: inline-size; }
+@container (max-width: 345px) {
+  .sl-markdown-content .yv-sits { grid-template-columns: 1fr; gap: .5rem; }
+  .sl-markdown-content a.yv-sit { flex-direction: row; align-items: center; gap: .75rem; padding: .7rem .9rem; border-radius: 12px; }
+  .yv-sit-e { font-size: 1.4rem; }
+}
+.sl-markdown-content .yv-back a { font-weight: 700; text-decoration: none; color: var(--sl-color-accent); }
+.sl-markdown-content .yv-lead { font-size: 1.08rem; color: var(--sl-color-gray-2); }
+.sl-markdown-content h2.yv-half { font-size: 1.25rem; margin-top: 1.8rem; }
+.sl-markdown-content .yv-path { display: flex; flex-direction: column; gap: .8rem; margin-top: 1rem; }
+.sl-markdown-content .yv-path * { margin: 0; }
+.yv-pstep { padding: 1rem 1.1rem; border-radius: 16px; background: var(--yv-card); border: 1.5px solid var(--sl-color-hairline); display: flex; flex-direction: column; gap: .55rem; align-items: flex-start; }
+.yv-pt { font-weight: 800; color: var(--sl-color-white); font-size: 1.05rem; display: flex; align-items: center; gap: .55rem; }
+.yv-n { display: inline-grid; place-items: center; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--sl-color-accent); color: var(--sl-color-black); font-size: .85rem; font-weight: 800; }
+.yv-pstep p { color: var(--sl-color-gray-2); line-height: 1.5; }
+.sl-markdown-content a.yv-btn { display: inline-block; padding: .45rem 1rem; border-radius: 999px; background: var(--sl-color-accent); color: var(--sl-color-black); font-weight: 700; font-size: .92rem; text-decoration: none; }
+.sl-markdown-content a.yv-btn--ghost { background: transparent; color: var(--sl-color-accent); border: 1.5px solid var(--sl-color-accent); }
+.sl-markdown-content .yv-related { margin-top: 1.4rem; font-size: .9rem; color: var(--sl-color-gray-3); }

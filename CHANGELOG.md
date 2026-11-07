@@ -4,6 +4,18 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.57
+
+**"What can we do about…?": six topic cards, each with what I can do and what we can do as a society** (owner, 2026-11-07: "would it make sense for yeahsight to also offer cards like what to do for society about x or y?", "it could be what can i do about but also what can we as a society do", "how would the podcast be organized?", "go", preview, then "publish and update to Work in an Automated World").
+- Home page: a new section right under the hero, above "The story, in six questions" (on a phone the six questions take several screens): 🌡️ Climate change, 🥗 Food, animals and nature, 🌍 Extreme poverty, 🗳️ Democracy and information, 🤖 AI and big risks, ⚖️ Unfair sharing. Same card look as YeahCore's situation cards (styles copied into `custom.css`).
+- One page per topic (`act/*.mdx`, not in the menu, "‹ All topics" back link), in two halves. 🙋 What I can do: Understand (the article), Try today, Keep it going (with one or two organisations: Citizens' Climate Lobby and Climate Action Network Europe; The Humane League; GiveWell and the Against Malaria Foundation; Sortition Foundation and Democracy R&D; 80,000 Hours; Tax Justice Network and BIEN). 🤝 What we can do as a society: The idea (the HappyBein proposal or article), What it would change, How to push for it. Figures only from the published articles (1.3 °C, just over 40% low-carbon electricity, food a quarter to a third of emissions, livestock about three quarters of farmland for under a fifth of calories, 2.1 billion without safe water, 670 million without electricity, taxes and transfers cut inequality by about a quarter), plus Ireland's citizens' assemblies.
+- Each page ends with a link to its listening program in the HappyBein Podcast app (`?prog=act-<id>`). The English feed lists the six programs as `<hb:program>` (episodes by audio file name, so the app also finds review episodes): Climate Change → The Energy Transition → Plant-Based Consumption; Plant-Based Consumption → Nature and Water → Fair Space Sharing; Global Health and Extreme Poverty → Fair Globe Sharing → Universal Allowance; Democracy and Reliable Information → How Societies Change; Impact of AI → Work in an Automated World → Big Risks; Social Redistribution → Inheritance → From Inherited Wealth to a Fair Start. Podcast apps ignore them (podcast v1.13 shows them).
+- Episodes still in review (Plant-Based Consumption, Fair Space Sharing, Universal Allowance, Inheritance) and the draft Work in an Automated World only show on internal browsers until they are published, so listeners for now get 1 to 3 episodes per program.
+- English only for now.
+- Checked: build, the home page and the climate page at phone width, the feed's six programs (none in the French feed).
+
+---
+
 ## v2.56
 
 **All 28 English episodes re-recorded at an even pace** (owner, 2026-11-07: "some podcast are speaking way too fast like what society is for", "it looks like the speed … fluctuated during the recording", then "it is better yes" on the sentence-by-sentence sample, then "publish").
