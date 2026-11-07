@@ -6,9 +6,9 @@ reading_time: "5 min"
 sidebar:
   order: 1
 audio: https://audio.happybein.com/yeahsight/clean-safe-energy.en.mp3
-audioMinutes: 4
-audioBytes: 1684210
-audioSeconds: 210
+audioMinutes: 3
+audioBytes: 1485888
+audioSeconds: 186
 audioDate: 2026-11-06T16:26:00+01:00
 ---
 

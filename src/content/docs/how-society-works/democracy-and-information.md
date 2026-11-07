@@ -5,8 +5,8 @@ description: How societies make shared choices, why that depends on information 
 reading_time: "3 min"
 audio: https://audio.happybein.com/yeahsight/democracy-and-information.en.mp3
 audioMinutes: 4
-audioBytes: 2065598
-audioSeconds: 258
+audioBytes: 1823599
+audioSeconds: 228
 audioDate: 2026-11-06T14:33:00+01:00
 ---
 

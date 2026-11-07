@@ -4,6 +4,17 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.56
+
+**All 28 English episodes re-recorded at an even pace** (owner, 2026-11-07: "some podcast are speaking way too fast like what society is for", "it looks like the speed … fluctuated during the recording", then "it is better yes" on the sentence-by-sentence sample, then "publish").
+- Cause: Kokoro's speaking rate varies a lot from line to line (152 to 327 words per minute at speed 1.0) and also drifts inside long lines (one line's two halves measured 261 vs 187 wpm), so some episodes sounded rushed and uneven.
+- Fix (`make_dialog_even2.py` on the ROG): each sentence is synthesised on its own and its speed adjusted until it lands at 205 wpm (speed kept between 0.6 and 1.3, up to 3 passes), trimmed to its speech, and joined with a fixed 0.3 s gap. Pauses between lines are unchanged. Scripts unchanged; voices unchanged (Emma af_heart, Sam am_puck).
+- Rejected on the way: one global slower speed (0.92), 175 wpm per line ("too slow now"), 190 and 205 wpm per line (still sped up within long lines).
+- Recorded on the ROG 10:56 to 11:55 (the 20 live episodes and the 8 review episodes), uploaded 12:58 under the same addresses. Episodes are now 3 to 6 minutes (From Inherited Wealth to a Fair Start 8:53, The Societal Systems 6:14).
+- `audioBytes`, `audioSeconds` and `audioMinutes` updated in the 20 articles so the feed's lengths and durations match; `audioDate` kept, so podcast apps keep episodes in place. The podcast app's `review.json` got the new sizes and durations for the 8 review episodes (data only, fetched fresh, no app version change).
+
+---
+
 ## v2.55
 
 **Making the Transition is renamed "From Inherited Wealth to a Fair Start"** (owner, 2026-11-06: "can we make the name of the transition article more specific?", then "go").

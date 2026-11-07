@@ -5,8 +5,8 @@ description: The living systems and fresh water every economy depends on, how mu
 reading_time: "4 min"
 audio: https://audio.happybein.com/yeahsight/nature-and-water.en.mp3
 audioMinutes: 4
-audioBytes: 2125157
-audioSeconds: 266
+audioBytes: 1992037
+audioSeconds: 249
 audioDate: 2026-11-06T14:32:00+01:00
 ---
 

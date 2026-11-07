@@ -4,9 +4,9 @@ title: Global Health and Extreme Poverty
 description: How far the world has come in health and poverty, who is still left behind, and why progress there is some of the cheapest good there is.
 reading_time: "4 min"
 audio: https://audio.happybein.com/yeahsight/global-health-and-poverty.en.mp3
-audioMinutes: 5
-audioBytes: 2173222
-audioSeconds: 272
+audioMinutes: 4
+audioBytes: 1911580
+audioSeconds: 239
 audioDate: 2026-11-06T14:34:00+01:00
 ---
 

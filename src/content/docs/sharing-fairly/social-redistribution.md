@@ -6,9 +6,9 @@ reading_time: "5 min"
 sidebar:
   order: 4
 audio: https://audio.happybein.com/yeahsight/social-redistribution.en.mp3
-audioMinutes: 4
-audioBytes: 1776788
-audioSeconds: 222
+audioMinutes: 3
+audioBytes: 1584945
+audioSeconds: 198
 audioDate: 2026-11-06T16:25:00+01:00
 ---
 

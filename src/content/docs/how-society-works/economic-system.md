@@ -6,9 +6,9 @@ reading_time: "5 min"
 sidebar:
   order: 4
 audio: https://audio.happybein.com/yeahsight/economic-system.en.mp3
-audioMinutes: 4
-audioBytes: 1750039
-audioSeconds: 219
+audioMinutes: 3
+audioBytes: 1469797
+audioSeconds: 184
 audioDate: 2026-11-06T16:24:00+01:00
 ---
 

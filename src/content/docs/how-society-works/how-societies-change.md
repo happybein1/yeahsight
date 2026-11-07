@@ -4,9 +4,9 @@ title: How Societies Change
 description: Societies change slowly for long periods and then suddenly. What drives big changes, why some last, and what that means for the changes ahead.
 reading_time: "4 min"
 audio: https://audio.happybein.com/yeahsight/how-societies-change.en.mp3
-audioMinutes: 5
-audioBytes: 2275831
-audioSeconds: 284
+audioMinutes: 4
+audioBytes: 1978035
+audioSeconds: 247
 audioDate: 2026-11-06T14:35:00+01:00
 ---
 

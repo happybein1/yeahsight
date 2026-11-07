@@ -4,9 +4,9 @@ title: Who Keeps Society Running?
 description: The four kinds of actors that carry out society's work (the state, markets, communities and families), the main public systems, and how they depend on each other.
 reading_time: "5 min"
 audio: https://audio.happybein.com/yeahsight/societal-systems.en.mp3
-audioMinutes: 7
-audioBytes: 3265350
-audioSeconds: 408
+audioMinutes: 6
+audioBytes: 2992213
+audioSeconds: 374
 audioDate: 2026-11-06T14:01:00+01:00
 ---
 
