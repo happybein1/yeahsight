@@ -44,4 +44,11 @@ L'AUBF s'appuie sur deux principes simples :
 - Fournit dignité et sécurité à tous les résidents
 - Crée une base stable pour la prise de risques, l'entrepreneuriat et l'éducation
 
+## Questions et défis clés
+
+- **Financement** : une grande partie peut venir d'argent qui existe déjà. Une part de chaque salaire et de chaque pension est versée sous forme d'allocation plutôt qu'en argent ordinaire, comme le font déjà les titres-restaurant en France et les chèques-repas en Belgique. La plupart des gens dépensent déjà plus que l'allocation pour leurs besoins de base, ils n'y perdent donc presque rien. La fusion des budgets d'aide sociale actuels couvre les personnes sans salaire ni pension à convertir : enfants, étudiants, chômeurs. Les impôts sur les grandes fortunes et les taxes sur l'automatisation ne comblent que l'écart restant.
+- **Risque d'inflation** : cela pourrait-il faire monter les prix des biens de base ? Une conception soignée des catégories de dépenses peut limiter ce risque.
+- **Incitation au travail** : les programmes pilotes de revenu garanti suggèrent qu'il ne réduit pas sensiblement la volonté de travailler.
+- **Faisabilité politique** : il faut construire une large coalition et avancer par étapes.
+
 Voir aussi : [Le système économique](/fr/how-society-works/economic-system) et [Partage équitable du monde](/fr/sharing-fairly/fair-globe-sharing).

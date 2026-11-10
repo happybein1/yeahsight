@@ -56,7 +56,7 @@ The UBNA builds on two simple principles:
 
 ## Key Questions and Challenges
 
-- **Funding**: How is it financed? Options include wealth taxes, automation levies, and consolidation of existing welfare budgets.
+- **Funding**: Much of it can come from money that already exists. Part of every salary and pension is paid as allowance instead of ordinary money, the way meal vouchers already work in France and Belgium. Most people spend more than the allowance on basic needs anyway, so they lose almost nothing. Merging today's welfare budgets covers the people who have no salary or pension to swap: children, students, the unemployed. Wealth taxes and automation levies only fill the gap that remains.
 - **Inflation risk**: Could it drive up prices for basic goods? Careful design of spending categories can mitigate this.
 - **Work incentives**: Evidence from pilot programs suggests guaranteed income does not significantly reduce willingness to work.
 - **Political feasibility**: Requires broad coalition-building and phased implementation.

@@ -4,6 +4,16 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.58
+
+**Universal Allowance: who pays?** (owner, 2026-11-10, while reviewing the episode: "the way it can be funded would be simply to swap a part of people salaries or retirement allowances to this Universal Allowance. Then no much extra fund needed." → recommended putting it first, with its limit → draft sent → "Go ahead").
+- `sharing-fairly/universal-allowance.md`, the Funding point: much of it can come from money that already exists. Part of every salary and pension is paid as allowance instead of ordinary money, like meal vouchers in France and Belgium; most people already spend more than the allowance on basic needs, so they lose almost nothing. Merging today's welfare budgets covers people with no salary or pension (children, students, the unemployed); wealth taxes and automation levies only fill the remaining gap.
+- `fr/sharing-fairly/universal-allowance.md`: the French page never had the "Key questions and challenges" section; added in full ("Questions et défis clés"), with the new funding point (titres-restaurant, chèques-repas).
+- Podcast script (`tools/podcast/scripts/universal-allowance.en.dialog.txt`, review episode, not live): Sam's one answer to "Who pays?" becomes a short exchange (2 lines → 6): the salary and pension swap, "Wouldn't I lose out?", and people with no income. To be re-recorded after the French YeahCore run on the ROG ends, then sent to the owner.
+- Checked: build.
+
+---
+
 ## v2.57
 
 **"What can we do about…?": six topic cards, each with what I can do and what we can do as a society** (owner, 2026-11-07: "would it make sense for yeahsight to also offer cards like what to do for society about x or y?", "it could be what can i do about but also what can we as a society do", "how would the podcast be organized?", "go", preview, then "publish and update to Work in an Automated World").
