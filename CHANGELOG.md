@@ -4,6 +4,17 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.61
+
+**15 English episodes re-recorded: Sam stops quoting "the article", and today's content changes** (owner, 2026-11-10: "sam often refers to the article to motivate some points, but is there a way to introduce them more logically than referring to the article?" → recommended Sam saying it in his own words → "Go", change list sent; "You may ask rog to pause french translation to manage these higher priority changes"; then "Publish").
+- Scripts: 21 lines in 15 episodes no longer say "the article" ("The article gives four principles" → "There are four principles", "what the article calls human hubs" → "what we could call human hubs", Emma "Where does the article start?" → "Where do we even start?"…). Kept: the closing line and 2 lines in Vision & Roadmap about how the articles fit together. Plus the content changes of v2.58 (Universal Allowance funding), v2.59 (Inheritance: all givers together, hidden gifts) and v2.60 (economic region; the fund pays the rest of the allowance).
+- Recorded on the ROG 18:43 to 19:19 with Kokoro (Emma af_heart, Sam am_puck), sentence by sentence at 205 wpm (`make_dialog_even2.py`), the French VoxCPM run paused meanwhile (18:41 to 19:12). Uploaded under the same addresses.
+- 10 live episodes (Clean, Safe Energy; Enhanced Automation; Fair Globe Sharing; From Inherited Wealth to a Fair Start; Global Health and Poverty; Impact of AI; Land per Person; Life After Automation; Managing Regional Migration; The Purpose of Society): `audioBytes`, `audioSeconds`, `audioMinutes` updated, `audioDate` kept so podcast apps keep them in place. 5 review episodes (Plant-Based Consumption, Fair Space Sharing, Universal Allowance, Inheritance, Where Help Counts Most): sizes and durations in the podcast app's `review.json`.
+- On the way: the owner played a VoxCPM English test in the car ("quality is better but the voices are a little more boring"): English stays on Kokoro for now, VoxCPM later.
+- Checked: build; the audio host serves the new files.
+
+---
+
 ## v2.60
 
 **Universal Allowance: its economic region; Fair Start: the fund pays the rest** (owner, 2026-11-10: "Did the previous change on funding of universal allowance have an impact [on] article and podcast 24?" → From Inherited Wealth to a Fair Start said the fund pays for the allowance; then "the universal allowance favor local goods … this should also help the economy" → already in, recommended a trade-rules line; owner: "I would not refer to that rule, but maybe mention the allowance can be used in the reference economic region" → wording proposed → "Yes go").

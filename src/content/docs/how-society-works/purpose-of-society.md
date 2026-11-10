@@ -6,8 +6,8 @@ sidebar:
   order: 1
 audio: https://audio.happybein.com/yeahsight/purpose-of-society.en.mp3
 audioMinutes: 4
-audioBytes: 1885666
-audioSeconds: 236
+audioBytes: 1882741
+audioSeconds: 235
 audioDate: 2026-11-06T16:22:00+01:00
 ---
 

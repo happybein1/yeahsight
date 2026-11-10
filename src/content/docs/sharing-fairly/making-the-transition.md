@@ -5,8 +5,8 @@ description: "How a society could move from inherited financial unfairness to a 
 reading_time: "12 min"
 audio: https://audio.happybein.com/yeahsight/fair-start.en.mp3
 audioMinutes: 9
-audioBytes: 4265108
-audioSeconds: 533
+audioBytes: 4302724
+audioSeconds: 538
 audioDate: 2026-11-06T15:57:00+01:00
 sidebar:
   order: 6

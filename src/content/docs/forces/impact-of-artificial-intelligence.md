@@ -4,8 +4,8 @@ title: Impact of Artificial Intelligence
 description: "Artificial intelligence as a general-purpose technology: what it can do today, how it changes the economy and society, and how to think about it clearly."
 audio: https://audio.happybein.com/yeahsight/impact-of-artificial-intelligence.en.mp3
 audioMinutes: 3
-audioBytes: 1595185
-audioSeconds: 199
+audioBytes: 1583064
+audioSeconds: 198
 audioDate: 2026-11-06T16:29:00+01:00
 ---
 

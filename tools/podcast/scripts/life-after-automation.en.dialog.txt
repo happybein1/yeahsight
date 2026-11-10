@@ -6,8 +6,8 @@ E: Let's start with the near future. How does our relationship with AI change?
 S: At first, AI makes something and a person checks and approves it. A partnership. As systems get more reliable, it's tempting to hand over more. So the likely path is from doing to overseeing: people spend less time on the work itself and more time checking it, catching errors, and staying ready to step in.
 E: Can rules keep people in control?
 S: In principle. But making those rules hold across companies, industries and countries is a hard coordination problem, and there's no guarantee it will work everywhere.
-E: The article has an interesting idea about backup skills.
-S: Yes. Overseeing doesn't mean we can forget how the work is done. If a system fails after years of running a task, through an outage, an attack, a bad update or a strange case, someone must be able to take over. So we need what the article calls AI backup training: people who really know how to fly the plane, treat the patient or run the system by hand, even if they rarely need to.
+E: Tell me about backup skills. That's an interesting idea.
+S: Yes. Overseeing doesn't mean we can forget how the work is done. If a system fails after years of running a task, through an outage, an attack, a bad update or a strange case, someone must be able to take over. So we need what we could call AI backup training: people who really know how to fly the plane, treat the patient or run the system by hand, even if they rarely need to.
 E: Otherwise?
 S: Otherwise skills quietly fade, until the day they're needed most. Treating core skills as unnecessary once AI takes over trades a small saving now for a much bigger risk later.
 E: Now jump ahead. Most work is automated. What then?

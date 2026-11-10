@@ -11,7 +11,7 @@ S: Turbines turn moving air into electricity. Wind on land is among the cheapest
 E: Hydropower?
 S: Electricity from moving water, and the largest source of renewable electricity in the world. It's reliable and can be turned up or down, which helps keep the grid stable. But big dams have serious effects on nature and on the people living nearby, and in many regions the good sites are already used.
 E: And nuclear. Always a debate.
-S: The article lists it as clean in the sense of emissions: over its whole life, nuclear produces very little greenhouse gas, and it gives steady, controllable power. The challenges are real too: high building costs, long construction times, managing the waste, and public trust.
+S: It counts as clean in the sense of emissions: over its whole life, nuclear produces very little greenhouse gas, and it gives steady, controllable power. The challenges are real too: high building costs, long construction times, managing the waste, and public trust.
 E: So no perfect source.
 S: No. Each has trade-offs, which is why most plans combine several, plus storage and stronger grids.
 E: What can one person do?

@@ -7,7 +7,7 @@ S: Traditionally, the routine, predictable, well-defined ones, physical or menta
 E: But that line is moving.
 S: Fast, especially with AI. Knowledge work built on pulling information together, like consulting, finance or diagnostics, is exposed earlier than that old pattern suggests. Because AI is becoming better at parts of it, not just cheaper or faster.
 E: What does that mean for jobs?
-S: A large share of today's jobs contain tasks that can be automated. That doesn't mean the jobs vanish, but many will change a lot. Office and service work is usually hit first, which can mean less demand for some roles and pressure on wages. Physical work follows more slowly, because robots spread more slowly. But once robotics is ready for a given task, the article estimates jobs in transport, manufacturing or skilled trades could shift within roughly five to ten years. That's a much shorter time to adjust than past changes allowed.
+S: A large share of today's jobs contain tasks that can be automated. That doesn't mean the jobs vanish, but many will change a lot. Office and service work is usually hit first, which can mean less demand for some roles and pressure on wages. Physical work follows more slowly, because robots spread more slowly. But once robotics is ready for a given task, jobs in transport, manufacturing or skilled trades could shift within roughly five to ten years. That's a much shorter time to adjust than past changes allowed.
 E: Doesn't automation also create new jobs?
 S: Historically, about as many as it removed. But with a delay, and the new jobs need different skills. The cost of that gap tends to fall on the workers with the fewest alternatives.
 E: There's also an effect on prices.
@@ -15,7 +15,7 @@ S: Yes, and it's often overlooked. When machines produce goods and services more
 E: That sounds like good news.
 S: Partly. It depends which costs fall. Housing and health care weigh much more on living costs than electronics, and they've resisted automation's price drops so far. So cheaper goods alone won't make up for less paid work.
 E: So how might work end up being shared?
-S: The article sees three forces, running side by side. First, concentration. Employers tend to prefer fewer workers who are good with automation, rather than spreading work over more people. Left alone, you get a smaller group working full time, while others compete for fewer jobs at lower wages.
+S: I see three forces, running side by side. First, concentration. Employers tend to prefer fewer workers who are good with automation, rather than spreading work over more people. Left alone, you get a smaller group working full time, while others compete for fewer jobs at lower wages.
 E: Second?
 S: Choosing to work less. If living costs fall enough, some people may simply decide to work fewer hours, because they need less. Not everyone, but those with some cushion.
 E: And third?

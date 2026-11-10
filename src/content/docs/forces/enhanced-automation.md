@@ -4,8 +4,8 @@ title: Enhanced Automation
 description: "How machines and AI are taking on more of our work, which jobs change first, why prices may fall, how work could end up being shared, and how people, organisations and governments can adapt."
 audio: https://audio.happybein.com/yeahsight/enhanced-automation.en.mp3
 audioMinutes: 4
-audioBytes: 2013144
-audioSeconds: 252
+audioBytes: 2004367
+audioSeconds: 251
 audioDate: 2026-11-06T16:28:00+01:00
 ---
 

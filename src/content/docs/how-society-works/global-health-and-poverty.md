@@ -5,7 +5,7 @@ description: How far the world has come in health and poverty, who is still left
 reading_time: "4 min"
 audio: https://audio.happybein.com/yeahsight/global-health-and-poverty.en.mp3
 audioMinutes: 4
-audioBytes: 1911580
+audioBytes: 1911371
 audioSeconds: 239
 audioDate: 2026-11-06T14:34:00+01:00
 ---

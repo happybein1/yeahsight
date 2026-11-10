@@ -1,7 +1,7 @@
 E: Welcome to YeahSight, from HappyBein, where we look at how society works and where it's heading. I'm Emma, and today Sam is here to talk about getting from inherited wealth to a fair start for everyone. Hi Sam.
 S: Hi Emma, good to be here.
 E: This one is a proposal, not just an explanation. What's the question?
-S: Other articles describe where we'd like to go: basic needs guaranteed for everyone, a fairer start for each generation, and the planet shared within its limits. This one asks the harder question: how do we get there from here?
+S: Other proposals describe where we'd like to go: basic needs guaranteed for everyone, a fairer start for each generation, and the planet shared within its limits. This one asks the harder question: how do we get there from here?
 E: And where is "here"?
 S: A world where the richest ten percent own about three quarters of all wealth, and the poorer half owns about two percent.
 E: So why not just fix it?
@@ -23,7 +23,7 @@ S: Announce everything early, many years in advance, so nobody's plans are destr
 E: Meaning?
 S: Start with new money: inheritances, land that gains value without any effort from its owner, and pollution. Only later, and gradually, touch fortunes that already exist.
 E: And where does the money go?
-S: Into a common fund people can see. It pays for the basic-needs allowance and a starting capital for every young adult, for education, a first home or a business. Not into the general budget, where nobody sees what it pays for.
+S: Into a common fund people can see. It pays for the part of the basic-needs allowance that salaries, pensions and welfare budgets don't cover, and a starting capital for every young adult, for education, a first home or a business. Not into the general budget, where nobody sees what it pays for.
 E: What about the problem of fortunes simply leaving?
 S: There's a simple rule. If something stays put, like land, buildings or natural resources, one country can tax it alone. If money can move with one click, a group of countries acts together.
 E: So walk me through the three phases.
@@ -35,7 +35,7 @@ S: Roughly years five to twenty, with a group of countries. Income from wealth i
 E: And family farms or businesses?
 S: They get a path to pass on the business itself, for example paying over many years out of its profits, like the German levy.
 E: And phase three?
-S: Years twenty to forty. The cap reaches its final level. People can still inherit a meaningful amount, and personal belongings stay in families. The fund, now large, pays for everyone's allowance and starting capital. What you own then reflects mainly your own life and work, not the luck of being born into a rich family.
+S: Years twenty to forty. The cap reaches its final level. People can still inherit a meaningful amount, and personal belongings stay in families. The fund, now large, pays for the rest of everyone's allowance and their starting capital. What you own then reflects mainly your own life and work, not the luck of being born into a rich family.
 E: Let's come back to competition. What if one country goes first?
 S: It can, without losing. It starts with what can't leave. And from the very day the plan is announced, there are rules for leaving: people who move away pay tax on the gains they built up here, and the rules follow them for ten years. Germany, France and Norway already do versions of this.
 E: And heirs?

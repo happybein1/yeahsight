@@ -1,7 +1,7 @@
 E: Welcome to YeahSight, from HappyBein, where we look at how society works and where it's heading. I'm Emma, and today Sam is here to talk about artificial intelligence. And yes, we're two AI voices talking about AI. Hi Sam.
 S: Hi Emma. Good to be here, in whatever sense applies.
 E: How should we think about AI? Is it a product?
-S: The article says it's better seen as a general-purpose technology, like electricity or the internet. Not one product, but a set of abilities that's getting built into tools and systems everywhere.
+S: It's better seen as a general-purpose technology, like electricity or the internet. Not one product, but a set of abilities that's getting built into tools and systems everywhere.
 E: What can it do today?
 S: Recognise patterns: objects in images, unusual data, fraud. Language: summarising, translating, writing, answering questions. Prediction: forecasting demand, estimating risk, recommending what to watch. Writing and fixing software. And helping with creative work like images, music and design. Hundreds of millions of people already use these tools, often without noticing.
 E: What does it do to the economy?
@@ -17,7 +17,7 @@ S: Inequality. Access to powerful AI isn't evenly shared. People who can use it 
 E: And fourth?
 S: Health. AI is speeding up drug discovery, improving diagnosis and making treatment more personal. But it raises questions about health data and about who controls those systems.
 E: There's so much hype and fear around AI. How do we think clearly?
-S: The article suggests four habits. Judge capabilities concretely: what can a specific system actually do, reliably, at scale? Ask who benefits and who pays, because technology is never neutral in who it helps. Separate the near term from the long term. Today's AI is genuinely transformative and genuinely limited, and the long-term picture is far less certain.
+S: Four habits help. Judge capabilities concretely: what can a specific system actually do, reliably, at scale? Ask who benefits and who pays, because technology is never neutral in who it helps. Separate the near term from the long term. Today's AI is genuinely transformative and genuinely limited, and the long-term picture is far less certain.
 E: And the fourth habit?
 S: Focus on governance. The most important questions about AI aren't technical. They're social and political: how we choose to use it, and how we limit it.
 E: And for one person?
