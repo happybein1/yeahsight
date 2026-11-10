@@ -4,6 +4,17 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.59
+
+**Inheritance: many rich givers, and hidden gifts** (owner, 2026-11-10: "what if a person is within a rich family and surrounding and therefore would get a lot of donations from multiple people that are rich?" → explained the cap already counts everything one person receives, and recommended saying so plus a hidden-gifts point; owner: "Hidden gifts will be hard to measure or account for" → recommended counting only large transfers with a paper trail → "Go", draft sent → "Ok").
+- `sharing-fairly/inheritance.md`, proposal list: new point after "Because the cap applies to each person who receives": it works the other way round too, the cap counts what a person receives from everyone combined, so many wealthy relatives still add up to one cap.
+- "Points to Work Through": new **Hidden gifts** point after Avoidance: a free flat, paid expenses or a job in the family company can't all be measured, so everyday family help stays free (meals, holidays, paying for studies); only large transfers that already leave a trace count (property, company shares and trusts, large loans never repaid), as tax systems already count a free company car or flat as a benefit; the cap won't remove every difference, but stops very large fortunes passing on untouched.
+- `fr/sharing-fairly/inheritance.md`: the same two points in French ("Les dons cachés").
+- Podcast script (review episode, not live): one sentence added to Sam's "per person who receives" answer ("ten rich relatives still add up to one cap") and a new 4-line exchange on hidden gifts after the one about moving money abroad. Re-recorded the same evening with the 14-episode batch; sent to the owner for review.
+- Checked: build.
+
+---
+
 ## v2.58
 
 **Universal Allowance: who pays?** (owner, 2026-11-10, while reviewing the episode: "the way it can be funded would be simply to swap a part of people salaries or retirement allowances to this Universal Allowance. Then no much extra fund needed." → recommended putting it first, with its limit → draft sent → "Go ahead").

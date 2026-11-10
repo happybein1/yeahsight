@@ -43,6 +43,7 @@ The proposal is to **cap what each person can receive** in their lifetime, throu
 - Anything above the cap goes to a common fund rather than to the heir.
 - That fund finances what every person needs to start and live well: a **starting capital** for each young adult, for education, a first home or a business, alongside the [Universal Allowance](/sharing-fairly/universal-allowance) for basic needs.
 - Because the cap applies to each person who receives, someone can leave something to many people (children, nieces and nephews, friends, godchildren), each within the cap. This also gives people without children a fair way to pass on what they built, and it spreads wealth widely instead of concentrating it.
+- It works the other way round too: the cap counts what a person receives from everyone combined. Someone with many wealthy relatives still can't receive more than one cap in total.
 - Gifts to charities and other public-benefit organisations stay allowed, so people can keep supporting the causes they care about.
 - Personal belongings with sentimental value (photos, letters, family objects) remain within families.
 - Large gifts during life count towards the same cap, so the rule can't be avoided by giving early.
@@ -62,6 +63,7 @@ A change of this size raises real questions:
 - **Family attachment**: many people work hard precisely to secure their children's future. The cap leaves room for that, and a fair starting capital for everyone adds a new kind of security rather than just removing one.
 - **Family businesses and farms**: these need a transition path so that working enterprises aren't broken up, for example paying what is due over many years out of the business's profits.
 - **Avoidance**: moving assets abroad or into companies would need to be addressed, ideally through international coordination, for example at EU level.
+- **Hidden gifts**: a rich family can also help without giving anything on paper: a flat to live in for free, paid expenses, a job in the family company. Measuring every such advantage would be impossible and intrusive, so everyday family help stays free, as it is today: meals, holidays, paying for studies. Only large transfers that already leave a trace count towards the cap: property (land register), company shares and trusts (public registers), and large loans that are never repaid. Many tax systems already count a free company car or flat as a taxable benefit. The cap won't remove every difference between families, but it stops very large fortunes from passing on untouched.
 - **Trust in public institutions**: redistribution only works if people trust that the fund is managed transparently and fairly.
 
 The cap can start generous and come down gradually on a published schedule, so people have time to plan. [From Inherited Wealth to a Fair Start](/sharing-fairly/making-the-transition/) describes the order and pace.
