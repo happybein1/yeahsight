@@ -4,6 +4,14 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.63
+
+**"Listen in a row" links name YeahCast** (owner, 2026-11-10: the HappyBein Podcast app renamed YeahCast, "go").
+- The 6 `act/*.mdx` pages: the program link opens `yeahcast.happybein.com/?prog=act-<id>` and reads "in the YeahCast app".
+- Checked: build.
+
+---
+
 ## v2.62
 
 **The 8 review episodes published: 3 new articles, 5 existing articles get their episode** (owner, 2026-11-10: "I reviewed them and they can be published").
