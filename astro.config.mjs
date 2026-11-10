@@ -121,6 +121,24 @@ export default defineConfig({
                             items: [
                                 { label: 'Universal Allowance', translations: { fr: 'Allocation universelle' }, slug: 'sharing-fairly/universal-allowance' },
                                 { label: 'Inheritance', translations: { fr: 'Héritage' }, slug: 'sharing-fairly/inheritance' },
+                            ],
+                        },
+                        // v2.62 (owner, 2026-11-10: "they can be published"): the two new proposals, then the transition
+                        // article on its own as the closing step (owner agreed Fair Start closes Solutions).
+                        {
+                            label: 'People, work and technology',
+                            translations: { fr: 'Les gens, le travail et la technologie' },
+                            collapsed: false,
+                            items: [
+                                { label: 'Work in an Automated World', translations: { fr: 'Le travail dans un monde automatisé' }, slug: 'sharing-fairly/work-in-an-automated-world' },
+                                { label: 'People Migration That Works', translations: { fr: 'Une migration humaine qui fonctionne' }, slug: 'sharing-fairly/migration-that-works' },
+                            ],
+                        },
+                        {
+                            label: 'Getting there',
+                            translations: { fr: 'Comment y arriver' },
+                            collapsed: false,
+                            items: [
                                 { label: 'From Inherited Wealth to a Fair Start', translations: { fr: 'De la richesse héritée à un départ équitable' }, slug: 'sharing-fairly/making-the-transition' },
                             ],
                         },
@@ -132,6 +150,7 @@ export default defineConfig({
                     collapsed: false,
                     items: [
                         { label: 'Overview', translations: { fr: "Vue d'ensemble" }, slug: 'questions/6-causes' },
+                        { label: 'Where Help Counts Most', translations: { fr: "Là où l'aide compte le plus" }, slug: 'where-help-counts-most' },
                         { label: 'Vision & Roadmap', translations: { fr: 'Vision et feuille de route' }, slug: 'vision-roadmap' },
                         { label: "Who's Working on This", translations: { fr: 'Qui agit déjà' }, slug: 'sharing-fairly/who-is-working-on-this' },
                     ],

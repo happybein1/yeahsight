@@ -4,6 +4,20 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.62
+
+**The 8 review episodes published: 3 new articles, 5 existing articles get their episode** (owner, 2026-11-10: "I reviewed them and they can be published").
+- New articles (from `tools/drafts`, draft notes removed), each with its podcast episode and a French version:
+  - **Work in an Automated World** (`sharing-fairly/work-in-an-automated-world`): shorter working weeks step by step, learning throughout life as a right, a share of the returns for everyone. Links to the unpublished "The Transition in Practice" now point to From Inherited Wealth to a Fair Start; Previous is Inheritance.
+  - **People Migration That Works** (`sharing-fairly/migration-that-works`, renamed from Migration That Works the same day; the episode was re-recorded so its intro says the new name): safe and legal routes, shared fair asylum, a real chance to stay, integration from day one. Next is From Inherited Wealth to a Fair Start.
+  - **Where Help Counts Most** (`where-help-counts-most`): fifteen causes compared on five questions, with the full score table; the episode (re-recorded the same evening) tells the reasoning without scores. "Forces shaping the future" and "Who Is Working on This" are now links.
+- Episodes added to existing articles (front matter `audio*`): Plant-Based Consumption, Fair Space Sharing, Universal Allowance, Inheritance, Vision & Roadmap.
+- Menu, question 5: "Sharing fairly" (Universal Allowance, Inheritance), new group "People, work and technology" (Work, Migration), new group "Getting there" (From Inherited Wealth to a Fair Start alone, as the closing step the owner agreed). Question 6: Where Help Counts Most first, then Vision & Roadmap and Who's Working on This. The overview pages of questions 5 and 6 (English and French) list the new articles; the stale "two transition articles (5 → 6)" line rewritten.
+- Podcast feed: 28 English episodes, numbered in menu order, so the Solutions episodes are 20 to 26 (Fair Start moves from 20 to 26) and Causes 27 to 28. `audioDate` 2026-11-10, one minute apart. The HappyBein Podcast app's `review.json` is now empty, since all 8 are in the feed.
+- Checked: build; no broken internal links in the built site; the feed's order and sections.
+
+---
+
 ## v2.61
 
 **15 English episodes re-recorded: Sam stops quoting "the article", and today's content changes** (owner, 2026-11-10: "sam often refers to the article to motivate some points, but is there a way to introduce them more logically than referring to the article?" → recommended Sam saying it in his own words → "Go", change list sent; "You may ask rog to pause french translation to manage these higher priority changes"; then "Publish").

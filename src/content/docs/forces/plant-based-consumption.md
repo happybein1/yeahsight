@@ -5,6 +5,11 @@ description: A clear look at the ethical, environmental, and nutritional case fo
 reading_time: "3 min"
 sidebar:
   order: 3
+audio: https://audio.happybein.com/yeahsight/plant-based-consumption.en.mp3
+audioMinutes: 4
+audioBytes: 1730395
+audioSeconds: 216
+audioDate: 2026-11-10T20:30:00+01:00
 ---
 
 

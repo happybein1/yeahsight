@@ -19,10 +19,17 @@ Questions 1 to 4 set out the challenges: meeting everyone's needs, with limited 
 
 3. [Universal Allowance](/sharing-fairly/universal-allowance/): a guaranteed budget for basic needs: food, housing, health, energy.
 4. [Inheritance](/sharing-fairly/inheritance/): a lifetime cap on what each person can inherit, and a fair start for everyone.
-5. [From Inherited Wealth to a Fair Start](/sharing-fairly/making-the-transition/): how to get there step by step without leaving people behind, including what if one country goes first, who runs the common fund, and the main objections.
+**People, work and technology**
+
+5. [Work in an Automated World](/sharing-fairly/work-in-an-automated-world/): sharing the gains of automation and AI through shorter working weeks, learning throughout life, and a share of the returns for everyone.
+6. [People Migration That Works](/sharing-fairly/migration-that-works/): safe and legal routes, fair asylum decisions shared between countries, the chance to stay at home, and real support for integration.
+
+**Getting there**
+
+7. [From Inherited Wealth to a Fair Start](/sharing-fairly/making-the-transition/): how to get there step by step without leaving people behind, including what if one country goes first, who runs the common fund, and the main objections.
 
 ## How they connect
 
-Eating more plants frees land, which can go back to nature (1 → 2). The inheritance cap funds a starting capital, and together with the allowance it guarantees everyone's basic needs (3 + 4). The two transition articles show the order and pace for all of it (5 → 6).
+Eating more plants frees land, which can go back to nature (1 → 2). The inheritance cap funds a starting capital, and together with the allowance it guarantees everyone's basic needs (3 + 4). Fewer working hours and a share of the returns spread the gains of automation, and orderly migration helps ageing regions and the people who move (5 + 6). The last article shows the order and pace for all of it (7).
 
 **Next:** [6. Which causes would do the most good for the world?](/questions/6-causes/)

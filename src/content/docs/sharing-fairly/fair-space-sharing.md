@@ -5,6 +5,11 @@ description: Finding the balance between humans and nature, with a proposal for 
 reading_time: "3 min"
 sidebar:
   order: 2
+audio: https://audio.happybein.com/yeahsight/fair-space-sharing.en.mp3
+audioMinutes: 4
+audioBytes: 1734365
+audioSeconds: 217
+audioDate: 2026-11-10T20:31:00+01:00
 ---
 
 

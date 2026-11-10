@@ -5,6 +5,11 @@ description: The case for a Universal Basic Needs Allowance — guaranteed acces
 reading_time: "5 min"
 sidebar:
   order: 1
+audio: https://audio.happybein.com/yeahsight/universal-allowance.en.mp3
+audioMinutes: 5
+audioBytes: 2548968
+audioSeconds: 319
+audioDate: 2026-11-10T20:32:00+01:00
 ---
 
 

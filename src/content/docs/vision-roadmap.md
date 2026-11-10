@@ -3,6 +3,11 @@ kind: proposal
 title: Vision & Roadmap
 description: The proposed societal roadmap that comes out of YeahSight's analysis, step by step, with links to the background of each step.
 reading_time: "3 min"
+audio: https://audio.happybein.com/yeahsight/vision-roadmap.en.mp3
+audioMinutes: 4
+audioBytes: 1818166
+audioSeconds: 227
+audioDate: 2026-11-10T20:37:00+01:00
 ---
 
 

@@ -10,11 +10,12 @@ On ne peut pas mener toutes les solutions à la fois, et toutes les causes ne do
 
 ## Les articles, dans l'ordre
 
-1. [Vision et feuille de route](/fr/vision-roadmap/) : les recommandations réunies en six étapes concrètes.
-2. [Qui agit déjà](/fr/sharing-fairly/who-is-working-on-this/) : les organisations déjà actives sur chaque étape, à rejoindre ou à soutenir.
+1. [Là où l'aide compte le plus](/fr/where-help-counts-most/) : quinze causes comparées ouvertement, et comment l'ordre change selon vos valeurs.
+2. [Vision et feuille de route](/fr/vision-roadmap/) : les recommandations réunies en six étapes concrètes.
+3. [Qui agit déjà](/fr/sharing-fairly/who-is-working-on-this/) : les organisations déjà actives sur chaque étape, à rejoindre ou à soutenir.
 
 ## Comment ils se relient
 
-La feuille de route dit quoi faire et dans quel ordre ; l'annuaire dit qui le fait déjà, pour que chacun puisse choisir où mettre son temps, son argent ou sa voix.
+La comparaison montre où l'effort fait le plus de bien ; la feuille de route dit quoi faire et dans quel ordre ; l'annuaire dit qui le fait déjà, pour que chacun puisse choisir où mettre son temps, son argent ou sa voix.
 
 **Retour à :** [toute l'histoire](/fr/)

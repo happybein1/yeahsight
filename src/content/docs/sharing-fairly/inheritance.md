@@ -5,6 +5,11 @@ description: Why inheritance shapes how fairly a society develops, and a proposa
 reading_time: "5 min"
 sidebar:
   order: 5
+audio: https://audio.happybein.com/yeahsight/inheritance.en.mp3
+audioMinutes: 5
+audioBytes: 2632977
+audioSeconds: 329
+audioDate: 2026-11-10T20:33:00+01:00
 ---
 
 
