@@ -48,7 +48,7 @@ De grands déplacements pacifiques de la propriété ont déjà eu lieu :
 3. **Protéger l'ordinaire, viser ce qui est concentré.** Les logements familiaux jusqu'à une valeur raisonnable, les retraites, l'épargne normale et les entreprises familiales en activité sont protégés. Les changements portent sur les très grandes fortunes.
 4. **Rendre l'économie plus forte, pas plus faible.** Les mesures à la fois justes *et* favorables à la productivité passent en premier, et le rythme suit la force économique des pays participants.
 5. **Changer les flux avant les stocks.** Commencer par l'argent nouveau : héritages, terrains qui prennent de la valeur sans effort de leur propriétaire, pollution et usage des ressources. Ce n'est que plus tard, et progressivement, qu'on touche aux fortunes existantes.
-6. **Rendre les gains visibles.** L'argent collecté va dans un fonds commun que chacun peut voir, qui finance l'allocation pour les besoins de base et un capital de départ pour chaque jeune adulte, et non dans le budget général.
+6. **Rendre les gains visibles.** L'argent collecté va dans un fonds commun que chacun peut voir, qui finance la part de l'allocation pour les besoins de base que les salaires, les pensions et les budgets d'aide sociale ne couvrent pas, et un capital de départ pour chaque jeune adulte, et non dans le budget général.
 7. **Taxer d'abord ce qui ne peut pas bouger, et le reste en groupe.** Les terres, les bâtiments et les ressources naturelles restent où ils sont : n'importe quel pays peut donc commencer par là, seul. L'argent qui peut partir en un clic est taxé par un groupe de pays assez grand pour peser.
 8. **Décider ensemble, tester d'abord.** Utiliser des assemblées citoyennes pour définir les détails, et des expériences pilotes pour vérifier que chaque étape fonctionne avant de l'étendre à tout le pays.
 
@@ -89,7 +89,7 @@ La phase 1 correspond à toute la première colonne : n'importe quel pays peut c
 
 **Phase 3 : achever la transition (environ de la 20e à la 40e année)**
 - Le plafond atteint son niveau final, comme dans la proposition [Héritage](/fr/sharing-fairly/inheritance/) : chacun peut encore recevoir un montant important, les dons aux associations restent permis, et les objets personnels restent dans les familles.
-- Le fonds commun, devenu important, finance l'allocation pour les besoins de base et le capital de départ de chacun.
+- Le fonds commun, devenu important, finance la part de l'allocation pour les besoins de base que les salaires, les pensions et les budgets d'aide sociale ne couvrent pas, et le capital de départ de chacun.
 - Ce que possède une personne reflète alors surtout sa propre vie et son propre travail, et non plus la chance d'être né dans une famille riche.
 
 ## Et si un pays partait en premier ?

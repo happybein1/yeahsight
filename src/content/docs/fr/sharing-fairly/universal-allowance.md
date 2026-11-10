@@ -17,7 +17,7 @@ Imaginez un monde où chaque personne a un accès garanti à la nourriture, au l
 L'AUBF est un système proposé qui garantit à chaque résident d'un pays ou d'une région une allocation mensuelle dédiée à la couverture des besoins essentiels — logement, nourriture, eau, soins de santé, énergie et accès à internet.
 
 Contrairement aux programmes d'aide sociale traditionnels ou au revenu universel de base (RUB), cette allocation :
-- Serait utilisable uniquement dans le pays ou la région
+- Serait utilisable uniquement dans sa région économique : le pays, ou une zone plus large comme l'Union européenne, selon l'endroit où elle est mise en place
 - S'appliquerait uniquement aux catégories approuvées de biens et services de base
 - Expirerait après une période définie (ex. deux mois) si non utilisée — encourageant une activité économique continue
 

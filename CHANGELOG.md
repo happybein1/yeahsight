@@ -4,6 +4,16 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.60
+
+**Universal Allowance: its economic region; Fair Start: the fund pays the rest** (owner, 2026-11-10: "Did the previous change on funding of universal allowance have an impact [on] article and podcast 24?" → From Inherited Wealth to a Fair Start said the fund pays for the allowance; then "the universal allowance favor local goods … this should also help the economy" → already in, recommended a trade-rules line; owner: "I would not refer to that rule, but maybe mention the allowance can be used in the reference economic region" → wording proposed → "Yes go").
+- `sharing-fairly/universal-allowance.md`: "Be usable only within the country or region" → "within its economic region: the country, or a wider area such as the European Union, depending on where it is introduced". French: "dans sa région économique : le pays, ou une zone plus large comme l'Union européenne…".
+- `sharing-fairly/making-the-transition.md` (From Inherited Wealth to a Fair Start), in "Make the gains visible" and the last phase: the common fund pays for "the part of the basic-needs allowance that salaries, pensions and welfare budgets don't cover", not the whole allowance, to match v2.58. French the same.
+- Podcast scripts (not committed until the audio is published): Universal Allowance, Sam's first limit ("inside its economic region. That could be one country, or a wider area like the European Union."); Fair Start, the same two fund lines ("the rest of everyone's allowance"). Both re-recorded the same evening.
+- Checked: build; Vision & Roadmap, Social Redistribution and the solutions page don't say how the allowance is paid for, so unchanged.
+
+---
+
 ## v2.59
 
 **Inheritance: many rich givers, and hidden gifts** (owner, 2026-11-10: "what if a person is within a rich family and surrounding and therefore would get a lot of donations from multiple people that are rich?" → explained the cap already counts everything one person receives, and recommended saying so plus a hidden-gifts point; owner: "Hidden gifts will be hard to measure or account for" → recommended counting only large transfers with a paper trail → "Go", draft sent → "Ok").

@@ -53,7 +53,7 @@ Large, peaceful shifts in who owns what have happened before:
 3. **Protect the ordinary, focus on the concentrated.** Family homes up to a fair value, pensions, normal savings and working family businesses are protected. The changes apply to very large fortunes.
 4. **Make the economy stronger, not weaker.** Steps that are fair *and* raise productivity come first, and the pace follows the economic strength of the countries taking part.
 5. **Change the flows before the stocks.** Start with new money: inheritances, land values rising without any effort from the owner, pollution and resource use. Only later, and gradually, touch fortunes that already exist.
-6. **Make the gains visible.** Money raised goes into a common fund that people can see, paying for the basic-needs allowance and a starting capital for every young adult, not into the general budget.
+6. **Make the gains visible.** Money raised goes into a common fund that people can see, paying for the part of the basic-needs allowance that salaries, pensions and welfare budgets don't cover, and a starting capital for every young adult, not into the general budget.
 7. **Tax first what can't move, and do the rest as a group.** Land, buildings and natural resources stay where they are, so any country can start there alone. Money that can move with one click is taxed by a group of countries large enough to matter.
 8. **Decide together, test first.** Use citizens' assemblies to shape the details, and pilots to check that each step works before it goes national.
 
@@ -94,7 +94,7 @@ Phase 1 is everything in the first column, so any country can start tomorrow. Ph
 
 **Phase 3: Complete the shift (roughly years 20 to 40)**
 - The cap reaches its final level, as in the [Inheritance](/sharing-fairly/inheritance/) proposal: each person can still receive a meaningful amount, gifts to charities stay allowed, and personal belongings stay in families.
-- The common fund, now large, finances the basic-needs allowance and everyone's starting capital.
+- The common fund, now large, finances the part of the basic-needs allowance that salaries, pensions and welfare budgets don't cover, and everyone's starting capital.
 - What a person owns then reflects mainly their own life and work, no longer the luck of being born into a rich family.
 
 ## What If One Country Goes First?

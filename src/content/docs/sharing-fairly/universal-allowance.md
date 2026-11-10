@@ -19,7 +19,7 @@ This is the idea behind the **Universal Basic Needs Allowance (UBNA)** — a mod
 The UBNA is a proposed system that ensures every resident of a country or region receives a monthly allowance dedicated to covering essential needs — like housing, food, water, healthcare, energy, and internet access.
 
 Unlike traditional welfare programs or universal basic income (UBI), this allowance would:
-- Be usable only within the country or region
+- Be usable only within its economic region: the country, or a wider area such as the European Union, depending on where it is introduced
 - Apply only to approved categories of basic goods and services
 - Expire after a set time period (e.g. two months) if not used — encouraging ongoing economic activity
 
