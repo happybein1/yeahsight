@@ -4,6 +4,17 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.64
+
+**Spanish podcast feed: the 28 episodes in Spanish** (owner, 2026-11-11: "go ahead for yeahsight podcast recording in Spanish using kokoro", then "you can also get the Spanish episodes to go live").
+- Recorded 2026-11-10 on the ROG with Kokoro, Emma = Dora (`ef_dora`), Sam = Alex (`em_alex`), the same voices as YeahCore's Spanish podcast; scripts are translations of the English dialogs, same number of lines. Uploaded as `yeahsight/<name>.es.mp3`.
+- New feed `/podcast/es.xml`: until the Spanish pages exist, it is built from the English pages that have a Spanish recording, with the Spanish title, description, size and length from the new `src/data/podcast-es.ts`, and links to the English article ("El artículo completo (en inglés)"; the episodes also say the article is in English). Same numbering and sections as English (Spanish section names), the six "What can we do about…?" programs with Spanish titles, the English cover. `pubDate` 2026-11-11 for all.
+- The English and French feeds are unchanged (the English feed now leaves out pages under `es/` and `nl/` too).
+- The Spanish and Dutch website (in progress) is not part of this version.
+- Checked: build; es.xml has 28 items and 6 programs; en.xml and fr.xml identical to the live ones; the audio files answer.
+
+---
+
 ## v2.63
 
 **"Listen in a row" links name YeahCast** (owner, 2026-11-10: the HappyBein Podcast app renamed YeahCast, "go").

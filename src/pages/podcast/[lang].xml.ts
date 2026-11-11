@@ -4,6 +4,7 @@
 import type { APIRoute, GetStaticPaths } from 'astro';
 import { getCollection } from 'astro:content';
 import { readFileSync } from 'node:fs';
+import { ES_EPISODES } from '../../data/podcast-es';
 
 // v2.50: each episode carries <itunes:episode>, its place in the six-question reading order (the order of
 // the slugs in the menu in astro.config.mjs), so apps such as the HappyBein Podcast can play them in order.
@@ -14,6 +15,7 @@ const place = (id: string) => { const i = ORDER.indexOf(id.replace(/^fr\//, ''))
 const SECTIONS = {
   en: ['', 'Needs', 'The planet', 'How society works', 'Forces of change', 'Solutions', 'Causes'],
   fr: ['', 'Les besoins', 'La planète', 'Comment fonctionne la société', 'Les forces du changement', 'Les solutions', 'Les causes'],
+  es: ['', 'Las necesidades', 'El planeta', 'Cómo funciona la sociedad', 'Las fuerzas del cambio', 'Las soluciones', 'Las causas'],
 };
 const QUESTION = new Map<string, number>();
 {
@@ -34,6 +36,15 @@ const ACT = [
   { id: 'ai', title: 'What can we do about AI and big risks?', emoji: '🤖', short: 'AI and big risks', episodes: ['impact-of-artificial-intelligence', 'work-in-an-automated-world', 'big-risks'] },
   { id: 'sharing', title: 'What can we do about unfair sharing?', emoji: '⚖️', short: 'Unfair sharing', episodes: ['social-redistribution', 'inheritance', 'fair-start'] },
 ];
+// v2.64: the same programs in Spanish (same episodes, Spanish audio).
+const ACT_ES: Record<string, [string, string]> = {
+  climate: ['¿Qué podemos hacer contra el cambio climático?', 'Cambio climático'],
+  food: ['¿Qué podemos hacer por la alimentación, los animales y la naturaleza?', 'Alimentación, animales y naturaleza'],
+  poverty: ['¿Qué podemos hacer contra la pobreza extrema?', 'Pobreza extrema'],
+  democracy: ['¿Qué podemos hacer por la democracia y la información?', 'Democracia e información'],
+  ai: ['¿Qué podemos hacer ante la IA y los grandes riesgos?', 'IA y grandes riesgos'],
+  sharing: ['¿Qué podemos hacer contra el reparto injusto?', 'Reparto injusto'],
+};
 
 const FEEDS = {
   en: {
@@ -48,6 +59,12 @@ const FEEDS = {
     language: 'fr',
     home: 'https://yeahsight.happybein.com/fr/',
   },
+  es: {
+    title: 'YeahSight (en español)',
+    description: 'Cómo funciona la sociedad y hacia dónde va. Explicaciones claras y ordenadas de las fuerzas que dan forma a nuestro mundo (economía, medio ambiente, tecnología, justicia) y propuestas para una sociedad más justa y sostenible. Cada episodio es un artículo de YeahSight, en forma de conversación entre Emma y Sam. Por HappyBein, una pequeña fundación independiente sin ánimo de lucro.',
+    language: 'es',
+    home: 'https://yeahsight.happybein.com/',
+  },
 } as const;
 type Lang = keyof typeof FEEDS;
 
@@ -61,21 +78,26 @@ export const GET: APIRoute = async ({ params, site }) => {
   const feed = FEEDS[lang];
   const base = String(site).replace(/\/$/, '');
   const self = `${base}/podcast/${lang}.xml`;
-  const cover = `${base}/podcast/cover-${lang}.jpg`;
-  const docs = await getCollection('docs', (e) =>
-    (lang === 'fr') === e.id.startsWith('fr/') && !!e.data.audio && !!e.data.audioBytes && !!e.data.audioSeconds && !!e.data.audioDate);
+  const cover = `${base}/podcast/cover-${lang === 'es' ? 'en' : lang}.jpg`;
+  // Spanish (v2.64): the English pages that have a Spanish recording, with the Spanish title and audio from ES_EPISODES.
+  const audioName = (u: string) => (u.split('/').pop() || '').replace(/\.[a-z]{2}\.mp3$/i, '');
+  const docs = (await getCollection('docs', (e) =>
+    (lang === 'fr' ? e.id.startsWith('fr/') : !/^(fr|es|nl)\//.test(e.id)) && !!e.data.audio && !!e.data.audioBytes && !!e.data.audioSeconds && !!e.data.audioDate))
+    .filter((e) => lang !== 'es' || !!ES_EPISODES[audioName(e.data.audio!)]);
+  const esDate = new Date('2026-11-11T08:00:00+01:00');
   const num = new Map([...docs].sort((a, b) => place(a.id) - place(b.id)).map((e, i) => [e.id, i + 1]));
   docs.sort((a, b) => b.data.audioDate!.getTime() - a.data.audioDate!.getTime());
   const items = docs.map((e) => {
-    const d = e.data;
+    const es = lang === 'es' ? ES_EPISODES[audioName(e.data.audio!)] : null;
+    const d = es ? { ...e.data, title: es.title, description: es.description, audio: e.data.audio!.replace(/\.en\.mp3$/, '.es.mp3'), audioBytes: es.bytes, audioSeconds: es.seconds, audioDate: esDate } : e.data;
     const page = `${base}/${e.id}/`;
     const url = d.audio!.startsWith('http') ? d.audio! : base + d.audio;
     return `
     <item>
       <title>${esc(d.title)}</title>
-      <description>${esc(d.description ?? '')} ${lang === 'fr' ? "L'article complet, avec ses sources :" : 'Full article, with sources:'} ${page}</description>
+      <description>${esc(d.description ?? '')} ${lang === 'fr' ? "L'article complet, avec ses sources :" : lang === 'es' ? 'El artículo completo (en inglés), con sus fuentes:' : 'Full article, with sources:'} ${page}</description>
       <link>${page}</link>
-      <guid isPermaLink="false">yeahsight-${e.id.replace(/\//g, '-')}${lang === 'en' ? '-en' : ''}</guid>
+      <guid isPermaLink="false">yeahsight-${e.id.replace(/\//g, '-')}${lang === 'en' ? '-en' : lang === 'es' ? '-es' : ''}</guid>
       <pubDate>${d.audioDate!.toUTCString()}</pubDate>
       <enclosure url="${esc(url)}" length="${d.audioBytes}" type="audio/mpeg"/>
       <itunes:duration>${hms(d.audioSeconds!)}</itunes:duration>
@@ -85,8 +107,9 @@ export const GET: APIRoute = async ({ params, site }) => {
       <itunes:episodeType>full</itunes:episodeType>
     </item>`;
   }).join('');
-  const progs = lang === 'en' ? ACT.map((s) => `
-    <hb:program id="${s.id}" emoji="${s.emoji}" short="${esc(s.short)}" title="${esc(s.title)}" link="${feed.home}act/${s.id}/" episodes="${s.episodes.join(' ')}"/>`).join('') : '';
+  const progs = lang !== 'fr' ? ACT.map((s) => { const [title, short] = lang === 'es' ? ACT_ES[s.id] : [s.title, s.short];
+    return `
+    <hb:program id="${s.id}" emoji="${s.emoji}" short="${esc(short)}" title="${esc(title)}" link="${feed.home}act/${s.id}/" episodes="${s.episodes.join(' ')}"/>`; }).join('') : '';
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:hb="https://happybein.com/podcast/ns">
   <channel>
