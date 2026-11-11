@@ -5,7 +5,7 @@ description: Las sociedades cambian despacio durante mucho tiempo y luego de gol
 reading_time: "4 min"
 audio: https://audio.happybein.com/yeahsight/how-societies-change.es.mp3
 audioMinutes: 5
-audioBytes: 2290042
+audioBytes: 2285026
 audioSeconds: 286
 audioDate: 2026-11-11T08:00:00+01:00
 ---

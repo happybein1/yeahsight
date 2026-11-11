@@ -7,8 +7,8 @@ sidebar:
   order: 4
 audio: https://audio.happybein.com/yeahsight/economic-system.es.mp3
 audioMinutes: 4
-audioBytes: 1758189
-audioSeconds: 220
+audioBytes: 1753173
+audioSeconds: 219
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

@@ -5,8 +5,8 @@ description: "Los cuatro tipos de actores que hacen el trabajo de la sociedad (e
 reading_time: "5 min"
 audio: https://audio.happybein.com/yeahsight/societal-systems.es.mp3
 audioMinutes: 7
-audioBytes: 3333686
-audioSeconds: 417
+audioBytes: 3328670
+audioSeconds: 416
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

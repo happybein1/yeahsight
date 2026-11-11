@@ -5,8 +5,8 @@ description: "Una propuesta para repartir de forma justa los beneficios de la au
 reading_time: "5 min"
 audio: https://audio.happybein.com/yeahsight/work-in-an-automated-world.es.mp3
 audioMinutes: 5
-audioBytes: 2495260
-audioSeconds: 312
+audioBytes: 2490244
+audioSeconds: 311
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

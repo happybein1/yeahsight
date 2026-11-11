@@ -5,8 +5,8 @@ description: Cuánto ha avanzado el mundo en salud y pobreza, quién sigue qued�
 reading_time: "4 min"
 audio: https://audio.happybein.com/yeahsight/global-health-and-poverty.es.mp3
 audioMinutes: 5
-audioBytes: 2208331
-audioSeconds: 276
+audioBytes: 2203315
+audioSeconds: 275
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

@@ -5,8 +5,8 @@ description: Menos hijos, vidas más largas y una población mundial que alcanza
 reading_time: "3 min"
 audio: https://audio.happybein.com/yeahsight/population-change.es.mp3
 audioMinutes: 5
-audioBytes: 2208331
-audioSeconds: 276
+audioBytes: 2203315
+audioSeconds: 275
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

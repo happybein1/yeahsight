@@ -5,8 +5,8 @@ description: "Una propuesta para una migración ordenada, justa y útil para las
 reading_time: "5 min"
 audio: https://audio.happybein.com/yeahsight/migration-that-works.es.mp3
 audioMinutes: 5
-audioBytes: 2591599
-audioSeconds: 324
+audioBytes: 2586584
+audioSeconds: 323
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

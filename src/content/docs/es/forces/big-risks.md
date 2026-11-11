@@ -5,8 +5,8 @@ description: Los sucesos raros que podrían hacer retroceder a la humanidad dura
 reading_time: "4 min"
 audio: https://audio.happybein.com/yeahsight/big-risks.es.mp3
 audioMinutes: 5
-audioBytes: 2406861
-audioSeconds: 301
+audioBytes: 2401846
+audioSeconds: 300
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

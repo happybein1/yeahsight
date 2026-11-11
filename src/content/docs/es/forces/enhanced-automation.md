@@ -4,8 +4,8 @@ title: La automatización
 description: "Cómo las máquinas y la IA asumen cada vez más trabajo, qué empleos cambian primero, por qué los precios pueden bajar, cómo podría repartirse el trabajo, y cómo pueden adaptarse las personas, las organizaciones y los gobiernos."
 audio: https://audio.happybein.com/yeahsight/enhanced-automation.es.mp3
 audioMinutes: 5
-audioBytes: 2478124
-audioSeconds: 310
+audioBytes: 2473108
+audioSeconds: 309
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

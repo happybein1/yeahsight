@@ -4,7 +4,7 @@ title: El impacto de la inteligencia artificial
 description: "La inteligencia artificial como tecnología de uso general: qué puede hacer hoy, cómo cambia la economía y la sociedad, y cómo pensar en ella con claridad."
 audio: https://audio.happybein.com/yeahsight/impact-of-artificial-intelligence.es.mp3
 audioMinutes: 4
-audioBytes: 1810225
+audioBytes: 1805209
 audioSeconds: 226
 audioDate: 2026-11-11T08:00:00+01:00
 ---

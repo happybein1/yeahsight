@@ -7,8 +7,8 @@ sidebar:
   order: 5
 audio: https://audio.happybein.com/yeahsight/inheritance.es.mp3
 audioMinutes: 6
-audioBytes: 2934535
-audioSeconds: 367
+audioBytes: 2929519
+audioSeconds: 366
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

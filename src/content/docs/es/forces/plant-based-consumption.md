@@ -7,8 +7,8 @@ sidebar:
   order: 3
 audio: https://audio.happybein.com/yeahsight/plant-based-consumption.es.mp3
 audioMinutes: 4
-audioBytes: 1966333
-audioSeconds: 246
+audioBytes: 1961317
+audioSeconds: 245
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

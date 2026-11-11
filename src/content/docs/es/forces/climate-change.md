@@ -5,8 +5,8 @@ description: Qué está calentando el planeta, hasta dónde ha llegado, qué cam
 reading_time: "4 min"
 audio: https://audio.happybein.com/yeahsight/climate-change.es.mp3
 audioMinutes: 5
-audioBytes: 2309477
-audioSeconds: 289
+audioBytes: 2304461
+audioSeconds: 288
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

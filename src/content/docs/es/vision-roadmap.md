@@ -5,7 +5,7 @@ description: La hoja de ruta para la sociedad que propone el análisis de YeahSi
 reading_time: "3 min"
 audio: https://audio.happybein.com/yeahsight/vision-roadmap.es.mp3
 audioMinutes: 4
-audioBytes: 2083988
+audioBytes: 2078973
 audioSeconds: 260
 audioDate: 2026-11-11T08:00:00+01:00
 ---

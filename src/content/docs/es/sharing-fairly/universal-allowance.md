@@ -7,8 +7,8 @@ sidebar:
   order: 1
 audio: https://audio.happybein.com/yeahsight/universal-allowance.es.mp3
 audioMinutes: 6
-audioBytes: 2901098
-audioSeconds: 363
+audioBytes: 2896083
+audioSeconds: 362
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

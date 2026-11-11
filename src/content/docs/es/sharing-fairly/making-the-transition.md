@@ -5,8 +5,8 @@ description: "Cómo una sociedad podría pasar de la injusticia financiera hered
 reading_time: "12 min"
 audio: https://audio.happybein.com/yeahsight/fair-start.es.mp3
 audioMinutes: 10
-audioBytes: 4848370
-audioSeconds: 606
+audioBytes: 4843355
+audioSeconds: 605
 audioDate: 2026-11-11T08:00:00+01:00
 sidebar:
   order: 6

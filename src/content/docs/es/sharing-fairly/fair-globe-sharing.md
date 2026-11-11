@@ -7,8 +7,8 @@ sidebar:
   order: 4
 audio: https://audio.happybein.com/yeahsight/fair-globe-sharing.es.mp3
 audioMinutes: 4
-audioBytes: 1716811
-audioSeconds: 215
+audioBytes: 1711795
+audioSeconds: 214
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

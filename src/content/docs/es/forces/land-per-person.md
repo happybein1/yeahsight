@@ -7,8 +7,8 @@ sidebar:
   order: 1
 audio: https://audio.happybein.com/yeahsight/land-per-person.es.mp3
 audioMinutes: 4
-audioBytes: 1750875
-audioSeconds: 219
+audioBytes: 1746068
+audioSeconds: 218
 audioDate: 2026-11-11T08:00:00+01:00
 ---
 

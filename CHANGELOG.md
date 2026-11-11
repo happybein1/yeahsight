@@ -4,6 +4,13 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.67
+
+**Spanish episodes re-recorded without "en inglés"** (owner, 2026-11-11: "go on the two remaining items", then "publish"). The 28 Spanish episodes ended "Encontrarás el artículo y sus fuentes, en inglés, en YeahSight", recorded before the Spanish pages existed (v2.65); "en inglés" removed from the scripts (`~/yeahsight-es/podcasts`) and all 28 re-recorded on the ROG with Kokoro (Dora + Alex), 13:20 to 13:46, uploaded over the same addresses. `audioBytes`, `audioSeconds` and `audioMinutes` of the 28 Spanish pages updated; `audioDate` and the feed's episode ids unchanged.
+- Checked: build; the live files answer with the new sizes; es.xml 28 items with the same guids.
+
+---
+
 ## v2.66
 
 **French site complete** (owner, 2026-11-11: "go on the two remaining items", then "publish").
