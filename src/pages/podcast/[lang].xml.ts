@@ -4,12 +4,12 @@
 import type { APIRoute, GetStaticPaths } from 'astro';
 import { getCollection } from 'astro:content';
 import { readFileSync } from 'node:fs';
-import { ES_EPISODES } from '../../data/podcast-es';
 
 // v2.50: each episode carries <itunes:episode>, its place in the six-question reading order (the order of
 // the slugs in the menu in astro.config.mjs), so apps such as the HappyBein Podcast can play them in order.
 const ORDER = [...readFileSync(`${process.cwd()}/astro.config.mjs`, 'utf8').matchAll(/slug: '([^']+)'/g)].map((m) => m[1]);
-const place = (id: string) => { const i = ORDER.indexOf(id.replace(/^fr\//, '')); return i < 0 ? ORDER.length : i; };
+const slugOf = (id: string) => id.replace(/^(fr|es|nl)\//, '');
+const place = (id: string) => { const i = ORDER.indexOf(slugOf(id)); return i < 0 ? ORDER.length : i; };
 // v2.51: each episode also carries <category>, a short name for its menu question, so apps can group the
 // episodes in sections (the HappyBein Podcast shows them as section titles).
 const SECTIONS = {
@@ -63,7 +63,7 @@ const FEEDS = {
     title: 'YeahSight (en español)',
     description: 'Cómo funciona la sociedad y hacia dónde va. Explicaciones claras y ordenadas de las fuerzas que dan forma a nuestro mundo (economía, medio ambiente, tecnología, justicia) y propuestas para una sociedad más justa y sostenible. Cada episodio es un artículo de YeahSight, en forma de conversación entre Emma y Sam. Por HappyBein, una pequeña fundación independiente sin ánimo de lucro.',
     language: 'es',
-    home: 'https://yeahsight.happybein.com/',
+    home: 'https://yeahsight.happybein.com/es/',
   },
 } as const;
 type Lang = keyof typeof FEEDS;
@@ -79,31 +79,28 @@ export const GET: APIRoute = async ({ params, site }) => {
   const base = String(site).replace(/\/$/, '');
   const self = `${base}/podcast/${lang}.xml`;
   const cover = `${base}/podcast/cover-${lang === 'es' ? 'en' : lang}.jpg`;
-  // Spanish (v2.64): the English pages that have a Spanish recording, with the Spanish title and audio from ES_EPISODES.
-  const audioName = (u: string) => (u.split('/').pop() || '').replace(/\.[a-z]{2}\.mp3$/i, '');
-  const docs = (await getCollection('docs', (e) =>
-    (lang === 'fr' ? e.id.startsWith('fr/') : !/^(fr|es|nl)\//.test(e.id)) && !!e.data.audio && !!e.data.audioBytes && !!e.data.audioSeconds && !!e.data.audioDate))
-    .filter((e) => lang !== 'es' || !!ES_EPISODES[audioName(e.data.audio!)]);
-  const esDate = new Date('2026-11-11T08:00:00+01:00');
+  // v2.65: the Spanish feed is built from the Spanish pages (es/), like French; v2.64 used the English pages with
+  // Spanish titles and audio until those pages existed. Each feed takes the pages of its own language.
+  const docs = await getCollection('docs', (e) =>
+    (lang === 'en' ? !/^(fr|es|nl)\//.test(e.id) : e.id.startsWith(`${lang}/`)) && !!e.data.audio && !!e.data.audioBytes && !!e.data.audioSeconds && !!e.data.audioDate);
   const num = new Map([...docs].sort((a, b) => place(a.id) - place(b.id)).map((e, i) => [e.id, i + 1]));
   docs.sort((a, b) => b.data.audioDate!.getTime() - a.data.audioDate!.getTime());
   const items = docs.map((e) => {
-    const es = lang === 'es' ? ES_EPISODES[audioName(e.data.audio!)] : null;
-    const d = es ? { ...e.data, title: es.title, description: es.description, audio: e.data.audio!.replace(/\.en\.mp3$/, '.es.mp3'), audioBytes: es.bytes, audioSeconds: es.seconds, audioDate: esDate } : e.data;
+    const d = e.data;
     const page = `${base}/${e.id}/`;
     const url = d.audio!.startsWith('http') ? d.audio! : base + d.audio;
     return `
     <item>
       <title>${esc(d.title)}</title>
-      <description>${esc(d.description ?? '')} ${lang === 'fr' ? "L'article complet, avec ses sources :" : lang === 'es' ? 'El artículo completo (en inglés), con sus fuentes:' : 'Full article, with sources:'} ${page}</description>
+      <description>${esc(d.description ?? '')} ${lang === 'fr' ? "L'article complet, avec ses sources :" : lang === 'es' ? 'El artículo completo, con sus fuentes:' : 'Full article, with sources:'} ${page}</description>
       <link>${page}</link>
-      <guid isPermaLink="false">yeahsight-${e.id.replace(/\//g, '-')}${lang === 'en' ? '-en' : lang === 'es' ? '-es' : ''}</guid>
+      <guid isPermaLink="false">yeahsight-${(lang === 'es' ? slugOf(e.id) : e.id).replace(/\//g, '-')}${lang === 'en' ? '-en' : lang === 'es' ? '-es' : ''}</guid>
       <pubDate>${d.audioDate!.toUTCString()}</pubDate>
       <enclosure url="${esc(url)}" length="${d.audioBytes}" type="audio/mpeg"/>
       <itunes:duration>${hms(d.audioSeconds!)}</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:episode>${num.get(e.id)}</itunes:episode>${QUESTION.has(e.id.replace(/^fr\//, '')) ? `
-      <category>${esc(SECTIONS[lang][QUESTION.get(e.id.replace(/^fr\//, ''))!])}</category>` : ''}
+      <itunes:episode>${num.get(e.id)}</itunes:episode>${QUESTION.has(slugOf(e.id)) ? `
+      <category>${esc(SECTIONS[lang][QUESTION.get(slugOf(e.id))!])}</category>` : ''}
       <itunes:episodeType>full</itunes:episodeType>
     </item>`;
   }).join('');

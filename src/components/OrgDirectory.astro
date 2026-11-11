@@ -1,42 +1,49 @@
 ---
 // Filterable directory of organisations working on pieces of the transition plan (v2.19).
-// Data lives in src/data/organisations.json: add one entry there and both languages update.
+// Data lives in src/data/organisations.json: add one entry there and every language updates.
+// v2.65: Spanish and Dutch (labels here, descriptions in the data file).
 import data from '../data/organisations.json';
 
-interface Props { lang?: 'en' | 'fr' }
+type Lang = 'en' | 'fr' | 'es' | 'nl';
+interface Props { lang?: Lang }
 const { lang = 'en' } = Astro.props;
-const fr = lang === 'fr';
+const LI: Record<Lang, number> = { en: 0, fr: 1, es: 2, nl: 3 };
 
-const COUNTRIES: Record<string, [string, string]> = {
-  INT: ['🌍 International', '🌍 International'],
-  EU:  ['🇪🇺 Europe', '🇪🇺 Europe'],
-  FR:  ['🇫🇷 France', '🇫🇷 France'],
-  BE:  ['🇧🇪 Belgium', '🇧🇪 Belgique'],
-  NL:  ['🇳🇱 Netherlands', '🇳🇱 Pays-Bas'],
-  DE:  ['🇩🇪 Germany', '🇩🇪 Allemagne'],
+const COUNTRIES: Record<string, string[]> = {
+  INT: ['🌍 International', '🌍 International', '🌍 Internacional', '🌍 Internationaal'],
+  EU:  ['🇪🇺 Europe', '🇪🇺 Europe', '🇪🇺 Europa', '🇪🇺 Europa'],
+  FR:  ['🇫🇷 France', '🇫🇷 France', '🇫🇷 Francia', '🇫🇷 Frankrijk'],
+  BE:  ['🇧🇪 Belgium', '🇧🇪 Belgique', '🇧🇪 Bélgica', '🇧🇪 België'],
+  NL:  ['🇳🇱 Netherlands', '🇳🇱 Pays-Bas', '🇳🇱 Países Bajos', '🇳🇱 Nederland'],
+  DE:  ['🇩🇪 Germany', '🇩🇪 Allemagne', '🇩🇪 Alemania', '🇩🇪 Duitsland'],
 };
-const TOPICS: Record<string, [string, string]> = {
-  tax:      ['Tax justice', 'Justice fiscale'],
-  wealth:   ['Inheritance & wealth', 'Héritage et fortune'],
-  income:   ['Basic income', 'Revenu de base'],
-  assembly: ["Citizens' assemblies", 'Assemblées citoyennes'],
-  carbon:   ['Carbon pricing & climate', 'Prix du carbone et climat'],
+const TOPICS: Record<string, string[]> = {
+  tax:      ['Tax justice', 'Justice fiscale', 'Justicia fiscal', 'Belastingrechtvaardigheid'],
+  wealth:   ['Inheritance & wealth', 'Héritage et fortune', 'Herencia y patrimonio', 'Erfenis en vermogen'],
+  income:   ['Basic income', 'Revenu de base', 'Renta básica', 'Basisinkomen'],
+  assembly: ["Citizens' assemblies", 'Assemblées citoyennes', 'Asambleas ciudadanas', 'Burgerberaden'],
+  carbon:   ['Carbon pricing & climate', 'Prix du carbone et climat', 'Precio del carbono y clima', 'CO2-beprijzing en klimaat'],
 };
-const TYPES: Record<string, [string, string]> = {
-  network:  ['Network', 'Réseau'],
-  campaign: ['Campaign group', 'Groupe de campagne'],
-  research: ['Research', 'Recherche'],
+const TYPES: Record<string, string[]> = {
+  network:  ['Network', 'Réseau', 'Red', 'Netwerk'],
+  campaign: ['Campaign group', 'Groupe de campagne', 'Grupo de campaña', 'Campagnegroep'],
+  research: ['Research', 'Recherche', 'Investigación', 'Onderzoek'],
 };
-const L = (pair: [string, string]) => (fr ? pair[1] : pair[0]);
+const L = (names: string[]) => names[LI[lang]] ?? names[0];
 const countryOrder = Object.keys(COUNTRIES);
 const orgs = [...data.organisations].sort((a, b) =>
   countryOrder.indexOf(a.country) - countryOrder.indexOf(b.country) ||
   (a.type === 'network' ? 0 : 1) - (b.type === 'network' ? 0 : 1) ||
-  a.name.localeCompare(b.name));
+  a.name.localeCompare(b.name))
+  .map((o) => ({ ...o, desc: ((o as Record<string, unknown>)[lang] as string) || o.en }));
 const total = orgs.length;
-const t = fr
-  ? { search: 'Rechercher…', allC: 'Tous les pays', allT: 'Tous les sujets', name: 'Organisation', where: 'Pays', what: 'Sujets', count: 'organisations', of: 'sur', none: 'Aucune organisation ne correspond. Essayez un autre filtre.', reset: 'Effacer les filtres', checked: 'Liens vérifiés le' }
-  : { search: 'Search…', allC: 'All countries', allT: 'All topics', name: 'Organisation', where: 'Country', what: 'Topics', count: 'organisations', of: 'of', none: 'No organisation matches. Try another filter.', reset: 'Clear filters', checked: 'Links checked on' };
+const T = {
+  en: { search: 'Search…', allC: 'All countries', allT: 'All topics', name: 'Organisation', where: 'Country', what: 'Topics', count: 'organisations', of: 'of', none: 'No organisation matches. Try another filter.', reset: 'Clear filters', checked: 'Links checked on' },
+  fr: { search: 'Rechercher…', allC: 'Tous les pays', allT: 'Tous les sujets', name: 'Organisation', where: 'Pays', what: 'Sujets', count: 'organisations', of: 'sur', none: 'Aucune organisation ne correspond. Essayez un autre filtre.', reset: 'Effacer les filtres', checked: 'Liens vérifiés le' },
+  es: { search: 'Buscar…', allC: 'Todos los países', allT: 'Todos los temas', name: 'Organización', where: 'País', what: 'Temas', count: 'organizaciones', of: 'de', none: 'Ninguna organización coincide. Prueba otro filtro.', reset: 'Borrar los filtros', checked: 'Enlaces comprobados el' },
+  nl: { search: 'Zoeken…', allC: 'Alle landen', allT: 'Alle onderwerpen', name: 'Organisatie', where: 'Land', what: 'Onderwerpen', count: 'organisaties', of: 'van', none: 'Geen organisatie gevonden. Probeer een ander filter.', reset: 'Filters wissen', checked: 'Links gecontroleerd op' },
+};
+const t = T[lang] ?? T.en;
 ---
 <div class="org-dir not-content" data-total={total}>
   <div class="org-controls">
@@ -55,11 +62,11 @@ const t = fr
     <thead><tr><th>{t.name}</th><th>{t.where}</th><th>{t.what}</th></tr></thead>
     <tbody>
       {orgs.map((o) => (
-        <tr data-c={o.country} data-t={o.topics.join(' ')} data-s={`${o.name} ${o.en} ${o.fr}`.toLowerCase()}>
+        <tr data-c={o.country} data-t={o.topics.join(' ')} data-s={`${o.name} ${o.desc}`.toLowerCase()}>
           <td>
             <a href={o.url} target="_blank" rel="noopener">{o.name}</a>
             <span class="org-type">{L(TYPES[o.type])}</span>
-            <div class="org-desc">{fr ? o.fr : o.en}</div>
+            <div class="org-desc">{o.desc}</div>
           </td>
           <td class="org-where">{L(COUNTRIES[o.country])}</td>
           <td class="org-topics">{o.topics.map((k) => <span class="org-tag">{L(TOPICS[k])}</span>)}</td>

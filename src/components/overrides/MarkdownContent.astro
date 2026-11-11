@@ -4,38 +4,46 @@ import type { Props } from '@astrojs/starlight/props';
 // paragraph spacing and heading sizes site-wide until v2.20.
 import '@astrojs/starlight/style/markdown.css';
 
-const isFr = Astro.locals.starlightRoute.lang === 'fr';
-const readLabel = isFr ? 'de lecture' : 'read';
+import { pick, homeOf } from '../../i18n';
+const lang = Astro.locals.starlightRoute.lang;
+const readLabel = pick(lang, { en: 'read', fr: 'de lecture', es: 'de lectura', nl: 'lezen' });
 const kind = (Astro.locals.starlightRoute.entry.data as any).kind as ('explainer' | 'proposal' | undefined);
 const KIND = {
-  explainer: isFr
-    ? { label: 'Explication', hint: 'Faits, fonctionnement et options, sans prise de position.' }
-    : { label: 'Explainer', hint: 'Facts, how it works and the options, without taking a side.' },
+  explainer: pick(lang, {
+    en: { label: 'Explainer', hint: 'Facts, how it works and the options, without taking a side.' },
+    fr: { label: 'Explication', hint: 'Faits, fonctionnement et options, sans prise de position.' },
+    es: { label: 'Explicación', hint: 'Hechos, cómo funciona y las opciones, sin tomar partido.' },
+    nl: { label: 'Uitleg', hint: 'Feiten, hoe het werkt en de mogelijkheden, zonder partij te kiezen.' },
+  }),
   // v2.33: shown as "recommendation" (the front matter value stays 'proposal').
-  proposal: isFr
-    ? { label: 'Recommandation HappyBein', hint: 'Ce que nous recommandons, et pourquoi. Ouvert à la discussion.' }
-    : { label: 'HappyBein recommendation', hint: 'What we recommend, and why. Open for discussion.' },
+  proposal: pick(lang, {
+    en: { label: 'HappyBein recommendation', hint: 'What we recommend, and why. Open for discussion.' },
+    fr: { label: 'Recommandation HappyBein', hint: 'Ce que nous recommandons, et pourquoi. Ouvert à la discussion.' },
+    es: { label: 'Recomendación de HappyBein', hint: 'Lo que recomendamos, y por qué. Abierto a debate.' },
+    nl: { label: 'Aanbeveling van HappyBein', hint: 'Wat we aanbevelen, en waarom. Open voor discussie.' },
+  }),
 };
 const k = kind ? KIND[kind] : null;
 const audio = (Astro.locals.starlightRoute.entry.data as any).audio as (string | undefined);
 const audioMin = (Astro.locals.starlightRoute.entry.data as any).audioMinutes as (number | undefined);
-const audioLabel = isFr ? 'Écouter cet article' : 'Listen to this article';
+const audioLabel = pick(lang, { en: 'Listen to this article', fr: 'Écouter cet article', es: 'Escuchar este artículo', nl: 'Luister naar dit artikel' });
 // v2.52: the episodes are Emma and Sam dialogs (an audio file named .en.mp3 or -dialog.en.mp3 from v2.50 on);
 // a single-voice reading keeps the old line.
 const dialog = !!audio && !/\/(vision-roadmap|making-the-transition|transition-in-practice)\.(en|fr)\.mp3$/.test(audio);
-const audioBy = dialog ? (isFr ? 'Une conversation entre Emma et Sam, voix IA' : 'A conversation between Emma and Sam, AI voices')
-  : (isFr ? 'Lu par la voix YeahSight' : 'Read by the YeahSight voice');
+const audioBy = dialog
+  ? pick(lang, { en: 'A conversation between Emma and Sam, AI voices', fr: 'Une conversation entre Emma et Sam, voix IA', es: 'Una conversación entre Emma y Sam, voces de IA', nl: 'Een gesprek tussen Emma en Sam, AI-stemmen' })
+  : pick(lang, { en: 'Read by the YeahSight voice', fr: 'Lu par la voix YeahSight', es: 'Leído por la voz de YeahSight', nl: 'Voorgelezen door de YeahSight-stem' });
 // v2.46 (owner): which of the six home-page questions this article belongs to, from the menu group.
 type E = { type: string; label: string; isCurrent?: boolean; entries?: E[] };
 const has = (e: E): boolean => !!e.isCurrent || (e.entries || []).some(has);
 const q = (Astro.locals.starlightRoute.sidebar as E[]).find((e) => e.type === 'group' && /^\d\./.test(e.label) && has(e));
 const qNum = q ? q.label.split('.')[0] : '';
 const qText = q ? q.label.replace(/^\d\.\s*/, '') : '';
-const storyHref = isFr ? '/fr/' : '/';
+const storyHref = homeOf(lang);
 ---
 
 {q && (
-  <p class="yv-story">{isFr ? `Question ${qNum} sur 6 : ` : `Question ${qNum} of 6: `}<em>{qText}</em> · <a href={storyHref}>{isFr ? "Toute l'histoire" : 'The whole story'}</a></p>
+  <p class="yv-story">{pick(lang, { en: `Question ${qNum} of 6: `, fr: `Question ${qNum} sur 6 : `, es: `Pregunta ${qNum} de 6: `, nl: `Vraag ${qNum} van 6: ` })}<em>{qText}</em> · <a href={storyHref}>{pick(lang, { en: 'The whole story', fr: "Toute l'histoire", es: 'Toda la historia', nl: 'Het hele verhaal' })}</a></p>
 )}
 
 {k && (

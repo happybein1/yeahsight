@@ -20,32 +20,33 @@ const siteUrl = 'https://yeahsight.happybein.com';
 const currentPath = Astro.url.pathname;
 const currentUrl = new URL(currentPath, siteUrl).toString();
 const ogImage = `${siteUrl}/og-card.png`;
-const isFr = lang === 'fr';
+import { pick, asLang } from '../../i18n';
+const L4 = asLang(lang);
 
-const siteNameEN = 'YeahSight by HappyBein';
-const siteNameFR = 'YeahSight par HappyBein';
+const siteName = pick(lang, { en: 'YeahSight by HappyBein', fr: 'YeahSight par HappyBein', es: 'YeahSight de HappyBein', nl: 'YeahSight van HappyBein' });
 
 // Page title — append site name for SEO unless it's already the homepage
 const rawTitle = entry?.data?.title ?? 'YeahSight';
-const isHome = currentPath === '/' || currentPath === '/fr/' || currentPath === '/fr';
+const isHome = ['/', '/fr/', '/fr', '/es/', '/es', '/nl/', '/nl'].includes(currentPath);
 const seoTitle = isHome
-  ? (isFr ? 'YeahSight — Comprendre la société et où elle va' : 'YeahSight — Understand society and where it is heading')
-  : `${rawTitle} | ${isFr ? siteNameFR : siteNameEN}`;
+  ? pick(lang, { en: 'YeahSight — Understand society and where it is heading', fr: 'YeahSight — Comprendre la société et où elle va', es: 'YeahSight — Entender la sociedad y hacia dónde va', nl: 'YeahSight — Begrijp de samenleving en waar ze heen gaat' })
+  : `${rawTitle} | ${siteName}`;
 
 // Meta description — richer default with keywords
 const defaultDescEN = 'YeahSight gives a clear, structured view of how society works and where it is heading: environment, energy, economy, technology and social organization. By HappyBein.';
 const defaultDescFR = 'YeahSight offre une vue claire et structurée du fonctionnement de la société et de son évolution : environnement, énergie, économie, technologie et organisation sociale. Par HappyBein.';
-const description = entry?.data?.description ?? (isFr ? defaultDescFR : defaultDescEN);
+const description = entry?.data?.description ?? pick(lang, { en: defaultDescEN, fr: defaultDescFR,
+  es: 'YeahSight ofrece una visión clara y ordenada de cómo funciona la sociedad y hacia dónde va: medio ambiente, energía, economía, tecnología y organización social. De HappyBein.',
+  nl: 'YeahSight geeft een helder, geordend beeld van hoe de samenleving werkt en waar ze heen gaat: milieu, energie, economie, technologie en sociale organisatie. Van HappyBein.' });
 
 // Keywords
 const keywordsEN = 'foresight, society, trends, environment, energy, economy, equity, automation, artificial intelligence, social organization, YeahSight, HappyBein';
 const keywordsFR = 'prospective, société, tendances, environnement, énergie, économie, équité, automatisation, intelligence artificielle, organisation sociale, YeahSight, HappyBein';
 
-// Build hreflang URLs
-const enUrl = currentUrl.replace('/fr/', '/').replace(/\/fr$/, '/');
-const frUrl = currentPath.startsWith('/fr')
-  ? currentUrl
-  : `${siteUrl}/fr${currentPath === '/' ? '/' : currentPath}`;
+// Build hreflang URLs (v2.64: Spanish and Dutch too)
+const basePath = currentPath.replace(/^\/(fr|es|nl)(\/|$)/, '/');
+const enUrl = new URL(basePath, siteUrl).toString();
+const urlIn = (l: string) => new URL(`/${l}${basePath}`, siteUrl).toString();
 ---
 <Default {...Astro.props} />
 
@@ -61,7 +62,7 @@ const frUrl = currentPath.startsWith('/fr')
 <!-- SEO Core -->
 <title>{seoTitle}</title>
 <meta name="description" content={description} />
-<meta name="keywords" content={isFr ? keywordsFR : keywordsEN} />
+<meta name="keywords" content={L4 === 'fr' ? keywordsFR : keywordsEN} />
 <meta name="author" content="YeahSight — HappyBein" />
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 <meta name="theme-color" content="#0e7fbe" />
@@ -71,11 +72,13 @@ const frUrl = currentPath.startsWith('/fr')
 
 <!-- Hreflang -->
 <link rel="alternate" hreflang="en" href={enUrl} />
-<link rel="alternate" hreflang="fr" href={frUrl} />
+<link rel="alternate" hreflang="fr" href={urlIn('fr')} />
+<link rel="alternate" hreflang="es" href={urlIn('es')} />
+<link rel="alternate" hreflang="nl" href={urlIn('nl')} />
 <link rel="alternate" hreflang="x-default" href={enUrl} />
 
 <!-- Podcast feed (v2.23), lets podcast apps and browsers find it from any page -->
-<link rel="alternate" type="application/rss+xml" title={isFr ? 'YeahSight (en français), podcast' : 'YeahSight podcast'} href={`${siteUrl}/podcast/${isFr ? 'fr' : 'en'}.xml`} />
+<link rel="alternate" type="application/rss+xml" title={pick(lang, { en: 'YeahSight podcast', fr: 'YeahSight (en français), podcast', es: 'YeahSight (en español), pódcast' })} href={`${siteUrl}/podcast/${L4 === 'fr' || L4 === 'es' ? L4 : 'en'}.xml`} />
 
 <!-- Open Graph -->
 <meta property="og:title" content={seoTitle} />
@@ -86,9 +89,9 @@ const frUrl = currentPath.startsWith('/fr')
 <meta property="og:image:width" content="2400" />
 <meta property="og:image:height" content="1260" />
 <meta property="og:image:alt" content="YeahSight — Understand society and where it is heading" />
-<meta property="og:locale" content={isFr ? 'fr_FR' : 'en_US'} />
-<meta property="og:locale:alternate" content={isFr ? 'en_US' : 'fr_FR'} />
-<meta property="og:site_name" content={isFr ? siteNameFR : siteNameEN} />
+<meta property="og:locale" content={pick(lang, { en: 'en_US', fr: 'fr_FR', es: 'es_ES', nl: 'nl_NL' })} />
+<meta property="og:locale:alternate" content={L4 === 'en' ? 'fr_FR' : 'en_US'} />
+<meta property="og:site_name" content={siteName} />
 
 <!-- Twitter / X Card -->
 <meta name="twitter:card" content="summary_large_image" />
@@ -227,13 +230,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const lang = document.documentElement.lang || 'en';
   const isFr = lang.startsWith('fr');
-  const ttsLang = isFr ? 'fr-FR' : 'en-GB';
+  const lc = (['fr', 'es', 'nl'].find((x) => lang.startsWith(x))) || 'en';
+  const ttsLang = { en: 'en-GB', fr: 'fr-FR', es: 'es-ES', nl: 'nl-NL' }[lc];
   const L = {
-    listen:  isFr ? 'Écouter'  : 'Listen',
-    pause:   isFr ? 'Pause'    : 'Pause',
-    resume:  isFr ? 'Reprendre': 'Resume',
-    stop:    isFr ? 'Arrêter'  : 'Stop',
-  };
+    en: { listen: 'Listen', pause: 'Pause', resume: 'Resume', stop: 'Stop' },
+    fr: { listen: 'Écouter', pause: 'Pause', resume: 'Reprendre', stop: 'Arrêter' },
+    es: { listen: 'Escuchar', pause: 'Pausa', resume: 'Seguir', stop: 'Parar' },
+    nl: { listen: 'Luisteren', pause: 'Pauze', resume: 'Verder', stop: 'Stop' },
+  }[lc];
 
   const bar = document.createElement('div');
   bar.id = 'yv-tts-bar';
@@ -287,7 +291,7 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   function pickVoice(voices) {
-    const preferred = isFr ? preferredFR : preferredEN;
+    const preferred = isFr ? preferredFR : lc === 'en' ? preferredEN : [];   // es, nl: any voice in that language
     // Try exact name match first
     for (const name of preferred) {
       const v = voices.find(v => v.name === name);
@@ -299,7 +303,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (v) return v;
     }
     // Fall back to any voice matching the language
-    return voices.find(v => v.lang.startsWith(isFr ? 'fr' : 'en')) || voices[0];
+    return voices.find(v => v.lang.startsWith(lc)) || voices[0];
   }
 
   function loadVoices() {

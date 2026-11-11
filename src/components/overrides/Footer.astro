@@ -3,15 +3,16 @@ import type { Props } from '@astrojs/starlight/props';
 import { SITE_VERSION, SITE_VERSION_DATE, SITE_VERSION_NOTES } from '../../version';
 // v2.46: Previous/Next between articles, in the order of the six-question menu (overrides/Pagination.astro).
 import Pagination from 'virtual:starlight/components/Pagination';
-const isHome = ['/', '/fr/', '/fr'].includes(Astro.url.pathname);
+const isHome = ['/', '/fr/', '/fr', '/es/', '/es', '/nl/', '/nl'].includes(Astro.url.pathname);
+import { pick } from '../../i18n';
 
-const isFr = Astro.locals.starlightRoute.lang === 'fr';
-const label = isFr ? 'Version' : 'Version';
-const builtWith = isFr ? 'Construit avec' : 'Built with';
-const contactLabel = isFr ? 'Nous contacter' : 'Contact us';
-const checkLabel = isFr ? 'Je ne suis pas un robot' : 'I am not a robot';
-const revealLabel = isFr ? 'Écrivez-nous à :' : 'Write to us at:';
-const instrLabel = isFr ? 'Cochez la case pour afficher notre adresse e-mail.' : 'Tick the box to reveal our email address.';
+const lang = Astro.locals.starlightRoute.lang;
+const label = pick(lang, { en: 'Version', nl: 'Versie' });
+const builtWith = pick(lang, { en: 'Built with', fr: 'Construit avec', es: 'Hecho con', nl: 'Gemaakt met' });
+const contactLabel = pick(lang, { en: 'Contact us', fr: 'Nous contacter', es: 'Contacto', nl: 'Contact' });
+const checkLabel = pick(lang, { en: 'I am not a robot', fr: 'Je ne suis pas un robot', es: 'No soy un robot', nl: 'Ik ben geen robot' });
+const revealLabel = pick(lang, { en: 'Write to us at:', fr: 'Écrivez-nous à :', es: 'Escríbenos a:', nl: 'Schrijf ons op:' });
+const instrLabel = pick(lang, { en: 'Tick the box to reveal our email address.', fr: 'Cochez la case pour afficher notre adresse e-mail.', es: 'Marca la casilla para ver nuestra dirección de correo.', nl: 'Vink het vakje aan om ons e-mailadres te zien.' });
 ---
 
 {!isHome && <div class="yv-pager"><Pagination /></div>}

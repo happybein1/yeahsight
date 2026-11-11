@@ -4,6 +4,19 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.65
+
+**YeahSight in Spanish and Dutch: the whole site** (owner, 2026-11-10: "go ahead with yeahcore and yeahsight full website translation in Spanish and dutch", then 2026-11-11 "go ahead with Spanish and Dutch YeahSight website").
+- **All 43 pages in both languages** (`src/content/docs/es/`, `src/content/docs/nl/`, 86 files): home, Foresight Trends, the six question overviews, the six "What can we do about…?" pages, the 28 articles, Where Help Counts Most, Vision & Roadmap, Who's Working on This. Spanish uses "tú", Dutch "je", as on YeahCore. Titles match the menu names; every internal link points into the same language; YeahCore links go to YeahCore's Spanish and Dutch pages (the two YeahCore pages that only exist as redirects link to "Find your direction"). The "Listen in a row" links on the action pages open YeahCast with `&lang=es` / `&lang=nl`; in Dutch they say the episodes are in English.
+- **Spanish pages carry their Spanish episode** (front matter `audio*`, the 28 recordings of v2.64), so the player and the listen bar play Spanish. Dutch pages have no recording yet (no Dutch voice decided for YeahSight); the browser's read-aloud still works.
+- **Spanish podcast feed built from the Spanish pages** (`/podcast/es.xml`), like French: Spanish titles and descriptions from the pages, links to the Spanish articles ("El artículo completo, con sus fuentes"), channel home `/es/`, programs linking to `/es/act/…`. Episode ids (`guid`) unchanged from v2.64, so podcast apps don't see new episodes. `src/data/podcast-es.ts` (v2.64's stand-in) removed. English and French feeds unchanged.
+- **The site in four languages:** `src/i18n.ts` (`pick()`, `homeOf()`), the footer, page header (description, hreflang for es/nl, the RSS link per language, og:locale, listen-bar labels), the article header (question line, kind badges, listen card) and the Starlight locales and menu translations for es/nl (all 50 labels).
+- **Organisation directory in four languages:** Spanish and Dutch descriptions for the 50 organisations in `src/data/organisations.json`; labels, countries, topics and types in `OrgDirectory.astro`.
+- Note: the Spanish episodes' last line still says the article is in English (recorded before these pages existed).
+- Checked: build; feeds compared with the live ones (en and fr identical, es 28 items with the same guids); every internal link on the Spanish and Dutch pages resolves and none leads to an English page; the 14 YeahCore links answer 200; screenshots at phone size of the Spanish home and an article, and of two Dutch pages.
+
+---
+
 ## v2.64
 
 **Spanish podcast feed: the 28 episodes in Spanish** (owner, 2026-11-11: "go ahead for yeahsight podcast recording in Spanish using kokoro", then "you can also get the Spanish episodes to go live").
