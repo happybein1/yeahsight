@@ -1,3 +1,3 @@
-export const SITE_VERSION = '2.67';
-export const SITE_VERSION_DATE = '2026-11-07';
-export const SITE_VERSION_NOTES = 'What can we do about…? Six topic cards, with what I can do and what we can do as a society';
+export const SITE_VERSION = '2.68';
+export const SITE_VERSION_DATE = '2026-11-11';
+export const SITE_VERSION_NOTES = 'Moved to YeahGuide: every page forwards to yeahguide.happybein.com';
