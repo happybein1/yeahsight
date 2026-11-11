@@ -4,6 +4,15 @@ Moved out of the repo-wide `CLAUDE.md` on 2026-09-25 to keep that file focused o
 
 ---
 
+## v2.66
+
+**French site complete** (owner, 2026-11-11: "go on the two remaining items", then "publish").
+- The 7 pages French still lacked: the six "Que pouvons-nous faire contre… ?" pages (`fr/act/*.mdx`) and "La vie après l'automatisation" (`fr/forces/life-after-automation.mdx`, until now the English page showed there). French page titles as the French site already names them; French organisations where they fit (Réseau Action Climat, L214, Démocratie Ouverte, Attac, Mouvement Français pour un Revenu de Base), plus France's 2019–2020 Convention citoyenne pour le climat as an example; YeahCast links with `&lang=fr` and "(en anglais)", since YeahSight has no French episodes yet.
+- French home: the "Que pouvons-nous faire contre… ?" section, and the links it was missing (Travail, Migration, Là où l'aide compte le plus); "Qui y travaille" renamed "Qui agit déjà" like the page.
+- Checked: build; every French page exists for every English one; no French page links to a missing or English page; the outside links answer 200.
+
+---
+
 ## v2.65
 
 **YeahSight in Spanish and Dutch: the whole site** (owner, 2026-11-10: "go ahead with yeahcore and yeahsight full website translation in Spanish and dutch", then 2026-11-11 "go ahead with Spanish and Dutch YeahSight website").
